@@ -5,10 +5,10 @@
 <br>
 
 ## 我要如何下载它们？
-<br>请您过几分钟再试，我正在上传文件。
+[**前往Github的release仓库**](https://github.com/SteveZMTstudios/Phigros-history/releases)
 
 ## 找不到所有版本？<br>
 您可以通过SteveZMTstudios@hotmail.com来联系我添加新版本。<br>
-同样也可以[**轻点此处**](https://github.com/SteveZMTstudios/Phigros-history/issues)发起issue来提醒我更新相关的Phigros组件。（**建议**）
+**同样也可以**[**轻点此处**](https://github.com/SteveZMTstudios/Phigros-history/issues)**发起issue来提醒我更新相关的Phigros组件。**（***推荐***）
 <br>
 > 版权归属于&copy;厦门鸽游网络有限公司。
