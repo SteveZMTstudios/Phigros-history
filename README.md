@@ -7,7 +7,11 @@
 <br>
 ## 我要如何下载它们？
 [**前往Github的release仓库**](https://github.com/SteveZMTstudios/Phigros-history/releases)
-提示：所有带有clone字符的均为已修改包名版本，可以与您现有的Phigros共存。包含crack的为直接提取自已安装的旧设备 。
+<br>
+## 一些说明
+提示：所有带有clone字符的均为已修改包名版本，可以与您现有的Phigros共存。包含crack的为直接提取自已安装的旧设备 。<br>
+也就是说，crack后缀的是和TapTap上发布的应用一致，可以从该存储库更新，也可以从TapTap更新，不会受到任何影响，只是不能共存。<br>
+clone后缀的是共存版本，可以与crack版本或TapTap的最新版本共存，但是存档不能共存，很头疼。
 <br>
 
 
