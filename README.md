@@ -2,6 +2,7 @@
 # Phigros 历史版本收集
 #### 2023-08-04 更新 [**🔄检查更新**](https://github.com/SteveZMTstudios/Phigros-history/issues)
 
+如果[此页面](https://github.com/SteveZMTstudios/Phigros-history/releases/latest)上的内容并不是现有的最新版本，请通过点击上面的检查更新按钮与我联系🥳感谢！
 
 [**🔗在Github中查看**](https://github.com/SteveZMTstudios/Phigros-history)<br>
 这不是Phigros的官方程序源代码，此处仅提供一些关于来自厦门鸽游(Pigeon Games)的一些历史版本的安卓端armv8a的apk包下载，请勿用做其他任何涉及商业用途。<br>所有素材收集自网络,如果他们侵犯了您的权益，请在该板块发布issue，我会在看到后立即删除它们。
