@@ -1,6 +1,6 @@
 ![新九鸟](icon.png "新图标")
 # Phigros 历史版本收集
-# 2023-08-04 更新 [**🔄检查更新**](https://github.com/SteveZMTstudios/Phigros-history/issues)
+#### 2023-08-04 更新 [**🔄检查更新**](https://github.com/SteveZMTstudios/Phigros-history/issues)
 
 
 [**🔗在Github中查看**](https://github.com/SteveZMTstudios/Phigros-history)<br>
