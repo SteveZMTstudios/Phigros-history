@@ -1,8 +1,12 @@
 ![新九鸟](icon.png "新图标")
 # Phigros 历史版本收集
-#### 2023-08-04 更新 [**🔄检查更新**](https://github.com/SteveZMTstudios/Phigros-history/issues)
+#### 2023-11-25更新 [**🔄检查更新**](https://github.com/SteveZMTstudios/Phigros-history/issues) [🆙提醒更新](https://github.com/SteveZMTstudios/Phigros-history/issues/new)
 
 如果[此页面](https://github.com/SteveZMTstudios/Phigros-history/releases/latest)上的内容并不是现有的最新版本，请通过点击上面的检查更新按钮与我联系🥳感谢！
+
+## 公告
+由于我的设备不再可用，未来的更新上传可能会延迟。如果您想帮助此项目，或者您已有新版云盘版本，请将分享链接传送到issue分区，非常感谢您的帮助！
+
 
 [**🔗在Github中查看**](https://github.com/SteveZMTstudios/Phigros-history)<br>
 这不是Phigros的官方程序源代码，此处仅提供一些关于来自厦门鸽游(Pigeon Games)的一些历史版本的安卓端armv8a的apk包下载，请勿用做其他任何涉及商业用途。<br>所有素材收集自网络,如果他们侵犯了您的权益，请在该板块发布issue，我会在看到后立即删除它们。
