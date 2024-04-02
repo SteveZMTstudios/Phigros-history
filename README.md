@@ -1,6 +1,6 @@
 ![新九鸟](icon.png "新图标")
 # Phigros 历史版本收集
-#### 2023-11-25更新 [**🔄检查更新**](https://github.com/SteveZMTstudios/Phigros-history/issues) [🆙提醒更新](https://github.com/SteveZMTstudios/Phigros-history/issues/new)
+#### 2024-04-02更新 [**🔄检查更新**](https://github.com/SteveZMTstudios/Phigros-history/issues) [🆙提醒更新](https://github.com/SteveZMTstudios/Phigros-history/issues/new)
 
 如果[此页面](https://github.com/SteveZMTstudios/Phigros-history/releases/latest)上的内容并不是现有的最新版本，请通过点击上面的检查更新按钮与我联系🥳感谢！
 
