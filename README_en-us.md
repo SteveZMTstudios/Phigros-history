@@ -14,7 +14,7 @@ This project may use some website that from China Mainland. If you have problems
 
 
 [**🔗View in Github**](https://github.com/SteveZMTstudios/Phigros-history)<br>
-This is not the official program source code of Phigros. Here we only provide some historical versions of the Android armv8a apk package download from Xiamen Pigeon Games Network limited company. Please do not use it for any other commercial purposes. <br>All materials are collected from the Internet. If they infringe your rights, please post an issue in this section and I will delete them immediately after seeing them.
+This is not the official program source code of Phigros. Here we only provide some historical versions of the Android armv8a apk package download from Nanjing Pigeon Games Network limited company. Please do not use it for any other commercial purposes. <br>All materials are collected from the Internet. If they infringe your rights, please post an issue in this section and I will delete them immediately after seeing them.
 <br>
 Warning: Some versions may be restricted by real-name verification and cannot be entered. We are working hard to solve this problem.
 <br>
@@ -33,4 +33,4 @@ The clone suffix is a coexistence version, which can coexist with the crack vers
 You can contact me at SteveZMTstudios@hotmail.com to add new versions. <br>
 **You can also**[**Click here**](https://github.com/SteveZMTstudios/Phiros-history/issues)**to initiate an issue to remind me to update related Phigros components.**(**recommend**)
 <br>
-> Copyright belongs to&copy;Xiamen PigeonGames Network Co., Ltd. <br>All right reserved by them.
+> Copyright belongs to&copy;Nanjing PigeonGames Network Co., Ltd. <br>All right reserved by them.[Company Website](https://pigeon-games.com/?utm_source=Phigros-history&utm_medium=OfficialWebsite&utm_campaign=Android) [Privacy Policy](https://pigeon-games.com/news/2)
