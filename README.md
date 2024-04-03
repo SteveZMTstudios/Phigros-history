@@ -31,4 +31,4 @@ clone后缀的是共存版本，可以与crack版本或TapTap的最新版本共�
 您可以通过SteveZMTstudios@hotmail.com来联系我添加新版本。<br>
 **同样也可以**[**轻点此处**](https://github.com/SteveZMTstudios/Phigros-history/issues)**发起issue来提醒我更新相关的Phigros组件。**（***推荐***）
 <br>
-> 版权归属于&copy;厦门鸽游网络有限公司。
+> 版权归属于&copy;南京鸽游网络有限公司。[公司主页](https://pigeon-games.com/?utm_source=Phigros-history&utm_medium=OfficialWebsite&utm_campaign=Android) [隐私政策](https://pigeon-games.com/news/2)
