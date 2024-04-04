@@ -15,7 +15,7 @@ Version 1.0.0 (1) 2019/08/28
 更改了游戏关卡画面的初始亮度
 ```
 
-### 下载位置
+### 下载
 [![从 Github 下载](https://img.shields.io/badge/Github-下载_共存APK-lightgreen?logo=Github)](https://kkgithub.com/SteveZMTstudios/Phigros-history/releases/tag/v1.0.0)<br>
 [![huang1111](https://img.shields.io/badge/huang1111.cn-下载_APK+OBB-green)](https://pan.huang1111.cn/s/GWA6fW)
 
@@ -54,7 +54,7 @@ Dead Soul
 --来自[Phigros Fandom](https://phigros.fandom.com/zh/wiki/愚人节谱)
 
 
-### 下载位置
+### 下载
 [![huang1111](https://img.shields.io/badge/huang1111.cn-下载_APK+OBB-green)](https://pan.huang1111.cn/s/LENXT6)
 
 ------
@@ -77,7 +77,7 @@ Spasmodic (Haocore Mix)：多次点击《光》曲绘白色部分
 
 Wave Tapper：随音乐节奏点击中间立方体两面(一说乱点)
 
-### 下载位置
+### 下载
 [![huang1111](https://img.shields.io/badge/huang1111.cn-下载_APK+OBB-green)](https://pan.huang1111.cn/s/KNlgiY)
 
 --------
@@ -101,7 +101,7 @@ Version 2.1.4 (57) 2022/03/28
 
 ---来自[TapTap TT-684593](https://www.taptap.cn/moment/258770435015969399)
 
-### 下载位置
+### 下载
 [![huang1111](https://img.shields.io/badge/huang1111.cn-下载_APK+OBB-green)](https://pan.huang1111.cn/s/nlX9Im)
 
 ------
@@ -125,8 +125,9 @@ Version 2.5.1 (77) 2023/03/29
 
 ------转自[bilibili CatGames-猫游](https://www.bilibili.com/read/mobile?id=22777506)
 
-### 下载方法
+### 下载
 [![从 Github 下载](https://img.shields.io/badge/Github-下载_APK-lightgreen?logo=Github)](https://github.com/SteveZMTstudios/Phigros-history/releases/tag/v2.5.1)
+<br>[![123云盘](https://img.shields.io/badge/123云盘-下载_APK-lightgreen?logo=Github)](https://www.123pan.com/s/OS4KVv-uZbrv.html)
 
 -------
 ## 3.5.2(100)
@@ -147,8 +148,10 @@ Version 3.5.2 (100) 2024/03/29
 ### 注释
 我也不知道咋进，欢迎提交[issue](https://kkgithub.com/SteveZMTstudios/Phigros-history/issues/new/choose)告诉我。
 
-### 下载位置
-[![从 Github 下载](https://img.shields.io/badge/Github-下载_共存APK-lightgreen?logo=Github)](https://kkgithub.com/SteveZMTstudios/Phigros-history/releases/tag/v3.5.2)
+### 下载
+[![从 Github 下载](https://img.shields.io/badge/Github-获取-lightgreen?logo=Github)](https://github.com/SteveZMTstudios/Phigros-history/releases/tag/v3.5.2)
+<br>[![123云盘](https://img.shields.io/badge/123云盘-下载_APK-green)](https://www.123pan.com/s/OS4KVv-nPerv.html)
+<br>[![huang1111](https://img.shields.io/badge/huang1111.cn-下载_APK+OBB-green)](https://pan.huang1111.cn/s/jA5efy)
 
 ---------
 备注:
