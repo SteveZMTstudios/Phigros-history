@@ -3,11 +3,12 @@
 
 **简体中文** | [English(US)](https://stevezmtstudios.github.io/Phigros-history/README_en-us)
 
-#### 2024-04-02更新 [**🔄检查更新**](https://github.com/SteveZMTstudios/Phigros-history/issues) [🆙提醒更新](https://github.com/SteveZMTstudios/Phigros-history/issues/new)
+#### 2024-05-10更新 [**🔄检查更新**](https://github.com/SteveZMTstudios/Phigros-history/issues) [🆙提醒更新](https://github.com/SteveZMTstudios/Phigros-history/issues/new/choose)
 
 如果[此页面](https://github.com/SteveZMTstudios/Phigros-history/releases/latest)上的内容并不是现有的最新版本，请通过点击上面的检查更新按钮与我联系🥳感谢！
 
 ## 在找愚人节版本？
+
 [**Phigros 特别版本合集**](https://stevezmtstudios.github.io/Phigros-history/doc/special)
 
 ## 公告
@@ -32,6 +33,6 @@
 
 ## 找不到所有版本？<br>
 您可以通过SteveZMTstudios@hotmail.com来联系我添加新版本。<br>
-**同样也可以**[**轻点此处**](https://github.com/SteveZMTstudios/Phigros-history/issues)**发起issue来提醒我更新相关的Phigros组件。**（***推荐***）
+**同样也可以**[**轻点此处**](https://github.com/SteveZMTstudios/Phigros-history/issues/new/choose)**发起issue来提醒我更新相关的Phigros组件。**（***推荐***）
 <br>
 > 版权归属于&copy;南京鸽游网络有限公司。[公司主页](https://pigeon-games.com/?utm_source=Phigros-history&utm_medium=OfficialWebsite&utm_campaign=Android) [隐私政策](https://pigeon-games.com/news/2)
