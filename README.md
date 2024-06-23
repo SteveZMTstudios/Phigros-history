@@ -12,6 +12,8 @@
 [**Phigros 特别版本合集**](https://stevezmtstudios.github.io/Phigros-history/doc/special)
 
 ## 公告
+出于版权问题，未来共存版`clone`可能不会再更新。未来此处将仅提供官方（来自Play Store或TapTap）
+
 由于我的设备不再可用，未来的更新上传可能会延迟。如果您想帮助此项目，或者您已有新版云盘版本，请将分享链接传送到issue分区，非常感谢您的帮助！
 
 
