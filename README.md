@@ -3,7 +3,7 @@
 
 **简体中文** | [English(US)](https://stevezmtstudios.github.io/Phigros-history/README_en-us)
 
-#### 2024-06-20更新 [**🔄检查更新**](https://github.com/SteveZMTstudios/Phigros-history/issues) [🆙提醒更新](https://github.com/SteveZMTstudios/Phigros-history/issues/new/choose)
+#### 2024-07-07更新 [**🔄检查更新**](https://github.com/SteveZMTstudios/Phigros-history/issues) [🆙提醒更新](https://github.com/SteveZMTstudios/Phigros-history/issues/new/choose)
 
 如果[此页面](https://github.com/SteveZMTstudios/Phigros-history/releases/latest)上的内容并不是现有的最新版本，请通过点击上面的检查更新按钮与我联系🥳感谢！
 
