@@ -5,6 +5,11 @@
 
 #### 2024-07-07更新 [**🔄检查更新**](https://github.com/SteveZMTstudios/Phigros-history/issues) [🆙提醒更新](https://github.com/SteveZMTstudios/Phigros-history/issues/new/choose)
 
+
+### 网站升级公告
+近期网站页面正在策划升级整改以带来更好的用户体验，届时可能出现部分网页消失，布局错乱，超链接失效等问题。若遇到此类问题，请您耐心等待，刷新再试，或者提交[issue](https://github.com/SteveZMTstudios/Phigros-history/issues/new/)反馈。 
+<br>                    ----Steve ZMT
+
 如果[此页面](https://github.com/SteveZMTstudios/Phigros-history/releases/latest)上的内容并不是现有的最新版本，请通过点击上面的检查更新按钮与我联系🥳感谢！
 
 ## 在找愚人节版本？
