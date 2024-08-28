@@ -16,10 +16,6 @@
 
 如果[此页面](/ver_data/VersionList_3.x.md)上的内容并不是现有的最新版本，请通过点击上面的检查更新按钮与我联系🥳感谢！
 
-## 在找愚人节版本？
-
-[**Phigros 特别版本合集**](https://stevezmtstudios.github.io/Phigros-history/doc/special)
-
 ## 公告
 出于版权问题，未来共存版`clone`可能不会再更新。未来此处将仅提供官方（来自Play Store或TapTap）
 
@@ -28,6 +24,13 @@
 
 [**🔗查找所有版本**](/ver_data/VersionList_3.x.md)<br>
 这不是Phigros的官方程序源代码，此处仅提供一些关于来自厦门鸽游(Pigeon Games)的一些历史版本的安卓端armv8a的apk包下载，请勿用做其他任何涉及商业用途。<br>所有素材收集自网络,如果他们侵犯了您的权益，请在该板块发布issue，我会在看到后立即删除它们。
+
+## 在找愚人节版本？
+
+[**Phigros 特别版本合集**](https://stevezmtstudios.github.io/Phigros-history/doc/special)
+
+## [iOS 版本 历史收集](https://github.com/YimingOvO/Phigros-History-iOS) (by @YimingOvO)
+
 <br>
 警告：部分版本可能会受实名验证的限制无法进入，我们正在努力解决该问题。
 <br>
@@ -35,11 +38,14 @@
 [**↗️前往存储索引**](/ver_data/VersionList_3.x.md)
 <br>[↗️早期版本](/ver_data/VersionList_2.x.md)
 <br>
+
 ## 一些说明
 提示：所有带有`clone`字符的均为已修改包名版本，可以与您现有的Phigros共存。包含`crack`的为直接提取自已安装的旧设备 。<br>
 也就是说，`crack`后缀的是和TapTap上发布的应用一致，可以从该存储库更新，也可以从TapTap更新，不会受到任何影响，只是不能共存。<br>
 `clone`后缀的是共存版本，可以与crack版本或TapTap的最新版本共存，但是存档不能共存，很头疼。
 <br>`apk+obb`是来自404商店的版本，同样是官方发布。至于如何安装`apk+obb`的安装包，请参见[安装指南](/doc/install-apk-obb)
+
+感谢 @WibuMan 提供了众多Taptap旧版本的支持。
 
 
 ## 找不到所有版本？<br>
