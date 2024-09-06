@@ -25,6 +25,8 @@
 [**🔗查找所有版本**](/ver_data/VersionList_3.x.md)<br>
 这不是Phigros的官方程序源代码，此处仅提供一些关于来自厦门鸽游(Pigeon Games)的一些历史版本的安卓端armv8a的apk包下载，请勿用做其他任何涉及商业用途。<br>所有素材收集自网络,如果他们侵犯了您的权益，请在该板块发布issue，我会在看到后立即删除它们。
 
+另：特别感谢[**@WiBuMan**](https://github.com/WiBuMan)提供的数百个来自TapTap的安装包，没有他的帮助，该项目不可能发展地如此庞大。
+
 ## 在找愚人节版本？
 
 [**Phigros 特别版本合集**](https://stevezmtstudios.github.io/Phigros-history/doc/special)
@@ -46,7 +48,6 @@
 `clone`后缀的是共存版本，可以与crack版本或TapTap的最新版本共存，但是存档不能共存，很头疼。
 <br>`apk+obb`是来自404商店的版本，同样是官方发布。至于如何安装`apk+obb`的安装包，请参见[安装指南](/doc/install-apk-obb)
 
-感谢 @WibuMan 提供了众多Taptap旧版本的支持。
 
 
 ## 找不到所有版本？<br>
