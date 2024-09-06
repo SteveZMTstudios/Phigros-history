@@ -25,7 +25,8 @@
 [**🔗查找所有版本**](/ver_data/VersionList_3.x.md)<br>
 这不是Phigros的官方程序源代码，此处仅提供一些关于来自厦门鸽游(Pigeon Games)的一些历史版本的安卓端armv8a的apk包下载，请勿用做其他任何涉及商业用途。<br>所有素材收集自网络,如果他们侵犯了您的权益，请在该板块发布issue，我会在看到后立即删除它们。
 
-另：特别感谢[**Huy Hoang Cao @WiBuMan**](https://github.com/WiBuMan) (Huy Hoang Cao)提供的数百个来自TapTap的安装包，没有他的帮助，该项目不可能发展地如此庞大。
+另：特别感谢[**Huy Hoang Cao @WiBuMan**](https://github.com/WiBuMan) 
+提供的数百个来自TapTap的安装包，没有他的帮助，该项目不可能发展地如此庞大。
 
 ## 在找愚人节版本？
 
