@@ -5,7 +5,7 @@
 
 #### 2024-07-07更新 [**🔄检查更新**](https://github.com/SteveZMTstudios/Phigros-history/issues) [🆙提醒更新](https://github.com/SteveZMTstudios/Phigros-history/issues/new/choose)
 
-> [!CAUTION] 紧急告示
+> [!CAUTION]
 > 近期，在多个Github Issue留言板中，发现有多个恶意账号正在散播病毒程序。其中"fix.rar"已经被确认为一个特洛伊木马，当用户运行ranlib.exe时，程序会爬取用户的Github 登录Cookies和其他账号密码信息，导致账号被泄露。
 > <br>[已知案例](https://www.v2ex.com/t/1068305)
 > 
