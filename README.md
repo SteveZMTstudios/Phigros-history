@@ -5,6 +5,13 @@
 
 #### 2024-07-07更新 [**🔄检查更新**](https://github.com/SteveZMTstudios/Phigros-history/issues) [🆙提醒更新](https://github.com/SteveZMTstudios/Phigros-history/issues/new/choose)
 
+> [!CAUTION] 紧急告示
+> 近期，在多个Github Issue留言板中，发现有多个恶意账号正在散播病毒程序。其中"fix.rar"已经被确认为一个特洛伊木马，当用户运行ranlib.exe时，程序会爬取用户的Github 登录Cookies和其他账号密码信息，导致账号被泄露。
+> <br>[已知案例](https://www.v2ex.com/t/1068305)
+> 
+> 请勿轻信任何来自Github Issue分区的内容！任何来自官方发布者的内容均已签署有效的GPG签名。您可在[此页面](https://si1vr.github.io/key)获得签名的公钥。
+
+
 
 ### 网站升级公告
 我们同步并跟进了数十个版本记录，但是仍有少数版本散佚。虽然找回它们较为困难，但我们会尽力尝试。
