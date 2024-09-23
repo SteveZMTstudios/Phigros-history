@@ -1,5 +1,44 @@
 <span id="top"></span>
 
+### Version 3.9.1 (113) 2024/09/19
+
+新增两首单曲：
+•「Thrash force」 by: KAH vs. E0ri4
+•「Originally」 by: SNKS & Mizku
+
+<!--[![ Taptap 版本(123)](https://img.shields.io/badge/TapTap-下载-brightgreen.svg?logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjgiIGhlaWdodD0iMTI4IiB2aWV3Qm94PSIwIDAgMjQgMjQiPjxwYXRoIGZpbGw9IiNmZmZmZmYiIGQ9Ik01IDIwaDE0di0ySDVtMTQtOWgtNFYzSDl2Nkg1bDcgN3oiLz48L3N2Zz4=)](https://123pan.com)-->
+[![ TapTap 版本(huang1111)](https://img.shields.io/badge/TapTap-备选下载-lightblue.svg?logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjgiIGhlaWdodD0iMTI4IiB2aWV3Qm94PSIwIDAgMjQgMjQiPjxwYXRoIGZpbGw9IiNmZmZmZmYiIGQ9Ik01IDIwaDE0di0ySDVtMTQtOWgtNFYzSDl2Nkg1bDcgN3oiLz48L3N2Zz4=)](https://pan.huang1111.cn/s/DVnGwH4)<br>
+
+
+### Version 3.9.0.1 (112) 2024/09/04
+
+1. 修改部分谱面
+2. 修正部分错误的文本
+3. 其他错误修复
+
+<!--[![ Taptap 版本(123)](https://img.shields.io/badge/TapTap-下载-brightgreen.svg?logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjgiIGhlaWdodD0iMTI4IiB2aWV3Qm94PSIwIDAgMjQgMjQiPjxwYXRoIGZpbGw9IiNmZmZmZmYiIGQ9Ik01IDIwaDE0di0ySDVtMTQtOWgtNFYzSDl2Nkg1bDcgN3oiLz48L3N2Zz4=)](https://123pan.com)-->
+<!--[![ TapTap 版本(huang1111)](https://img.shields.io/badge/TapTap-备选下载-lightblue.svg?logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjgiIGhlaWdodD0iMTI4IiB2aWV3Qm94PSIwIDAgMjQgMjQiPjxwYXRoIGZpbGw9IiNmZmZmZmYiIGQ9Ik01IDIwaDE0di0ySDVtMTQtOWgtNFYzSDl2Nkg1bDcgN3oiLz48L3N2Zz4=)](https://pan.huang1111.cn)--><br>
+
+### Version 3.9.0 (111) 2024/08/29
+
+1.新增支线章节四《无相乡》，包含如下曲目：
+•「NightTheater」by わかどり
+•「Spotlight」by Ardolf
+•「ATHAZA」by LeaF
+•「心の記憶」by A-39/沙包P
+•「Ramification」by rareguy & Reina
+•「Der Richter」by Ωμεγα
+2.新增一首单曲：
+•「Grimheart」 by Puru
+3.「Phigros x CHUNITHM 精选集」中新增一首曲目：
+•「月詠に鳴る」 by Feryquitous feat. 藍月なくる
+4.改动或重制了部分谱面，重制的谱面的成绩会被清空
+
+<!--[![ Taptap 版本(123)](https://img.shields.io/badge/TapTap-下载-brightgreen.svg?logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjgiIGhlaWdodD0iMTI4IiB2aWV3Qm94PSIwIDAgMjQgMjQiPjxwYXRoIGZpbGw9IiNmZmZmZmYiIGQ9Ik01IDIwaDE0di0ySDVtMTQtOWgtNFYzSDl2Nkg1bDcgN3oiLz48L3N2Zz4=)](https://123pan.com)-->
+<!--[![ TapTap 版本(huang1111)](https://img.shields.io/badge/TapTap-备选下载-lightblue.svg?logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjgiIGhlaWdodD0iMTI4IiB2aWV3Qm94PSIwIDAgMjQgMjQiPjxwYXRoIGZpbGw9IiNmZmZmZmYiIGQ9Ik01IDIwaDE0di0ySDVtMTQtOWgtNFYzSDl2Nkg1bDcgN3oiLz48L3N2Zz4=)](https://pan.huang1111.cn)--><br>
+
+
+
 
  ### 3.8.1.1 (110) 2024/08/20
 1. 新增与节奏大师的联动单曲：
