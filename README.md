@@ -24,12 +24,12 @@
 如果[此页面](/ver_data/VersionList_3.x.md)上的内容并不是现有的最新版本，请通过点击上面的检查更新按钮与我联系🥳感谢！
 
 ## 公告
-出于版权问题，未来共存版`clone`可能不会再更新。未来此处将仅提供官方（来自Play Store或TapTap）
+出于版权问题，未来共存版`clone`可能不会再更新。此处将仅提供官方（来自Play Store或TapTap）的发行包。
 
-由于我懒（什），未来的更新上传可能会延迟。如果您想帮助此项目，或者您已有新版云盘版本，请将分享链接传送到issue分区，非常感谢您的帮助！
+如果您想帮助此项目，或者您已有新版云盘版本，请将分享链接传送到issue分区，非常感谢您的帮助！
 
 
-## [**🔗查找所有版本**](/ver_data/VersionList_3.x.md)
+## [**👉🔗查找所有版本👈**](/ver_data/VersionList_3.x.md)
 
 <br>
 这不是Phigros的官方程序源代码，此处仅提供一些关于来自厦门鸽游(Pigeon Games)的一些历史版本的安卓端armv8a的apk包下载，请勿用做其他任何涉及商业用途。<br>所有素材收集自网络,如果他们侵犯了您的权益，请在该板块发布issue，我会在看到后立即删除它们。
@@ -37,11 +37,12 @@
 另：特别感谢[**Huy Hoang Cao @WiBuMan**](https://www.facebook.com/huyhoangcao39393939/) 
 提供的数百个来自TapTap的安装包，没有他的帮助，该项目不可能发展地如此庞大。
 
-## 在找愚人节版本？
+## 在找其他版本？
 
 [**Phigros 特别版本合集**](https://stevezmtstudios.github.io/Phigros-history/doc/special)
 
-## [iOS 版本 历史收集](https://github.com/YimingOvO/Phigros-History-iOS) (by @YimingOvO)
+[iOS 版本 历史收集](https://github.com/YimingOvO/Phigros-History-iOS) (by @YimingOvO)<br>
+👆这货好像停更了，他说他ipad坏了（搞不好还要我来接盘
 
 <br>
 警告：部分版本可能会受实名验证的限制无法进入，我们正在努力解决该问题。
