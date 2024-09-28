@@ -1,6 +1,6 @@
 Bản dịch tiếng Việt bởi 
 ![新九鸟](icon.png "新图标")
-# Phigros 历史版本收集
+# BỘ SƯU TẬP CÁC PHIÊN BẢN PHIGROS
 
 **简体中文** | [English(US)](https://stevezmtstudios.github.io/Phigros-history/README_en-us)
 
