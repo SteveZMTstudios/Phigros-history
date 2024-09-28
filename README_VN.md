@@ -52,7 +52,7 @@ Cảnh báo: Một số phiên bản có thể bị hạn chế bởi việc xá
 [**Các phiên bản sau 3.0**](/ver_data/VersionList_3.x.md)
 <br>[Các phiên bản sau 2.0](/ver_data/VersionList_2.x.md)
 <br>[Các phiên bản đầu tiên](/ver_data/VersionList_1.x.md)
-(Vl lười Việt hóa đống thông tin cập nhật nên néu ai cần thì liên hệ tôi để tôi có động lực làm nhé, tạm thời cứ để như thế 🐧🐧🐧)
+<br> (Vl lười Việt hóa đống thông tin cập nhật nên néu ai cần thì liên hệ tôi để tôi có động lực làm nhé, tạm thời cứ để như thế 🐧🐧🐧)
 
 ## MẸO
 Tất cả các gói có ký tự `clone` trong phần "Releases" đều là phiên bản package name đã được sửa đổi và có thể cùng tồn tại song song với Phigros hiện có của bạn. Còn `crack` là các phiên bản trích xuất trực tiếp từ các thiết bị đã cài đặt Phigros<br>
