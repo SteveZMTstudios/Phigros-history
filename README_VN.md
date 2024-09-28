@@ -1,4 +1,4 @@
-Bản dịch tiếng Việt bởi [**Huy Hoang Cao @WiBuMan**](https://www.facebook.com/huyhoangcao39393939/) 
+Bản dịch tiếng Việt bởi [**Huy Hoang Cao**](https://www.facebook.com/huyhoangcao39393939/) 
 ![新九鸟](icon.png "新图标")
 # BỘ SƯU TẬP CÁC PHIÊN BẢN PHIGROS
 
