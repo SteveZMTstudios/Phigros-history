@@ -1,7 +1,7 @@
 ![New icon](icon.png "New Icon")
-# Phigros historical version collection
+# Phigros Collection
 
-[简体中文](https://stevezmtstudios.github.io/Phigros-history/) | **English(US)**
+**English(US)** | [简体中文](https://stevezmtstudios.github.io/Phigros-history/) | [Tiếng Việt](https://stevezmtstudios.github.io/Phigros-history/README_VN)
 
 #### [**🔄Check for updates**](https://github.com/SteveZMTstudios/Phiros-history/issues)  [🆙Reminder for updates](https://github.com/SteveZMTstudios/Phigros-history/issues/new)
 
