@@ -1,6 +1,6 @@
 Bản dịch tiếng Việt bởi [**Huy Hoang Cao**](https://www.facebook.com/huyhoangcao39393939/) 
 ![新九鸟](icon.png "新图标")
-# BỘ SƯU TẬP CÁC PHIÊN BẢN PHIGROS
+# BỘ SƯU TẬP APK PHIGROS
 
 **Tiếng Việt** | [简体中文](https://github.com/SteveZMTstudios/Phigros-history/blob/main/README.md) | [English(US)](https://stevezmtstudios.github.io/Phigros-history/README_en-us)
 
