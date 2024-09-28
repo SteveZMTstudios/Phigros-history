@@ -40,7 +40,7 @@ PHẦN LỚN CÁC APK TỪ TAPTAP (SAU NÀY SẼ THÊM CÁC PHIÊN BẢN GOOGLE 
 
 ## BẠN ĐANG TÌM KIẾM CÁC PHIÊN BẢN ĐẶC BIỆT KHÁC?
 
-[**Bộ sưu tập Phigros cá tháng tư**](https://stevezmtstudios.github.io/Phigros-history/doc/special)
+[**Bộ sưu tập Phigros cá tháng tư**](https://stevezmtstudios.github.io/Phigros-history/doc/special) <br> Vl lười dịch đống chữ trong đó lắm nên là cứ nhìn số phiên bản mà tìm nhé =))
 
 [Bộ sưu tập các phiên bản Phigros (IOS)](https://github.com/YimingOvO/Phigros-History-iOS) (duy trì bởi @YimingOvO)<br>
 👆Dự án này hình như đã ngừng phát triển. Anh ấy nói rằng iPad của anh ấy bị hỏng (ai muốn có thể liên hệ để giúp đỡ chúng tôi)
