@@ -2,7 +2,7 @@ Bản dịch tiếng Việt bởi [**Huy Hoang Cao**](https://www.facebook.com/h
 ![新九鸟](icon.png "新图标")
 # BỘ SƯU TẬP CÁC PHIÊN BẢN PHIGROS
 
-**TIẾNG VIỆT** | [简体中文](https://github.com/SteveZMTstudios/Phigros-history/blob/main/README.md) | [English(US)](https://stevezmtstudios.github.io/Phigros-history/README_en-us)
+**Tiếng Việt** | [简体中文](https://github.com/SteveZMTstudios/Phigros-history/blob/main/README.md) | [English(US)](https://stevezmtstudios.github.io/Phigros-history/README_en-us)
 
 #### CẬP NHẬT: 28/9/2024 [**🔄检查更新**](https://github.com/SteveZMTstudios/Phigros-history/issues) [🆙提醒更新](https://github.com/SteveZMTstudios/Phigros-history/issues/new/choose)
 
