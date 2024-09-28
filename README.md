@@ -1,7 +1,7 @@
 ![新九鸟](icon.png "新图标")
 # Phigros 历史版本收集
 
-**简体中文** | [English(US)](https://stevezmtstudios.github.io/Phigros-history/README_en-us) | [Tiếng Việt](https://github.com/SteveZMTstudios/Phigros-history/blob/main/README_VN)
+**简体中文** | [English(US)](https://stevezmtstudios.github.io/Phigros-history/README_en-us) | [Tiếng Việt](https://github.com/SteveZMTstudios/Phigros-history/blob/main/README_VN.md)
 
 #### 2024-09-23更新 [**🔄检查更新**](https://github.com/SteveZMTstudios/Phigros-history/issues) [🆙提醒更新](https://github.com/SteveZMTstudios/Phigros-history/issues/new/choose)
 
