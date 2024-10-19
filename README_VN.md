@@ -5,7 +5,7 @@ Bản dịch tiếng Việt bởi [**Huy Hoang Cao**](https://www.facebook.com/h
 ![新九鸟](icon.png "新图标")
 # BỘ SƯU TẬP APK PHIGROS
 
-**Tiếng Việt** | [简体中文](/README) | [English(US)](/README_en-us)
+**Tiếng Việt** | [简体中文](./README) | [English(US)](./README_en-us)
 
 #### CẬP NHẬT: 28/9/2024 [**🔄Kiểm tra cập nhật**](https://github.com/SteveZMTstudios/Phigros-history/issues) [🆙Thông báo cập nhật](https://github.com/SteveZMTstudios/Phigros-history/issues/new/choose)
 
@@ -68,5 +68,8 @@ Hậu tố của `clone` là phiên bản cùng tồn tại, có thể cùng t�
 ## KHÔNG THỂ TÌM THẤY TẤT CẢ CÁC PHIÊN BẢN?<br>
 [**NHẤN VÀO ĐÂY**](https://github.com/SteveZMTstudios/Phigros-history/issues/new/choose)**Đưa ra "issue" để nhắc nhở tôi nhắc chủ dự án cập nhật phiên bản mới nhất 🐧.**（***gợi ý***）
 <br>
-> Bản quyền thuộc về ©Nanjing Geyou Network Co., Ltd. [Trang web chính thức](https://pigeon-games.com/?utm_source=Phhiros-history&utm_medium=OfficialWebsite&utm_campaign=Android) [Chính sách quyền riêng tư](https://pigeon-games.com/news/2)
+
+[admin@stevezmt.top](mailto:admin@stevezmt.top)
+
+> Bản quyền thuộc về &copy; Nanjing Geyou Network Co., Ltd. [Trang web chính thức](https://pigeon-games.com/?utm_source=Phhiros-history&utm_medium=OfficialWebsite&utm_campaign=Android) [Chính sách quyền riêng tư](https://pigeon-games.com/news/2)
 

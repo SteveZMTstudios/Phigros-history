@@ -2,7 +2,7 @@
 ![New icon](icon.png "New Icon")
 # Phigros Old version Collection
 
-**English(US)** | [简体中文](/README) | [Tiếng Việt](/README_VN)
+**English(US)** | [简体中文](./README) | [Tiếng Việt](./README_VN)
 
 #### [**🔄Check for updates**](https://github.com/SteveZMTstudios/Phiros-history/issues)  [🆙Reminder for updates](https://github.com/SteveZMTstudios/Phigros-history/issues/new)
 
@@ -35,5 +35,8 @@ The clone suffix is a coexistence version, which can coexist with the crack vers
 ## Can't find all versions? <br>
 **You can**[**Click here**](https://github.com/SteveZMTstudios/Phiros-history/issues)**to initiate an issue to remind me to update related Phigros components.**
 
+## Need help?
+[**Click here**](https://github.com/SteveZMTstudios/Phiros-history/issues)**to initiate an issue** or mail to [admin@stevezmt.top](mailto:admin@stevezmt.top)
+
 <br>
-> Copyright belongs to&copy;Nanjing PigeonGames Network Co., Ltd. <br>All right reserved by them.[Company Website](https://pigeon-games.com/?utm_source=Phigros-history&utm_medium=OfficialWebsite) [Privacy Policy](https://pigeon-games.com/news/2)
+> Copyright belongs to &copy;Nanjing PigeonGames Network Co., Ltd. <br>All right reserved by them.[Company Website](https://pigeon-games.com/?utm_source=Phigros-history&utm_medium=OfficialWebsite) [Privacy Policy](https://pigeon-games.com/news/2)

@@ -2,7 +2,7 @@
 # Phigros 历史版本收集
 <!--secret is in this page :)
 ProTip: use XOR cryption.-->
-**简体中文** | [English(US)](/README_en-us) | [Tiếng Việt](/README_VN)
+**简体中文** | [English(US)](./README_en-us) | [Tiếng Việt](./README_VN)
 
 #### 2024-09-23更新 [**🔄检查更新**](https://github.com/SteveZMTstudios/Phigros-history/issues) [🆙提醒更新](https://github.com/SteveZMTstudios/Phigros-history/issues/new/choose)
 
@@ -53,6 +53,9 @@ Phigros iOS 版本：[**前往此处**](https://github.com/YimingOvO/Phigros-His
 
 ## 找不到所有版本？<br>
 [**轻点此处**](https://github.com/SteveZMTstudios/Phigros-history/issues/new/choose)**发起issue来提醒我更新相关的Phigros组件。**（***推荐***）
+
+## 需要帮助？
+[**轻点此处**](https://github.com/SteveZMTstudios/Phigros-history/issues/new/choose)**发起issue）**或电子邮件[admin@stevezmt.top](mailto:admin@stevezmt.top)
 <br>
 > 版权归属于&copy;南京鸽游网络有限公司。[公司主页](https://pigeon-games.com/?utm_source=Phigros-history&utm_medium=OfficialWebsite&utm_campaign=Android) [隐私政策](https://pigeon-games.com/news/2)
 <!--彩蛋:  `Y11eXktbRWheXw==` -->
