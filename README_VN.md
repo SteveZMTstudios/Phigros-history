@@ -1,8 +1,11 @@
+> This page is NOT translated from official.
+> This page may not up to date.
+
 Bản dịch tiếng Việt bởi [**Huy Hoang Cao**](https://www.facebook.com/huyhoangcao39393939/) 
 ![新九鸟](icon.png "新图标")
 # BỘ SƯU TẬP APK PHIGROS
 
-**Tiếng Việt** | [简体中文](https://github.com/SteveZMTstudios/Phigros-history/blob/main/README.md) | [English(US)](https://stevezmtstudios.github.io/Phigros-history/README_en-us)
+**Tiếng Việt** | [简体中文](/README) | [English(US)](/README_en-us)
 
 #### CẬP NHẬT: 28/9/2024 [**🔄Kiểm tra cập nhật**](https://github.com/SteveZMTstudios/Phigros-history/issues) [🆙Thông báo cập nhật](https://github.com/SteveZMTstudios/Phigros-history/issues/new/choose)
 
