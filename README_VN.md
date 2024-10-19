@@ -7,8 +7,6 @@ Bản dịch tiếng Việt bởi [**Huy Hoang Cao**](https://www.facebook.com/h
 
 **Tiếng Việt** | [简体中文](./README) | [English(US)](./README_en-us)
 
-#### CẬP NHẬT: 28/9/2024 [**🔄Kiểm tra cập nhật**](https://github.com/SteveZMTstudios/Phigros-history/issues) [🆙Thông báo cập nhật](https://github.com/SteveZMTstudios/Phigros-history/issues/new/choose)
-
 > [!!!CẢNH BÁO!!!]
 > Gần đây, nhiều tài khoản độc hại đã được phát hiện phát tán chương trình vi-rút trên nhiều Githus Issue. Trong số đó, "fix.rar" đã được xác nhận là một Trojan. Khi người dùng chạy ranlib.exe, chương trình sẽ thu thập thông tin cookie đăng nhập Github của người dùng và thông tin mật khẩu tài khoản khác, khiến tài khoản bị rò rỉ và gặp các vấn đề về bảo mật
 > <br>[Các trường hợp đã được phát hiện](https://www.v2ex.com/t/1068305)

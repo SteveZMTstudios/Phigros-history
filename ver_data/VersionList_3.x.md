@@ -10,6 +10,23 @@
 [![ TapTap 版本(huang1111)](https://img.shields.io/badge/TapTap-备选下载-lightblue.svg?logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjgiIGhlaWdodD0iMTI4IiB2aWV3Qm94PSIwIDAgMjQgMjQiPjxwYXRoIGZpbGw9IiNmZmZmZmYiIGQ9Ik01IDIwaDE0di0ySDVtMTQtOWgtNFYzSDl2Nkg1bDcgN3oiLz48L3N2Zz4=)](https://pan.huang1111.cn/s/DVnGwH4)<br>
 
 
+### 3.10.0 (115) 2024/10/18
+
+新增与节奏大师的联动章节，包含以下曲目：
+•「黄金之城 (GOLD TOWN)」 by: MEMME
+•「双重间谍 (Double Agent)」 by: Wav.AV
+•「幻影鬼魅 (PLEASE)」 by: R300K
+
+下列曲目将从「单曲」移至「节奏大师精选集」：
+•「君往何处 (Quo Vadis)」 by: M2U
+•「暗夜苏醒 (REANIMATE)」 by: Warak
+
+[![ Taptap 版本(123)](https://img.shields.io/badge/TapTap-下载-brightgreen.svg?logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjgiIGhlaWdodD0iMTI4IiB2aWV3Qm94PSIwIDAgMjQgMjQiPjxwYXRoIGZpbGw9IiNmZmZmZmYiIGQ9Ik01IDIwaDE0di0ySDVtMTQtOWgtNFYzSDl2Nkg1bDcgN3oiLz48L3N2Zz4=)](https://www.123865.com/s/OS4KVv-Fyirv)
+[![ TapTap 版本(huang1111)](https://img.shields.io/badge/TapTap-备选下载-lightblue.svg?logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjgiIGhlaWdodD0iMTI4IiB2aWV3Qm94PSIwIDAgMjQgMjQiPjxwYXRoIGZpbGw9IiNmZmZmZmYiIGQ9Ik01IDIwaDE0di0ySDVtMTQtOWgtNFYzSDl2Nkg1bDcgN3oiLz48L3N2Zz4=)](https://pan.huang1111.cn/s/3eaWAcm)
+[![ TapTap 版本(Github)](https://img.shields.io/badge/TapTap-全局下载-blue.svg?logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjgiIGhlaWdodD0iMTI4IiB2aWV3Qm94PSIwIDAgMjQgMjQiPjxwYXRoIGZpbGw9IiNmZmZmZmYiIGQ9Ik01IDIwaDE0di0ySDVtMTQtOWgtNFYzSDl2Nkg1bDcgN3oiLz48L3N2Zz4=)](https://github.com/SteveZMTstudios/Phigros-history/releases/download/v3.10.0/Phigros_3.10.0.apk)<br>
+<!--[![ Play 版本(123) ](https://img.shields.io/badge/Play_商店-下载-brightgreen.svg?logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjgiIGhlaWdodD0iMTI4IiB2aWV3Qm94PSIwIDAgMjQgMjQiPjxwYXRoIGZpbGw9IiNmZmZmZmYiIGQ9Ik01IDIwaDE0di0ySDVtMTQtOWgtNFYzSDl2Nkg1bDcgN3oiLz48L3N2Zz4=)](https://123pan.com)-->
+<!--[![ Play 版本(huang1111)](https://img.shields.io/badge/Play_商店-备选下载-lightblue.svg?logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjgiIGhlaWdodD0iMTI4IiB2aWV3Qm94PSIwIDAgMjQgMjQiPjxwYXRoIGZpbGw9IiNmZmZmZmYiIGQ9Ik01IDIwaDE0di0ySDVtMTQtOWgtNFYzSDl2Nkg1bDcgN3oiLz48L3N2Zz4=)](https://pan.huang1111.cn)-->
+
 ### 3.9.0.1 (112) 2024/09/04
 
 1. 修改部分谱面
