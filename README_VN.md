@@ -5,7 +5,7 @@ Bản dịch tiếng Việt bởi [**Huy Hoang Cao**](https://www.facebook.com/h
 ![新九鸟](icon.png "新图标")
 # BỘ SƯU TẬP APK PHIGROS
 
-**Tiếng Việt** | [简体中文](./README) | [English(US)](./README_en-us)
+**Tiếng Việt** | [简体中文](./../) | [English(US)](./README_en-us)
 
 > [!!!CẢNH BÁO!!!]
 > Gần đây, nhiều tài khoản độc hại đã được phát hiện phát tán chương trình vi-rút trên nhiều Githus Issue. Trong số đó, "fix.rar" đã được xác nhận là một Trojan. Khi người dùng chạy ranlib.exe, chương trình sẽ thu thập thông tin cookie đăng nhập Github của người dùng và thông tin mật khẩu tài khoản khác, khiến tài khoản bị rò rỉ và gặp các vấn đề về bảo mật
