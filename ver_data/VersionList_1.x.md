@@ -1,6 +1,6 @@
 <span id="top"></span>
 # 1.x 版本列表
-[![<-- 2.x](https://img.shields.io/badge/2.x-更新版本-blue.svg?logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjgiIGhlaWdodD0iMTI4IiB2aWV3Qm94PSIwIDAgMjQgMjQiPjxwYXRoIGZpbGw9IiNmZmZmZmYiIGQ9Ik0yIDEyQTEwIDEwIDAgMCAxIDEyIDJhMTAgMTAgMCAwIDEgMTAgMTBhMTAgMTAgMCAwIDEtMTAgMTBBMTAgMTAgMCAwIDEgMiAxMm0xNi0xaC04bDMuNS0zLjVsLTEuNDItMS40Mkw2LjE2IDEybDUuOTIgNS45MmwxLjQyLTEuNDJMMTAgMTNoOHoiLz48L3N2Zz4=)](./VersionList_2.x.md)
+[![<-- 2.x](https://img.shields.io/badge/2.x-更新版本-blue.svg?logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjgiIGhlaWdodD0iMTI4IiB2aWV3Qm94PSIwIDAgMjQgMjQiPjxwYXRoIGZpbGw9IiNmZmZmZmYiIGQ9Ik0yIDEyQTEwIDEwIDAgMCAxIDEyIDJhMTAgMTAgMCAwIDEgMTAgMTBhMTAgMTAgMCAwIDEtMTAgMTBBMTAgMTAgMCAwIDEgMiAxMm0xNi0xaC04bDMuNS0zLjVsLTEuNDItMS40Mkw2LjE2IDEybDUuOTIgNS45MmwxLjQyLTEuNDJMMTAgMTNoOHoiLz48L3N2Zz4=)](./VersionList_2.x)
 
 
 <details>
@@ -793,7 +793,7 @@ Alphasia
 
 
 ---
-[![<-- 2.x](https://img.shields.io/badge/2.x-更新版本-blue.svg?logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjgiIGhlaWdodD0iMTI4IiB2aWV3Qm94PSIwIDAgMjQgMjQiPjxwYXRoIGZpbGw9IiNmZmZmZmYiIGQ9Ik0yIDEyQTEwIDEwIDAgMCAxIDEyIDJhMTAgMTAgMCAwIDEgMTAgMTBhMTAgMTAgMCAwIDEtMTAgMTBBMTAgMTAgMCAwIDEgMiAxMm0xNi0xaC04bDMuNS0zLjVsLTEuNDItMS40Mkw2LjE2IDEybDUuOTIgNS45MmwxLjQyLTEuNDJMMTAgMTNoOHoiLz48L3N2Zz4=)](./VersionList_2.x.md)
+[![<-- 2.x](https://img.shields.io/badge/2.x-更新版本-blue.svg?logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjgiIGhlaWdodD0iMTI4IiB2aWV3Qm94PSIwIDAgMjQgMjQiPjxwYXRoIGZpbGw9IiNmZmZmZmYiIGQ9Ik0yIDEyQTEwIDEwIDAgMCAxIDEyIDJhMTAgMTAgMCAwIDEgMTAgMTBhMTAgMTAgMCAwIDEtMTAgMTBBMTAgMTAgMCAwIDEgMiAxMm0xNi0xaC04bDMuNS0zLjVsLTEuNDItMS40Mkw2LjE2IDEybDUuOTIgNS45MmwxLjQyLTEuNDJMMTAgMTNoOHoiLz48L3N2Zz4=)](./VersionList_2.x)
 [![back to top](https://img.shields.io/badge/1.x版本-green.svg?logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjgiIGhlaWdodD0iMTI4IiB2aWV3Qm94PSIwIDAgMjQgMjQiPjxwYXRoIGZpbGw9IiNmZmZmZmYiIGQ9Ik0xMyAxOHYtOGwzLjUgMy41bDEuNDItMS40MkwxMiA2LjE2bC01LjkyIDUuOTJMNy41IDEzLjVMMTEgMTB2OHpNMTIgMmExMCAxMCAwIDAgMSAxMCAxMGExMCAxMCAwIDAgMS0xMCAxMEExMCAxMCAwIDAgMSAyIDEyQTEwIDEwIDAgMCAxIDEyIDIiLz48L3N2Zz4=)](#top)
 
 
