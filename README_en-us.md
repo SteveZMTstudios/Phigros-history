@@ -9,8 +9,8 @@
 If the content on [this page](/ver_data/VersionList_3.x.md) is not the latest version available, please contact me by clicking the Check for Updates button above 🥳Thanks!
 
 ## How do I download them?
-[**↗️Check the version List (Chinese Page)**](/ver_data/VersionList_3.x.md)
-<br>[↗️Early version](/ver_data/VersionList_2.x.md)<br>
+[**↗️Check the version List (Chinese Page)**](./ver_data/VersionList_3.x.md)
+<br>[↗️Early version](./ver_data/VersionList_2.x.md)<br>
 These changelog was edited by the company who release them. They speak chinese and i am not suitable to translate them.
 
 

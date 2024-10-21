@@ -5,7 +5,7 @@ Bản dịch tiếng Việt bởi [**Huy Hoang Cao**](https://www.facebook.com/h
 ![新九鸟](icon.png "新图标")
 # BỘ SƯU TẬP APK PHIGROS
 
-**Tiếng Việt** | [简体中文](./../) | [English(US)](./README_en-us)
+**Tiếng Việt** | [简体中文](./) | [English(US)](./README_en-us)
 
 > [!!!CẢNH BÁO!!!]
 > Gần đây, nhiều tài khoản độc hại đã được phát hiện phát tán chương trình vi-rút trên nhiều Githus Issue. Trong số đó, "fix.rar" đã được xác nhận là một Trojan. Khi người dùng chạy ranlib.exe, chương trình sẽ thu thập thông tin cookie đăng nhập Github của người dùng và thông tin mật khẩu tài khoản khác, khiến tài khoản bị rò rỉ và gặp các vấn đề về bảo mật
@@ -23,7 +23,7 @@ Chúng tôi đã cố gắng tìm kiếm và đồng bộ nhưng vẫn còn thi�
 Gần đây, trang web đang được lên kế hoạch nâng cấp và chỉnh sửa để mang lại trải nghiệm tốt hơn cho mọi người. Khi đó, một số thứ trên trang web có thể biến mất, bố cục lộn xộn và liên kết có thể không hợp lệ. Nếu bạn gặp phải những vấn đề như vậy, vui lòng kiên nhẫn chờ đợi, làm mới và thử lại hoặc gửi [vấn đề](https://github.com/SteveZMTstudios/Phigros-history/issues/new/)
 <br>                    ----Huy Hoang Cao
 
-Nếu nội dung trên [trang này](/ver_data/VersionList_3.x.md) không phải là phiên bản mới nhất, vui lòng liên hệ với tôi bằng cách nhấp vào nút Kiểm tra cập nhật ở trên 🥳Cảm ơn!
+Nếu nội dung trên [trang này](./ver_data/VersionList_3.x.md) không phải là phiên bản mới nhất, vui lòng liên hệ với tôi bằng cách nhấp vào nút Kiểm tra cập nhật ở trên 🥳Cảm ơn!
 
 ## THÔNG BÁO
 Do vấn đề bản quyền nên phiên bản `clone` cùng tồn tại có thể không được cập nhật trong tương lai. Chỉ các APK phân phối chính thức (từ Play Store hoặc TapTap) mới có tại đây.
@@ -31,7 +31,7 @@ Do vấn đề bản quyền nên phiên bản `clone` cùng tồn tại có th�
 Nếu bạn muốn trợ giúp dự án này hoặc nếu bạn đã có phiên bản òn thiếu, vui lòng gửi liên kết chia sẻ đến phân vùng vấn đề. Cảm ơn bạn rất nhiều vì sự giúp đỡ của bạn!
 
 
-## [**👉🔗TẤT CẢ PHIÊN BẢN👈**](/ver_data/VersionList_3.x.md)
+## [**👉🔗TẤT CẢ PHIÊN BẢN👈**](./ver_data/VersionList_3.x.md)
 
 <br>
 Đây không phải là chương trình chính thức của Phigros. Ở đây chúng tôi chỉ cung cấp một số phiên bản APK cũ của Pigeon Game. <br>Tất cả tài liệu được thu thập từ Internet. Nếu chúng vi phạm quyền của bạn, vui lòng đăng vấn đề trong phần này và tôi sẽ xóa chúng ngay sau khi nhìn thấy chúng.

@@ -1,33 +1,40 @@
 <span id="top"></span>
 # 2.x 版本列表
-[![<-- v3.x](https://img.shields.io/badge/3.x-更新版本-green.svg?logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjgiIGhlaWdodD0iMTI4IiB2aWV3Qm94PSIwIDAgMjQgMjQiPjxwYXRoIGZpbGw9IiNmZmZmZmYiIGQ9Ik0yIDEyQTEwIDEwIDAgMCAxIDEyIDJhMTAgMTAgMCAwIDEgMTAgMTBhMTAgMTAgMCAwIDEtMTAgMTBBMTAgMTAgMCAwIDEgMiAxMm0xNi0xaC04bDMuNS0zLjVsLTEuNDItMS40Mkw2LjE2IDEybDUuOTIgNS45MmwxLjQyLTEuNDJMMTAgMTNoOHoiLz48L3N2Zz4=)](/ver_data/VersionList_3.x.md)
-[![1.x -->](https://img.shields.io/badge/1.x-更旧版本-blue.svg?logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjgiIGhlaWdodD0iMTI4IiB2aWV3Qm94PSIwIDAgMjQgMjQiPjxwYXRoIGZpbGw9IiNmZmZmZmYiIGQ9Ik0yMiAxMmExMCAxMCAwIDAgMS0xMCAxMEExMCAxMCAwIDAgMSAyIDEyQTEwIDEwIDAgMCAxIDEyIDJhMTAgMTAgMCAwIDEgMTAgMTBNNiAxM2g4bC0zLjUgMy41bDEuNDIgMS40MkwxNy44NCAxMmwtNS45Mi01LjkyTDEwLjUgNy41TDE0IDExSDZ6Ii8+PC9zdmc+)](/ver_data/VersionList_1.x.md)
+[![<-- v3.x](https://img.shields.io/badge/3.x-更新版本-green.svg?logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjgiIGhlaWdodD0iMTI4IiB2aWV3Qm94PSIwIDAgMjQgMjQiPjxwYXRoIGZpbGw9IiNmZmZmZmYiIGQ9Ik0yIDEyQTEwIDEwIDAgMCAxIDEyIDJhMTAgMTAgMCAwIDEgMTAgMTBhMTAgMTAgMCAwIDEtMTAgMTBBMTAgMTAgMCAwIDEgMiAxMm0xNi0xaC04bDMuNS0zLjVsLTEuNDItMS40Mkw2LjE2IDEybDUuOTIgNS45MmwxLjQyLTEuNDJMMTAgMTNoOHoiLz48L3N2Zz4=)](./ver_data/VersionList_3.x.md)
+[![1.x -->](https://img.shields.io/badge/1.x-更旧版本-blue.svg?logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjgiIGhlaWdodD0iMTI4IiB2aWV3Qm94PSIwIDAgMjQgMjQiPjxwYXRoIGZpbGw9IiNmZmZmZmYiIGQ9Ik0yMiAxMmExMCAxMCAwIDAgMS0xMCAxMEExMCAxMCAwIDAgMSAyIDEyQTEwIDEwIDAgMCAxIDEyIDJhMTAgMTAgMCAwIDEgMTAgMTBNNiAxM2g4bC0zLjUgMy41bDEuNDIgMS40MkwxNy44NCAxMmwtNS45Mi01LjkyTDEwLjUgNy41TDE0IDExSDZ6Ii8+PC9zdmc+)](./ver_data/VersionList_1.x.md)
 
 
 <details>
 
 <summary>图例</summary>
 
+<br>
  ![ Taptap 版本(123)](https://img.shields.io/badge/TapTap-下载-brightgreen.svg?logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjgiIGhlaWdodD0iMTI4IiB2aWV3Qm94PSIwIDAgMjQgMjQiPjxwYXRoIGZpbGw9IiNmZmZmZmYiIGQ9Ik01IDIwaDE0di0ySDVtMTQtOWgtNFYzSDl2Nkg1bDcgN3oiLz48L3N2Zz4=)  官方在TapTap上发布的官方版本，由123pan.com提供下载支持 （适合中国大陆用户）
- 
+ <br>
 
  ![ TapTap 版本(huang1111)](https://img.shields.io/badge/TapTap-备选下载-lightblue.svg?logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjgiIGhlaWdodD0iMTI4IiB2aWV3Qm94PSIwIDAgMjQgMjQiPjxwYXRoIGZpbGw9IiNmZmZmZmYiIGQ9Ik01IDIwaDE0di0ySDVtMTQtOWgtNFYzSDl2Nkg1bDcgN3oiLz48L3N2Zz4=) 官方在TapTap上发布的官方版本，由pan.huang1111.cn提供下载支持
+<br>
 
  ![ TapTap 版本(Github)](https://img.shields.io/badge/TapTap-全局下载-blue.svg?logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjgiIGhlaWdodD0iMTI4IiB2aWV3Qm94PSIwIDAgMjQgMjQiPjxwYXRoIGZpbGw9IiNmZmZmZmYiIGQ9Ik01IDIwaDE0di0ySDVtMTQtOWgtNFYzSDl2Nkg1bDcgN3oiLz48L3N2Zz4=) 官方在TapTap上发布的官方版本，由Github.com提供下载支持（适合在全球地区的用户）
+<br>
 
 ---
-
+<br>
 ![ Play 版本(123) ](https://img.shields.io/badge/Play_商店-下载-brightgreen.svg?logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjgiIGhlaWdodD0iMTI4IiB2aWV3Qm94PSIwIDAgMjQgMjQiPjxwYXRoIGZpbGw9IiNmZmZmZmYiIGQ9Ik01IDIwaDE0di0ySDVtMTQtOWgtNFYzSDl2Nkg1bDcgN3oiLz48L3N2Zz4=)官方在Play 商店上发布的官方版本，由123pan.com提供下载支持 （适合中国大陆用户）
+
+<br>
 
 ![ Play 版本(huang1111)](https://img.shields.io/badge/Play_商店-备选下载-lightblue.svg?logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjgiIGhlaWdodD0iMTI4IiB2aWV3Qm94PSIwIDAgMjQgMjQiPjxwYXRoIGZpbGw9IiNmZmZmZmYiIGQ9Ik01IDIwaDE0di0ySDVtMTQtOWgtNFYzSDl2Nkg1bDcgN3oiLz48L3N2Zz4=)官方在Play 商店上发布的官方版本，由pan.huang1111.cn提供下载支持 
 
-
+<br>
 ---
 
+<br>
 ![ 共存版本(Github)](https://img.shields.io/badge/共存版-全局下载-blue.svg?logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjgiIGhlaWdodD0iMTI4IiB2aWV3Qm94PSIwIDAgMjQgMjQiPjxwYXRoIGZpbGw9IiNmZmZmZmYiIGQ9Ik01IDIwaDE0di0ySDVtMTQtOWgtNFYzSDl2Nkg1bDcgN3oiLz48L3N2Zz4=)修改包名的TapTap版本，由Github.com提供下载支持
 
 ---
 
+<br>
 ![版本已遗失](https://img.shields.io/badge/无法下载-red.svg?logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjgiIGhlaWdodD0iMTI4IiB2aWV3Qm94PSIwIDAgMjQgMjQiPjxwYXRoIGZpbGw9IiNmZmZmZmYiIGQ9Ik0yMC44NCAyMi43M0wxOC4xMSAyMEg1di0yaDExLjExbC0zLjA1LTMuMDVMMTIgMTZMNSA5aDIuMTFsLTYtNmwxLjI4LTEuMjdsMTkuNzIgMTkuNzN6TTE5IDloLTRWM0g5djIuOGw2LjYgNi42eiIvPjwvc3ZnPg==)找不到有关于此版本包的任何有效的原版安装包文件。
 
 ---
