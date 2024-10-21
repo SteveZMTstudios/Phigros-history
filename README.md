@@ -12,7 +12,7 @@ ProTip: use XOR cryption.-->
 > 
 > 请勿轻信任何来自Github Issue分区的内容！任何来自官方发布者的内容均已签署有效的GPG签名。您可在[此页面](https://si1vr.github.io/key)获得签名的公钥。
 
-## [**👉🔗查找所有版本👈**](/ver_data/VersionList_3.x.md)
+## [**👉🔗查找所有版本👈**](./ver_data/VersionList_3.x.md)
 
 ### 公告
 这不是Phigros的官方程序源代码，此处仅提供一些关于来自厦门鸽游(Pigeon Games)的一些历史版本的安卓端armv8a的apk包下载，请勿用做其他任何涉及商业用途。<br>所有素材收集自网络,如果他们侵犯了您的权益，请在该板块发布issue，我会在看到后立即删除它们。
@@ -23,7 +23,7 @@ ProTip: use XOR cryption.-->
 我们同步并跟进了数十个版本记录，但是仍有少数版本散佚。虽然找回它们较为困难，但我们会尽力尝试。
 <br>由于该项目为我个人纯手工维护，消耗了我个人大量的时间和精力。如果您想要支持此项目，请考虑[**在bilibili关注我们**](https://space.bilibili.com/474130186)
 
-如果[此页面](/ver_data/VersionList_3.x.md)上的内容并不是现有的最新版本，请通过点击上面的检查更新按钮与我联系🥳感谢！
+如果[此页面](./ver_data/VersionList_3.x.md)上的内容并不是现有的最新版本，请通过点击上面的检查更新按钮与我联系🥳感谢！
 
 出于版权问题，未来共存版`clone`可能不会再更新。此处将仅提供官方（来自Play Store或TapTap）的发行包。
 
@@ -40,8 +40,8 @@ Phigros iOS 版本：[**前往此处**](https://github.com/YimingOvO/Phigros-His
 <br>
 ## 我要如何下载它们？
 
-[**↗️前往存储索引**](/ver_data/VersionList_3.x.md)
-<br>[↗️早期版本](/ver_data/VersionList_2.x.md)
+[**↗️前往存储索引**](./ver_data/VersionList_3.x.md)
+<br>[↗️早期版本](./ver_data/VersionList_2.x.md)
 <br>
 
 ## 一些说明

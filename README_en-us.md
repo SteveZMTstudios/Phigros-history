@@ -6,7 +6,7 @@
 
 #### [**🔄Check for updates**](https://github.com/SteveZMTstudios/Phiros-history/issues)  [🆙Reminder for updates](https://github.com/SteveZMTstudios/Phigros-history/issues/new)
 
-If the content on [this page](/ver_data/VersionList_3.x.md) is not the latest version available, please contact me by clicking the Check for Updates button above 🥳Thanks!
+If the content on [this page](./ver_data/VersionList_3.x.md) is not the latest version available, please contact me by clicking the Check for Updates button above 🥳Thanks!
 
 ## How do I download them?
 [**↗️Check the version List (Chinese Page)**](./ver_data/VersionList_3.x.md)

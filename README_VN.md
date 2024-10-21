@@ -50,16 +50,16 @@ Cảnh báo: Một số phiên bản có thể bị hạn chế bởi việc xá
 <br>
 ## LIÊN KẾT TẢI XUỐNG
 
-[**Các phiên bản sau 3.0**](/ver_data/VersionList_3.x.md)
-<br>[Các phiên bản sau 2.0](/ver_data/VersionList_2.x.md)
-<br>[Các phiên bản đầu tiên](/ver_data/VersionList_1.x.md)
+[**Các phiên bản sau 3.0**](./ver_data/VersionList_3.x.md)
+<br>[Các phiên bản sau 2.0](./ver_data/VersionList_2.x.md)
+<br>[Các phiên bản đầu tiên](./ver_data/VersionList_1.x.md)
 <br> (Vl lười Việt hóa đống thông tin cập nhật nên néu ai cần thì liên hệ tôi để tôi có động lực làm nhé, tạm thời cứ để như thế 🐧🐧🐧)
 
 ## MẸO
 Tất cả các gói có ký tự `clone` trong phần "Releases" đều là phiên bản package name đã được sửa đổi và có thể cùng tồn tại song song với Phigros hiện có của bạn. Còn `crack` là các phiên bản trích xuất trực tiếp từ các thiết bị đã cài đặt Phigros<br>
 Nói cách khác, hậu tố `crack` phù hợp với APK được phát hành trên TapTap. Nó có thể được cập nhật từ kho lưu trữ này hoặc từ TapTap. Nó sẽ không bị ảnh hưởng dưới bất kỳ hình thức nào, nhưng nó không thể cùng tồn tại XD.。<br>
 Hậu tố của `clone` là phiên bản cùng tồn tại, có thể cùng tồn tại với phiên bản crack hoặc phiên bản TapTap mới nhất, nhưng kho lưu trữ không thể cùng tồn tại trừ khi thực hiện các phương pháp đặc biệt, điều này thật đau đầu T_T.
-<br>`apk+obb` là phiên bản từ Google Play, đây cũng là phiên bản chính thức. Về cách cài đặt gói cài đặt `apk+obb`, vui lòng tham khảo [Hướng dẫn cài đặt](/doc/install-apk-obb)
+<br>`apk+obb` là phiên bản từ Google Play, đây cũng là phiên bản chính thức. Về cách cài đặt gói cài đặt `apk+obb`, vui lòng tham khảo [Hướng dẫn cài đặt](./doc/install-apk-obb)
 
 
 
