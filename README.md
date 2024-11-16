@@ -4,7 +4,7 @@
 ProTip: use XOR cryption.-->
 **简体中文** | [English(US)](./README_en-us) | [Tiếng Việt](./README_VN)
 
-#### 2024-10-20更新 [**🔄检查更新**](https://github.com/SteveZMTstudios/Phigros-history/issues) [🆙提醒更新](https://github.com/SteveZMTstudios/Phigros-history/issues/new/choose)
+#### 2024-11-15 更新 [**🔄检查更新**](https://github.com/SteveZMTstudios/Phigros-history/issues) [🆙提醒更新](https://github.com/SteveZMTstudios/Phigros-history/issues/new/choose)
 
 > [!CAUTION]
 > 近期，在多个Github Issue留言板中，发现有多个恶意账号正在散播病毒程序。其中"fix.rar"已经被确认为一个特洛伊木马，当用户运行ranlib.exe时，程序会爬取用户的Github 登录Cookies和其他账号密码信息，导致账号被泄露。
@@ -12,10 +12,14 @@ ProTip: use XOR cryption.-->
 > 
 > 请勿轻信任何来自Github Issue分区的内容！任何来自官方发布者的内容均已签署有效的GPG签名。您可在[此页面](https://si1vr.github.io/key)获得签名的公钥。
 
-## [**👉🔗查找所有版本👈**](./ver_data/VersionList_3.x)
+## [**👉🔗查找所有版本👈**](https://stevezmt.top/Phigros-history/ver_data/VersionList_3.x)
 
 ### 公告
 这不是Phigros的官方程序源代码，此处仅提供一些关于来自厦门鸽游(Pigeon Games)的一些历史版本的安卓端armv8a的apk包下载，请勿用做其他任何涉及商业用途。<br>所有素材收集自网络,如果他们侵犯了您的权益，请在该板块发布issue，我会在看到后立即删除它们。
+
+123云盘近日开始限制每个用户的最大下载流量为1GB,超出将需要支付费用。目前对此的缓解方案是(1)使用来自huang1111.cn的网盘；(2)下载123云盘的[客户端](https://www.123pan.com/Downloadclient)；(3)从Github上下载。
+
+我们将加快调整结构，尽快移除123云盘的链接（尽管这短期内可能根本无法实现），并提供更多的下载选项。
 
 特别感谢[**Huy Hoang Cao @WiBuMan**](https://www.facebook.com/huyhoangcao39393939/)
 提供的数百个来自TapTap的安装包，没有他的帮助，该项目不可能发展地如此庞大。
@@ -31,7 +35,7 @@ ProTip: use XOR cryption.-->
 
 ## 在找其他版本？
 
-Phigros 特别版本合集：[**前往此处**](https://stevezmtstudios.github.io/Phigros-history/doc/special)
+Phigros 特别版本合集：[**前往此处**](https://stevezmt.top/Phigros-history/doc/special)
 
 Phigros iOS 版本：[**前往此处**](https://github.com/YimingOvO/Phigros-History-iOS) (Maintained by [@YimingOvO](https://github.com/YimingOvO))<br>
                  ~~👆这货好像停更了，他说他ipad坏了（搞不好还要我来接盘~~
@@ -40,8 +44,8 @@ Phigros iOS 版本：[**前往此处**](https://github.com/YimingOvO/Phigros-His
 <br>
 ## 我要如何下载它们？
 
-[**↗️前往存储索引**](./ver_data/VersionList_3.x)
-<br>[↗️早期版本](./ver_data/VersionList_2.x)
+[**↗️前往存储索引**](https://stevezmt.top/Phigros-history/ver_data/VersionList_3.x)
+<br>[↗️早期版本](https://stevezmt.top/Phigros-history/ver_data/VersionList_2.x)
 <br>
 
 ## 一些说明
