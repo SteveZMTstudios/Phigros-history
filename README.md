@@ -4,13 +4,8 @@
 ProTip: use XOR cryption.-->
 **简体中文** | [English(US)](./README_en-us) | [Tiếng Việt](./README_VN)
 
-#### 2024-11-15 更新 [**🔄检查更新**](https://github.com/SteveZMTstudios/Phigros-history/issues) [🆙提醒更新](https://github.com/SteveZMTstudios/Phigros-history/issues/new/choose)
+#### 2024-12-02 更新 [**🔄检查更新**](https://github.com/SteveZMTstudios/Phigros-history/issues) [🆙提醒更新](https://github.com/SteveZMTstudios/Phigros-history/issues/new/choose)
 
-> [!CAUTION]
-> 近期，在多个Github Issue留言板中，发现有多个恶意账号正在散播病毒程序。其中"fix.rar"已经被确认为一个特洛伊木马，当用户运行ranlib.exe时，程序会爬取用户的Github 登录Cookies和其他账号密码信息，导致账号被泄露。
-> <br>[已知案例](https://www.v2ex.com/t/1068305)
-> 
-> 请勿轻信任何来自Github Issue分区的内容！任何来自官方发布者的内容均已签署有效的GPG签名。您可在[此页面](https://si1vr.github.io/key)获得签名的公钥。
 
 ## [**👉🔗查找所有版本👈**](https://stevezmt.top/Phigros-history/ver_data/VersionList_3.x)
 
