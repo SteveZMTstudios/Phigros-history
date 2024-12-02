@@ -119,9 +119,8 @@
 <!--
 ![版本已遗失](https://img.shields.io/badge/无法下载-red.svg?logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjgiIGhlaWdodD0iMTI4IiB2aWV3Qm94PSIwIDAgMjQgMjQiPjxwYXRoIGZpbGw9IiNmZmZmZmYiIGQ9Ik0yMC44NCAyMi43M0wxOC4xMSAyMEg1di0yaDExLjExbC0zLjA1LTMuMDVMMTIgMTZMNSA5aDIuMTFsLTYtNmwxLjI4LTEuMjdsMTkuNzIgMTkuNzN6TTE5IDloLTRWM0g5djIuOGw2LjYgNi42eiIvPjwvc3ZnPg==)-->
 
-
-
  ### 3.8.1.1 (110) 2024/08/20
+
 1. 新增与节奏大师的联动单曲：
 •「君往何处 (Quo Vadis)」 by M2U
 •「暗夜苏醒 (REANIMATE)」 by Warak
