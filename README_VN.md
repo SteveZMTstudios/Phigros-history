@@ -7,11 +7,8 @@ Bản dịch tiếng Việt bởi [**Huy Hoang Cao**](https://www.facebook.com/h
 
 **Tiếng Việt** | [简体中文](./) | [English(US)](./README_en-us)
 
-> [!!!CẢNH BÁO!!!]
-> Gần đây, nhiều tài khoản độc hại đã được phát hiện phát tán chương trình vi-rút trên nhiều Githus Issue. Trong số đó, "fix.rar" đã được xác nhận là một Trojan. Khi người dùng chạy ranlib.exe, chương trình sẽ thu thập thông tin cookie đăng nhập Github của người dùng và thông tin mật khẩu tài khoản khác, khiến tài khoản bị rò rỉ và gặp các vấn đề về bảo mật
-> <br>[Các trường hợp đã được phát hiện](https://www.v2ex.com/t/1068305)
-> 
-> Vui lòng không tin tưởng bất kỳ nội dung nào từ phần Github Issue!Mọi nội dung chính thức đều được ký bằng chữ ký GPG hợp lệ. Bạn có thể lấy khóa công khai đã ký tại[đây](https://si1vr.github.io/key)
+> [!CAUTION]
+> Do đĩa mạng huang1111 ngược dòng đã bị Microsoft hạn chế và sẽ ngừng hoạt động vào ngày 1 tháng 1 năm 2025 nên hầu như tất cả các liên kết tải xuống cho đĩa mạng huang1111 trên trang này sẽ không còn hợp lệ.  Bạn vẫn có thể tải xuống bản sao của tệp Phigros trước ngày 31/12/2024, nhưng chúng tôi không đảm bảo rằng trang web này sẽ tiếp tục hoạt động sau ngày 1/1/2025.  Chúng tôi xin lỗi vì bất kỳ sự bất tiện nào gây ra cho bạn.
 
 
 
