@@ -2,7 +2,7 @@
 # Phigros 历史版本收集
 <!--secret is in this page :)
 ProTip: use XOR cryption.-->
-**简体中文** | [English(US)](./README_en-us) | [Tiếng Việt](./README_VN)
+**简体中文** | [English(US)](./README_en-us.md) | [Tiếng Việt](./README_VN.md)
 
 #### 2024-12-02 更新 [**🔄检查更新**](https://github.com/SteveZMTstudios/Phigros-history/issues) [🆙提醒更新](https://github.com/SteveZMTstudios/Phigros-history/issues/new/choose)
 
