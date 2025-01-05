@@ -4,7 +4,7 @@
 ProTip: use XOR cryption.-->
 **简体中文** | [English(US)](https://stevezmt.top/Phigros-history/README_en-us) | [Tiếng Việt](https://stevezmt.top/Phigros-history/README_VN)
 
-#### 2024-12-02 更新 [**🔄检查更新**](https://github.com/SteveZMTstudios/Phigros-history/issues) [🆙提醒更新](https://github.com/SteveZMTstudios/Phigros-history/issues/new/choose)
+#### 2025-01-05 更新 [**🔄检查更新**](https://github.com/SteveZMTstudios/Phigros-history/issues) [🆙提醒更新](https://github.com/SteveZMTstudios/Phigros-history/issues/new/choose)
 
 ## [**👉🔗查找所有版本👈**](https://stevezmt.top/Phigros-history/ver_data/VersionList_3.x)
 
