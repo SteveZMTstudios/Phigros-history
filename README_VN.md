@@ -5,7 +5,7 @@ Bản dịch tiếng Việt bởi [**Huy Hoang Cao**](https://www.facebook.com/h
 ![新九鸟](icon.png "新图标")
 # BỘ SƯU TẬP APK PHIGROS
 
-**Tiếng Việt** | [简体中文](./) | [English(US)](./README_en-us)
+**Tiếng Việt** | [简体中文](https://stevezmt.top/Phigros-history/) | [English(US)](https://stevezmt.top/Phigros-history/README_en-us)
 
 > [!CAUTION]
 > Do đĩa mạng huang1111 ngược dòng đã bị Microsoft hạn chế và sẽ ngừng hoạt động vào ngày 1 tháng 1 năm 2025 nên hầu như tất cả các liên kết tải xuống cho đĩa mạng huang1111 trên trang này sẽ không còn hợp lệ.  Bạn vẫn có thể tải xuống bản sao của tệp Phigros trước ngày 31/12/2024, nhưng chúng tôi không đảm bảo rằng trang web này sẽ tiếp tục hoạt động sau ngày 1/1/2025.  Chúng tôi xin lỗi vì bất kỳ sự bất tiện nào gây ra cho bạn.
