@@ -8,12 +8,6 @@
 
 If the content on [this page](./ver_data/VersionList_3.x) is not the latest version available, please contact me by clicking the Check for Updates button above 🥳THANKS!
 
-> [!CAUTION]
-> Since the upstream huang1111 network disk has been restricted by Microsoft and will be deactivated on 2025/1/1, almost all the download links on this site for huang1111 network disk will be invalid. 
->
-> You can still download a copy of the Phigros file before 2024/12/31, but we cannot guarantee that this site will continue to operate after 2025/1/1. We apologize for the inconvenience.
-
-
 ## How do I download them?
 [**↗️Check the version List (Chinese Page)**](https://stevezmt.top/Phigros-history/ver_data/VersionList_3.x)
 <br>[↗️Early version](https://stevezmt.top/Phigros-history/ver_data/VersionList_2.x)<br>

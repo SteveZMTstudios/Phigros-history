@@ -6,11 +6,6 @@ ProTip: use XOR cryption.-->
 
 #### 2024-12-02 更新 [**🔄检查更新**](https://github.com/SteveZMTstudios/Phigros-history/issues) [🆙提醒更新](https://github.com/SteveZMTstudios/Phigros-history/issues/new/choose)
 
-> [!CAUTION]
-> 由于上游huang1111网盘已被微软限制，并且即将于 2025/1/1 停用存储，本站几乎全部的关于huang1111网盘下载链接将会失效。
-> 您仍然可以在 2024/12/31 之前下载Phigros文件副本，但是我们不保证本站会在 2025/1/1 之后继续运营。
-> 给您带来的不便深表歉意。
-
 ## [**👉🔗查找所有版本👈**](https://stevezmt.top/Phigros-history/ver_data/VersionList_3.x)
 
 ### 公告
