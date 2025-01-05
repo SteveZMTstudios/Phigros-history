@@ -2,7 +2,7 @@
 # Phigros 历史版本收集
 <!--secret is in this page :)
 ProTip: use XOR cryption.-->
-**简体中文** | [English(US)](./README_en-us.md) | [Tiếng Việt](./README_VN.md)
+**简体中文** | [English(US)](https://stevezmt.top/Phigros-history/README_en-us) | [Tiếng Việt](https://stevezmt.top/Phigros-history/README_VN)
 
 #### 2024-12-02 更新 [**🔄检查更新**](https://github.com/SteveZMTstudios/Phigros-history/issues) [🆙提醒更新](https://github.com/SteveZMTstudios/Phigros-history/issues/new/choose)
 
@@ -52,7 +52,7 @@ Phigros iOS 版本：[**前往此处**](https://github.com/YimingOvO/Phigros-His
 包含`crack`的为直接提取自已安装的旧设备 。<br>
 也就是说，`crack`后缀的是和TapTap上发布的应用一致，可以从TapTap更新，但是在一般设备上安装前必须先卸载旧版本。<br>
 `clone`后缀的是共存版本，可以与crack版本或TapTap的最新版本共存，但是存档不能同步共享（除非您使用的两者均支持TapTap云存档）。
-<br>`apk+obb`是来自404商店的版本，同样是官方发布。至于如何安装`apk+obb`的安装包，请参见[安装指南](/doc/install-apk-obb)
+<br>`apk+obb`是来自404商店的版本，同样是官方发布。至于如何安装`apk+obb`的安装包，请参见[安装指南](https://stevezmt.top/Phigros-history/doc/install-apk-obb)
 
 ## 找不到所有版本？<br>
 [**轻点此处**](https://github.com/SteveZMTstudios/Phigros-history/issues/new/choose)**发起issue来提醒我更新相关的Phigros组件。**（***推荐***）
