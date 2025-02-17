@@ -19,8 +19,14 @@ Pigeon Games是由初创通过bilibili视频网站发起的、由众多节奏类
 
 ## [**👉🔗查找所有版本👈**](https://stevezmt.top/Phigros-history/ver_data/VersionList_3.x)
 
+
+## 在找其他版本？
+
+Phigros 特别版本合集：[**前往此处**](https://stevezmt.top/Phigros-history/doc/special)
+
+Phigros iOS 版本：[**前往此处**](https://github.com/YimingOvO/Phigros-History-iOS) (Maintained by [@YimingOvO](https://github.com/YimingOvO))<br>
 ### 公告
-这不是Phigros的官方程序源代码，此处仅提供一些关于来自厦门鸽游(Pigeon Games)的一些历史版本的安卓端armv8a的apk包下载，请勿用做其他任何涉及商业用途。<br>所有素材收集自网络,如果他们侵犯了您的权益，请在该板块发布issue，我会在看到后立即删除它们。
+这不是Phigros的官方程序源代码，此处仅提供一些关于来自厦门鸽游(Pigeon Games)的一些历史版本的安卓端的apk包下载，请勿用做其他任何涉及商业用途。<br>所有素材收集自网络,如果他们侵犯了您的权益，请在该板块发布issue，我会在看到后立即删除它们。
 
 123云盘近日开始限制每个用户的最大下载流量为1GB,超出将需要支付费用。目前对此的缓解方案是(1)使用来自huang1111.cn的网盘；(2)下载123云盘的[客户端](https://www.123pan.com/Downloadclient)；(3)从Github上下载。
 
@@ -38,33 +44,32 @@ Pigeon Games是由初创通过bilibili视频网站发起的、由众多节奏类
 
 如果您想帮助此项目，或者您已有新版云盘版本，请将分享链接传送到issue分区，非常感谢您的帮助！
 
-## 在找其他版本？
-
-Phigros 特别版本合集：[**前往此处**](https://stevezmt.top/Phigros-history/doc/special)
-
-Phigros iOS 版本：[**前往此处**](https://github.com/YimingOvO/Phigros-History-iOS) (Maintained by [@YimingOvO](https://github.com/YimingOvO))<br>
-                 ~~👆这货好像停更了，他说他ipad坏了（搞不好还要我来接盘~~
 <br>
-警告：部分版本可能会受实名验证的限制无法进入，您也许可以尝试启用飞行模式。
+部分版本可能会受实名验证的限制无法进入，您也许可以尝试启用飞行模式。
 <br>
+
 ## 我要如何下载它们？
 
 [**↗️前往存储索引**](https://stevezmt.top/Phigros-history/ver_data/VersionList_3.x)
 <br>[↗️早期版本](https://stevezmt.top/Phigros-history/ver_data/VersionList_2.x)
 <br>
 
-## 一些说明
+## 说明
 所有带有`clone`字符的均为已修改包名版本，可以与您现有的Phigros共存。<br>
 包含`crack`的为直接提取自已安装的旧设备 。<br>
 也就是说，`crack`后缀的是和TapTap上发布的应用一致，可以从TapTap更新，但是在一般设备上安装前必须先卸载旧版本。<br>
 `clone`后缀的是共存版本，可以与crack版本或TapTap的最新版本共存，但是存档不能同步共享（除非您使用的两者均支持TapTap云存档）。
 <br>`apk+obb`是来自404商店的版本，同样是官方发布。至于如何安装`apk+obb`的安装包，请参见[安装指南](https://stevezmt.top/Phigros-history/doc/install-apk-obb)
+<br>若您发现您下载的文件名称像`*.7z.001`这样的文件，您需要使用7-Zip或WinRAR等支持7z格式的解压缩软件来解压缩。请参阅[如何解压缩](https://stevezmt.top/Phigros-history/doc/unzip-parsed-file)
 
 ## 找不到所有版本？<br>
 [**轻点此处**](https://github.com/SteveZMTstudios/Phigros-history/issues/new/choose)**发起issue来提醒我更新相关的Phigros组件。**（***推荐***）
 
 ## 需要帮助？
-[**轻点此处**](https://github.com/SteveZMTstudios/Phigros-history/issues/new/choose)**发起issue）**或电子邮件[admin@stevezmt.top](mailto:admin@stevezmt.top)
+[**轻点此处**](https://github.com/SteveZMTstudios/Phigros-history/issues/new/choose)**发起issue**或电子邮件[admin@stevezmt.top](mailto:admin@stevezmt.top)
 <br>
-> 版权归属于&copy;南京鸽游网络有限公司。[公司主页](https://pigeon-games.com/?utm_source=Phigros-history&utm_medium=OfficialWebsite&utm_campaign=Android) [隐私政策](https://pigeon-games.com/news/2)
+
+---
+
+> 相关资料和可发行文件版权归属于&copy;南京鸽游网络有限公司。[公司主页](https://pigeon-games.com/?utm_source=Phigros-history&utm_medium=OfficialWebsite&utm_campaign=Android) [隐私政策](https://pigeon-games.com/news/2)
 <!--彩蛋:  `Y11eXktbRWheXw==` -->

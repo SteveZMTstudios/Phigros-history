@@ -542,7 +542,7 @@ Cereris
 ---
 
 [![<-- v3.x](https://img.shields.io/badge/3.x-更新版本-blue.svg?logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjgiIGhlaWdodD0iMTI4IiB2aWV3Qm94PSIwIDAgMjQgMjQiPjxwYXRoIGZpbGw9IiNmZmZmZmYiIGQ9Ik0yIDEyQTEwIDEwIDAgMCAxIDEyIDJhMTAgMTAgMCAwIDEgMTAgMTBhMTAgMTAgMCAwIDEtMTAgMTBBMTAgMTAgMCAwIDEgMiAxMm0xNi0xaC04bDMuNS0zLjVsLTEuNDItMS40Mkw2LjE2IDEybDUuOTIgNS45MmwxLjQyLTEuNDJMMTAgMTNoOHoiLz48L3N2Zz4=)](./VersionList_3.x)
-[![back to top](https://img.shields.io/badge/2.x版本-green.svg?logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjgiIGhlaWdodD0iMTI4IiB2aWV3Qm94PSIwIDAgMjQgMjQiPjxwYXRoIGZpbGw9IiNmZmZmZmYiIGQ9Ik0xMyAxOHYtOGwzLjUgMy41bDEuNDItMS40MkwxMiA2LjE2bC01LjkyIDUuOTJMNy41IDEzLjVMMTEgMTB2OHpNMTIgMmExMCAxMCAwIDAgMSAxMCAxMGExMCAxMCAwIDAgMS0xMCAxMEExMCAxMCAwIDAgMSAyIDEyQTEwIDEwIDAgMCAxIDEyIDIiLz48L3N2Zz4=)](#top)
+[![back to top](https://img.shields.io/badge/2.x版本-green.svg?logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjgiIGhlaWdodD0iMTI4IiB2aWV3Qm94PSIwIDAgMjQgMjQiPjxwYXRoIGZpbGw9IiNmZmZmZmYiIGQ9Ik0xMyAxOHYtOGwzLjUgMy41bDEuNDItMS40MkwxMiA2LjE2bC01LjkyIDUuOTJMNy41IDEzLjVMMTEgMTB2OHpNMTIgMmExMCAxMCAwIDAgMSAxMCAxMGExMCAxMCAwIDAgMS0xMCAxMEExMCAxMCAwIDAgMSAyIDEyQTEwIDEwIDAgMCAxIDEyIDIiLz48L3N2Zz4=)](#top "返回顶部")
 [![1.x -->](https://img.shields.io/badge/1.x-更旧版本-blue.svg?logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjgiIGhlaWdodD0iMTI4IiB2aWV3Qm94PSIwIDAgMjQgMjQiPjxwYXRoIGZpbGw9IiNmZmZmZmYiIGQ9Ik0yMiAxMmExMCAxMCAwIDAgMS0xMCAxMEExMCAxMCAwIDAgMSAyIDEyQTEwIDEwIDAgMCAxIDEyIDJhMTAgMTAgMCAwIDEgMTAgMTBNNiAxM2g4bC0zLjUgMy41bDEuNDIgMS40MkwxNy44NCAxMmwtNS45Mi01LjkyTDEwLjUgNy41TDE0IDExSDZ6Ii8+PC9zdmc+)](./VersionList_1.x)
 
 
@@ -550,3 +550,5 @@ Cereris
 
 [![遇到问题？](https://img.shields.io/badge/遇到问题-yellow.svg?logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjgiIGhlaWdodD0iMTI4IiB2aWV3Qm94PSIwIDAgMjQgMjQiPjxwYXRoIGZpbGw9IiNmZmZmZmYiIGQ9Ik0xMSAxOGgydi0yaC0yem0xLTEyYy0yLjIgMC00IDEuOC00IDRoMmMwLTEuMS45LTIgMi0yczIgLjkgMiAyYzAgMi0zIDEuOC0zIDVoMmMwLTIuMiAzLTIuNSAzLTVjMC0yLjItMS44LTQtNC00bTctMXYxNEg1VjV6bTAtMkg1Yy0xLjEgMC0yIC45LTIgMnYxNGMwIDEuMS45IDIgMiAyaDE0YzEuMSAwIDItLjkgMi0yVjVjMC0xLjEtLjktMi0yLTIiLz48L3N2Zz4=)](https://github.com/SteveZMTstudios/Phigros-history/issues/new/choose) [![View in Github](https://img.shields.io/badge/Github_%E9%A1%B5%E9%9D%A2-%E5%89%8D%E5%BE%80-brightgreen?logo=github)
 ](https://github.com/SteveZMTstudios/Phigros-history)
+
+> 版权归属于&copy;南京鸽游网络有限公司。[公司主页](https://pigeon-games.com/?utm_source=Phigros-history&utm_medium=OfficialWebsite&utm_campaign=Android) [隐私政策](https://pigeon-games.com/news/2)
