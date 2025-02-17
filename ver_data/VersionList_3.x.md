@@ -7,28 +7,40 @@
 
 <summary>图例</summary>
 
+
 <br>![Taptap 版本(123)](https://img.shields.io/badge/TapTap_(123云盘)-下载-brightgreen.svg?logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjgiIGhlaWdodD0iMTI4IiB2aWV3Qm94PSIwIDAgMjQgMjQiPjxwYXRoIGZpbGw9IiNmZmZmZmYiIGQ9Ik01IDIwaDE0di0ySDVtMTQtOWgtNFYzSDl2Nkg1bDcgN3oiLz48L3N2Zz4=)  官方在TapTap上发布的官方版本，由123pan.com提供下载支持 （适合中国大陆用户）
- 
+
+
 <br>![ TapTap 版本(huang1111)](https://img.shields.io/badge/TapTap_(huang1111)-备选下载-lightblue.svg?logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjgiIGhlaWdodD0iMTI4IiB2aWV3Qm94PSIwIDAgMjQgMjQiPjxwYXRoIGZpbGw9IiNmZmZmZmYiIGQ9Ik01IDIwaDE0di0ySDVtMTQtOWgtNFYzSDl2Nkg1bDcgN3oiLz48L3N2Zz4=) 官方在TapTap上发布的官方版本，由pan.huang1111.cn提供下载支持
+
 
 <br>![TapTap 版本(Github)](https://img.shields.io/badge/TapTap_(Github)-下载-blue.svg?logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjgiIGhlaWdodD0iMTI4IiB2aWV3Qm94PSIwIDAgMjQgMjQiPjxwYXRoIGZpbGw9IiNmZmZmZmYiIGQ9Ik01IDIwaDE0di0ySDVtMTQtOWgtNFYzSDl2Nkg1bDcgN3oiLz48L3N2Zz4=) 官方在TapTap上发布的官方版本，由Github.com提供下载支持（适合在全球地区的用户）
 
+
 ---
 
+
 <br>![Play 版本(123)](https://img.shields.io/badge/Play_商店_(123云盘)-下载-brightgreen.svg?logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjgiIGhlaWdodD0iMTI4IiB2aWV3Qm94PSIwIDAgMjQgMjQiPjxwYXRoIGZpbGw9IiNmZmZmZmYiIGQ9Ik01IDIwaDE0di0ySDVtMTQtOWgtNFYzSDl2Nkg1bDcgN3oiLz48L3N2Zz4=)官方在Play 商店上发布的官方版本，由123pan.com提供下载支持 （适合中国大陆用户）
+
 
 <br>![ Play 版本(huang1111)](https://img.shields.io/badge/Play_商店-备选下载-lightblue.svg?logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjgiIGhlaWdodD0iMTI4IiB2aWV3Qm94PSIwIDAgMjQgMjQiPjxwYXRoIGZpbGw9IiNmZmZmZmYiIGQ9Ik01IDIwaDE0di0ySDVtMTQtOWgtNFYzSDl2Nkg1bDcgN3oiLz48L3N2Zz4=)官方在Play 商店上发布的官方版本，由pan.huang1111.cn提供下载支持 
 
 
 ---
 
+
 <br>![ 共存版本(Github)](https://img.shields.io/badge/共存版-全局下载-blue.svg?logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjgiIGhlaWdodD0iMTI4IiB2aWV3Qm94PSIwIDAgMjQgMjQiPjxwYXRoIGZpbGw9IiNmZmZmZmYiIGQ9Ik01IDIwaDE0di0ySDVtMTQtOWgtNFYzSDl2Nkg1bDcgN3oiLz48L3N2Zz4=)修改包名的TapTap版本，由Github.com提供下载支持
 
----
-
-<br>![版本已遗失](https://img.shields.io/badge/无法下载-red.svg?logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjgiIGhlaWdodD0iMTI4IiB2aWV3Qm94PSIwIDAgMjQgMjQiPjxwYXRoIGZpbGw9IiNmZmZmZmYiIGQ9Ik0yMC44NCAyMi43M0wxOC4xMSAyMEg1di0yaDExLjExbC0zLjA1LTMuMDVMMTIgMTZMNSA5aDIuMTFsLTYtNmwxLjI4LTEuMjdsMTkuNzIgMTkuNzN6TTE5IDloLTRWM0g5djIuOGw2LjYgNi42eiIvPjwvc3ZnPg==)找不到有关于此版本包的任何有效的原版安装包文件。
 
 ---
+
+
+<br>![版本已遗失](https://img.shields.io/badge/无法下载-red.svg?logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjgiIGhlaWdodD0iMTI4IiB2aWV3Qm94PSIwIDAgMjQgMjQiPjxwYXRoIGZpbGw9IiNmZmZmZmYiIGQ9Ik0yMC44NCAyMi43M0wxOC4xMSAyMEg1di0yaDExLjExbC0zLjA1LTMuMDVMMTIgMTZMNSA5aDIuMTFsLTYtNmwxLjI4LTEuMjdsMTkuNzIgMTkuNzN6TTE5IDloLTRWM0g5djIuOGw2LjYgNi42eiIvPjwvc3ZnPg== "在互联网上找不到这个版本的任何有效分发包，我们的版本库中也并未存储它。")找不到有关于此版本包的任何有效的原版安装包文件。
+
+
+---
+
+
 </details>
 
 
@@ -47,7 +59,7 @@
 [![ Taptap 版本(中国移动云盘)](https://img.shields.io/badge/TapTap_(彩云网盘)-下载-green.svg?logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjgiIGhlaWdodD0iMTI4IiB2aWV3Qm94PSIwIDAgMjQgMjQiPjxwYXRoIGZpbGw9IiNmZmZmZmYiIGQ9Ik01IDIwaDE0di0ySDVtMTQtOWgtNFYzSDl2Nkg1bDcgN3oiLz48L3N2Zz4=)](https://caiyun.139.com/m/i?2jexCagSU4bd0 "通过中国移动云盘下载TapTap版本，需要登录和客户端，对中国移动用户免流量")
 [![ TapTap 版本(huang1111)](https://img.shields.io/badge/TapTap_(huang1111)-备选下载-lightblue.svg?logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjgiIGhlaWdodD0iMTI4IiB2aWV3Qm94PSIwIDAgMjQgMjQiPjxwYXRoIGZpbGw9IiNmZmZmZmYiIGQ9Ik01IDIwaDE0di0ySDVtMTQtOWgtNFYzSDl2Nkg1bDcgN3oiLz48L3N2Zz4=)](https://pan.huang1111.cn/s/9Qax5Sd)
 <!--[![ Taptap 版本(百度网盘海外版)](https://img.shields.io/badge/TapTap_(Terabox)-下载-royalblue.svg?logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjgiIGhlaWdodD0iMTI4IiB2aWV3Qm94PSIwIDAgMjQgMjQiPjxwYXRoIGZpbGw9IiNmZmZmZmYiIGQ9Ik01IDIwaDE0di0ySDVtMTQtOWgtNFYzSDl2Nkg1bDcgN3oiLz48L3N2Zz4=)]( "通过Terabox下载TapTap版本，需要全球网络访问")-->
-<!--[![ TapTap 版本(Github)](https://img.shields.io/badge/TapTap_(Github)-下载-blue.svg?logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjgiIGhlaWdodD0iMTI4IiB2aWV3Qm94PSIwIDAgMjQgMjQiPjxwYXRoIGZpbGw9IiNmZmZmZmYiIGQ9Ik01IDIwaDE0di0ySDVtMTQtOWgtNFYzSDl2Nkg1bDcgN3oiLz48L3N2Zz4=)]( "通过Github下载，需要通畅的网络")--><br>
+[![ TapTap 版本(Github)](https://img.shields.io/badge/TapTap_(Github)-下载-blue.svg?logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjgiIGhlaWdodD0iMTI4IiB2aWV3Qm94PSIwIDAgMjQgMjQiPjxwYXRoIGZpbGw9IiNmZmZmZmYiIGQ9Ik01IDIwaDE0di0ySDVtMTQtOWgtNFYzSDl2Nkg1bDcgN3oiLz48L3N2Zz4=)](https://github.com/SteveZMTstudios/Phigros-history/releases/tag/v3.11.0 "通过Github下载，需要通畅的网络")<br>
 <!--[![ Play 版本(123pan) ](https://img.shields.io/badge/Play_商店_(123云盘)-下载-brightgreen.svg?logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjgiIGhlaWdodD0iMTI4IiB2aWV3Qm94PSIwIDAgMjQgMjQiPjxwYXRoIGZpbGw9IiNmZmZmZmYiIGQ9Ik01IDIwaDE0di0ySDVtMTQtOWgtNFYzSDl2Nkg1bDcgN3oiLz48L3N2Zz4=)]( "通过123云盘下载Play商店版本，可能需要付费"))-->
 <!--[![ Play 版本(中国移动云盘)](https://img.shields.io/badge/Play_商店_(彩云网盘)-下载-green.svg?logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjgiIGhlaWdodD0iMTI4IiB2aWV3Qm94PSIwIDAgMjQgMjQiPjxwYXRoIGZpbGw9IiNmZmZmZmYiIGQ9Ik01IDIwaDE0di0ySDVtMTQtOWgtNFYzSDl2Nkg1bDcgN3oiLz48L3N2Zz4=)]( "通过中国移动云盘下载TapTap版本，需要登录和客户端，对中国移动用户免流量")-->
 <!--[![ Play 版本(阿里云盘)](https://img.shields.io/badge/Play_商店_(阿里云盘)-下载-royalblue.svg?logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjgiIGhlaWdodD0iMTI4IiB2aWV3Qm94PSIwIDAgMjQgMjQiPjxwYXRoIGZpbGw9IiNmZmZmZmYiIGQ9Ik01IDIwaDE0di0ySDVtMTQtOWgtNFYzSDl2Nkg1bDcgN3oiLz48L3N2Zz4=)]( "通过阿里云盘下载TapTap版本，需要客户端登录")-->
@@ -202,7 +214,7 @@
 <!--[![ TapTap 版本(Github)](https://img.shields.io/badge/TapTap_(Github)-下载-blue.svg?logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjgiIGhlaWdodD0iMTI4IiB2aWV3Qm94PSIwIDAgMjQgMjQiPjxwYXRoIGZpbGw9IiNmZmZmZmYiIGQ9Ik01IDIwaDE0di0ySDVtMTQtOWgtNFYzSDl2Nkg1bDcgN3oiLz48L3N2Zz4=)]( "通过Github下载，需要通畅的网络")--><br>
 <!--[![ Play 版本(123pan) ](https://img.shields.io/badge/Play_商店_(123云盘)-下载-brightgreen.svg?logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjgiIGhlaWdodD0iMTI4IiB2aWV3Qm94PSIwIDAgMjQgMjQiPjxwYXRoIGZpbGw9IiNmZmZmZmYiIGQ9Ik01IDIwaDE0di0ySDVtMTQtOWgtNFYzSDl2Nkg1bDcgN3oiLz48L3N2Zz4=)]( "通过123云盘下载Play商店版本，可能需要付费"))-->
 <!--[![ Play 版本(百度网盘海外版)](https://img.shields.io/badge/Play_商店_(Terabox)-下载-royalblue.svg?logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjgiIGhlaWdodD0iMTI4IiB2aWV3Qm94PSIwIDAgMjQgMjQiPjxwYXRoIGZpbGw9IiNmZmZmZmYiIGQ9Ik01IDIwaDE0di0ySDVtMTQtOWgtNFYzSDl2Nkg1bDcgN3oiLz48L3N2Zz4=)]( "通过Terabox下载Play商店版本，需要全球网络访问")--><br>
-<!--![版本已遗失](https://img.shields.io/badge/无法下载-red.svg?logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjgiIGhlaWdodD0iMTI4IiB2aWV3Qm94PSIwIDAgMjQgMjQiPjxwYXRoIGZpbGw9IiNmZmZmZmYiIGQ9Ik0yMC44NCAyMi43M0wxOC4xMSAyMEg1di0yaDExLjExbC0zLjA1LTMuMDVMMTIgMTZMNSA5aDIuMTFsLTYtNmwxLjI4LTEuMjdsMTkuNzIgMTkuNzN6TTE5IDloLTRWM0g5djIuOGw2LjYgNi42eiIvPjwvc3ZnPg==)-->
+<!--![版本已遗失](https://img.shields.io/badge/无法下载-red.svg?logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjgiIGhlaWdodD0iMTI4IiB2aWV3Qm94PSIwIDAgMjQgMjQiPjxwYXRoIGZpbGw9IiNmZmZmZmYiIGQ9Ik0yMC44NCAyMi43M0wxOC4xMSAyMEg1di0yaDExLjExbC0zLjA1LTMuMDVMMTIgMTZMNSA5aDIuMTFsLTYtNmwxLjI4LTEuMjdsMTkuNzIgMTkuNzN6TTE5IDloLTRWM0g5djIuOGw2LjYgNi42eiIvPjwvc3ZnPg== "在互联网上找不到这个版本的任何有效分发包，我们的版本库中也并未存储它。")-->
 
 ### 3.9.0 (111) 2024/08/29
 
@@ -229,7 +241,7 @@
 <!--[![ Play 版本(123pan) ](https://img.shields.io/badge/Play_商店_(123云盘)-下载-brightgreen.svg?logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjgiIGhlaWdodD0iMTI4IiB2aWV3Qm94PSIwIDAgMjQgMjQiPjxwYXRoIGZpbGw9IiNmZmZmZmYiIGQ9Ik01IDIwaDE0di0ySDVtMTQtOWgtNFYzSDl2Nkg1bDcgN3oiLz48L3N2Zz4=)]( "通过123云盘下载Play商店版本，可能需要付费"))-->
 <!--[![ Play 版本(百度网盘海外版)](https://img.shields.io/badge/Play_商店_(Terabox)-下载-royalblue.svg?logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjgiIGhlaWdodD0iMTI4IiB2aWV3Qm94PSIwIDAgMjQgMjQiPjxwYXRoIGZpbGw9IiNmZmZmZmYiIGQ9Ik01IDIwaDE0di0ySDVtMTQtOWgtNFYzSDl2Nkg1bDcgN3oiLz48L3N2Zz4=)]( "通过Terabox下载Play商店版本，需要全球网络访问")--><br>
 <!--
-![版本已遗失](https://img.shields.io/badge/无法下载-red.svg?logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjgiIGhlaWdodD0iMTI4IiB2aWV3Qm94PSIwIDAgMjQgMjQiPjxwYXRoIGZpbGw9IiNmZmZmZmYiIGQ9Ik0yMC44NCAyMi43M0wxOC4xMSAyMEg1di0yaDExLjExbC0zLjA1LTMuMDVMMTIgMTZMNSA5aDIuMTFsLTYtNmwxLjI4LTEuMjdsMTkuNzIgMTkuNzN6TTE5IDloLTRWM0g5djIuOGw2LjYgNi42eiIvPjwvc3ZnPg==)-->
+![版本已遗失](https://img.shields.io/badge/无法下载-red.svg?logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjgiIGhlaWdodD0iMTI4IiB2aWV3Qm94PSIwIDAgMjQgMjQiPjxwYXRoIGZpbGw9IiNmZmZmZmYiIGQ9Ik0yMC44NCAyMi43M0wxOC4xMSAyMEg1di0yaDExLjExbC0zLjA1LTMuMDVMMTIgMTZMNSA5aDIuMTFsLTYtNmwxLjI4LTEuMjdsMTkuNzIgMTkuNzN6TTE5IDloLTRWM0g5djIuOGw2LjYgNi42eiIvPjwvc3ZnPg== "在互联网上找不到这个版本的任何有效分发包，我们的版本库中也并未存储它。")-->
 
  ### 3.8.1.1 (110) 2024/08/20
 
@@ -241,7 +253,7 @@
 
 [![ Taptap 版本(123)](https://img.shields.io/badge/TapTap_(123云盘)-下载-brightgreen.svg?logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjgiIGhlaWdodD0iMTI4IiB2aWV3Qm94PSIwIDAgMjQgMjQiPjxwYXRoIGZpbGw9IiNmZmZmZmYiIGQ9Ik01IDIwaDE0di0ySDVtMTQtOWgtNFYzSDl2Nkg1bDcgN3oiLz48L3N2Zz4=)](https://www.123pan.com/s/OS4KVv-P4irv)
 <!--[![ TapTap 版本(huang1111)](https://img.shields.io/badge/TapTap_(huang1111)-备选下载-lightblue.svg?logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjgiIGhlaWdodD0iMTI4IiB2aWV3Qm94PSIwIDAgMjQgMjQiPjxwYXRoIGZpbGw9IiNmZmZmZmYiIGQ9Ik01IDIwaDE0di0ySDVtMTQtOWgtNFYzSDl2Nkg1bDcgN3oiLz48L3N2Zz4=)](https://pan.huang1111.cn) --> <br>
-<!--![版本已遗失](https://img.shields.io/badge/无法下载-red.svg?logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjgiIGhlaWdodD0iMTI4IiB2aWV3Qm94PSIwIDAgMjQgMjQiPjxwYXRoIGZpbGw9IiNmZmZmZmYiIGQ9Ik0yMC44NCAyMi43M0wxOC4xMSAyMEg1di0yaDExLjExbC0zLjA1LTMuMDVMMTIgMTZMNSA5aDIuMTFsLTYtNmwxLjI4LTEuMjdsMTkuNzIgMTkuNzN6TTE5IDloLTRWM0g5djIuOGw2LjYgNi42eiIvPjwvc3ZnPg==)-->
+<!--![版本已遗失](https://img.shields.io/badge/无法下载-red.svg?logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjgiIGhlaWdodD0iMTI4IiB2aWV3Qm94PSIwIDAgMjQgMjQiPjxwYXRoIGZpbGw9IiNmZmZmZmYiIGQ9Ik0yMC44NCAyMi43M0wxOC4xMSAyMEg1di0yaDExLjExbC0zLjA1LTMuMDVMMTIgMTZMNSA5aDIuMTFsLTYtNmwxLjI4LTEuMjdsMTkuNzIgMTkuNzN6TTE5IDloLTRWM0g5djIuOGw2LjYgNi42eiIvPjwvc3ZnPg== "在互联网上找不到这个版本的任何有效分发包，我们的版本库中也并未存储它。")-->
 
 
 
@@ -265,7 +277,7 @@
 <!--[![ Play 版本(123) ](https://img.shields.io/badge/Play_商店_(123云盘)-下载-brightgreen.svg?logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjgiIGhlaWdodD0iMTI4IiB2aWV3Qm94PSIwIDAgMjQgMjQiPjxwYXRoIGZpbGw9IiNmZmZmZmYiIGQ9Ik01IDIwaDE0di0ySDVtMTQtOWgtNFYzSDl2Nkg1bDcgN3oiLz48L3N2Zz4=)](https://123pan.com)-->
 <!--[![ TapTap 版本(huang1111)](https://img.shields.io/badge/Play_商店-备选下载-lightblue.svg?logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjgiIGhlaWdodD0iMTI4IiB2aWV3Qm94PSIwIDAgMjQgMjQiPjxwYXRoIGZpbGw9IiNmZmZmZmYiIGQ9Ik01IDIwaDE0di0ySDVtMTQtOWgtNFYzSDl2Nkg1bDcgN3oiLz48L3N2Zz4=)](https://pan.huang1111.cn)-->
 
-<!--![版本已遗失](https://img.shields.io/badge/无法下载-red.svg?logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjgiIGhlaWdodD0iMTI4IiB2aWV3Qm94PSIwIDAgMjQgMjQiPjxwYXRoIGZpbGw9IiNmZmZmZmYiIGQ9Ik0yMC44NCAyMi43M0wxOC4xMSAyMEg1di0yaDExLjExbC0zLjA1LTMuMDVMMTIgMTZMNSA5aDIuMTFsLTYtNmwxLjI4LTEuMjdsMTkuNzIgMTkuNzN6TTE5IDloLTRWM0g5djIuOGw2LjYgNi42eiIvPjwvc3ZnPg==)-->
+<!--![版本已遗失](https://img.shields.io/badge/无法下载-red.svg?logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjgiIGhlaWdodD0iMTI4IiB2aWV3Qm94PSIwIDAgMjQgMjQiPjxwYXRoIGZpbGw9IiNmZmZmZmYiIGQ9Ik0yMC44NCAyMi43M0wxOC4xMSAyMEg1di0yaDExLjExbC0zLjA1LTMuMDVMMTIgMTZMNSA5aDIuMTFsLTYtNmwxLjI4LTEuMjdsMTkuNzIgMTkuNzN6TTE5IDloLTRWM0g5djIuOGw2LjYgNi42eiIvPjwvc3ZnPg== "在互联网上找不到这个版本的任何有效分发包，我们的版本库中也并未存储它。")-->
 
 ### 3.8.0 (108) 2024/07/25
 新增与TAKUMI³的联动章节，包含以下曲目：
@@ -542,7 +554,7 @@ Rotaeno联动章节追加三首新曲：
 <!--[![ TapTap 版本(huang1111)](https://img.shields.io/badge/TapTap_(huang1111)-备选下载-lightblue.svg?logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjgiIGhlaWdodD0iMTI4IiB2aWV3Qm94PSIwIDAgMjQgMjQiPjxwYXRoIGZpbGw9IiNmZmZmZmYiIGQ9Ik01IDIwaDE0di0ySDVtMTQtOWgtNFYzSDl2Nkg1bDcgN3oiLz48L3N2Zz4=)](https://pan.huang1111.cn)--><br>
 <!--[![ Play 版本(123) ](https://img.shields.io/badge/Play_商店_(123云盘)-下载-brightgreen.svg?logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjgiIGhlaWdodD0iMTI4IiB2aWV3Qm94PSIwIDAgMjQgMjQiPjxwYXRoIGZpbGw9IiNmZmZmZmYiIGQ9Ik01IDIwaDE0di0ySDVtMTQtOWgtNFYzSDl2Nkg1bDcgN3oiLz48L3N2Zz4=)](https://123pan.com)-->
 <!--[![ TapTap 版本(huang1111)](https://img.shields.io/badge/Play_商店-备选下载-lightblue.svg?logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjgiIGhlaWdodD0iMTI4IiB2aWV3Qm94PSIwIDAgMjQgMjQiPjxwYXRoIGZpbGw9IiNmZmZmZmYiIGQ9Ik01IDIwaDE0di0ySDVtMTQtOWgtNFYzSDl2Nkg1bDcgN3oiLz48L3N2Zz4=)](https://pan.huang1111.cn)-->
-![版本已遗失](https://img.shields.io/badge/无法下载-red.svg?logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjgiIGhlaWdodD0iMTI4IiB2aWV3Qm94PSIwIDAgMjQgMjQiPjxwYXRoIGZpbGw9IiNmZmZmZmYiIGQ9Ik0yMC44NCAyMi43M0wxOC4xMSAyMEg1di0yaDExLjExbC0zLjA1LTMuMDVMMTIgMTZMNSA5aDIuMTFsLTYtNmwxLjI4LTEuMjdsMTkuNzIgMTkuNzN6TTE5IDloLTRWM0g5djIuOGw2LjYgNi42eiIvPjwvc3ZnPg==)
+![版本已遗失](https://img.shields.io/badge/无法下载-red.svg?logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjgiIGhlaWdodD0iMTI4IiB2aWV3Qm94PSIwIDAgMjQgMjQiPjxwYXRoIGZpbGw9IiNmZmZmZmYiIGQ9Ik0yMC44NCAyMi43M0wxOC4xMSAyMEg1di0yaDExLjExbC0zLjA1LTMuMDVMMTIgMTZMNSA5aDIuMTFsLTYtNmwxLjI4LTEuMjdsMTkuNzIgMTkuNzN6TTE5IDloLTRWM0g5djIuOGw2LjYgNi42eiIvPjwvc3ZnPg== "在互联网上找不到这个版本的任何有效分发包，我们的版本库中也并未存储它。")
 
 ### 3.4.0 (92) 2023/12/12
 新增与 CHUNITHM 的联动章节，包含以下曲目：
@@ -729,7 +741,7 @@ Rotaeno联动章节追加三首新曲：
 <!--[![ TapTap 版本(huang1111)](https://img.shields.io/badge/TapTap_(huang1111)-备选下载-lightblue.svg?logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjgiIGhlaWdodD0iMTI4IiB2aWV3Qm94PSIwIDAgMjQgMjQiPjxwYXRoIGZpbGw9IiNmZmZmZmYiIGQ9Ik01IDIwaDE0di0ySDVtMTQtOWgtNFYzSDl2Nkg1bDcgN3oiLz48L3N2Zz4=)](https://pan.huang1111.cn)--><br>
 <!--[![ Play 版本(123) ](https://img.shields.io/badge/Play_商店_(123云盘)-下载-brightgreen.svg?logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjgiIGhlaWdodD0iMTI4IiB2aWV3Qm94PSIwIDAgMjQgMjQiPjxwYXRoIGZpbGw9IiNmZmZmZmYiIGQ9Ik01IDIwaDE0di0ySDVtMTQtOWgtNFYzSDl2Nkg1bDcgN3oiLz48L3N2Zz4=)](https://123pan.com)-->
 <!--[![ TapTap 版本(huang1111)](https://img.shields.io/badge/Play_商店-备选下载-lightblue.svg?logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjgiIGhlaWdodD0iMTI4IiB2aWV3Qm94PSIwIDAgMjQgMjQiPjxwYXRoIGZpbGw9IiNmZmZmZmYiIGQ9Ik01IDIwaDE0di0ySDVtMTQtOWgtNFYzSDl2Nkg1bDcgN3oiLz48L3N2Zz4=)](https://pan.huang1111.cn)-->
-![版本已遗失](https://img.shields.io/badge/无法下载-red.svg?logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjgiIGhlaWdodD0iMTI4IiB2aWV3Qm94PSIwIDAgMjQgMjQiPjxwYXRoIGZpbGw9IiNmZmZmZmYiIGQ9Ik0yMC44NCAyMi43M0wxOC4xMSAyMEg1di0yaDExLjExbC0zLjA1LTMuMDVMMTIgMTZMNSA5aDIuMTFsLTYtNmwxLjI4LTEuMjdsMTkuNzIgMTkuNzN6TTE5IDloLTRWM0g5djIuOGw2LjYgNi42eiIvPjwvc3ZnPg==)
+![版本已遗失](https://img.shields.io/badge/无法下载-red.svg?logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjgiIGhlaWdodD0iMTI4IiB2aWV3Qm94PSIwIDAgMjQgMjQiPjxwYXRoIGZpbGw9IiNmZmZmZmYiIGQ9Ik0yMC44NCAyMi43M0wxOC4xMSAyMEg1di0yaDExLjExbC0zLjA1LTMuMDVMMTIgMTZMNSA5aDIuMTFsLTYtNmwxLjI4LTEuMjdsMTkuNzIgMTkuNzN6TTE5IDloLTRWM0g5djIuOGw2LjYgNi42eiIvPjwvc3ZnPg== "在互联网上找不到这个版本的任何有效分发包，我们的版本库中也并未存储它。")
 
 
 ### 3.1.0 (82) 2023/06/07
