@@ -18,11 +18,13 @@ If the content on [this page](./ver_data/VersionList_3.x) is not the latest vers
 > [!CAUTION]
 > This project will be discontinued soon, with updates expected to stop after 2025-04-02 and downloads expected to stop after **2026-02-19**.
 >
-> As all upstream storage services start to charge higher fees, the cost and expense of storing the project is beyond our means. We will gradually stop updates and downloads in the coming months.
+> As all upstream storage services begin to charge higher fees, the cost and expense of storing the project is beyond our means. We will phase out updates and downloads over the next few months.
 >
-> If you would like to support us to continue providing free services, please consider making a donation. Thank you for your support!
+> If you would like to support us in continuing to provide a free service, please consider making a donation. Thank you for your support!
+> 
+> (If we can receive around $10 in donations, we can continue to maintain this project for 1 year)
 >
-> [🎉Donate via Afdian🎉](https://afdian.com/a/stevezmtstudios) or [buy me a coffee](https://www.buymeacoffee.com/stevezmtstudios)
+> [🎉Donate via Afdian🎉](https://afdian.com/a/stevezmtstudios) or [Buy me a coffee](https://www.buymeacoffee.com/stevezmtstudios)
 
 ## How do I download them?
 [**↗️Check the version List (Chinese Page)**](https://stevezmt.top/Phigros-history/ver_data/VersionList_3.x)

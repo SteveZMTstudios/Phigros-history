@@ -14,14 +14,17 @@ Phigros là một trò chơi âm nhạc "không có làn đường" với các �
 )](https://play.google.com/store/apps/details?id=com.PigeonGames.Phigros) &nbsp;[![xem in App Store](https://img.shields.io/badge/App_Store-xem-blue?logo=appstore&logoColor=white
 )](https://apps.apple.com/cn/app/phigros/id1454809109)
 
-> [!THẬN TRỌNG]
+> [!CAUTION]
+> 
 > Dự án này sẽ sớm bị ngừng, các bản cập nhật dự kiến ​​sẽ dừng sau ngày 02/04/2025 và việc tải xuống dự kiến ​​sẽ dừng sau ngày 19/02/2026.
 >
-> Vì tất cả các dịch vụ lưu trữ thượng nguồn bắt đầu tính phí cao hơn, chi phí và chi phí lưu trữ dự án vượt quá khả năng của chúng tôi. Chúng tôi sẽ dần ngừng cập nhật và tải xuống trong những tháng tới.
+> Khi tất cả các dịch vụ lưu trữ thượng nguồn bắt đầu tính phí cao hơn, chi phí cho dự án lưu trữ trở nên vượt quá khả năng của chúng tôi. Chúng tôi sẽ ngừng cập nhật và tải xuống trong những tháng tới.
 >
-> Nếu bạn muốn ủng hộ chúng tôi tiếp tục cung cấp dịch vụ miễn phí, vui lòng cân nhắc quyên góp. Cảm ơn sự ủng hộ của bạn!
+> Nếu bạn muốn hỗ trợ chúng tôi tiếp tục cung cấp các dịch vụ miễn phí, vui lòng cân nhắc quyên góp. Cảm ơn sự ủng hộ của các bạn!
 >
-> [🎉Quyên góp qua Afdian🎉](https://afdian.com/a/stevezmtstudios) hoặc [mua cho tôi một tách cà phê](https://www.buymeacoffee.com/stevezmtstudios)
+> (Nếu chúng tôi có thể nhận được khoảng 10 đô la tiền quyên góp, chúng tôi có thể tiếp tục duy trì dự án này trong 1 năm)
+>
+> [🎉Quyên góp qua Afdian🎉](https://afdian.com/a/stevezmtstudios) hoặc [Mua cho tôi một tách cà phê](https://www.buymeacoffee.com/stevezmtstudios)
 
 
 ### THÔNG BÁO NÂNG CẤP WEBSITE
