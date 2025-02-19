@@ -16,13 +16,15 @@ Phigros is a "laneless" music game with dynamic judgement lines and four differe
 If the content on [this page](./ver_data/VersionList_3.x) is not the latest version available, please contact me by clicking the Check for Updates button above 🥳THANKS!
 
 > [!CAUTION]
-> This project will be discontinued soon, with updates expected to stop after 2025-04-02 and downloads expected to stop after **2026-02-19**.
->
-> As all upstream storage services begin to charge higher fees, the cost and expense of storing the project is beyond our means. We will phase out updates and downloads over the next few months.
->
-> If you would like to support us in continuing to provide a free service, please consider making a donation. Thank you for your support!
+> This project urgently needs your support to continue. Without support, it will stop updating after 2025-04-02 and will not be available for download after **2026-02-19**.
 > 
-> (If we can receive around $10 in donations, we can continue to maintain this project for 1 year)
+> As all upstream storage has started to charge higher fees, the cost and expenses of storing the project are beyond our ability to bear. We will gradually stop updating and downloading services in the next few months.
+>
+> (If we can receive about 80 yuan of donations, we can support this project for about 1 year.)
+> 
+> If you want to support us to continue to provide free services, please consider donating. Thank you for your support!
+>
+> We will create a thank you list for supporting users.
 >
 > [🎉Donate via Afdian🎉](https://afdian.com/a/stevezmtstudios) or [Buy me a coffee](https://www.buymeacoffee.com/stevezmtstudios)
 
