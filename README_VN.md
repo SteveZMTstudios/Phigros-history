@@ -14,6 +14,15 @@ Phigros là một trò chơi âm nhạc "không có làn đường" với các �
 )](https://play.google.com/store/apps/details?id=com.PigeonGames.Phigros) &nbsp;[![xem in App Store](https://img.shields.io/badge/App_Store-xem-blue?logo=appstore&logoColor=white
 )](https://apps.apple.com/cn/app/phigros/id1454809109)
 
+> [!THẬN TRỌNG]
+> Dự án này sẽ sớm bị ngừng, các bản cập nhật dự kiến ​​sẽ dừng sau ngày 02/04/2025 và việc tải xuống dự kiến ​​sẽ dừng sau ngày 19/02/2026.
+>
+> Vì tất cả các dịch vụ lưu trữ thượng nguồn bắt đầu tính phí cao hơn, chi phí và chi phí lưu trữ dự án vượt quá khả năng của chúng tôi. Chúng tôi sẽ dần ngừng cập nhật và tải xuống trong những tháng tới.
+>
+> Nếu bạn muốn ủng hộ chúng tôi tiếp tục cung cấp dịch vụ miễn phí, vui lòng cân nhắc quyên góp. Cảm ơn sự ủng hộ của bạn!
+>
+> [🎉Quyên góp qua Afdian🎉](https://afdian.com/a/stevezmtstudios) hoặc [mua cho tôi một tách cà phê](https://www.buymeacoffee.com/stevezmtstudios)
+
 
 ### THÔNG BÁO NÂNG CẤP WEBSITE
 Chúng tôi đã cố gắng tìm kiếm và đồng bộ nhưng vẫn còn thiếu một số phiên bản. Dù rất khó để lấy lại chúng nhưng chúng tôi sẽ cố gắng hết sức.

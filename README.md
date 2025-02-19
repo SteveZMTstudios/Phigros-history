@@ -13,6 +13,15 @@ Pigeon Games是由初创通过bilibili视频网站发起的、由众多节奏类
 )](https://play.google.com/store/apps/details?id=com.PigeonGames.Phigros) &nbsp;[![View in App Store](https://img.shields.io/badge/App_Store-%E6%9F%A5%E7%9C%8B-blue?logo=appstore&logoColor=white
 )](https://apps.apple.com/cn/app/phigros/id1454809109)
 
+> [!CAUTION]
+> 此项目即将停止维护，预期在 2025-04-02 后停止更新，并在 **2026-02-19** 后停止提供下载。
+> 
+> 由于所有的上游存储开始收取更加高昂的费用，将项目存储的费用和花销超出了我们所能承受的范围。我们将会在未来的几个月内逐步停止更新和下载服务。
+> 
+> 如果您想支持我们继续提供免费的服务，请考虑捐赠。感谢您的支持！
+> 
+> [🎉通过爱发电捐赠🎉](https://afdian.com/a/stevezmtstudios)
+
 
 
 #### 2025-02-15 更新 [**🔄检查更新**](https://github.com/SteveZMTstudios/Phigros-history/issues) [🆙提醒更新](https://github.com/SteveZMTstudios/Phigros-history/issues/new/choose)
@@ -36,7 +45,7 @@ Phigros iOS 版本：[**前往此处**](https://github.com/YimingOvO/Phigros-His
 提供的数百个来自TapTap的安装包，没有他的帮助，该项目不可能发展地如此庞大。
 
 我们同步并跟进了数十个版本记录，但是仍有少数版本散佚。虽然找回它们较为困难，但我们会尽力尝试。
-<br>由于该项目为我个人纯手工维护，消耗了我个人大量的时间和精力。如果您想要支持此项目，请考虑[**在bilibili关注我们**](https://space.bilibili.com/474130186)
+<br>由于该项目为我个人纯手工维护，消耗了我个人大量的时间和精力。如果您想要支持此项目，请考虑[🎉通过爱发电捐赠🎉](https://afdian.com/a/stevezmtstudios)或[**在bilibili关注我们**](https://space.bilibili.com/474130186)
 
 如果[此页面](./ver_data/VersionList_3.x)上的内容并不是现有的最新版本，请通过点击上面的检查更新按钮与我联系🥳感谢！
 
