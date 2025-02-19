@@ -15,15 +15,15 @@ Phigros là một trò chơi âm nhạc "không có làn đường" với các �
 )](https://apps.apple.com/cn/app/phigros/id1454809109)
 
 > [!CAUTION]
-> 
-> Dự án này sẽ sớm bị ngừng, các bản cập nhật dự kiến ​​sẽ dừng sau ngày 02/04/2025 và việc tải xuống dự kiến ​​sẽ dừng sau ngày 19/02/2026.
+ > Dự án này rất cần sự hỗ trợ của bạn để có thể tiếp tục hoạt động.  Nếu không được hỗ trợ, phiên bản này sẽ ngừng cập nhật sau ngày 02/04/2025 và sẽ không thể tải xuống sau ngày **19/02/2026**.
 >
-> Khi tất cả các dịch vụ lưu trữ thượng nguồn bắt đầu tính phí cao hơn, chi phí cho dự án lưu trữ trở nên vượt quá khả năng của chúng tôi. Chúng tôi sẽ ngừng cập nhật và tải xuống trong những tháng tới.
+> Khi tất cả các dịch vụ lưu trữ thượng nguồn bắt đầu tính phí cao hơn, chi phí lưu trữ dự án trở nên vượt quá khả năng chi trả của chúng tôi.  Chúng tôi sẽ dần ngừng cập nhật và tải xuống trong vài tháng tới.
+ >
+ > (Nếu chúng tôi có thể nhận được khoảng 80 nhân dân tệ tiền quyên góp, chúng tôi có thể hỗ trợ dự án này trong khoảng 1 năm.)
 >
-> Nếu bạn muốn hỗ trợ chúng tôi tiếp tục cung cấp các dịch vụ miễn phí, vui lòng cân nhắc quyên góp. Cảm ơn sự ủng hộ của các bạn!
+> Nếu bạn muốn hỗ trợ chúng tôi tiếp tục cung cấp các dịch vụ miễn phí, vui lòng cân nhắc quyên góp.  Cảm ơn sự ủng hộ của các bạn!
 >
-> (Nếu chúng tôi có thể nhận được khoảng 10 đô la tiền quyên góp, chúng tôi có thể tiếp tục duy trì dự án này trong 1 năm)
->
+> Chúng tôi sẽ tạo danh sách cảm ơn những người dùng đã ủng hộ.
 > [🎉Quyên góp qua Afdian🎉](https://afdian.com/a/stevezmtstudios) hoặc [Mua cho tôi một tách cà phê](https://www.buymeacoffee.com/stevezmtstudios)
 > 
 <a href="https://www.buymeacoffee.com/stevezmtstudios" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 60px !important;width: 217px !important;" ></a>
