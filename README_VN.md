@@ -25,6 +25,8 @@ Phigros là một trò chơi âm nhạc "không có làn đường" với các �
 > (Nếu chúng tôi có thể nhận được khoảng 10 đô la tiền quyên góp, chúng tôi có thể tiếp tục duy trì dự án này trong 1 năm)
 >
 > [🎉Quyên góp qua Afdian🎉](https://afdian.com/a/stevezmtstudios) hoặc [Mua cho tôi một tách cà phê](https://www.buymeacoffee.com/stevezmtstudios)
+> 
+<a href="https://www.buymeacoffee.com/stevezmtstudios" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 60px !important;width: 217px !important;" ></a>
 
 
 ### THÔNG BÁO NÂNG CẤP WEBSITE
