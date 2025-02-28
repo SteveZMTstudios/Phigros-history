@@ -13,26 +13,21 @@ Phigros is a "laneless" music game with dynamic judgement lines and four differe
 
 #### [**🔄Check for updates**](https://github.com/SteveZMTstudios/Phiros-history/issues)  [🆙Reminder for updates](https://github.com/SteveZMTstudios/Phigros-history/issues/new)
 
-If the content on [this page](./ver_data/VersionList_3.x) is not the latest version available, please contact me by clicking the Check for Updates button above 🥳THANKS!
+If the content on [this page](https://stevezmt-top.translate.goog/Phigros-history/ver_data/VersionList_3.x?_x_tr_sl=zh-CN&_x_tr_tl=en&_x_tr_hl=en&_x_tr_pto=wapp) is not the latest version available, please contact me by clicking the Check for Updates button above 🥳THANKS!
 
 > [!CAUTION]
-> This project urgently needs your support to continue. Without support, it will stop updating after 2025-04-02 and will not be available for download after **2026-02-19**.
+> This project urgently needs your support to continue. 
 > 
 > As all upstream storage has started to charge higher fees, the cost and expenses of storing the project are beyond our ability to bear. We will gradually stop updating and downloading services in the next few months.
->
-> (If we can receive about 80 yuan of donations, we can support this project for about 1 year.)
 > 
 > If you want to support us to continue to provide free services, please consider donating. Thank you for your support!
 >
-> We will create a thank you list for supporting users.
 >
-> [🎉Donate via Afdian🎉](https://afdian.com/a/stevezmtstudios) or [Buy me a coffee](https://www.buymeacoffee.com/stevezmtstudios)
-
-<a href="https://www.buymeacoffee.com/stevezmtstudios" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 60px !important;width: 217px !important;" ></a>
+> <a href="https://patreon.com/stevezmtstudios"><svg t="1740759374337" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="2594" width="1em" height="1em"><path d="M1024 390.4c0 203.2-164.8 368-368 368s-368-164.8-368-368 164.8-368 368-368c203.2-1.6 368 163.2 368 368zM0 1003.2h180.8V20.8H0v982.4z" p-id="2595" fill="currentColor"></path></svg> Donate Via Patreon</a><br> [More Information](https://stevezmt-top.translate.goog/Phigros-history/doc/why-donate?_x_tr_sl=zh-CN&_x_tr_tl=en&_x_tr_hl=en&_x_tr_pto=wapp)
 
 ## How do I download them?
-[**↗️Check the version List (Chinese Page)**](https://stevezmt.top/Phigros-history/ver_data/VersionList_3.x)
-<br>[↗️Early version](https://stevezmt.top/Phigros-history/ver_data/VersionList_2.x)<br>
+[**↗️Check the version List**](https://stevezmt-top.translate.goog/Phigros-history/ver_data/VersionList_3.x?_x_tr_sl=zh-CN&_x_tr_tl=en&_x_tr_hl=en&_x_tr_pto=wapp)
+<br>[↗️Early version](https://stevezmt-top.translate.goog/Phigros-history/ver_data/VersionList_2.x?_x_tr_sl=zh-CN&_x_tr_tl=en&_x_tr_hl=en&_x_tr_pto=wapp)<br>
 These changelog was edited by the company who release them. They speak chinese and i am not suitable to translate them.
 
 
@@ -55,10 +50,11 @@ The clone suffix is a coexistence version, which can coexist with the crack vers
 
 
 ## Can't find all versions? <br>
-**You can**[**Click here**](https://github.com/SteveZMTstudios/Phiros-history/issues)**to initiate an issue to remind me to update related Phigros components.**
+**You can** [**Click here**](https://github.com/SteveZMTstudios/Phiros-history/issues) **to initiate an issue to remind me to update related Phigros components.**
 
 ## Need help?
-[**Click here**](https://github.com/SteveZMTstudios/Phiros-history/issues)**to initiate an issue** or mail to [admin@stevezmt.top](mailto:admin@stevezmt.top)
+[**Click here**](https://github.com/SteveZMTstudios/Phiros-history/issues) **to initiate an issue** or mail to [admin@stevezmt.top](mailto:admin@stevezmt.top)
 
 <br>
-> Copyright belongs to &copy;Nanjing PigeonGames Network Co., Ltd. <br>All right reserved by them.[Company Website](https://pigeon-games.com/?utm_source=Phigros-history&utm_medium=OfficialWebsite) [Privacy Policy](https://pigeon-games.com/news/2)
+
+> Copyright belongs to &copy;Nanjing PigeonGames Network Co., Ltd. <br>All right reserved by them. [Company Website](https://pigeon-games.com/?utm_source=Phigros-history&utm_medium=OfficialWebsite) [Privacy Policy](https://pigeon-games.com/news/2)

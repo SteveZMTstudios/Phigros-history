@@ -15,18 +15,15 @@ Phigros là một trò chơi âm nhạc "không có làn đường" với các �
 )](https://apps.apple.com/cn/app/phigros/id1454809109)
 
 > [!CAUTION]
- > Dự án này rất cần sự hỗ trợ của bạn để có thể tiếp tục hoạt động.  Nếu không được hỗ trợ, phiên bản này sẽ ngừng cập nhật sau ngày 02/04/2025 và sẽ không thể tải xuống sau ngày **19/02/2026**.
+> Dự án này rất cần sự hỗ trợ của bạn để có thể tiếp tục hoạt động.  
 >
 > Khi tất cả các dịch vụ lưu trữ thượng nguồn bắt đầu tính phí cao hơn, chi phí lưu trữ dự án trở nên vượt quá khả năng chi trả của chúng tôi.  Chúng tôi sẽ dần ngừng cập nhật và tải xuống trong vài tháng tới.
- >
- > (Nếu chúng tôi có thể nhận được khoảng 80 nhân dân tệ tiền quyên góp, chúng tôi có thể hỗ trợ dự án này trong khoảng 1 năm.)
+>
 >
 > Nếu bạn muốn hỗ trợ chúng tôi tiếp tục cung cấp các dịch vụ miễn phí, vui lòng cân nhắc quyên góp.  Cảm ơn sự ủng hộ của các bạn!
 >
-> Chúng tôi sẽ tạo danh sách cảm ơn những người dùng đã ủng hộ.
-> [🎉Quyên góp qua Afdian🎉](https://afdian.com/a/stevezmtstudios) hoặc [Mua cho tôi một tách cà phê](https://www.buymeacoffee.com/stevezmtstudios)
-> 
-<a href="https://www.buymeacoffee.com/stevezmtstudios" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 60px !important;width: 217px !important;" ></a>
+> <a href="https://patreon.com/stevezmtstudios"><svg t="1740759374337" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="2594" width="1em" height="1em"><path d="M1024 390.4c0 203.2-164.8 368-368 368s-368-164.8-368-368 164.8-368 368-368c203.2-1.6 368 163.2 368 368zM0 1003.2h180.8V20.8H0v982.4z" p-id="2595" fill="currentColor"></path></svg> Đóng góp qua Patreon </a><br> [Thêm chi tiết](https://stevezmt-top.translate.goog/Phigros-history/doc/why-donate?_x_tr_sl=zh-CN&_x_tr_tl=vi&_x_tr_hl=vi&_x_tr_pto=wapp)
+
 
 
 ### THÔNG BÁO NÂNG CẤP WEBSITE
@@ -37,7 +34,7 @@ Chúng tôi đã cố gắng tìm kiếm và đồng bộ nhưng vẫn còn thi�
 Gần đây, trang web đang được lên kế hoạch nâng cấp và chỉnh sửa để mang lại trải nghiệm tốt hơn cho mọi người. Khi đó, một số thứ trên trang web có thể biến mất, bố cục lộn xộn và liên kết có thể không hợp lệ. Nếu bạn gặp phải những vấn đề như vậy, vui lòng kiên nhẫn chờ đợi, làm mới và thử lại hoặc gửi [vấn đề](https://github.com/SteveZMTstudios/Phigros-history/issues/new/)
 <br>                    ----Huy Hoang Cao
 
-Nếu nội dung trên [trang này](https://stevezmt.top/Phigros-history/ver_data/VersionList_3.x) không phải là phiên bản mới nhất, vui lòng liên hệ với tôi bằng cách nhấp vào nút Kiểm tra cập nhật ở trên 🥳Cảm ơn!
+Nếu nội dung trên [trang này](https://stevezmt-top.translate.goog/Phigros-history/ver_data/VersionList_3.x?_x_tr_sl=zh-CN&_x_tr_tl=vi&_x_tr_hl=vi&_x_tr_pto=wapp) không phải là phiên bản mới nhất, vui lòng liên hệ với tôi bằng cách nhấp vào nút Kiểm tra cập nhật ở trên 🥳Cảm ơn!
 
 ## THÔNG BÁO
 Do vấn đề bản quyền nên phiên bản `clone` cùng tồn tại có thể không được cập nhật trong tương lai. Chỉ các APK phân phối chính thức (từ Play Store hoặc TapTap) mới có tại đây.
@@ -45,7 +42,7 @@ Do vấn đề bản quyền nên phiên bản `clone` cùng tồn tại có th�
 Nếu bạn muốn trợ giúp dự án này hoặc nếu bạn đã có phiên bản òn thiếu, vui lòng gửi liên kết chia sẻ đến phân vùng vấn đề. Cảm ơn bạn rất nhiều vì sự giúp đỡ của bạn!
 
 
-## [**👉🔗TẤT CẢ PHIÊN BẢN👈**](https://stevezmt.top/Phigros-history/ver_data/VersionList_3.x)
+## [**👉🔗TẤT CẢ PHIÊN BẢN👈**](https://stevezmt-top.translate.goog/Phigros-history/ver_data/VersionList_3.x?_x_tr_sl=zh-CN&_x_tr_tl=vi&_x_tr_hl=vi&_x_tr_pto=wapp)
 
 <br>
 Đây không phải là chương trình chính thức của Phigros. Ở đây chúng tôi chỉ cung cấp một số phiên bản APK cũ của Pigeon Game. <br>Tất cả tài liệu được thu thập từ Internet. Nếu chúng vi phạm quyền của bạn, vui lòng đăng vấn đề trong phần này và tôi sẽ xóa chúng ngay sau khi nhìn thấy chúng.
@@ -64,16 +61,15 @@ Cảnh báo: Một số phiên bản có thể bị hạn chế bởi việc xá
 <br>
 ## LIÊN KẾT TẢI XUỐNG
 
-[**Các phiên bản sau 3.0**](https://stevezmt.top/Phigros-history/ver_data/VersionList_3.x)
-<br>[Các phiên bản sau 2.0](https://stevezmt.top/Phigros-history/ver_data/VersionList_2.x)
-<br>[Các phiên bản đầu tiên](https://stevezmt.top/Phigros-history/ver_data/VersionList_1.x)
+[**Các phiên bản sau 3.0**](https://stevezmt-top.translate.goog/Phigros-history/ver_data/VersionList_3.x?_x_tr_sl=zh-CN&_x_tr_tl=vi&_x_tr_hl=vi&_x_tr_pto=wapp)
+
 <br> (Vl lười Việt hóa đống thông tin cập nhật nên néu ai cần thì liên hệ tôi để tôi có động lực làm nhé, tạm thời cứ để như thế 🐧🐧🐧)
 
 ## MẸO
 Tất cả các gói có ký tự `clone` trong phần "Releases" đều là phiên bản package name đã được sửa đổi và có thể cùng tồn tại song song với Phigros hiện có của bạn. Còn `crack` là các phiên bản trích xuất trực tiếp từ các thiết bị đã cài đặt Phigros<br>
 Nói cách khác, hậu tố `crack` phù hợp với APK được phát hành trên TapTap. Nó có thể được cập nhật từ kho lưu trữ này hoặc từ TapTap. Nó sẽ không bị ảnh hưởng dưới bất kỳ hình thức nào, nhưng nó không thể cùng tồn tại XD.。<br>
 Hậu tố của `clone` là phiên bản cùng tồn tại, có thể cùng tồn tại với phiên bản crack hoặc phiên bản TapTap mới nhất, nhưng kho lưu trữ không thể cùng tồn tại trừ khi thực hiện các phương pháp đặc biệt, điều này thật đau đầu T_T.
-<br>`apk+obb` là phiên bản từ Google Play, đây cũng là phiên bản chính thức. Về cách cài đặt gói cài đặt `apk+obb`, vui lòng tham khảo [Hướng dẫn cài đặt](./doc/install-apk-obb)
+<br>`apk+obb` là phiên bản từ Google Play, đây cũng là phiên bản chính thức. Về cách cài đặt gói cài đặt `apk+obb`, vui lòng tham khảo [Hướng dẫn cài đặt](https://stevezmt-top.translate.goog/Phigros-history/doc/install-apk-obb?_x_tr_sl=zh-CN&_x_tr_tl=vi&_x_tr_hl=vi&_x_tr_pto=wapp)
 
 
 
