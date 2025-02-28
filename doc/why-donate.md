@@ -107,9 +107,67 @@ document.addEventListener("DOMContentLoaded", function() {
 预期在 2027-04-02 后无法更新，并在 **2028-02-19** 后无法提供下载。
 
 [上月爱发电赞助用户列表](https://afdian.com/a/stevezmtstudios/thank)
-|捐赠用户|捐赠金额|捐赠时间|续命时长|备注|
-|---|---|---|---|---|
-|我|<span style="color: lightgreen;">￥365.00</span>|2025-02-15 09:11:14|+1年|自掏腰包|
-|[爱发电用户_f4749](https://afdian.com/u/f4749796ef8711ef81a152540025c377)|￥5.00|2025-02-20 20:43:52|+1个月| - |
-|[南风](https://afdian.com/u/110d7f20a4cf11ef83e352540025c377)|<span style="color: lightgreen;">￥80.00</span>|2025-02-24 22:29:30|+1年|80够了应该(|
 
+<style>
+    table {
+        width: 100%;
+        border-collapse: collapse;
+        margin: 20px 0;
+        font-size: 1em;
+        font-family: Arial, sans-serif;
+        min-width: 400px;
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+    }
+    thead tr {
+        background-color: #009879;
+        color: #ffffff;
+        text-align: left;
+    }
+    th, td {
+        padding: 12px 15px;
+    }
+    tbody tr {
+        border-bottom: 1px solid #dddddd;
+    }
+    tbody tr:nth-of-type(even) {
+        background-color: #f3f3f3;
+    }
+    tbody tr:last-of-type {
+        border-bottom: 2px solid #009879;
+    }
+</style>
+
+<table>
+    <thead>
+        <tr>
+            <th>捐赠用户</th>
+            <th>捐赠金额</th>
+            <th>捐赠时间</th>
+            <th>续命时长</th>
+            <th>备注</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>我</td>
+            <td><span style="color: lightgreen;">￥365.00</span></td>
+            <td>2025-02-15 09:11:14</td>
+            <td>+1年</td>
+            <td>自掏腰包</td>
+        </tr>
+        <tr>
+            <td><a href="https://afdian.com/u/f4749796ef8711ef81a152540025c377">爱发电用户_f4749</a></td>
+            <td>￥5.00</td>
+            <td>2025-02-20 20:43:52</td>
+            <td>+1个月</td>
+            <td>-</td>
+        </tr>
+        <tr>
+            <td><a href="https://afdian.com/u/110d7f20a4cf11ef83e352540025c377">南风</a></td>
+            <td><span style="color: lightgreen;">￥80.00</span></td>
+            <td>2025-02-24 22:29:30</td>
+            <td>+1年</td>
+            <td>80够了应该(</td>
+        </tr>
+    </tbody>
+</table>
