@@ -88,7 +88,7 @@ document.addEventListener("DOMContentLoaded", function() {
 <details>
 <summary>Scan Binance QR code</summary>
 
-<img src="asset/binance_code.webp" alt="Binance QR code" style="height:40em" />
+<img src="assets/binance_code.webp" alt="Binance QR code" style="height:40em" />
 
 </details>
 
@@ -107,7 +107,6 @@ document.addEventListener("DOMContentLoaded", function() {
 预期在 2027-04-02 后无法更新，并在 **2028-02-19** 后无法提供下载。
 
 [上月爱发电赞助用户列表](https://afdian.com/a/stevezmtstudios/thank)
-
 <style>
     table {
         width: 100%;
@@ -134,6 +133,21 @@ document.addEventListener("DOMContentLoaded", function() {
     }
     tbody tr:last-of-type {
         border-bottom: 2px solid #009879;
+    }
+    th:nth-child(1), td:nth-child(1) {
+        width: 20%;
+    }
+    th:nth-child(2), td:nth-child(2) {
+        width: 15%;
+    }
+    th:nth-child(3), td:nth-child(3) {
+        width: 20%;
+    }
+    th:nth-child(4), td:nth-child(4) {
+        width: 15%;
+    }
+    th:nth-child(5), td:nth-child(5) {
+        width: 30%;
     }
 </style>
 
