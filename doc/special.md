@@ -198,7 +198,7 @@ Version 3.5.2 (100) 2024/03/29
 ### 下载
 [![ Taptap 版本(123pan)](https://img.shields.io/badge/TapTap_(123云盘)-下载-brightgreen.svg?logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjgiIGhlaWdodD0iMTI4IiB2aWV3Qm94PSIwIDAgMjQgMjQiPjxwYXRoIGZpbGw9IiNmZmZmZmYiIGQ9Ik01IDIwaDE0di0ySDVtMTQtOWgtNFYzSDl2Nkg1bDcgN3oiLz48L3N2Zz4=)](https://www.123684.com/s/OS4KVv-hH98v "通过123云盘下载TapTap版本，可能需要付费")
 [![ Taptap 版本(中国移动云盘)](https://img.shields.io/badge/TapTap_(彩云网盘)-下载-green.svg?logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjgiIGhlaWdodD0iMTI4IiB2aWV3Qm94PSIwIDAgMjQgMjQiPjxwYXRoIGZpbGw9IiNmZmZmZmYiIGQ9Ik01IDIwaDE0di0ySDVtMTQtOWgtNFYzSDl2Nkg1bDcgN3oiLz48L3N2Zz4=)](https://caiyun.139.com/m/i?2jexCagSU4bd0 "通过中国移动云盘下载TapTap版本，需要登录和客户端，对中国移动用户免流量")
-[![ TapTap 版本(huang1111)](https://img.shields.io/badge/TapTap_(huang1111)-备选下载-lightblue.svg?logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjgiIGhlaWdodD0iMTI4IiB2aWV3Qm94PSIwIDAgMjQgMjQiPjxwYXRoIGZpbGw9IiNmZmZmZmYiIGQ9Ik01IDIwaDE0di0ySDVtMTQtOWgtNFYzSDl2Nkg1bDcgN3oiLz48L3N2Zz4=)](https://pan.huang1111.cn/s/k2ooQcB
+[![ TapTap 版本(huang1111)](https://img.shields.io/badge/TapTap_(huang1111)-备选下载-lightblue.svg?logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjgiIGhlaWdodD0iMTI4IiB2aWV3Qm94PSIwIDAgMjQgMjQiPjxwYXRoIGZpbGw9IiNmZmZmZmYiIGQ9Ik01IDIwaDE0di0ySDVtMTQtOWgtNFYzSDl2Nkg1bDcgN3oiLz48L3N2Zz4=)](https://pan.huang1111.cn/s/k2ooQcB)
 
 ---------
 
