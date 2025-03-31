@@ -103,8 +103,6 @@ document.addEventListener("DOMContentLoaded", function() {
 
 ---
 
-### 项目寿命和捐赠记录
-预期在 2027-04-02 后无法更新，并在 **2028-02-19** 后无法提供下载。
 
 [上月爱发电赞助用户列表](https://afdian.com/a/stevezmtstudios/thank)
 <style>
@@ -182,6 +180,13 @@ document.addEventListener("DOMContentLoaded", function() {
             <td>2025-02-24 22:29:30</td>
             <td>+1年</td>
             <td>80够了应该(</td>
+        </tr>
+        <tr>
+            <td><a href="https://afdian.com/u/902b4ff6fb5211efa4c252540025c377">爱发电用户_902b4</a></td>
+            <td><span style="color: lightgreen;">￥5.00</span></td>
+            <td>2025-03-07 21:00:44</td>
+            <td>+1个月</td>
+            <td>Thank you for your work.</td>
         </tr>
     </tbody>
 </table>
