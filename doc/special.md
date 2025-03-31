@@ -191,9 +191,9 @@ Version 3.5.2 (100) 2024/03/29
 
 ### 注释
  
-选中曲目《opia》，按IN,HD,EZ, 然后按住HD5秒
+打开“虫眼”（在Collection收集品选项下，长按“重演”按钮）
 
-一说全连《opia》然后点分数
+然后打开“过去的章节”，找到“Dlyrotz”曲目，选择IN难度放置，在音乐第三段时，精准接住七个小节的字符note（不接任何红flick），确保最终分数为0113699，然后等候曲目结束。
 
 ### 下载
 [![ Taptap 版本(123pan)](https://img.shields.io/badge/TapTap_(123云盘)-下载-brightgreen.svg?logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjgiIGhlaWdodD0iMTI4IiB2aWV3Qm94PSIwIDAgMjQgMjQiPjxwYXRoIGZpbGw9IiNmZmZmZmYiIGQ9Ik01IDIwaDE0di0ySDVtMTQtOWgtNFYzSDl2Nkg1bDcgN3oiLz48L3N2Zz4=)](https://www.123684.com/s/OS4KVv-hH98v "通过123云盘下载TapTap版本，可能需要付费")
