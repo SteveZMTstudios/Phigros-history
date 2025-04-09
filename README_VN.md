@@ -1,4 +1,4 @@
-> Page này không được dịch chính thức từ chủ web
+> Page này không được dịch chính thức từ chủ web <br>
 > Page này có thể lỗi thời nếu mình lười hoặc quên 🐧
 
 Bản dịch tiếng Việt bởi [**Huy Hoang Cao**](https://www.facebook.com/huyhoangcao39393939/) 
