@@ -1,5 +1,5 @@
-> This page is NOT translated from official.
-> This page may not up to date.
+> Page này không được dịch chính thức từ chủ web
+> Page này có thể lỗi thời nếu mình lười hoặc quên 🐧
 
 Bản dịch tiếng Việt bởi [**Huy Hoang Cao**](https://www.facebook.com/huyhoangcao39393939/) 
 ![新九鸟](icon.png "新图标")
@@ -22,33 +22,34 @@ Phigros là một trò chơi âm nhạc "không có làn đường" với các �
 >
 > Nếu bạn muốn hỗ trợ mình và chủ web tiếp tục cung cấp các dịch vụ miễn phí, vui lòng cân nhắc quyên góp. Cảm ơn sự ủng hộ của các bạn!
 >
-> <a href="https://patreon.com/stevezmtstudios"><svg t="1740759374337" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="2594" width="1em" height="1em"><path d="M1024 390.4c0 203.2-164.8 368-368 368s-368-164.8-368-368 164.8-368 368-368c203.2-1.6 368 163.2 368 368zM0 1003.2h180.8V20.8H0v982.4z" p-id="2595" fill="currentColor"></path></svg> "Đô nết" qua Patreon </a><br> [Thêm chi tiết](https://stevezmt-top.translate.goog/Phigros-history/doc/why-donate?_x_tr_sl=zh-CN&_x_tr_tl=vi&_x_tr_hl=vi&_x_tr_pto=wapp)
+> <a href="https://patreon.com/stevezmtstudios"><svg t="1740759374337" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="2594" width="1em" height="1em"><path d="M1024 390.4c0 203.2-164.8 368-368 368s-368-164.8-368-368 164.8-368 368-368c203.2-1.6 368 163.2 368 368zM0 1003.2h180.8V20.8H0v982.4z" p-id="2595" fill="currentColor"></path></svg> "Đô nết" chủ web qua Patreon </a><br> [Xem chi tiết tại](https://stevezmt-top.translate.goog/Phigros-history/doc/why-donate?_x_tr_sl=zh-CN&_x_tr_tl=vi&_x_tr_hl=vi&_x_tr_pto=wapp)
 
 
 
 ### THÔNG BÁO NÂNG CẤP WEBSITE
-Chúng mình đã cố gắng tìm kiếm và đồng bộ nhưng vẫn còn thiếu một số phiên bản. Dù rất khó để lấy lại chúng nhưng chúng tôi sẽ cố gắng hết sức.
-<br>Vì dự án này do chủ web thực hiện thủ công nên nó tiêu tốn rất nhiều thời gian và sức lực của chính chủ web.Nếu bạn có các phiên bản còn thiếu, vui lòng liên hệ với mình qua [**Facebook**](https://www.facebook.com/huyhoangcao39393939/)
+Chúng mình đã cố gắng tìm kiếm và đồng bộ nhưng vẫn còn thiếu một số phiên bản. Dù rất khó để lấy lại chúng nhưng chúng mình sẽ cố gắng hết sức.
+<br>
+<br>Vì dự án này do chủ web thực hiện thủ công nên nó tiêu tốn rất nhiều thời gian và sức lực của chính chủ web. Nếu bạn có các phiên bản còn thiếu, vui lòng liên hệ với mình qua [**Facebook**](https://www.facebook.com/huyhoangcao39393939/)
 
 
 Gần đây, trang web đang được lên kế hoạch nâng cấp và chỉnh sửa để mang lại trải nghiệm tốt hơn cho mọi người. Khi đó, một số thứ trên trang web có thể biến mất, bố cục lộn xộn và liên kết có thể không hợp lệ. Nếu bạn gặp phải những vấn đề như vậy, vui lòng kiên nhẫn chờ đợi, làm mới và thử lại hoặc gửi [vấn đề](https://github.com/SteveZMTstudios/Phigros-history/issues/new/)
-<br>                    ----Huy Hoang Cao
+<br>-----Huy Hoang Cao-----
 
-Nếu nội dung trên [trang này](https://stevezmt-top.translate.goog/Phigros-history/ver_data/VersionList_3.x?_x_tr_sl=zh-CN&_x_tr_tl=vi&_x_tr_hl=vi&_x_tr_pto=wapp) không phải là phiên bản mới nhất, vui lòng liên hệ với chúng mình bằng cách nhấp vào nút Kiểm tra cập nhật ở trên 🥳Cảm ơn!
+Nếu nội dung trên [trang này](https://stevezmt-top.translate.goog/Phigros-history/ver_data/VersionList_3.x?_x_tr_sl=zh-CN&_x_tr_tl=vi&_x_tr_hl=vi&_x_tr_pto=wapp) không phải là phiên bản mới nhất, vui lòng liên hệ với chúng mình bằng cách nhấp vào nút Kiểm tra cập nhật ở trên. Cảm ơn!🥳🥳🥳
 
 ## THÔNG BÁO
-Do vấn đề bản quyền nên phiên bản `clone` cùng tồn tại có thể không được cập nhật trong tương lai. Chỉ các APK phân phối chính thức (từ Play Store hoặc TapTap) mới có tại đây.
+Do vấn đề bản quyền nên phiên bản `clone` tồn tại song song có thể không được cập nhật trong tương lai. Chỉ các APK phân phối chính thức (từ Play Store hoặc TapTap) mới có tại đây.
 
-Nếu bạn muốn trợ giúp dự án này hoặc nếu bạn đã có phiên bản còn thiếu, vui lòng gửi liên kết chia sẻ đến phần Issue hoặc gửi cho  [**mình**](https://www.facebook.com/huyhoangcao39393939/). Cảm ơn bạn rất nhiều vì sự giúp đỡ của bạn!
+Nếu bạn muốn trợ giúp dự án này hoặc nếu bạn có phiên bản còn thiếu, vui lòng gửi liên kết chia sẻ đến phần Issue hoặc gửi cho  [**mình**](https://www.facebook.com/huyhoangcao39393939/). Cảm ơn rất nhiều vì sự giúp đỡ của bạn!🥳🥳🥳
 
 
 ## [**👉🔗TẤT CẢ PHIÊN BẢN👈**](https://stevezmt-top.translate.goog/Phigros-history/ver_data/VersionList_3.x?_x_tr_sl=zh-CN&_x_tr_tl=vi&_x_tr_hl=vi&_x_tr_pto=wapp)
 
 <br>
-Đây không phải là hoạt động chính thức của Phigros. Ở đây chúng mình chỉ cung cấp một số phiên bản APK cũ của Pigeon Game. <br>Tất cả tài liệu được thu thập từ Internet. Nếu chúng vi phạm quyền của bạn, vui lòng đăng vấn đề trong phần này và mình sẽ xóa chúng ngay.
+Đây không phải là hoạt động chính thức của Phigros. Ở đây chúng mình chỉ cung cấp một số phiên bản APK Phigros cũ của Pigeon Game. <br>Tất cả tài liệu được thu thập từ Internet. Nếu chúng vi phạm quyền của bạn, vui lòng đăng vấn đề trong phần này và chúng mình sẽ xóa chúng ngay.
 
 NGOÀI RA：ĐẶC BIỆT CẢM ƠN[**Huy Hoang Cao @WiBuMan**](https://www.facebook.com/huyhoangcao39393939/) 
-PHẦN LỚN CÁC APK TỪ TAPTAP (SAU NÀY SẼ THÊM CÁC PHIÊN BẢN GOOGLE PLAY) ĐƯỢC CUNG CẤP NHỜ SỰ GIÚP ĐỠ CỦA ANH ẤY, NẾU KHÔNG DỰ ÁN SẼ KHÔNG THỂ PHÁT TRIỂN ĐẾN QUY MÔ LỚN ĐẾN VẬY <br> (tự dịch lời khen dành cho mình nên ngại ghê hihi 🐧)
+PHẦN LỚN CÁC APK TỪ TAPTAP (VÀ CẢ CÁC PHIÊN BẢN GOOGLE PLAY) ĐƯỢC CUNG CẤP NHỜ SỰ GIÚP ĐỠ CỦA ANH ẤY, NẾU KHÔNG DỰ ÁN SẼ KHÔNG THỂ PHÁT TRIỂN ĐẾN QUY MÔ LỚN ĐẾN VẬY <br> (tự dịch lời khen dành cho mình nên ngại ghê hihi 🐧) (mới đó đã gần 3 năm rồi 😭)
 
 ## BẠN ĐANG TÌM KIẾM CÁC PHIÊN BẢN ĐẶC BIỆT KHÁC?
 
@@ -67,14 +68,15 @@ Cảnh báo: Một số phiên bản có thể bị hạn chế bởi việc xá
 
 ## MẸO
 Tất cả các gói có ký tự `clone` trong phần "Releases" đều là phiên bản package name đã được sửa đổi và có thể cùng tồn tại song song với Phigros hiện có của bạn. Còn `crack` là các phiên bản trích xuất trực tiếp từ các thiết bị đã cài đặt Phigros<br>
-Nói cách khác, hậu tố `crack` là các APK được lấy từ các phát hành trên TapTap. Nó có thể được cập nhật từ kho lưu trữ này hoặc từ TapTap. Nhưng nó không thể cùng tồn tại với phiên bản Phigros trên máy bạn (trừ khi dùng bí thuật làng lá để thay đổi package name, shhhh bí mật đó nhen 🐧) XD.。<br>
+Nói cách khác, hậu tố `crack` là các APK được lấy từ các phát hành trên TapTap. Nó có thể được cập nhật từ kho lưu trữ này hoặc từ TapTap. Nhưng nó không thể cùng tồn tại với phiên bản Phigros trên máy bạn XD.。
+<br>(trừ khi dùng bí thuật làng lá để thay đổi package name, shhhh bí mật đó nhen 🐧) <br>
 Hậu tố của `clone` là phiên bản cùng tồn tại, có thể cùng tồn tại với phiên bản crack hoặc phiên bản TapTap mới nhất, nhưng tiến trình sẽ không thể tồn tại trừ khi thực hiện các phương pháp đặc biệt như root, điều này thật đau đầu T_T.
-<br>`apk+obb` là phiên bản từ Google Play, đây cũng là phiên bản chính thức nhưng được phát hành trên Google Play. Về cách cài đặt gói cài đặt `apk+obb`, vui lòng tham khảo [Hướng dẫn cài đặt](https://stevezmt-top.translate.goog/Phigros-history/doc/install-apk-obb?_x_tr_sl=zh-CN&_x_tr_tl=vi&_x_tr_hl=vi&_x_tr_pto=wapp)
+<br>`apk+obb` là phiên bản từ Google Play, đây cũng là phiên bản chính thức nhưng được phát hành trên Google Play. Về cách cài đặt gói cài đặt `apk+obb`, vui lòng tham khảo [Hướng dẫn cài đặt]([[https://blogchiasekienthuc.com/thu-thuat-hay/cai-file-apk-co-kem-data-tren-android.html])
 
 
 
 ## KHÔNG THỂ TÌM THẤY TẤT CẢ CÁC PHIÊN BẢN?<br>
-[**NHẤN VÀO ĐÂY**](https://github.com/SteveZMTstudios/Phigros-history/issues/new/choose)**Đưa ra "issue" để nhắc nhở mình nhắc chủ web cập nhật phiên bản mới nhất 🐧.**（***gợi ý***）
+[**NHẤN VÀO ĐÂY**](https://github.com/SteveZMTstudios/Phigros-history/issues/new/choose) **Đưa ra "issue" để nhắc nhở mình "gõ đầu" chủ web cập nhật phiên bản mới nhất 🐧.
 <br>
 
 [admin@stevezmt.top](mailto:admin@stevezmt.top)
