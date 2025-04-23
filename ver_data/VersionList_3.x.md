@@ -31,6 +31,29 @@
 
 </details>
 
+### 3.13.0 (126) 2025/04/18
+
+1.新增Immaculée Sekai精选集，包含以下歌曲：
+•「Aphrodite's Child (short ver.)」 by: RUQOA
+•「DevIAtiOn (short ver.)」 by: polysha
+•「NO x」 by: Juggernaut.
+2.修复选择排序靠后的Another Me作为背景时，重新进入玩家页时会被排序靠前的Another Me覆盖的情况
+3.修复使用重演游玩第八章OS模式时，所有已解锁曲封面都是Luminescence的问题
+4.修复使用重演游玩Crave Wave时无法弹出结算画面的问题
+5.修复未通关第5、6、7章时，章节封面丢失的问题
+6.修复初次游玩Phigros时，个人面板背景的Introduction丢失的问题
+7.修复重演按钮的UI文本显示不正常的问题
+
+[![ Taptap 版本(123pan)](https://img.shields.io/badge/TapTap_(123云盘)-下载-brightgreen.svg?logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjgiIGhlaWdodD0iMTI4IiB2aWV3Qm94PSIwIDAgMjQgMjQiPjxwYXRoIGZpbGw9IiNmZmZmZmYiIGQ9Ik01IDIwaDE0di0ySDVtMTQtOWgtNFYzSDl2Nkg1bDcgN3oiLz48L3N2Zz4=)](https://www.123684.com/s/OS4KVv-br98v "通过123云盘下载TapTap版本，可能需要付费")
+[![ Taptap 版本(中国移动云盘)](https://img.shields.io/badge/TapTap_(彩云网盘)-下载-green.svg?logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjgiIGhlaWdodD0iMTI4IiB2aWV3Qm94PSIwIDAgMjQgMjQiPjxwYXRoIGZpbGw9IiNmZmZmZmYiIGQ9Ik01IDIwaDE0di0ySDVtMTQtOWgtNFYzSDl2Nkg1bDcgN3oiLz48L3N2Zz4=)](https://caiyun.139.com/m/i?2jexCagSU4bd0 "通过中国移动云盘下载TapTap版本，需要登录和客户端，对中国移动用户免流量")
+[![ TapTap 版本(huang1111)](https://img.shields.io/badge/TapTap_(huang1111)-备选下载-lightblue.svg?logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjgiIGhlaWdodD0iMTI4IiB2aWV3Qm94PSIwIDAgMjQgMjQiPjxwYXRoIGZpbGw9IiNmZmZmZmYiIGQ9Ik01IDIwaDE0di0ySDVtMTQtOWgtNFYzSDl2Nkg1bDcgN3oiLz48L3N2Zz4=)](https://pan.huang1111.cn/s/6e6PesN)
+<!--[![ Taptap 版本(百度网盘海外版)](https://img.shields.io/badge/TapTap_(Terabox)-下载-royalblue.svg?logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjgiIGhlaWdodD0iMTI4IiB2aWV3Qm94PSIwIDAgMjQgMjQiPjxwYXRoIGZpbGw9IiNmZmZmZmYiIGQ9Ik01IDIwaDE0di0ySDVtMTQtOWgtNFYzSDl2Nkg1bDcgN3oiLz48L3N2Zz4=)]( "通过Terabox下载TapTap版本，需要全球网络访问")-->
+[![ TapTap 版本(Github)](https://img.shields.io/badge/TapTap_(Github)-下载-blue.svg?logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjgiIGhlaWdodD0iMTI4IiB2aWV3Qm94PSIwIDAgMjQgMjQiPjxwYXRoIGZpbGw9IiNmZmZmZmYiIGQ9Ik01IDIwaDE0di0ySDVtMTQtOWgtNFYzSDl2Nkg1bDcgN3oiLz48L3N2Zz4=)](https://github.com/SteveZMTstudios/Phigros-history/releases/tag/v3.13.0 "通过Github下载，需要通畅的网络")<br>
+<!--[![ Play 版本(123pan) ](https://img.shields.io/badge/Play_商店_(123云盘)-下载-brightgreen.svg?logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjgiIGhlaWdodD0iMTI4IiB2aWV3Qm94PSIwIDAgMjQgMjQiPjxwYXRoIGZpbGw9IiNmZmZmZmYiIGQ9Ik01IDIwaDE0di0ySDVtMTQtOWgtNFYzSDl2Nkg1bDcgN3oiLz48L3N2Zz4=)]( "通过123云盘下载Play商店版本，可能需要付费"))-->
+<!--[![ Play 版本(中国移动云盘)](https://img.shields.io/badge/Play_商店_(彩云网盘)-下载-green.svg?logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjgiIGhlaWdodD0iMTI4IiB2aWV3Qm94PSIwIDAgMjQgMjQiPjxwYXRoIGZpbGw9IiNmZmZmZmYiIGQ9Ik01IDIwaDE0di0ySDVtMTQtOWgtNFYzSDl2Nkg1bDcgN3oiLz48L3N2Zz4=)]( "通过中国移动云盘下载TapTap版本，需要登录和客户端，对中国移动用户免流量")-->
+<!--[![ Play 版本(阿里云盘)](https://img.shields.io/badge/Play_商店_(阿里云盘)-下载-royalblue.svg?logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjgiIGhlaWdodD0iMTI4IiB2aWV3Qm94PSIwIDAgMjQgMjQiPjxwYXRoIGZpbGw9IiNmZmZmZmYiIGQ9Ik01IDIwaDE0di0ySDVtMTQtOWgtNFYzSDl2Nkg1bDcgN3oiLz48L3N2Zz4=)]( "通过阿里云盘下载TapTap版本，需要客户端登录")-->
+<!--[![ Play 版本(百度网盘海外版)](https://img.shields.io/badge/Play_商店_(Terabox)-下载-royalblue.svg?logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjgiIGhlaWdodD0iMTI4IiB2aWV3Qm94PSIwIDAgMjQgMjQiPjxwYXRoIGZpbGw9IiNmZmZmZmYiIGQ9Ik01IDIwaDE0di0ySDVtMTQtOWgtNFYzSDl2Nkg1bDcgN3oiLz48L3N2Zz4=)]( "通过Terabox下载Play商店版本，需要全球网络访问")-->
+
 ### 3.12.0 (125) 2025/04/01
 
 1. 新增与EGTS的联动章节，包含以下曲目：

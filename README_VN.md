@@ -17,7 +17,7 @@ Phigros là một trò chơi âm nhạc "không có làn đường" với các �
 > [!CAUTION]
 > Dự án này rất cần sự hỗ trợ của bạn để có thể tiếp tục hoạt động.  
 >
-> Khi các dịch vụ lưu trữ bắt đầu tính phí cao hơn, chi phí lưu trữ dự án trở nên vượt quá khả năng chi trả của chúng mình. Chúng mình sẽ dần ngừng cập nhật và tải xuống trong vài tháng tới.
+> Khi các dịch vụ lưu trữ bắt đầu tính phí cao hơn, chi phí lưu trữ dự án trở nên vượt quá khả năng chi trả của chúng mình.
 >
 >
 > Nếu bạn muốn hỗ trợ mình và chủ web tiếp tục cung cấp các dịch vụ miễn phí, vui lòng cân nhắc quyên góp. Cảm ơn sự ủng hộ của các bạn!

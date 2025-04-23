@@ -18,7 +18,7 @@ If the content on [this page](https://stevezmt-top.translate.goog/Phigros-histor
 > [!CAUTION]
 > This project urgently needs your support to continue. 
 > 
-> As all upstream storage has started to charge higher fees, the cost and expenses of storing the project are beyond our ability to bear. We will gradually stop updating and downloading services in the next few months.
+> As all upstream storage has started to charge higher fees, the cost and expenses of storing the project are beyond our ability to bear. 
 > 
 > If you want to support us to continue to provide free services, please consider donating. Thank you for your support!
 >
