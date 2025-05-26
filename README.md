@@ -24,7 +24,7 @@ Pigeon Games是由初创通过bilibili视频网站发起的、由众多节奏类
 
 
 
-#### 2025-04-23 更新 [**🔄检查更新**](https://github.com/SteveZMTstudios/Phigros-history/issues) [🆙提醒更新](https://github.com/SteveZMTstudios/Phigros-history/issues/new/choose)
+#### 2025-05-26 更新 [**🔄检查更新**](https://github.com/SteveZMTstudios/Phigros-history/issues) [🆙提醒更新](https://github.com/SteveZMTstudios/Phigros-history/issues/new/choose)
 
 ## [**👉🔗查找所有版本👈**](https://stevezmt.top/Phigros-history/ver_data/VersionList_3.x)
 
