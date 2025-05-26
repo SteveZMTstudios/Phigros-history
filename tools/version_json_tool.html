@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+  <meta charset="UTF-8">
+  <title>JSON 编辑工具</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 2em; }
+    label { display: block; margin-top: 1em; }
+    textarea { width: 100%; min-height: 60px; }
+    .flex { display: flex; gap: 1em; }
+    .downloads-list { margin-bottom: 1em; }
+    .json-preview { background: #f4f4f4; padding: 1em; border-radius: 5px; margin-top: 1em; }
+    button { margin-top: 1em; }
+  </style>
+</head>
+<body>
+  <h1>JSON 编辑工具</h1>
+  <form id="versionForm" autocomplete="off">
+    <label>版本号 (versionName): <input type="text" id="versionName" required></label>
+    <label>版本号 (versionCode): <input type="number" id="versionCode" required></label>
+    <label>发布日期 (date): <input type="date" id="date" required min="2000-01-01" max="2099-12-31"></label>
+
+    <label>更新内容 (changelog, 一行一条):
+      <textarea id="changelog" placeholder="每行一条更新内容"></textarea>
+    </label>
+    <fieldset>
+      <legend>下载链接</legend>
+      <div id="downloads"></div>
+      <button type="button" onclick="addDownload()">添加下载渠道</button>
+    </fieldset>
+    <button type="button" onclick="addVersion()">添加到 JSON</button>
+    <button type="button" onclick="importJson()">导入 JSON 文件</button>
+    <input type="file" id="importFile" style="display:none" accept="application/json" onchange="handleImport(event)">
+  </form>
+  <h2>JSON 预览</h2>
+  <pre class="json-preview" id="jsonPreview">[]</pre>
+  <button onclick="downloadJson()">导出 JSON 文件</button>
+  <script>
+let versions = [];
+let downloadCount = 0;
+const typeOptions = ['taptap', 'playstore'];
+function addDownload() {
+  const d = document.createElement('div');
+  d.className = 'downloads-list';
+  d.innerHTML = `
+    <label>类型(type):
+      <select name="type${downloadCount}" required>
+        <option value="">请选择</option>
+        <option value="taptap">taptap</option>
+        <option value="playstore">playstore</option>
+      </select>
+    </label>
+    <label>123云盘: <input type="url" name="url123pan${downloadCount}"></label>
+    <label>彩云网盘: <input type="url" name="urlcaiyun${downloadCount}"></label>
+    <label>huang1111: <input type="url" name="urlhuang1111${downloadCount}"></label>
+    <label>github: <input type="url" name="urlgithub${downloadCount}"></label>
+    <label>其他链接(用空格分隔 name|url): <input type="text" name="urlother${downloadCount}" placeholder="如: 备用1|https://xxx 备用2|https://yyy"></label>
+    <button type="button" onclick="this.parentElement.remove()">移除</button>
+    <hr>
+  `;
+  document.getElementById('downloads').appendChild(d);
+  downloadCount++;
+}
+function addVersion() {
+  const versionName = document.getElementById('versionName').value;
+  const versionCode = parseInt(document.getElementById('versionCode').value, 10);
+  const date = document.getElementById('date').value;
+  const changelog = document.getElementById('changelog').value.split('\n').filter(x=>x.trim());
+  const downloads = [];
+  document.querySelectorAll('#downloads .downloads-list').forEach(dl => {
+    const type = dl.querySelector('select[name^=type]').value;
+    const url = {
+      "123pan": dl.querySelector('[name^=url123pan]').value,
+      "caiyun": dl.querySelector('[name^=urlcaiyun]').value,
+      "huang1111": dl.querySelector('[name^=urlhuang1111]').value,
+      "github": dl.querySelector('[name^=urlgithub]').value,
+      "other": []
+    };
+    const otherRaw = dl.querySelector('[name^=urlother]').value;
+    if (otherRaw) {
+      otherRaw.split(/\s+/).forEach(pair => {
+        const [name, urlstr] = pair.split('|');
+        if (name && urlstr) url.other.push({ name: name.trim(), url: urlstr.trim() });
+      });
+    }
+    downloads.push({ type, url });
+  });
+  versions.push({ versionName, versionCode, date, changelog, downloads });
+  document.getElementById('jsonPreview').textContent = JSON.stringify(versions, null, 2);
+  document.getElementById('versionForm').reset();
+  document.getElementById('downloads').innerHTML = '';
+  downloadCount = 0;
+}
+function downloadJson() {
+  const blob = new Blob([JSON.stringify(versions, null, 2)], {type: 'application/json'});
+  const a = document.createElement('a');
+  a.href = URL.createObjectURL(blob);
+  a.download = 'versions.json';
+  a.click();
+}
+function importJson() {
+  document.getElementById('importFile').click();
+}
+function handleImport(event) {
+  const file = event.target.files[0];
+  if (!file) return;
+  const reader = new FileReader();
+  reader.onload = function(e) {
+    try {
+      const data = JSON.parse(e.target.result);
+      if (Array.isArray(data)) {
+        versions = data;
+        document.getElementById('jsonPreview').textContent = JSON.stringify(versions, null, 2);
+      } else {
+        alert('文件内容不是有效的版本数组');
+      }
+    } catch (err) {
+      alert('解析 JSON 失败: ' + err.message);
+    }
+  };
+  reader.readAsText(file);
+}
+  </script>
+</body>
+</html>

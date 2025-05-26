@@ -1,0 +1,1034 @@
+[
+  {
+    "versionName": "1.0.0",
+    "versionCode": 1,
+    "date": "2019-08-28",
+    "changelog": [
+      "更改了游戏关卡画面的初始亮度",
+      "(提取码: stevezmt)"
+    ],
+    "downloads": [
+      {
+        "type": "taptap",
+        "url": {
+          "123pan": "",
+          "caiyun": "",
+          "huang1111": "https://pan.huang1111.cn/s/oX72lC8",
+          "github": "",
+          "other": []
+        }
+      }
+    ]
+  },
+  {
+    "versionName": "1.0.1",
+    "versionCode": 2,
+    "date": "2019-08-29",
+    "changelog": [
+      "一些软件优化"
+    ],
+    "downloads": []
+  },
+  {
+    "versionName": "1.0.6",
+    "versionCode": 1,
+    "date": "2019-09-07",
+    "changelog": [
+      "1、修复了某些低内存设备的闪退问题。",
+      "2、延时调整的范围从0ms～500ms变为-400ms ～ 600ms。",
+      "3、一些视觉上的调整。"
+    ],
+    "downloads": []
+  },
+  {
+    "versionName": "1.0.1",
+    "versionCode": 2,
+    "date": "2019-09-08",
+    "changelog": [
+      "1.0.1版本更新：",
+      "1、修复了iPhone 6、iPhone 6 Plus、iPhone 5 C、iPad mini2等设备的闪退问题。",
+      "2、延时调整的范围从0ms～500ms变为-400ms ～ 600ms。",
+      "3、一些视觉上的调整。"
+    ],
+    "downloads": [
+      {
+        "type": "taptap",
+        "url": {
+          "123pan": "",
+          "caiyun": "",
+          "huang1111": "https://pan.huang1111.cn/s/K9knZhY",
+          "github": "",
+          "other": []
+        }
+      }
+    ]
+  },
+  {
+    "versionName": "1.1.0",
+    "versionCode": 3,
+    "date": "2019-09-25",
+    "changelog": [
+      "1.1.0版本更新：",
+      "1、新增了主线章节四。",
+      "五首全新曲目——",
+      "由Monst Death创作的Sultan Rage",
+      "由Antistar feat. Ctymax创作的Class Memories",
+      "由Itsuki创作的-SURREALISM-",
+      "由Megalo_PaleWhite创作的Bonus Time",
+      "由Tanchiky创作的Energy Synergy Matrix",
+      "2、增加了FC/AP指示器，您可以在设置中开启。",
+      "3、修复了一系列的BUG。"
+    ],
+    "downloads": [
+      {
+        "type": "taptap",
+        "url": {
+          "123pan": "",
+          "caiyun": "",
+          "huang1111": "https://pan.huang1111.cn/s/K9knZhY",
+          "github": "",
+          "other": []
+        }
+      }
+    ]
+  },
+  {
+    "versionName": "1.1.1",
+    "versionCode": 4,
+    "date": "2019-10-11",
+    "changelog": [
+      "1.1.1更新：",
+      "大幅优化大部分设备音频延时，请更新后在设置中重新调整。若更新后存在音频问题，请在社区专题贴中留言"
+    ],
+    "downloads": [
+      {
+        "type": "taptap",
+        "url": {
+          "123pan": "",
+          "caiyun": "",
+          "huang1111": "https://pan.huang1111.cn/s/G8qdxiW",
+          "github": "",
+          "other": []
+        }
+      }
+    ]
+  },
+  {
+    "versionName": "1.2.0 (共存版)",
+    "versionCode": 5,
+    "date": "2019-10-23",
+    "changelog": [
+      "1.2.0更新",
+      "1、更新了“闫东炜精选集2”，包含三首曲目：",
+      "Alphasia",
+      "華灯爱",
+      "开心病",
+      "2、原统计界面升级为“个人名片”。",
+      "3、尝试修复了十余款机型的音频问题。如果您的设备依然存在音频问题，请在TapTap社区的“音频问题”专题帖下留言。"
+    ],
+    "downloads": [
+      {
+        "type": "taptap",
+        "url": {
+          "123pan": "",
+          "caiyun": "",
+          "huang1111": "",
+          "github": "https://github.com/SteveZMTstudios/Phigros-history/releases/download/v1.2.0/phigros_V1.2.0_clone.apk",
+          "other": []
+        }
+      }
+    ]
+  },
+  {
+    "versionName": "1.2.1",
+    "versionCode": 6,
+    "date": "2019-11-16",
+    "changelog": [
+      "1、更新了三首全新单曲：",
+      "Find_Me",
+      "Sein",
+      "狂喜蘭舞",
+      "2、新增了“单曲集”和“商店”。",
+      "3、继续尝试尝试修复音频问题。如果您的设备依然存在音频问题，请在TapTap社区的“音频问题”专题帖下留言。"
+    ],
+    "downloads": []
+  },
+  {
+    "versionName": "1.2.1",
+    "versionCode": 6,
+    "date": "2019-11-22",
+    "changelog": [
+      "1、新增了一首全新单曲",
+      "Sparkle New Life",
+      "2、修复了部分玩家服务费数额显示错误的Bug。",
+      "3、为新增的商店优化了引导。",
+      "4、全新的打击动效。"
+    ],
+    "downloads": []
+  },
+  {
+    "versionName": "1.2.2",
+    "versionCode": 7,
+    "date": "2019-11-22",
+    "changelog": [
+      "1、新增了一首全新单曲",
+      "Sparkle New Life",
+      "2、修复了部分玩家服务费数额显示错误的Bug。",
+      "3、为新增的商店优化了引导。",
+      "4、全新的打击动效。"
+    ],
+    "downloads": []
+  },
+  {
+    "versionName": "1.2.3",
+    "versionCode": 8,
+    "date": "2019-12-04",
+    "changelog": [
+      "1、新增了一首全新单曲",
+      "Khronostasis Katharsis",
+      "2、新增了插画商店与头像商店。",
+      "3、修复了一处翻译错误。",
+      "4、一些视觉方面的微调。"
+    ],
+    "downloads": []
+  },
+  {
+    "versionName": "1.2.4",
+    "versionCode": 9,
+    "date": "2019-12-20",
+    "changelog": [
+      "1、圣诞节快乐！新增了全新单曲：",
+      "Snow Desert",
+      "Burn"
+    ],
+    "downloads": [
+      {
+        "type": "taptap",
+        "url": {
+          "123pan": "",
+          "caiyun": "",
+          "huang1111": "https://pan.huang1111.cn/s/8Qyx8fQ",
+          "github": "",
+          "other": []
+        }
+      }
+    ]
+  },
+  {
+    "versionName": "1.2.4",
+    "versionCode": 9,
+    "date": "2019-12-20",
+    "changelog": [
+      "1、圣诞节快乐！新增了全新单曲：",
+      "Snow Desert",
+      "Burn"
+    ],
+    "downloads": [
+      {
+        "type": "",
+        "url": {
+          "123pan": "",
+          "caiyun": "",
+          "huang1111": "https://pan.huang1111.cn/s/8Qyx8fQ",
+          "github": "",
+          "other": []
+        }
+      }
+    ]
+  },
+  {
+    "versionName": "1.2.5",
+    "versionCode": 10,
+    "date": "2020-01-22",
+    "changelog": [
+      "1、祝各位玩家春节快乐！",
+      "2、新增全新单曲：",
+      "Aleph-0",
+      "3、一些视觉上的调整"
+    ],
+    "downloads": []
+  },
+  {
+    "versionName": "1.3.0",
+    "versionCode": 12,
+    "date": "2020-02-20",
+    "changelog": [
+      "1.3.0版本更新",
+      "1、新增了主线第五章，包含五首曲目",
+      "NYA!!! -by FLuoRiTe/姜米條",
+      "JunXion Between Life And Death(VIP Mix) -by 1N6Fs",
+      "cryout -by Ju_E",
+      "Reimei -by 影虎。",
+      "尊師 ～The Guru～ -by rider",
+      "2、新增了收集品系统。",
+      "3、在商店中新增了抽奖系统。",
+      "4、设置中新增了音频问题修复页面，若你的设备存在音频问题，请前往设置中查看该页面。",
+      "5、一些视觉上的调整"
+    ],
+    "downloads": [
+      {
+        "type": "taptap",
+        "url": {
+          "123pan": "",
+          "caiyun": "",
+          "huang1111": "https://pan.huang1111.cn/s/E7x6LHb",
+          "github": "",
+          "other": [
+            {
+              "name": "共存版",
+              "url": "https://github.com/SteveZMTstudios/Phigros-history/releases/download/v1.3.0/phigros_v1.3.0_clone.apk"
+            }
+          ]
+        }
+      },
+      {
+        "type": "playstore",
+        "url": {
+          "123pan": "",
+          "caiyun": "",
+          "huang1111": "https://pan.huang1111.cn/s/mxwOvF1",
+          "github": "",
+          "other": []
+        }
+      }
+    ]
+  },
+  {
+    "versionName": "1.3.1",
+    "versionCode": 14,
+    "date": "2020-02-29",
+    "changelog": [
+      "1、新增了Google Play排行榜。",
+      "2、修复了章节选择界面可能无法正常显示的问题。",
+      "3、修复了某个收集品无法被收集到的问题。",
+      "4、一系列收集品文本修改。",
+      "5、修复了第一次进入隐藏曲目时打击音无法正常播放的问题。",
+      "6、Data mining调整。"
+    ],
+    "downloads": [
+      {
+        "type": "playstore",
+        "url": {
+          "123pan": "",
+          "caiyun": "",
+          "huang1111": "https://pan.huang1111.cn/s/A6zaRSB",
+          "github": "",
+          "other": []
+        }
+      }
+    ]
+  },
+  {
+    "versionName": "1.3.2",
+    "versionCode": 15,
+    "date": "2020-03-04",
+    "changelog": [
+      "新增两首全新单曲",
+      "Next Time",
+      "Rubbish Sorting"
+    ],
+    "downloads": [
+      {
+        "type": "playstore",
+        "url": {
+          "123pan": "",
+          "caiyun": "",
+          "huang1111": "https://pan.huang1111.cn/s/4R67WSg",
+          "github": "",
+          "other": []
+        }
+      }
+    ]
+  },
+  {
+    "versionName": "1.4.0",
+    "versionCode": 16,
+    "date": "2020-03-18",
+    "changelog": [
+      "1、新增了 Rising Sun Traxx 精选集，包含五首全新曲目：",
+      "Another Me",
+      "mechanted",
+      "life flashes before weeb eyes",
+      "Break Through The Barrier",
+      "Chronostasis",
+      "2、一些视觉上的调整。"
+    ],
+    "downloads": [
+      {
+        "type": "playstore",
+        "url": {
+          "123pan": "",
+          "caiyun": "",
+          "huang1111": "https://pan.huang1111.cn/s/5X6lAul",
+          "github": "",
+          "other": []
+        }
+      }
+    ]
+  },
+  {
+    "versionName": "1.4.1",
+    "versionCode": 17,
+    "date": "2020-03-30",
+    "changelog": [
+      "1、新增一首全新单曲：",
+      "Dead Soul",
+      "2、除此之外没有任何新内容，请放心游玩"
+    ],
+    "downloads": [
+      {
+        "type": "taptap",
+        "url": {
+          "123pan": "",
+          "caiyun": "",
+          "huang1111": "https://pan.huang1111.cn/s/75ekDSg",
+          "github": "",
+          "other": [
+            {
+              "name": "共存版(github)",
+              "url": "https://github.com/SteveZMTstudios/Phigros-history/releases/download/v1.4.1/Phigros_V1.4.1_clone.apk"
+            }
+          ]
+        }
+      },
+      {
+        "type": "playstore",
+        "url": {
+          "123pan": "",
+          "caiyun": "",
+          "huang1111": "https://pan.huang1111.cn/s/LENXT6",
+          "github": "",
+          "other": []
+        }
+      }
+    ]
+  },
+  {
+    "versionName": "1.4.2",
+    "versionCode": 18,
+    "date": "2020-04-24",
+    "changelog": [
+      "1、新增了 HyuN 精选集，包含三首全新曲目：",
+      "Infinity Heaven",
+      "Disorder",
+      "CROSS†SOUL"
+    ],
+    "downloads": [
+      {
+        "type": "taptap",
+        "url": {
+          "123pan": "",
+          "caiyun": "",
+          "huang1111": "https://pan.huang1111.cn/s/mxqVBS1",
+          "github": "",
+          "other": []
+        }
+      }
+    ]
+  },
+  {
+    "versionName": "1.4.3",
+    "versionCode": 19,
+    "date": "2020-05-18",
+    "changelog": [
+      "1、为庆祝TapTap平台突破50w下载量，全部单曲半价优惠！",
+      "2、新增两首全新单曲",
+      "Speed Up!",
+      "Magenta Potion",
+      "3、全新的选曲页面UI，以及大量的视觉调整。",
+      "4、现在新进入游戏的玩家可以在第一次通过教程关卡时获得32MB+基础奖励（最高32.125MB）的奖励（需分数超过880000）",
+      "5、现在第一次查看新收集品时将获得512KB的奖励"
+    ],
+    "downloads": []
+  },
+  {
+    "versionName": "1.4.3",
+    "versionCode": 20,
+    "date": "2020-05-18",
+    "changelog": [
+      "1、为庆祝TapTap平台突破50w下载量，全部单曲半价优惠！",
+      "2、新增两首全新单曲",
+      "Speed Up!",
+      "Magenta Potion",
+      "3、全新的选曲页面UI，以及大量的视觉调整。",
+      "4、现在新进入游戏的玩家可以在第一次通过教程关卡时获得32MB+基础奖励（最高32.125MB）的奖励（需分数超过880000）",
+      "5、现在第一次查看新收集品时将获得512KB的奖励"
+    ],
+    "downloads": [
+      {
+        "type": "taptap",
+        "url": {
+          "123pan": "",
+          "caiyun": "",
+          "huang1111": "https://pan.huang1111.cn/s/A63dvhB",
+          "github": "",
+          "other": []
+        }
+      }
+    ]
+  },
+  {
+    "versionName": "1.4.4",
+    "versionCode": 21,
+    "date": "2020-05-29",
+    "changelog": [
+      "1、新增一首全新单曲：",
+      "Get Back",
+      "2、一系列BUG修复。"
+    ],
+    "downloads": [
+      {
+        "type": "taptap",
+        "url": {
+          "123pan": "",
+          "caiyun": "",
+          "huang1111": "https://pan.huang1111.cn/s/bywdaHY",
+          "github": "",
+          "other": []
+        }
+      }
+    ]
+  },
+  {
+    "versionName": "1.4.5",
+    "versionCode": 22,
+    "date": "2020-06-15",
+    "changelog": [
+      "1、新增一首全新单曲：",
+      "Palescreen",
+      "2、一系列BUG修复。",
+      "3、优化了软件存储空间占用（因此需要存储空间权限，请勿慌张）。"
+    ],
+    "downloads": []
+  },
+  {
+    "versionName": "1.4.5.1",
+    "versionCode": 23,
+    "date": "2020-06-22",
+    "changelog": [
+      "一系列BUG修复。"
+    ],
+    "downloads": []
+  },
+  {
+    "versionName": "1.4.6",
+    "versionCode": 24,
+    "date": "2020-06-29",
+    "changelog": [
+      "1、主线章节五中新增一首全新歌曲：",
+      "Leave All Behind",
+      "在通关主线章节5后就会出现。。"
+    ],
+    "downloads": [
+      {
+        "type": "taptap",
+        "url": {
+          "123pan": "",
+          "caiyun": "",
+          "huang1111": "https://pan.huang1111.cn/s/4R2B3Cg",
+          "github": "",
+          "other": [
+            {
+              "name": "共存版(github)",
+              "url": "https://github.com/SteveZMTstudios/Phigros-history/releases/download/v1.4.6/phigros_V1.4.6_clone.apk"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "versionName": "1.4.7",
+    "versionCode": 25,
+    "date": "2020-07-15",
+    "changelog": [
+      "1、新增了 GOOD系列 精选集，包含五首全新曲目：",
+      "GOODTEK",
+      "GOODBOUNCE",
+      "GOODWORLD",
+      "GOODFORTUNE",
+      "GOODRAGE",
+      "2、优化游戏在某些设备上的流畅度。"
+    ],
+    "downloads": [
+      {
+        "type": "taptap",
+        "url": {
+          "123pan": "",
+          "caiyun": "",
+          "huang1111": "https://pan.huang1111.cn/s/5XgLPUl",
+          "github": "",
+          "other": []
+        }
+      }
+    ]
+  },
+  {
+    "versionName": "1.5.0",
+    "versionCode": 26,
+    "date": "2020-08-28",
+    "changelog": [
+      "1、更新主线章节第六章，包含5首曲目：",
+      "Colorful Days♪",
+      "micro.wav",
+      "重生",
+      "NO ONE YES MAN",
+      "望影の方舟Six",
+      "2、与《同步音律喵赛克》的联动！一首全新联动曲目：",
+      "The Mountain Eater",
+      "2、新增了第二章收集品，以及一些额外章节收集品。",
+      "3、一大批较老的关卡进行了翻新，其中有一些谱面进行了完全的重置。",
+      "4、游戏中的引导做了大量的优化，新手找不到路的时代终结了！"
+    ],
+    "downloads": []
+  },
+  {
+    "versionName": "1.5.0",
+    "versionCode": 27,
+    "date": "2020-08-28",
+    "changelog": [
+      "1、更新主线章节第六章，包含5首曲目：",
+      "Colorful Days♪",
+      "micro.wav",
+      "重生",
+      "NO ONE YES MAN",
+      "望影の方舟Six",
+      "2、与《同步音律喵赛克》的联动！一首全新联动曲目：",
+      "The Mountain Eater",
+      "2、新增了第二章收集品，以及一些额外章节收集品。",
+      "3、一大批较老的关卡进行了翻新，其中有一些谱面进行了完全的重置。",
+      "4、游戏中的引导做了大量的优化，新手找不到路的时代终结了！"
+    ],
+    "downloads": [
+      {
+        "type": "taptap",
+        "url": {
+          "123pan": "",
+          "caiyun": "",
+          "huang1111": "",
+          "github": "",
+          "other": [
+            {
+              "name": "共存版(github)",
+              "url": "https://github.com/SteveZMTstudios/Phigros-history/releases/download/v1.5.0/Phigros_V1.5.0_clone.apk"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "versionName": "1.5.1",
+    "versionCode": 28,
+    "date": "2020-09-08",
+    "changelog": [
+      "Bug修复。"
+    ],
+    "downloads": []
+  },
+  {
+    "versionName": "1.5.2",
+    "versionCode": 29,
+    "date": "2020-09-18",
+    "changelog": [
+      "1、新增两首全新单曲：",
+      "Orthodox",
+      "End Me",
+      "2、修复了一个可能导致玩家无法进入单曲集的BUG。",
+      "3、部分修改关卡添加Legacy谱面。"
+    ],
+    "downloads": []
+  },
+  {
+    "versionName": "1.5.3",
+    "versionCode": 30,
+    "date": "2020-10-14",
+    "changelog": [
+      "1、新增两首全新单曲：",
+      "Starduster",
+      "Parallel Retrogression(Game Ver.)",
+      "2、修改了音频系统"
+    ],
+    "downloads": [
+      {
+        "type": "",
+        "url": {
+          "123pan": "",
+          "caiyun": "",
+          "huang1111": "https://pan.huang1111.cn/s/eNvxmfg",
+          "github": "",
+          "other": []
+        }
+      }
+    ]
+  },
+  {
+    "versionName": "1.5.3",
+    "versionCode": 31,
+    "date": "2020-10-21",
+    "changelog": [
+      "1、新增两首全新单曲：",
+      "Starduster",
+      "Parallel Retrogression(Game Ver.)",
+      "2、修改了音频系统",
+      "由于音频系统的变动，大部分玩家需要重新调整谱面延时。请在【设置】-【谱面延时】中调整。"
+    ],
+    "downloads": [
+      {
+        "type": "taptap",
+        "url": {
+          "123pan": "",
+          "caiyun": "",
+          "huang1111": "https://pan.huang1111.cn/s/3eo8nHm",
+          "github": "",
+          "other": []
+        }
+      }
+    ]
+  },
+  {
+    "versionName": "1.5.5",
+    "versionCode": 32,
+    "date": "2020-10-29",
+    "changelog": [
+      "一系列BUG修复。"
+    ],
+    "downloads": []
+  },
+  {
+    "versionName": "1.5.6",
+    "versionCode": 34,
+    "date": "2020-11-09",
+    "changelog": [
+      "一系列BUG修复。"
+    ],
+    "downloads": []
+  },
+  {
+    "versionName": "1.5.7",
+    "versionCode": 35,
+    "date": "2020-11-12",
+    "changelog": [
+      "1、新增两首全新单曲：",
+      "SIGMA",
+      "Electron",
+      "2、修复了多个BUG，优化了音频系统。请前往设置页面重新调整谱面延时。"
+    ],
+    "downloads": [
+      {
+        "type": "taptap",
+        "url": {
+          "123pan": "",
+          "caiyun": "",
+          "huang1111": "https://pan.huang1111.cn/s/O8XqGfL",
+          "github": "",
+          "other": []
+        }
+      }
+    ]
+  },
+  {
+    "versionName": "1.6.0",
+    "versionCode": 36,
+    "date": "2020-11-26",
+    "changelog": [
+      "1、新增支线章节一，包含5首歌曲：",
+      "Ποσειδών",
+      "WATER",
+      "Miracle Forest (VIP Mix)",
+      "MOBILYS",
+      "Lyrith -迷宮リリス-",
+      "2、修复了画面正中央无法点击的问题。",
+      "3、修复了[PRAW]、MARENOL的IN难度中部分Hold的判定问题。",
+      "4、更换了商店页面歌曲。"
+    ],
+    "downloads": [
+      {
+        "type": "taptap",
+        "url": {
+          "123pan": "",
+          "caiyun": "",
+          "huang1111": "https://pan.huang1111.cn/s/qg2eku3",
+          "github": "",
+          "other": []
+        }
+      }
+    ]
+  },
+  {
+    "versionName": "1.6.1",
+    "versionCode": 37,
+    "date": "2020-12-10",
+    "changelog": [
+      "1、更新一首单曲",
+      "Hardcore Kwaya",
+      "2、Sein [IN] 谱面微调"
+    ],
+    "downloads": []
+  },
+  {
+    "versionName": "1.6.2",
+    "versionCode": 38,
+    "date": "2020-12-20",
+    "changelog": [
+      "圣诞节快乐！",
+      "1、三首全新单曲：",
+      "Äventyr",
+      "Träne",
+      "雪降り、メリクリ",
+      "2、全新的单曲选择页面。"
+    ],
+    "downloads": []
+  },
+  {
+    "versionName": "1.6.3",
+    "versionCode": 39,
+    "date": "2021-01-13",
+    "changelog": [
+      "1、新增两首全新单曲：",
+      "Cervelle Connexion",
+      "modulus",
+      "2、修复「Ποσειδών」无法正常游玩的问题。"
+    ],
+    "downloads": [
+      {
+        "type": "taptap",
+        "url": {
+          "123pan": "",
+          "caiyun": "",
+          "huang1111": "https://pan.huang1111.cn/s/MNenBhx",
+          "github": "",
+          "other": []
+        }
+      }
+    ]
+  },
+  {
+    "versionName": "1.6.4",
+    "versionCode": 41,
+    "date": "2021-03-03",
+    "changelog": [
+      "1、新增姜米條精选集，包含3首歌曲：",
+      "Shadow",
+      "Anomaly",
+      "Destination",
+      "2、修复了部分设备加载图片素材时画面可能会出现卡顿的问题。",
+      "3、Lyrith -迷宮リリス- IN谱面轻微修改。",
+      "4、Pixel Rebelz曲绘替换为第一版。",
+      "5、改正modulus的IN谱面的难度数值。"
+    ],
+    "downloads": [
+      {
+        "type": "taptap",
+        "url": {
+          "123pan": "",
+          "caiyun": "",
+          "huang1111": "https://pan.huang1111.cn/s/k26aDcB",
+          "github": "",
+          "other": []
+        }
+      }
+    ]
+  },
+  {
+    "versionName": "1.6.5",
+    "versionCode": 42,
+    "date": "2021-03-29",
+    "changelog": [
+      "1、一首全新单曲：",
+      "Wavetapper",
+      "2、修复了部分信息显示错误的问题。",
+      "3、修复了Legacy谱面无法进入的问题。",
+      "4、除此之外没有任何新内容，请放心游玩。"
+    ],
+    "downloads": [
+      {
+        "type": "taptap",
+        "url": {
+          "123pan": "",
+          "caiyun": "",
+          "huang1111": "https://pan.huang1111.cn/s/Qzk1mUm",
+          "github": "",
+          "other": []
+        }
+      },
+      {
+        "type": "playstore",
+        "url": {
+          "123pan": "",
+          "caiyun": "",
+          "huang1111": "https://pan.huang1111.cn/s/KNlgiY",
+          "github": "",
+          "other": []
+        }
+      }
+    ]
+  },
+  {
+    "versionName": "1.6.6",
+    "versionCode": 44,
+    "date": "2021-04-14",
+    "changelog": [
+      "1、两首全新单曲：",
+      "Eltaw",
+      "大和撫子 -Wild Dances-",
+      "2、修复了部分谱面中结尾Hold时间超过歌曲总时长的问题。",
+      "3、修复了部分Legacy谱面信息显示错误的问题。"
+    ],
+    "downloads": [
+      {
+        "type": "taptap",
+        "url": {
+          "123pan": "",
+          "caiyun": "",
+          "huang1111": "https://pan.huang1111.cn/s/9QydETd",
+          "github": "",
+          "other": []
+        }
+      }
+    ]
+  },
+  {
+    "versionName": "1.6.7",
+    "versionCode": 45,
+    "date": "2021-04-29",
+    "changelog": [
+      "1、新增WAVEAT精选集，包含4首歌曲：",
+      "Initialize",
+      "桜樹街道",
+      "Get Ready!!",
+      "volcanic",
+      "2、一首全新单曲：",
+      "Better Graphic Animation"
+    ],
+    "downloads": [
+      {
+        "type": "taptap",
+        "url": {
+          "123pan": "",
+          "caiyun": "",
+          "huang1111": "https://pan.huang1111.cn/s/2vQENhN",
+          "github": "",
+          "other": []
+        }
+      }
+    ]
+  },
+  {
+    "versionName": "1.6.7.1",
+    "versionCode": 46,
+    "date": "2021-05-07",
+    "changelog": [
+      "1、修复了若干BUG",
+      "2、优化触摸、判定系统。"
+    ],
+    "downloads": [
+      {
+        "type": "taptap",
+        "url": {
+          "123pan": "",
+          "caiyun": "",
+          "huang1111": "https://pan.huang1111.cn/s/zM6nNuM",
+          "github": "",
+          "other": []
+        }
+      }
+    ]
+  },
+  {
+    "versionName": "1.6.8",
+    "versionCode": 47,
+    "date": "2021-05-27",
+    "changelog": [
+      "1、新增Muse Dash精选集，共3首歌曲：",
+      "XING",
+      "Final Step!",
+      "Cthugha",
+      "2、修复部分关卡等级显示错误的问题。"
+    ],
+    "downloads": [
+      {
+        "type": "taptap",
+        "url": {
+          "123pan": "",
+          "caiyun": "",
+          "huang1111": "https://pan.huang1111.cn/s/jRD6zty",
+          "github": "",
+          "other": []
+        }
+      }
+    ]
+  },
+  {
+    "versionName": "1.6.9",
+    "versionCode": 48,
+    "date": "2021-06-17",
+    "changelog": [
+      "1、两首全新单曲：",
+      "Unorthodox Thoughts",
+      "With You",
+      "2、修复了一些设备的音频问题。因音频系统改动，更新后请重新调节音频延迟。"
+    ],
+    "downloads": [
+      {
+        "type": "taptap",
+        "url": {
+          "123pan": "",
+          "caiyun": "",
+          "huang1111": "https://pan.huang1111.cn/s/y5gAjt6",
+          "github": "",
+          "other": []
+        }
+      }
+    ]
+  },
+  {
+    "versionName": "1.6.10",
+    "versionCode": 49,
+    "date": "2021-07-08",
+    "changelog": [
+      "1、两首全新单曲：",
+      "Apocalyptic",
+      "游园地",
+      "2、添加登陆入口。暂未开放注册功能，请以offline模式登陆。"
+    ],
+    "downloads": [
+      {
+        "type": "taptap",
+        "url": {
+          "123pan": "",
+          "caiyun": "",
+          "huang1111": "https://pan.huang1111.cn/s/1Q9Bxfv",
+          "github": "",
+          "other": []
+        }
+      }
+    ]
+  },
+  {
+    "versionName": "1.6.11",
+    "versionCode": 50,
+    "date": "2021-07-25",
+    "changelog": [
+      "1、一首全新单曲：",
+      "energy trixxx"
+    ],
+    "downloads": [
+      {
+        "type": "taptap",
+        "url": {
+          "123pan": "",
+          "caiyun": "",
+          "huang1111": "https://pan.huang1111.cn/s/gg9wqUQ",
+          "github": "",
+          "other": [
+            {
+              "name": "共存版(github)",
+              "url": "https://github.com/SteveZMTstudios/Phigros-history/releases/download/v1.6.11/Phigros_V1.6.11_clone.apk"
+            }
+          ]
+        }
+      }
+    ]
+  }
+]
