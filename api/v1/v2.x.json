@@ -1,0 +1,589 @@
+[
+  {
+    "versionName": "2.0.0",
+    "versionCode": 51,
+    "date": "2021-10-22",
+    "changelog": [
+      "1、新增主线章节七《时钟链接》。包含5首歌曲：",
+      "•「Clock Paradox」by WyvernP",
+      "•「Chronomia」by Lime",
+      "•「Nick of Time」by P4koo",
+      "•「Chronologika」by Hundotte",
+      "•「Chronos Collapse - La Campanella」by SunsetRay",
+      "2、3首全新单曲：",
+      "•「Nhelv」by Silentroom",
+      "•「-Arkhei-」by Sera Amagi",
+      "•「Kerberos」by Zris",
+      "3、新增 dB doll AT难度。",
+      "4、全新的2.0UI。",
+      "焕然一新的界面，随之而来的是易用性的大大提升。请进入游戏慢慢体验！",
+      "5、新增课题系统。",
+      "在更严格的判定下享受更纯粹的实力挑战！",
+      "6、收集品更新：",
+      "新增《支线章节一》。在一系列的碎片中，拼凑出忘忧宫的精彩篇章。",
+      "7、重置了大量老旧谱面：",
+      "混乱Confusion",
+      "Dash",
+      "云女孩",
+      "Pixel Rebelz",
+      "ENERGY SYNERGY MATRIX",
+      "華灯爱",
+      "Ripper",
+      "Khronostasis Katharsis",
+      "狂喜籣舞",
+      "Winter ↑cube↓",
+      "Drop it",
+      "Another me",
+      "开心病",
+      "Miracle Forest (VIP Mix)",
+      "Break Through The Barrier",
+      "Glaciaxion",
+      "8、替换了部分曲绘：",
+      "Aphasia",
+      "万吨匿名信",
+      "Speed Up!",
+      "Cipher",
+      "Cereris",
+      "9、对大量谱面进行微调。",
+      "10、商店系统、头像系统改版。",
+      "11、全新的新手教程。",
+      "12、现在Hold类型的按键也会显示多押辅助的提示。",
+      "13、游玩界面新增了锁定屏幕方向的功能。",
+      "14、一系列BUG的修复。"
+    ],
+    "downloads": [
+      {
+        "type": "taptap",
+        "url": {
+          "123pan": "",
+          "caiyun": "",
+          "huang1111": "https://pan.huang1111.cn/s/Zqez5FL",
+          "github": "",
+          "other": [
+            {
+              "name": "共存版(Github)",
+              "url": "https://github.com/SteveZMTstudios/Phigros-history/releases/download/v2.0.0/phigros_V2.0.0_clone.apk"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "versionName": "2.0.1",
+    "versionCode": 52,
+    "date": "2021-11-12",
+    "changelog": [
+      "1、一首全新单曲：",
+      "ρars/ey",
+      "2、添加低分辨率模式。在性能较差的设备上，低分辨率模式可以获得较高帧率。"
+    ],
+    "downloads": [
+      {
+        "type": "taptap",
+        "url": {
+          "123pan": "",
+          "caiyun": "",
+          "huang1111": "https://pan.huang1111.cn/s/VLkqkud",
+          "github": "",
+          "other": []
+        }
+      }
+    ]
+  },
+  {
+    "versionName": "2.1.0",
+    "versionCode": 53,
+    "date": "2021-12-24",
+    "changelog": [
+      "1、新增 KALPA 精选集，共五首曲目",
+      "Time to Night Sky (feat. Lee Yu Jin)",
+      "HAZARD",
+      "Another Me",
+      "Don't Never Around",
+      "RESSiSTANCE",
+      "2、两首全新单曲：",
+      "Concvssion",
+      "ジングルベル(Jingle Bell)"
+    ],
+    "downloads": [
+      {
+        "type": "taptap",
+        "url": {
+          "123pan": "",
+          "caiyun": "",
+          "huang1111": "https://pan.huang1111.cn/s/aEVlNSG",
+          "github": "",
+          "other": []
+        }
+      }
+    ]
+  },
+  {
+    "versionName": "2.1.1",
+    "versionCode": 54,
+    "date": "2022-01-21",
+    "changelog": [
+      "1、三首全新单曲：",
+      "Dreamland",
+      "Another Round",
+      "996"
+    ],
+    "downloads": [
+      {
+        "type": "taptap",
+        "url": {
+          "123pan": "",
+          "caiyun": "",
+          "huang1111": "https://pan.huang1111.cn/s/Xqd11hl",
+          "github": "",
+          "other": []
+        }
+      }
+    ]
+  },
+  {
+    "versionName": "2.1.2",
+    "versionCode": 55,
+    "date": "2022-02-21",
+    "changelog": [
+      "1.一首新歌 Future Mind",
+      "2.修复了部分谱面的一些错误",
+      "3.修复了部分歌曲难度数值错误的问题"
+    ],
+    "downloads": [
+      {
+        "type": "taptap",
+        "url": {
+          "123pan": "",
+          "caiyun": "",
+          "huang1111": "https://pan.huang1111.cn/s/6eKaesN",
+          "github": "",
+          "other": []
+        }
+      }
+    ]
+  },
+  {
+    "versionName": "2.1.3",
+    "versionCode": 56,
+    "date": "2022-03-13",
+    "changelog": [
+      "1.一首单曲 Luminescemt",
+      "2.支线章节二前瞻曲目 Demiurge"
+    ],
+    "downloads": [
+      {
+        "type": "taptap",
+        "url": {
+          "123pan": "",
+          "caiyun": "",
+          "huang1111": "https://pan.huang1111.cn/s/nqVqECm",
+          "github": "",
+          "other": []
+        }
+      }
+    ]
+  },
+  {
+    "versionName": "2.1.3",
+    "versionCode": 56,
+    "date": "2022-03-15",
+    "changelog": [
+      "1.一首单曲 Luminescemt",
+      "2.支线章节二前瞻曲目 Demiurge"
+    ],
+    "downloads": [
+      {
+        "type": "taptap",
+        "url": {
+          "123pan": "",
+          "caiyun": "",
+          "huang1111": "https://pan.huang1111.cn/s/K9k9ZIY",
+          "github": "",
+          "other": []
+        }
+      }
+    ]
+  },
+  {
+    "versionName": "2.1.4",
+    "versionCode": 57,
+    "date": "2022-03-28",
+    "changelog": [
+      "1.一首新曲：FULi AUTO BUSTER",
+      "（真的没有新内容（真的（心虚"
+    ],
+    "downloads": [
+      {
+        "type": "taptap",
+        "url": {
+          "123pan": "",
+          "caiyun": "",
+          "huang1111": "https://pan.huang1111.cn/s/LxXxzt6",
+          "github": "",
+          "other": []
+        }
+      },
+      {
+        "type": "playstore",
+        "url": {
+          "123pan": "https://pan.huang1111.cn/s/nlX9Im?path=%252F",
+          "caiyun": "",
+          "huang1111": "https://pan.huang1111.cn/s/nlX9Im",
+          "github": "",
+          "other": []
+        }
+      }
+    ]
+  },
+  {
+    "versionName": "2.2.0",
+    "versionCode": 58,
+    "date": "2022-04-25",
+    "changelog": [
+      "1.支线章节二新增五首歌曲：",
+      "- 「Demonkin」by Forged Reigns",
+      "- 「Re_Nascence (Psystyle Ver.)」by Rinth_live",
+      "- 「Ark」by kanoryo",
+      "- 「After Dawn」by S9ryne",
+      "- 「INFiNiTE ENERZY -Overdoze-」by Reku Mochizuki",
+      "2.略微修改了歌曲「Luminescent」的IN谱面"
+    ],
+    "downloads": [
+      {
+        "type": "taptap",
+        "url": {
+          "123pan": "",
+          "caiyun": "",
+          "huang1111": "https://pan.huang1111.cn/s/G8q8xFW",
+          "github": "",
+          "other": []
+        }
+      }
+    ]
+  },
+  {
+    "versionName": "2.2.1",
+    "versionCode": 59,
+    "date": "2022-05-16",
+    "changelog": [
+      "1、新增两首单曲",
+      "·「opia」by rN",
+      "·「I Must Say No」by TangJuan",
+      "2、更改了歌曲「NYA!!!」的插画"
+    ],
+    "downloads": [
+      {
+        "type": "taptap",
+        "url": {
+          "123pan": "",
+          "caiyun": "",
+          "huang1111": "https://pan.huang1111.cn/s/8QyQ8cQ",
+          "github": "",
+          "other": []
+        }
+      }
+    ]
+  },
+  {
+    "versionName": "2.3.0",
+    "versionCode": 60,
+    "date": "2022-06-06",
+    "changelog": [
+      "1.更新了Lanota联动精选集，内含五首歌曲",
+      "•「Protoflicker」by Silentroom",
+      "•「Apocalypse」by アリスシャッハと魔法の楽団",
+      "•「Stasis」by Maozon",
+      "•「Horizon Blue」by Nothing But Requiem feat. Aikapin & Chiyoko",
+      "•「You are the Miserable」by t+pazolite"
+    ],
+    "downloads": [
+      {
+        "type": "taptap",
+        "url": {
+          "123pan": "",
+          "caiyun": "",
+          "huang1111": "https://pan.huang1111.cn/s/Nk9kGi1",
+          "github": "",
+          "other": []
+        }
+      }
+    ]
+  },
+  {
+    "versionName": "2.3.1",
+    "versionCode": 61,
+    "date": "2022-06-28",
+    "changelog": [
+      "1. 新增一首单曲：「いざ、参ります」 by U-ske feat. 棗いつき",
+      "2. 部分 UI 与功能优化"
+    ],
+    "downloads": [
+      {
+        "type": "taptap",
+        "url": {
+          "123pan": "",
+          "caiyun": "",
+          "huang1111": "https://pan.huang1111.cn/s/mxqxBh1",
+          "github": "",
+          "other": []
+        }
+      }
+    ]
+  },
+  {
+    "versionName": "2.3.2",
+    "versionCode": 62,
+    "date": "2022-07-16",
+    "changelog": [
+      "新增一首单曲：「月下缭乱」 by 月見静華 vs. LUNARiUM"
+    ],
+    "downloads": [
+      {
+        "type": "taptap",
+        "url": {
+          "123pan": "",
+          "caiyun": "",
+          "huang1111": "https://pan.huang1111.cn/s/A636vCB",
+          "github": "",
+          "other": []
+        }
+      }
+    ]
+  },
+  {
+    "versionName": "2.3.3",
+    "versionCode": 63,
+    "date": "2022-08-05",
+    "changelog": [
+      "新增一首单曲：「On And On!!」 by ETIA. feat. Jenga"
+    ],
+    "downloads": [
+      {
+        "type": "taptap",
+        "url": {
+          "123pan": "",
+          "caiyun": "",
+          "huang1111": "https://pan.huang1111.cn/s/bywyaIY",
+          "github": "",
+          "other": []
+        }
+      }
+    ]
+  },
+  {
+    "versionName": "2.4.0",
+    "versionCode": 64,
+    "date": "2022-08-26",
+    "changelog": [
+      "1.姜米條精选集回归，内含现有歌曲「Shadow」与两首新曲：",
+      "「心之所向」 by 姜米條",
+      "「inferior」by 姜米條",
+      "除此之外歌曲「Shadow」将追加AT难度",
+      "2.一首单曲：",
+      "「DataErr0r」by Cosmograph",
+      "3.新增云存档系统，使用TapTap账号登录即可在云端保存自己的游戏进度",
+      "4.新增谱面镜像功能",
+      "5.新增了一些Tips，部分UI更改"
+    ],
+    "downloads": [
+      {
+        "type": "taptap",
+        "url": {
+          "123pan": "",
+          "caiyun": "",
+          "huang1111": "https://pan.huang1111.cn/s/4R2R3sg",
+          "github": "",
+          "other": []
+        }
+      }
+    ]
+  },
+  {
+    "versionName": "2.4.1",
+    "versionCode": 65,
+    "date": "2022-09-16",
+    "changelog": [
+      "1.两首单曲",
+      "「c.s.q.n.」 by Aoi",
+      "「Brave Notes」 by Turquoise(DRIVE.+Nota)",
+      "2.移除了legacy谱面",
+      "3.修改了部分谱面"
+    ],
+    "downloads": []
+  },
+  {
+    "versionName": "2.4.2",
+    "versionCode": 66,
+    "date": "2022-10-07",
+    "changelog": [
+      "更新了两首新曲",
+      "•「盏茗」 by 茶鸣拾贰律",
+      "•「青芽」 by 茶鸣拾贰律"
+    ],
+    "downloads": []
+  },
+  {
+    "versionName": "2.4.3",
+    "versionCode": 68,
+    "date": "2022-10-26",
+    "changelog": [
+      "更新了两首新曲",
+      "•「Eternal Snow」 by Abyss Idols",
+      "•「Rainy Season」 by Abyss Idols"
+    ],
+    "downloads": []
+  },
+  {
+    "versionName": "2.4.4",
+    "versionCode": 69,
+    "date": "2022-11-20",
+    "changelog": [
+      "更新了两首新曲",
+      "•「El Condor Pasa (Phigros Edit)」by Plastic Fruits",
+      "•「Break Over」by K-forest"
+    ],
+    "downloads": [
+      {
+        "type": "taptap",
+        "url": {
+          "123pan": "",
+          "caiyun": "",
+          "huang1111": "https://pan.huang1111.cn/s/G8q8oiW",
+          "github": "",
+          "other": []
+        }
+      }
+    ]
+  },
+  {
+    "versionName": "2.4.5",
+    "versionCode": 70,
+    "date": "2022-12-21",
+    "changelog": [
+      "更新了两首新曲",
+      "•「Believe Light (feat. 果丸哒呦)」 by Scaler & Mestie & 果丸哒呦",
+      "•「Pont des souvenirs」 by VeetaCrush vs. [itsu(feat.itsu)]"
+    ],
+    "downloads": [
+      {
+        "type": "playstore",
+        "url": {
+          "123pan": "",
+          "caiyun": "",
+          "huang1111": "https://pan.huang1111.cn/s/vV1O9TE",
+          "github": "",
+          "other": []
+        }
+      }
+    ]
+  },
+  {
+    "versionName": "2.4.6",
+    "versionCode": 71,
+    "date": "2023-01-03",
+    "changelog": [
+      "更新了一首新曲",
+      "•「青丘」 by BLACK 0"
+    ],
+    "downloads": [
+      {
+        "type": "playstore",
+        "url": {
+          "123pan": "",
+          "caiyun": "",
+          "huang1111": "https://pan.huang1111.cn/s/eNzOycg",
+          "github": "",
+          "other": []
+        }
+      }
+    ]
+  },
+  {
+    "versionName": "2.4.7",
+    "versionCode": 72,
+    "date": "2023-01-15",
+    "changelog": [
+      "1. 新增「茶鸣拾贰律精选集」，内含歌曲「青芽」、「盏茗」和两首新曲「瓷岁」、「Feast远东之宴」",
+      "2. 新增茶鸣拾贰律联动头像"
+    ],
+    "downloads": [
+      {
+        "type": "playstore",
+        "url": {
+          "123pan": "",
+          "caiyun": "",
+          "huang1111": "https://pan.huang1111.cn/s/3egm7fm",
+          "github": "",
+          "other": []
+        }
+      }
+    ]
+  },
+  {
+    "versionName": "2.5.0",
+    "versionCode": 73,
+    "date": "2023-02-21",
+    "changelog": [
+      "1.更新了三首新曲",
+      "•「インフェルノシティ」 by Ponchi♪ feat. はぁち",
+      "•「Upshift」 by Iriss-Frantzz",
+      "•「Poison AND÷OR Affection」 by LeaF",
+      "2.修改了部分歌曲的谱面、难度和曲绘"
+    ],
+    "downloads": [
+      {
+        "type": "taptap",
+        "url": {
+          "123pan": "",
+          "caiyun": "",
+          "huang1111": "https://pan.huang1111.cn/s/Nk9k8s1",
+          "github": "",
+          "other": []
+        }
+      }
+    ]
+  },
+  {
+    "versionName": "2.5.0.1",
+    "versionCode": 74,
+    "date": "2023-02-25",
+    "changelog": [
+      "修复了部分情况下隐藏歌曲无法解锁的问题"
+    ],
+    "downloads": [
+      {
+        "type": "taptap",
+        "url": {
+          "123pan": "",
+          "caiyun": "",
+          "huang1111": "https://pan.huang1111.cn/s/laoaksL",
+          "github": "",
+          "other": []
+        }
+      }
+    ]
+  },
+  {
+    "versionName": "2.5.1",
+    "versionCode": 77,
+    "date": "2023-03-29",
+    "changelog": [
+      "1. 新增一首与 Paradigm: Reboot 联动的单曲：「零號車輛」 by seatrus",
+      "2. 新增一首单曲：「Random」 by Sobrem × Silentroom"
+    ],
+    "downloads": [
+      {
+        "type": "taptap",
+        "url": {
+          "123pan": "https://www.123pan.com/s/OS4KVv-uZbrv.html",
+          "caiyun": "",
+          "huang1111": "https://pan.huang1111.cn/s/wePeBTK",
+          "github": "https://github.com/SteveZMTstudios/Phigros-history/releases/download/v2.5.1/Phigros_2.5.1.apk",
+          "other": []
+        }
+      }
+    ]
+  }
+]

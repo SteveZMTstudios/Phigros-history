@@ -31,6 +31,24 @@
 
 </details>
 
+### 3.14.0 (128) 2025/06/06
+
+新增与オンゲキ的联动章节，包含以下曲目：
+•「Radiance」 by: Nhato
+•「Diamond Dust」 by: Masahiro “Godspeed” Aoki
+•「Stardust:RAY」 by: kanone vs. BlackY
+
+
+[![ Taptap 版本(123pan)](https://img.shields.io/badge/TapTap_(123云盘)-下载-brightgreen.svg?logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjgiIGhlaWdodD0iMTI4IiB2aWV3Qm94PSIwIDAgMjQgMjQiPjxwYXRoIGZpbGw9IiNmZmZmZmYiIGQ9Ik01IDIwaDE0di0ySDVtMTQtOWgtNFYzSDl2Nkg1bDcgN3oiLz48L3N2Zz4=)](https://www.123684.com/s/OS4KVv-KRQ8v "通过123云盘下载TapTap版本，可能需要付费")
+[![ Taptap 版本(中国移动云盘)](https://img.shields.io/badge/TapTap_(彩云网盘)-下载-green.svg?logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjgiIGhlaWdodD0iMTI4IiB2aWV3Qm94PSIwIDAgMjQgMjQiPjxwYXRoIGZpbGw9IiNmZmZmZmYiIGQ9Ik01IDIwaDE0di0ySDVtMTQtOWgtNFYzSDl2Nkg1bDcgN3oiLz48L3N2Zz4=)](https://caiyun.139.com/m/i?2jexCagSU4bd0 "通过中国移动云盘下载TapTap版本，需要登录和客户端，对中国移动用户免流量")
+[![ TapTap 版本(huang1111)](https://img.shields.io/badge/TapTap_(huang1111)-备选下载-lightblue.svg?logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjgiIGhlaWdodD0iMTI4IiB2aWV3Qm94PSIwIDAgMjQgMjQiPjxwYXRoIGZpbGw9IiNmZmZmZmYiIGQ9Ik01IDIwaDE0di0ySDVtMTQtOWgtNFYzSDl2Nkg1bDcgN3oiLz48L3N2Zz4=)](https://pan.huang1111.cn/s/vVNqKCE)
+<!--[![ Taptap 版本(百度网盘海外版)](https://img.shields.io/badge/TapTap_(Terabox)-下载-royalblue.svg?logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjgiIGhlaWdodD0iMTI4IiB2aWV3Qm94PSIwIDAgMjQgMjQiPjxwYXRoIGZpbGw9IiNmZmZmZmYiIGQ9Ik01IDIwaDE0di0ySDVtMTQtOWgtNFYzSDl2Nkg1bDcgN3oiLz48L3N2Zz4=)]( "通过Terabox下载TapTap版本，需要全球网络访问")-->
+[![ TapTap 版本(Github)](https://img.shields.io/badge/TapTap_(Github)-下载-blue.svg?logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjgiIGhlaWdodD0iMTI4IiB2aWV3Qm94PSIwIDAgMjQgMjQiPjxwYXRoIGZpbGw9IiNmZmZmZmYiIGQ9Ik01IDIwaDE0di0ySDVtMTQtOWgtNFYzSDl2Nkg1bDcgN3oiLz48L3N2Zz4=)](https://github.com/SteveZMTstudios/Phigros-history/releases/tag/v3.14.0 "通过Github下载，需要通畅的网络")<br>
+<!--[![ Play 版本(123pan) ](https://img.shields.io/badge/Play_商店_(123云盘)-下载-brightgreen.svg?logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjgiIGhlaWdodD0iMTI4IiB2aWV3Qm94PSIwIDAgMjQgMjQiPjxwYXRoIGZpbGw9IiNmZmZmZmYiIGQ9Ik01IDIwaDE0di0ySDVtMTQtOWgtNFYzSDl2Nkg1bDcgN3oiLz48L3N2Zz4=)]( "通过123云盘下载Play商店版本，可能需要付费"))-->
+<!--[![ Play 版本(中国移动云盘)](https://img.shields.io/badge/Play_商店_(彩云网盘)-下载-green.svg?logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjgiIGhlaWdodD0iMTI4IiB2aWV3Qm94PSIwIDAgMjQgMjQiPjxwYXRoIGZpbGw9IiNmZmZmZmYiIGQ9Ik01IDIwaDE0di0ySDVtMTQtOWgtNFYzSDl2Nkg1bDcgN3oiLz48L3N2Zz4=)]( "通过中国移动云盘下载TapTap版本，需要登录和客户端，对中国移动用户免流量")-->
+<!--[![ Play 版本(阿里云盘)](https://img.shields.io/badge/Play_商店_(阿里云盘)-下载-royalblue.svg?logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjgiIGhlaWdodD0iMTI4IiB2aWV3Qm94PSIwIDAgMjQgMjQiPjxwYXRoIGZpbGw9IiNmZmZmZmYiIGQ9Ik01IDIwaDE0di0ySDVtMTQtOWgtNFYzSDl2Nkg1bDcgN3oiLz48L3N2Zz4=)]( "通过阿里云盘下载TapTap版本，需要客户端登录")-->
+<!--[![ Play 版本(百度网盘海外版)](https://img.shields.io/badge/Play_商店_(Terabox)-下载-royalblue.svg?logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjgiIGhlaWdodD0iMTI4IiB2aWV3Qm94PSIwIDAgMjQgMjQiPjxwYXRoIGZpbGw9IiNmZmZmZmYiIGQ9Ik01IDIwaDE0di0ySDVtMTQtOWgtNFYzSDl2Nkg1bDcgN3oiLz48L3N2Zz4=)]( "通过Terabox下载Play商店版本，需要全球网络访问")-->
+
 
 ### 3.13.1 (127) 2025/05/17
 

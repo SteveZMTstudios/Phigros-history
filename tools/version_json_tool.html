@@ -15,10 +15,19 @@
 </head>
 <body>
   <h1>JSON 编辑工具</h1>
+  <!-- 新增：显示上一次添加的版本信息 -->
+  <div id="lastVersionInfo" style="margin-bottom:1em;color:#555;"></div>
   <form id="versionForm" autocomplete="off">
-    <label>版本号 (versionName): <input type="text" id="versionName" required></label>
-    <label>版本号 (versionCode): <input type="number" id="versionCode" required></label>
-    <label>发布日期 (date): <input type="date" id="date" required min="2000-01-01" max="2099-12-31"></label>
+    
+    <!-- 新增：一键粘贴版本历史并自动解析 -->
+    <label>粘贴版本历史（自动解析）：
+      <textarea id="historyPaste" placeholder="粘贴如 Version 3.1.0 (82) 2023/06/07\n更新内容..." style="min-height:40px;"></textarea>
+      <button type="button" onclick="parseHistoryPaste()">解析并填充</button>
+    </label>
+
+    <label>版本号 (versionName): *<input type="text" id="versionName" required></label>
+    <label>版本号 (versionCode): *<input type="number" id="versionCode" required></label>
+    <label>发布日期 (date): *<input type="date" id="date" required min="2000-01-01" max="2099-12-31"></label>
 
     <label>更新内容 (changelog, 一行一条):
       <textarea id="changelog" placeholder="每行一条更新内容"></textarea>
@@ -28,7 +37,7 @@
       <div id="downloads"></div>
       <button type="button" onclick="addDownload()">添加下载渠道</button>
     </fieldset>
-    <button type="button" onclick="addVersion()">添加到 JSON</button>
+    <button type="button" onclick="addVersion()">>>>添加到 JSON<<<</button>
     <button type="button" onclick="importJson()">导入 JSON 文件</button>
     <input type="file" id="importFile" style="display:none" accept="application/json" onchange="handleImport(event)">
   </form>
@@ -39,11 +48,37 @@
 let versions = [];
 let downloadCount = 0;
 const typeOptions = ['taptap', 'playstore'];
+
+// 新增：解析粘贴的版本历史文本
+function parseHistoryPaste() {
+  const text = document.getElementById('historyPaste').value.trim();
+  if (!text) return;
+  // 支持多种格式，兼容空行
+  // 例：Version 3.1.0 (82) 2023/06/07\n更新内容...
+  const lines = text.split(/\r?\n/).filter(l => l.trim() !== '');
+  if (lines.length === 0) return;
+  // 匹配首行
+  const m = lines[0].match(/^Version\s+([\d.]+)\s*\((\d+)\)\s*(\d{4})[\/-](\d{2})[\/-](\d{2})/i);
+  if (!m) {
+    alert('首行格式不正确，需形如 Version 3.1.0 (82) 2023/06/07');
+    return;
+  }
+  const versionName = m[1];
+  const versionCode = m[2];
+  const date = `${m[3]}-${m[4]}-${m[5]}`;
+  // 剩余为 changelog
+  const changelog = lines.slice(1).join('\n').replace(/^\n+|\n+$/g, '');
+  document.getElementById('versionName').value = versionName;
+  document.getElementById('versionCode').value = versionCode;
+  document.getElementById('date').value = date;
+  document.getElementById('changelog').value = changelog;
+}
+
 function addDownload() {
   const d = document.createElement('div');
   d.className = 'downloads-list';
   d.innerHTML = `
-    <label>类型(type):
+    <label>类型(type)*:
       <select name="type${downloadCount}" required>
         <option value="">请选择</option>
         <option value="taptap">taptap</option>
@@ -62,32 +97,103 @@ function addDownload() {
   downloadCount++;
 }
 function addVersion() {
-  const versionName = document.getElementById('versionName').value;
-  const versionCode = parseInt(document.getElementById('versionCode').value, 10);
+  const versionName = document.getElementById('versionName').value.trim();
+  const versionCodeInput = document.getElementById('versionCode');
+  const versionCode = parseInt(versionCodeInput.value, 10);
   const date = document.getElementById('date').value;
-  const changelog = document.getElementById('changelog').value.split('\n').filter(x=>x.trim());
+  const changelogRaw = document.getElementById('changelog').value;
+  const changelog = changelogRaw.split('\n').filter(x=>x.trim());
+
+  // 必填项校验
+  if (!versionName) {
+    alert('版本号(versionName)不能为空');
+    return;
+  }
+  if (!versionCodeInput.value) {
+    alert('版本代码(versionCode)不能为空');
+    return;
+  }
+  if (!date) {
+    alert('发布日期(date)不能为空');
+    return;
+  }
+  if (!changelogRaw.trim()) {
+    alert('发布日志(changelog)不能为空');
+    return;
+  }
+
+  // 下载链接校验
   const downloads = [];
+  let hasDownload = false;
+  let hasValidDownload = false;
+  let downloadTypeMissing = false;
   document.querySelectorAll('#downloads .downloads-list').forEach(dl => {
+    hasDownload = true;
     const type = dl.querySelector('select[name^=type]').value;
+    if (!type) {
+      downloadTypeMissing = true;
+    }
+    const url123pan = dl.querySelector('[name^=url123pan]').value.trim();
+    const urlcaiyun = dl.querySelector('[name^=urlcaiyun]').value.trim();
+    const urlhuang1111 = dl.querySelector('[name^=urlhuang1111]').value.trim();
+    const urlgithub = dl.querySelector('[name^=urlgithub]').value.trim();
+    const urlother = dl.querySelector('[name^=urlother]').value.trim();
     const url = {
-      "123pan": dl.querySelector('[name^=url123pan]').value,
-      "caiyun": dl.querySelector('[name^=urlcaiyun]').value,
-      "huang1111": dl.querySelector('[name^=urlhuang1111]').value,
-      "github": dl.querySelector('[name^=urlgithub]').value,
+      "123pan": url123pan,
+      "caiyun": urlcaiyun,
+      "huang1111": urlhuang1111,
+      "github": urlgithub,
       "other": []
     };
-    const otherRaw = dl.querySelector('[name^=urlother]').value;
-    if (otherRaw) {
-      otherRaw.split(/\s+/).forEach(pair => {
+    // 校验链接格式
+    function isValidUrl(str) {
+      try {
+        new URL(str);
+        return true;
+      } catch {
+        return false;
+      }
+    }
+    if (
+      (url123pan && isValidUrl(url123pan)) ||
+      (urlcaiyun && isValidUrl(urlcaiyun)) ||
+      (urlhuang1111 && isValidUrl(urlhuang1111)) ||
+      (urlgithub && isValidUrl(urlgithub))
+    ) {
+      hasValidDownload = true;
+    }
+    // 校验other
+    if (urlother) {
+      urlother.split(/\s+/).forEach(pair => {
         const [name, urlstr] = pair.split('|');
-        if (name && urlstr) url.other.push({ name: name.trim(), url: urlstr.trim() });
+        if (name && urlstr) {
+          url.other.push({ name: name.trim(), url: urlstr.trim() });
+          if (isValidUrl(urlstr.trim())) hasValidDownload = true;
+        }
       });
     }
     downloads.push({ type, url });
   });
+  if (hasDownload && downloadTypeMissing) {
+    alert('请为每个下载渠道选择类型(type)');
+    return;
+  }
+  if (hasDownload && !hasValidDownload) {
+    alert('请至少填写一个有效的下载链接（格式正确的URL）');
+    return;
+  }
+
   versions.push({ versionName, versionCode, date, changelog, downloads });
   document.getElementById('jsonPreview').textContent = JSON.stringify(versions, null, 2);
-  document.getElementById('versionForm').reset();
+  // 更新上一次添加的版本信息
+  document.getElementById('lastVersionInfo').textContent =
+    `上一次添加: 版本号 ${versionName} | 代码 ${versionCode} | 日期 ${date}`;
+  // 清空除版本代码外的输入框
+  document.getElementById('versionName').value = '';
+  // 版本代码自增
+  versionCodeInput.value = versionCode + 1;
+  document.getElementById('date').value = '';
+  document.getElementById('changelog').value = '';
   document.getElementById('downloads').innerHTML = '';
   downloadCount = 0;
 }
@@ -120,6 +226,23 @@ function handleImport(event) {
   };
   reader.readAsText(file);
 }
+
+// 防止用户误关闭或刷新页面导致变更丢失
+window.onbeforeunload = function(e) {
+  // 只要表单有内容、downloads有内容，或JSON中有内容就提醒
+  if (
+    document.getElementById('versionName').value.trim() ||
+    document.getElementById('versionCode').value.trim() ||
+    document.getElementById('date').value.trim() ||
+    document.getElementById('changelog').value.trim() ||
+    document.getElementById('downloads').children.length > 0 ||
+    (Array.isArray(versions) && versions.length > 0)
+  ) {
+    e.preventDefault();
+    e.returnValue = '您有未保存的更改或未导出的JSON，确定要离开吗？';
+    return '您有未保存的更改或未导出的JSON，确定要离开吗？';
+  }
+};
   </script>
 </body>
 </html>
