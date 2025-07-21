@@ -1215,5 +1215,72 @@
         }
       }
     ]
+  },
+  {
+    "versionName": "3.14.0",
+    "versionCode": 128,
+    "date": "2025-06-06",
+    "changelog": [
+      "新增与オンゲキ的联动章节，包含以下曲目：",
+      "•「Radiance」 by: Nhato",
+      "•「Diamond Dust」 by: Masahiro “Godspeed” Aoki",
+      "•「Stardust:RAY」 by: kanone vs. BlackY"
+    ],
+    "downloads": [
+      {
+        "type": "taptap",
+        "url": {
+          "123pan": "https://www.123684.com/s/OS4KVv-KRQ8v",
+          "caiyun": "https://caiyun.139.com/m/i?2jexCagSU4bd0",
+          "huang1111": "https://pan.huang1111.cn/s/vVNqKCE",
+          "github": "https://github.com/SteveZMTstudios/Phigros-history/releases/tag/v3.14.0",
+          "other": []
+        }
+      }
+    ]
+  },
+  {
+    "versionName": "3.14.1",
+    "versionCode": 129,
+    "date": "2025-06-27",
+    "changelog": [
+      "1. 新增一首单曲：",
+      "•「Frozen Heart」 by: A-39 / 沙包P",
+      "2. 修改部分谱面",
+      "3. 修复了部分玩家无法使用TapTap登录的问题"
+    ],
+    "downloads": [
+      {
+        "type": "taptap",
+        "url": {
+          "123pan": "https://www.123684.com/s/OS4KVv-dHE8v",
+          "caiyun": "https://caiyun.139.com/m/i?2jexCagSU4bd0",
+          "huang1111": "https://pan.huang1111.cn/s/DVQNkc4",
+          "github": "https://github.com/SteveZMTstudios/Phigros-history/releases/tag/v3.14.1",
+          "other": []
+        }
+      }
+    ]
+  },
+  {
+    "versionName": "3.14.2",
+    "versionCode": 130,
+    "date": "2025-07-18",
+    "changelog": [
+      "新增一首单曲：",
+      "•「Helios」 by: NOA(Cortrix) & BotaNya"
+    ],
+    "downloads": [
+      {
+        "type": "taptap",
+        "url": {
+          "123pan": "https://www.123684.com/s/OS4KVv-3HE8v",
+          "caiyun": "https://caiyun.139.com/m/i?2jexCagSU4bd0",
+          "huang1111": "https://pan.huang1111.cn/s/6ePDeuN",
+          "github": "https://github.com/SteveZMTstudios/Phigros-history/releases/tag/v3.14.2",
+          "other": []
+        }
+      }
+    ]
   }
 ]
