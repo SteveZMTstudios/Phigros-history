@@ -13,8 +13,7 @@ Pigeon Games是由初创通过bilibili视频网站发起的、由众多节奏类
 )](https://play.google.com/store/apps/details?id=com.PigeonGames.Phigros) &nbsp;[![View in App Store](https://img.shields.io/badge/App_Store-%E6%9F%A5%E7%9C%8B-blue?logo=appstore&logoColor=white
 )](https://apps.apple.com/cn/app/phigros/id1454809109)
 
-> [!CAUTION]
-> 此项目急需您的支持才能继续运作。
+> 此项目希望能够得到您的帮助！
 > 
 > 由于所有的上游存储开始收取更加高昂的费用，将项目存储的费用和花销超出了我们所能承受的范围。
 > 
@@ -24,7 +23,7 @@ Pigeon Games是由初创通过bilibili视频网站发起的、由众多节奏类
 
 
 
-#### 2025-07-22 更新 [**🔄检查更新**](https://github.com/SteveZMTstudios/Phigros-history/issues) [🆙提醒更新](https://github.com/SteveZMTstudios/Phigros-history/issues/new/choose)
+#### 2025-09-21 更新 [**🔄检查更新**](https://github.com/SteveZMTstudios/Phigros-history/issues) [🆙提醒更新](https://github.com/SteveZMTstudios/Phigros-history/issues/new/choose)
 
 ## [**👉🔗查找所有版本👈**](https://stevezmt.top/Phigros-history/ver_data/VersionList_3.x)
 

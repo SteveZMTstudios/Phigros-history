@@ -31,6 +31,63 @@
 
 </details>
 
+### 3.16.0 (133) 2025/09/19
+
+新增与 maimai 的联动章节，包含以下曲目：
+•「アンビバレンス」 by: すりぃ×相沢
+•「Komplexe」 by: 雄之助 feat. Sennzai
+•「sølips」 by: rintaro soma
+•「QZKago Requiem」 by: t+pazolite
+
+
+[![ Taptap 版本(123pan)](https://img.shields.io/badge/TapTap_(123云盘)-下载-brightgreen.svg?logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjgiIGhlaWdodD0iMTI4IiB2aWV3Qm94PSIwIDAgMjQgMjQiPjxwYXRoIGZpbGw9IiNmZmZmZmYiIGQ9Ik01IDIwaDE0di0ySDVtMTQtOWgtNFYzSDl2Nkg1bDcgN3oiLz48L3N2Zz4=)](https://www.123684.com/s/OS4KVv-0CE8v "通过123云盘下载TapTap版本，可能需要付费")
+[![ Taptap 版本(中国移动云盘)](https://img.shields.io/badge/TapTap_(彩云网盘)-下载-green.svg?logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjgiIGhlaWdodD0iMTI4IiB2aWV3Qm94PSIwIDAgMjQgMjQiPjxwYXRoIGZpbGw9IiNmZmZmZmYiIGQ9Ik01IDIwaDE0di0ySDVtMTQtOWgtNFYzSDl2Nkg1bDcgN3oiLz48L3N2Zz4=)](https://yun.139.com/sharewap/#/m/i?2jexCagSU4bd0 "通过中国移动云盘下载TapTap版本，需要登录和客户端，对中国移动用户免流量")
+[![ TapTap 版本(huang1111)](https://img.shields.io/badge/TapTap_(huang1111)-备选下载-lightblue.svg?logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjgiIGhlaWdodD0iMTI4IiB2aWV3Qm94PSIwIDAgMjQgMjQiPjxwYXRoIGZpbGw9IiNmZmZmZmYiIGQ9Ik01IDIwaDE0di0ySDVtMTQtOWgtNFYzSDl2Nkg1bDcgN3oiLz48L3N2Zz4=)](https://pan.huang1111.cn/s/A6DlZhB)
+<!--[![ Taptap 版本(百度网盘海外版)](https://img.shields.io/badge/TapTap_(Terabox)-下载-royalblue.svg?logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjgiIGhlaWdodD0iMTI4IiB2aWV3Qm94PSIwIDAgMjQgMjQiPjxwYXRoIGZpbGw9IiNmZmZmZmYiIGQ9Ik01IDIwaDE0di0ySDVtMTQtOWgtNFYzSDl2Nkg1bDcgN3oiLz48L3N2Zz4=)]( "通过Terabox下载TapTap版本，需要全球网络访问")-->
+[![ TapTap 版本(Github)](https://img.shields.io/badge/TapTap_(Github)-下载-blue.svg?logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjgiIGhlaWdodD0iMTI4IiB2aWV3Qm94PSIwIDAgMjQgMjQiPjxwYXRoIGZpbGw9IiNmZmZmZmYiIGQ9Ik01IDIwaDE0di0ySDVtMTQtOWgtNFYzSDl2Nkg1bDcgN3oiLz48L3N2Zz4=)](https://github.com/SteveZMTstudios/Phigros-history/releases/tag/v3.16.0 "通过Github下载，需要通畅的网络")<br>
+<!--[![ Play 版本(123pan) ](https://img.shields.io/badge/Play_商店_(123云盘)-下载-brightgreen.svg?logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjgiIGhlaWdodD0iMTI4IiB2aWV3Qm94PSIwIDAgMjQgMjQiPjxwYXRoIGZpbGw9IiNmZmZmZmYiIGQ9Ik01IDIwaDE0di0ySDVtMTQtOWgtNFYzSDl2Nkg1bDcgN3oiLz48L3N2Zz4=)]( "通过123云盘下载Play商店版本，可能需要付费"))-->
+<!--[![ Play 版本(中国移动云盘)](https://img.shields.io/badge/Play_商店_(彩云网盘)-下载-green.svg?logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjgiIGhlaWdodD0iMTI4IiB2aWV3Qm94PSIwIDAgMjQgMjQiPjxwYXRoIGZpbGw9IiNmZmZmZmYiIGQ9Ik01IDIwaDE0di0ySDVtMTQtOWgtNFYzSDl2Nkg1bDcgN3oiLz48L3N2Zz4=)]( "通过中国移动云盘下载TapTap版本，需要登录和客户端，对中国移动用户免流量")-->
+<!--[![ Play 版本(阿里云盘)](https://img.shields.io/badge/Play_商店_(阿里云盘)-下载-royalblue.svg?logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjgiIGhlaWdodD0iMTI4IiB2aWV3Qm94PSIwIDAgMjQgMjQiPjxwYXRoIGZpbGw9IiNmZmZmZmYiIGQ9Ik01IDIwaDE0di0ySDVtMTQtOWgtNFYzSDl2Nkg1bDcgN3oiLz48L3N2Zz4=)]( "通过阿里云盘下载TapTap版本，需要客户端登录")-->
+<!--[![ Play 版本(百度网盘海外版)](https://img.shields.io/badge/Play_商店_(Terabox)-下载-royalblue.svg?logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjgiIGhlaWdodD0iMTI4IiB2aWV3Qm94PSIwIDAgMjQgMjQiPjxwYXRoIGZpbGw9IiNmZmZmZmYiIGQ9Ik01IDIwaDE0di0ySDVtMTQtOWgtNFYzSDl2Nkg1bDcgN3oiLz48L3N2Zz4=)]( "通过Terabox下载Play商店版本，需要全球网络访问")-->
+
+### 3.15.1 (132) 2025/08/31
+
+1.新增两首单曲：
+•「雪降り ~雪が降っている~」 by: AiSS w/ 夜輪 ft. 結月ゆかり
+•「Retribution ~ Cycle of Redemption ~ 」 by: Ardolf vs. Daily天利
+2.以下曲目新增 AT 谱面：
+•「PANIC PARADISE」 by: DJ SHION.Y
+•「Der Richter」 by: Ωμεγα
+
+
+[![ Taptap 版本(123pan)](https://img.shields.io/badge/TapTap_(123云盘)-下载-brightgreen.svg?logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjgiIGhlaWdodD0iMTI4IiB2aWV3Qm94PSIwIDAgMjQgMjQiPjxwYXRoIGZpbGw9IiNmZmZmZmYiIGQ9Ik01IDIwaDE0di0ySDVtMTQtOWgtNFYzSDl2Nkg1bDcgN3oiLz48L3N2Zz4=)](https://www.123684.com/s/OS4KVv-8CE8v "通过123云盘下载TapTap版本，可能需要付费")
+[![ Taptap 版本(中国移动云盘)](https://img.shields.io/badge/TapTap_(彩云网盘)-下载-green.svg?logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjgiIGhlaWdodD0iMTI4IiB2aWV3Qm94PSIwIDAgMjQgMjQiPjxwYXRoIGZpbGw9IiNmZmZmZmYiIGQ9Ik01IDIwaDE0di0ySDVtMTQtOWgtNFYzSDl2Nkg1bDcgN3oiLz48L3N2Zz4=)](https://yun.139.com/sharewap/#/m/i?2jexCagSU4bd0 "通过中国移动云盘下载TapTap版本，需要登录和客户端，对中国移动用户免流量")
+[![ TapTap 版本(huang1111)](https://img.shields.io/badge/TapTap_(huang1111)-备选下载-lightblue.svg?logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjgiIGhlaWdodD0iMTI4IiB2aWV3Qm94PSIwIDAgMjQgMjQiPjxwYXRoIGZpbGw9IiNmZmZmZmYiIGQ9Ik01IDIwaDE0di0ySDVtMTQtOWgtNFYzSDl2Nkg1bDcgN3oiLz48L3N2Zz4=)](https://pan.huang1111.cn/s/byaMRuY)
+<!--[![ Taptap 版本(百度网盘海外版)](https://img.shields.io/badge/TapTap_(Terabox)-下载-royalblue.svg?logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjgiIGhlaWdodD0iMTI4IiB2aWV3Qm94PSIwIDAgMjQgMjQiPjxwYXRoIGZpbGw9IiNmZmZmZmYiIGQ9Ik01IDIwaDE0di0ySDVtMTQtOWgtNFYzSDl2Nkg1bDcgN3oiLz48L3N2Zz4=)]( "通过Terabox下载TapTap版本，需要全球网络访问")-->
+[![ TapTap 版本(Github)](https://img.shields.io/badge/TapTap_(Github)-下载-blue.svg?logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjgiIGhlaWdodD0iMTI4IiB2aWV3Qm94PSIwIDAgMjQgMjQiPjxwYXRoIGZpbGw9IiNmZmZmZmYiIGQ9Ik01IDIwaDE0di0ySDVtMTQtOWgtNFYzSDl2Nkg1bDcgN3oiLz48L3N2Zz4=)](https://github.com/SteveZMTstudios/Phigros-history/releases/tag/v3.15.1 "通过Github下载，需要通畅的网络")<br>
+<!--[![ Play 版本(123pan) ](https://img.shields.io/badge/Play_商店_(123云盘)-下载-brightgreen.svg?logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjgiIGhlaWdodD0iMTI4IiB2aWV3Qm94PSIwIDAgMjQgMjQiPjxwYXRoIGZpbGw9IiNmZmZmZmYiIGQ9Ik01IDIwaDE0di0ySDVtMTQtOWgtNFYzSDl2Nkg1bDcgN3oiLz48L3N2Zz4=)]( "通过123云盘下载Play商店版本，可能需要付费"))-->
+<!--[![ Play 版本(中国移动云盘)](https://img.shields.io/badge/Play_商店_(彩云网盘)-下载-green.svg?logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjgiIGhlaWdodD0iMTI4IiB2aWV3Qm94PSIwIDAgMjQgMjQiPjxwYXRoIGZpbGw9IiNmZmZmZmYiIGQ9Ik01IDIwaDE0di0ySDVtMTQtOWgtNFYzSDl2Nkg1bDcgN3oiLz48L3N2Zz4=)]( "通过中国移动云盘下载TapTap版本，需要登录和客户端，对中国移动用户免流量")-->
+<!--[![ Play 版本(阿里云盘)](https://img.shields.io/badge/Play_商店_(阿里云盘)-下载-royalblue.svg?logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjgiIGhlaWdodD0iMTI4IiB2aWV3Qm94PSIwIDAgMjQgMjQiPjxwYXRoIGZpbGw9IiNmZmZmZmYiIGQ9Ik01IDIwaDE0di0ySDVtMTQtOWgtNFYzSDl2Nkg1bDcgN3oiLz48L3N2Zz4=)]( "通过阿里云盘下载TapTap版本，需要客户端登录")-->
+<!--[![ Play 版本(百度网盘海外版)](https://img.shields.io/badge/Play_商店_(Terabox)-下载-royalblue.svg?logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjgiIGhlaWdodD0iMTI4IiB2aWV3Qm94PSIwIDAgMjQgMjQiPjxwYXRoIGZpbGw9IiNmZmZmZmYiIGQ9Ik01IDIwaDE0di0ySDVtMTQtOWgtNFYzSDl2Nkg1bDcgN3oiLz48L3N2Zz4=)]( "通过Terabox下载Play商店版本，需要全球网络访问")-->
+
+### 3.15.0 (131) 2025/08/08
+
+KALPA联动章节新增三首单曲：
+•「Flutter Echo」 by: Cansol
+•「Re：birth」 by: ああああ
+•「Avataar ~Reincarnation of Kalpa~」 by: Scarlette a.k.a CrYmson
+
+
+[![ Taptap 版本(123pan)](https://img.shields.io/badge/TapTap_(123云盘)-下载-brightgreen.svg?logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjgiIGhlaWdodD0iMTI4IiB2aWV3Qm94PSIwIDAgMjQgMjQiPjxwYXRoIGZpbGw9IiNmZmZmZmYiIGQ9Ik01IDIwaDE0di0ySDVtMTQtOWgtNFYzSDl2Nkg1bDcgN3oiLz48L3N2Zz4=)](https://www.123684.com/s/OS4KVv-DCE8v "通过123云盘下载TapTap版本，可能需要付费")
+[![ Taptap 版本(中国移动云盘)](https://img.shields.io/badge/TapTap_(彩云网盘)-下载-green.svg?logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjgiIGhlaWdodD0iMTI4IiB2aWV3Qm94PSIwIDAgMjQgMjQiPjxwYXRoIGZpbGw9IiNmZmZmZmYiIGQ9Ik01IDIwaDE0di0ySDVtMTQtOWgtNFYzSDl2Nkg1bDcgN3oiLz48L3N2Zz4=)](https://yun.139.com/sharewap/#/m/i?2jexCagSU4bd0 "通过中国移动云盘下载TapTap版本，需要登录和客户端，对中国移动用户免流量")
+[![ TapTap 版本(huang1111)](https://img.shields.io/badge/TapTap_(huang1111)-备选下载-lightblue.svg?logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjgiIGhlaWdodD0iMTI4IiB2aWV3Qm94PSIwIDAgMjQgMjQiPjxwYXRoIGZpbGw9IiNmZmZmZmYiIGQ9Ik01IDIwaDE0di0ySDVtMTQtOWgtNFYzSDl2Nkg1bDcgN3oiLz48L3N2Zz4=)](https://pan.huang1111.cn/s/4RAL4Cg)-->
+<!--[![ Taptap 版本(百度网盘海外版)](https://img.shields.io/badge/TapTap_(Terabox)-下载-royalblue.svg?logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjgiIGhlaWdodD0iMTI4IiB2aWV3Qm94PSIwIDAgMjQgMjQiPjxwYXRoIGZpbGw9IiNmZmZmZmYiIGQ9Ik01IDIwaDE0di0ySDVtMTQtOWgtNFYzSDl2Nkg1bDcgN3oiLz48L3N2Zz4=)]( "通过Terabox下载TapTap版本，需要全球网络访问")-->
+[![ TapTap 版本(Github)](https://img.shields.io/badge/TapTap_(Github)-下载-blue.svg?logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjgiIGhlaWdodD0iMTI4IiB2aWV3Qm94PSIwIDAgMjQgMjQiPjxwYXRoIGZpbGw9IiNmZmZmZmYiIGQ9Ik01IDIwaDE0di0ySDVtMTQtOWgtNFYzSDl2Nkg1bDcgN3oiLz48L3N2Zz4=)](https://github.com/SteveZMTstudios/Phigros-history/releases/tag/v3.15.0 "通过Github下载，需要通畅的网络")<br>
+<!--[![ Play 版本(123pan) ](https://img.shields.io/badge/Play_商店_(123云盘)-下载-brightgreen.svg?logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjgiIGhlaWdodD0iMTI4IiB2aWV3Qm94PSIwIDAgMjQgMjQiPjxwYXRoIGZpbGw9IiNmZmZmZmYiIGQ9Ik01IDIwaDE0di0ySDVtMTQtOWgtNFYzSDl2Nkg1bDcgN3oiLz48L3N2Zz4=)]( "通过123云盘下载Play商店版本，可能需要付费"))-->
+<!--[![ Play 版本(中国移动云盘)](https://img.shields.io/badge/Play_商店_(彩云网盘)-下载-green.svg?logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjgiIGhlaWdodD0iMTI4IiB2aWV3Qm94PSIwIDAgMjQgMjQiPjxwYXRoIGZpbGw9IiNmZmZmZmYiIGQ9Ik01IDIwaDE0di0ySDVtMTQtOWgtNFYzSDl2Nkg1bDcgN3oiLz48L3N2Zz4=)]( "通过中国移动云盘下载TapTap版本，需要登录和客户端，对中国移动用户免流量")-->
+<!--[![ Play 版本(阿里云盘)](https://img.shields.io/badge/Play_商店_(阿里云盘)-下载-royalblue.svg?logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjgiIGhlaWdodD0iMTI4IiB2aWV3Qm94PSIwIDAgMjQgMjQiPjxwYXRoIGZpbGw9IiNmZmZmZmYiIGQ9Ik01IDIwaDE0di0ySDVtMTQtOWgtNFYzSDl2Nkg1bDcgN3oiLz48L3N2Zz4=)]( "通过阿里云盘下载TapTap版本，需要客户端登录")-->
+<!--[![ Play 版本(百度网盘海外版)](https://img.shields.io/badge/Play_商店_(Terabox)-下载-royalblue.svg?logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjgiIGhlaWdodD0iMTI4IiB2aWV3Qm94PSIwIDAgMjQgMjQiPjxwYXRoIGZpbGw9IiNmZmZmZmYiIGQ9Ik01IDIwaDE0di0ySDVtMTQtOWgtNFYzSDl2Nkg1bDcgN3oiLz48L3N2Zz4=)]( "通过Terabox下载Play商店版本，需要全球网络访问")-->
+
 ### 3.14.2 (130) 2025/07/04
 
 新增一首单曲：

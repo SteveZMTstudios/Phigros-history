@@ -1,4 +1,4 @@
 {
-    "status": "ok",
-    "response": "still alive"
+    "status": "deprecated",
+    "response": "This API is deprecated and will update soon."
 }
