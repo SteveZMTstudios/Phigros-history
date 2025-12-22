@@ -64,6 +64,13 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     }
 
+    // Close panel when clicking on the shadow mask
+    contentContainer.addEventListener('click', (e) => {
+        if (e.target === contentContainer && contentContainer.classList.contains('panel-open')) {
+            closePanel();
+        }
+    });
+
     // Info Button
     if (infoBtn) {
         infoBtn.addEventListener('click', () => {
@@ -82,6 +89,10 @@ document.addEventListener('DOMContentLoaded', () => {
                 <div class="about-text">
                     <p>《Phigros》是由 Pigeon Games（鸽游）开发的节奏类游戏。Pigeon Games 是由初创通过 bilibili 视频网站发起的、由众多节奏类游戏爱好者组成的完全用爱发电的项目组。我们希望 Phigros 新颖的游戏模式和精心制作的插画与关卡可以让你感受到节奏类游戏的魅力。</p>
                     <p>本项目致力于收集并整理 Phigros 的历史版本及更新日志，方便玩家回顾与下载。</p>
+                    <p>此项目和 Pigeon Games（鸽游）、Apple Inc等公司及其关联方无任何关系，所有内容均来自公开渠道，仅供学习和研究使用。如有侵权，请联系我们删除相关内容。</p>
+                </div>
+                <h2>支持我们</h2>
+                <div class="about-text">
                     <p>这是一个完全由爱好者维护的非营利项目。由于所有的上游存储开始收取更加高昂的费用，项目存储的费用和花销超出了我们所能承受的范围。如果您想支持我们继续提供免费的服务，请考虑捐赠。感谢您的支持！</p>
                     <a href="doc/why-donate" target="_blank" class="phigros-btn" style="width: 20em; margin-top: 1em;">
                         <span class="material-icons">favorite</span>
@@ -120,7 +131,7 @@ document.addEventListener('DOMContentLoaded', () => {
     async function loadMajorVersions() {
         try {
             const response = await fetch('api/v1/versions/index.json');
-            if (!response.ok) throw new Error('Failed to load version index');
+            if (!response.ok) throw new Error('无法加载版本索引');
             
             const data = await response.json();
             renderMajorVersions(data.versions);
@@ -131,7 +142,12 @@ document.addEventListener('DOMContentLoaded', () => {
             }
         } catch (error) {
             console.error('Error loading versions:', error);
-            versionSelector.innerHTML = '<div class="error">加载版本失败。</div>';
+            versionSelector.innerHTML = `
+                <div class="error-container" style="font-size: 0.8rem; gap: 10px;">
+                    <span class="material-icons" style="font-size: 2rem;">error</span>
+                    <div class="error-text" style="font-size: 1rem;">加载失败</div>
+                </div>
+            `;
         }
     }
 
@@ -157,20 +173,35 @@ document.addEventListener('DOMContentLoaded', () => {
         if (versionObj.element) versionObj.element.classList.add('active');
         
         currentVersionDisplay.textContent = versionObj.version;
-        versionList.innerHTML = '<div class="loading">加载中...</div>';
+        versionList.innerHTML = `
+            <div class="loading-container">
+                <div class="phigros-spinner"></div>
+                <div class="loading-text">加载中...</div>
+            </div>
+        `;
 
         try {
-            const versionId = versionObj.version.replace('.x', '');
-            const jsonPath = `api/v1/versions/${versionId}.json`;
+            // Use the URL directly from the version object as requested
+            // If it starts with /, we make it relative to ensure it works in subpaths
+            let jsonPath = versionObj.url;
+            if (jsonPath.startsWith('/')) {
+                jsonPath = jsonPath.substring(1);
+            }
             
             const response = await fetch(jsonPath);
-            if (!response.ok) throw new Error(`Failed to load details for ${versionObj.version}`);
+            if (!response.ok) throw new Error(`无法加载 ${versionObj.version} 的详情`);
             
             const data = await response.json();
             renderVersionList(data.details);
         } catch (error) {
             console.error(error);
-            versionList.innerHTML = '<div class="error">加载版本详情失败。</div>';
+            versionList.innerHTML = `
+                <div class="error-container">
+                    <span class="material-icons">error_outline</span>
+                    <div class="error-text">加载版本详情失败</div>
+                    <div class="error-subtext">${error.message}</div>
+                </div>
+            `;
         }
     }
 
@@ -267,7 +298,7 @@ document.addEventListener('DOMContentLoaded', () => {
             const mirrorMap = {
                 "123": "123网盘",
                 "caiyun": "彩云网盘",
-                "huang1111": "荒野网盘",
+                "huang1111": "huang1111 网盘",
                 "lanzou": "蓝奏云",
                 "onedrive": "OneDrive",
                 "google": "Google Drive",
@@ -324,7 +355,12 @@ document.addEventListener('DOMContentLoaded', () => {
                 }
             }
         } else {
-            downloadMessage.textContent = '未找到该版本的应用包。';
+            downloadMessage.innerHTML = `
+                <div class="april-fools-warning" style="text-align: center; padding: 20px; border-style: solid;">
+                    <span class="material-icons" style="vertical-align: middle; margin-right: 8px;">info</span>
+                    未找到该版本的应用包。如果您有可用的版本，请<a href='https://github.com/stevezmtstudios/Phigros-history/issues/new/choose' target='_blank'>与我们分享</a>。
+                </div>
+            `;
         }
 
         // Open panel
