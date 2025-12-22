@@ -1,5 +1,0 @@
-response:
-  code: 200
-  status: "success"
-  data:
-    message: "This is the v2 status endpoint and still researching."

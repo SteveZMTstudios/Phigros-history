@@ -2,7 +2,7 @@
 ![New icon](icon.png "New Icon")
 # Phigros Old version Collection
 
-**English(US)** | [简体中文](https://stevezmt.top/Phigros-history/) | [Tiếng Việt](https://stevezmt.top/Phigros-history/README_VN)
+**English(US)** | [简体中文](https://stevezmt.top/Phigros-history/README_old) | [Tiếng Việt](https://stevezmt.top/Phigros-history/README_VN)
 
 Phigros is a "laneless" music game with dynamic judgement lines and four different types of notes, bringing you a refreshing rhythm experience like never before!
 

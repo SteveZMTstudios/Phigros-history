@@ -1,0 +1,16 @@
+{
+  "versions": [
+    {
+      "version": "1.x",
+      "url": "/api/v1/versions/1" 
+    },
+    {
+      "version": "2.x",
+      "url": "/api/v1/versions/2"
+    },
+    {
+      "version": "3.x",
+      "url": "/api/v1/versions/3"
+    }
+  ]
+}

@@ -1,0 +1,802 @@
+:root {
+    --primary-color: #ffffff;
+    --secondary-color: #00e5ff; /* Cyan-ish */
+    --bg-color: #000000;
+    --bg-overlay: rgba(0, 0, 0, 0.7);
+    --card-bg: rgba(255, 255, 255, 0.1);
+    --card-hover: rgba(255, 255, 255, 0.2);
+    --text-color: #ffffff;
+    --accent-color: #ff0055; /* Red-ish for accents */
+    --skew-angle: -15deg;
+    --font-main: 'Exo 2', sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    user-select: none;
+}
+
+body {
+    font-family: var(--font-main);
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    overflow: hidden;
+    height: 100vh;
+    width: 100vw;
+}
+
+a {
+    color: var(--secondary-color);
+    text-decoration: none;
+}
+
+.screen {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: none;
+    flex-direction: column;
+    z-index: 1;
+}
+
+.screen.active {
+    display: flex;
+}
+
+/* Backgrounds */
+.background-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: 
+        linear-gradient(rgba(18, 16, 16, 0) 50%, rgba(0, 0, 0, 0.25) 50%),
+        linear-gradient(90deg, rgba(255, 0, 0, 0.06), rgba(0, 255, 0, 0.02), rgba(0, 0, 255, 0.06));
+    background-size: 100% 2px, 3px 100%;
+    z-index: -1;
+    pointer-events: none;
+}
+
+.screen::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: radial-gradient(circle at center, #2b2b2b 0%, #000000 100%);
+    z-index: -2;
+}
+
+/* Start Screen */
+#start-screen {
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.start-content {
+    text-align: center;
+    animation: fadeIn 2s ease-in-out;
+}
+
+.logo {
+    font-size: 4rem;
+    font-weight: 700;
+    margin-bottom: 2rem;
+    text-shadow: 2px 2px 0px #ff0055, -2px -2px 0px #00e5ff;
+    letter-spacing: 5px;
+    animation: glitch 1s infinite alternate;
+}
+
+@keyframes glitch {
+    0% { text-shadow: 2px 2px 0px #ff0055, -2px -2px 0px #00e5ff; transform: skewX(0deg); }
+    20% { text-shadow: 2px 2px 0px #ff0055, -2px -2px 0px #00e5ff; transform: skewX(0deg); }
+    21% { text-shadow: -2px 2px 0px #ff0055, 2px -2px 0px #00e5ff; transform: skewX(-10deg); }
+    22% { text-shadow: 2px 2px 0px #ff0055, -2px -2px 0px #00e5ff; transform: skewX(0deg); }
+    100% { text-shadow: 2px 2px 0px #ff0055, -2px -2px 0px #00e5ff; transform: skewX(0deg); }
+}
+
+.tap-to-start {
+    font-size: 1.5rem;
+    opacity: 0.8;
+    animation: pulse 2s infinite;
+}
+
+/* Main Screen */
+#main-screen {
+    padding: 20px;
+}
+
+.top-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    padding: 0 40px;
+    position: relative;
+}
+
+/* User Info - Parallelogram style */
+.user-info {
+    display: flex;
+    align-items: center;
+    background: var(--card-bg);
+    padding: 10px 30px;
+    transform: skewX(var(--skew-angle));
+    border-left: 4px solid var(--secondary-color);
+}
+
+.user-info > * {
+    transform: skewX(15deg); /* Counter skew */
+}
+
+.avatar {
+    width: 40px;
+    height: 40px;
+    background: #333;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 15px;
+}
+
+.user-details {
+    display: flex;
+    flex-direction: column;
+}
+
+.username {
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.rks {
+    font-size: 0.9rem;
+    color: var(--secondary-color);
+}
+
+.top-right {
+    transform: skewX(var(--skew-angle));
+    background: var(--card-bg);
+    padding: 10px 30px;
+    border-right: 4px solid var(--accent-color);
+}
+
+.currency {
+    transform: skewX(15deg);
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+/* Content Container */
+.content-container {
+    display: flex;
+    flex: 1;
+    overflow: hidden;
+    position: relative;
+}
+
+/* Version Selector (Left Side) */
+.version-selector {
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 40px;
+    gap: 20px;
+    z-index: 10;
+    flex-shrink: 0;
+}
+
+.major-version-btn {
+    background: linear-gradient(90deg, rgba(0,0,0,0.5), transparent);
+    color: #aaa;
+    padding: 20px 40px;
+    font-size: 2rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    transform: skewX(var(--skew-angle));
+    border-left: 5px solid transparent;
+    text-align: left;
+    position: relative;
+    left: -20px; /* Pull slightly left */
+}
+
+.major-version-btn span {
+    display: block;
+    transform: skewX(15deg);
+}
+
+.major-version-btn:hover, .major-version-btn.active {
+    color: var(--text-color);
+    border-left-color: var(--secondary-color);
+    background: linear-gradient(90deg, rgba(0, 229, 255, 0.2), transparent);
+    padding-left: 60px; /* Slide out effect */
+}
+
+.major-version-btn.active {
+    font-size: 2.5rem;
+}
+
+/* Version List (Middle) */
+.version-list-container {
+    flex: 1;
+    overflow-y: auto;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    /* Match the timing of the panel slide for sync movement */
+    transition: flex-basis 0.5s cubic-bezier(0.2, 0.8, 0.2, 1);
+    /* Hide scrollbar */
+    scrollbar-width: none; 
+    -ms-overflow-style: none;
+    z-index: 5; /* Ensure it stays above background */
+}
+
+.version-list-container::-webkit-scrollbar { 
+    display: none; 
+}
+
+/* When panel is open, shrink list on desktop */
+.content-container.panel-open .version-list-container {
+    /* Removed shrinking logic as requested */
+}
+
+.version-card {
+    background: var(--card-bg);
+    padding: 20px 40px;
+    transform: skewX(var(--skew-angle));
+    transition: all 0.3s ease;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    border-right: 4px solid transparent;
+    margin-left: 20px; /* Offset for skew */
+    margin-right: 20px;
+}
+
+.version-card:hover, .version-card.active {
+    background: var(--card-hover);
+    transform: skewX(var(--skew-angle)) translateX(10px);
+    border-right-color: var(--secondary-color);
+}
+
+.version-card.active {
+    background: rgba(0, 229, 255, 0.15);
+    border-right-color: var(--secondary-color);
+}
+
+.version-card.disabled {
+    opacity: 0.6;
+}
+
+.version-card.disabled .version-number {
+    color: #666;
+}
+
+.version-content {
+    transform: skewX(15deg);
+}
+
+.version-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-bottom: 10px;
+    border-bottom: 1px solid rgba(255,255,255,0.1);
+    padding-bottom: 5px;
+}
+
+.version-number {
+    font-size: 1.8rem;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.version-tag-icon {
+    font-size: 1.4rem;
+}
+
+.version-tag-icon.content-tag {
+    color: #ffcc00; /* Yellow */
+}
+
+.version-tag-icon.recent-tag {
+    color: #00ff88; /* Green */
+}
+
+.april-fools-warning {
+    color: #ffcc00;
+    font-weight: bold;
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px dashed #ffcc00;
+    background: rgba(255, 204, 0, 0.1);
+}
+
+.about-container {
+    padding: 20px;
+    animation: fadeIn 0.5s ease-out;
+}
+
+.about-container h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    border-bottom: 2px solid var(--secondary-color);
+    display: inline-block;
+}
+
+.about-text {
+    line-height: 1.8;
+    font-size: 1.1rem;
+    color: #eee;
+}
+
+.about-text p {
+    margin-bottom: 15px;
+}
+
+.version-date {
+    font-size: 0.9rem;
+    color: #ccc;
+}
+
+.changelog-preview {
+    font-size: 0.9rem;
+    color: #ddd;
+    white-space: normal; /* Allow wrapping for preview */
+    max-height: 60px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+
+/* Detail Panel (Right Side) */
+.detail-panel {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+    width: 70%; /* Increased width */
+    /* Remove background and clip-path, use pseudo-element for shape */
+    background: transparent;
+    border-left: none;
+    transform: translateX(100%); /* Hidden by default */
+    transition: transform 0.5s cubic-bezier(0.2, 0.8, 0.2, 1);
+    z-index: 20;
+    display: flex;
+    flex-direction: column;
+    padding-left: 0; /* Reset padding */
+    pointer-events: none; /* Let clicks pass through transparent areas */
+}
+
+.detail-panel > * {
+    pointer-events: auto; /* Re-enable clicks for content */
+}
+
+.detail-panel::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0; /* Start from left edge of container */
+    right: -100%; /* Extend far to the right */
+    background: rgba(20, 20, 20, 0.95);
+    transform: skewX(var(--skew-angle));
+    transform-origin: bottom left;
+    border-left: 2px solid var(--secondary-color);
+    z-index: -1;
+    box-shadow: -5px 0 20px rgba(0, 0, 0, 0.5);
+    pointer-events: auto;
+}
+
+.content-container.panel-open .detail-panel {
+    transform: translateX(0);
+}
+
+.detail-content-wrapper {
+    padding: 0; /* Reset padding, handled by spacer and inner */
+    height: 100%;
+    overflow-y: auto;
+    /* Scrollbar styling */
+    scrollbar-width: thin;
+    scrollbar-color: var(--secondary-color) transparent;
+    position: relative;
+}
+
+.changelog-section {
+    margin-bottom: 40px;
+}
+
+.changelog-section h3 {
+    margin-bottom: 20px;
+    font-size: 1.5rem;
+    color: var(--secondary-color);
+}
+
+/* Removed slant-spacer, using padding instead */
+.detail-inner {
+    padding: 40px;
+    /* Calculate padding to clear the slant. 
+       At top (y=0), slant is at x=0.
+       At bottom (y=100%), slant is further left (negative x) because of skewX(-15deg).
+       Wait, skewX(-15deg) tilts top to the right relative to bottom?
+       No, standard CSS skewX(angle): x' = x + y * tan(angle).
+       If angle is -15deg, tan(-15) is negative.
+       As y increases (going down), x decreases (goes left).
+       So top is right, bottom is left. This is \ shape.
+       
+       Wait, earlier I said / shape.
+       Let's check the visual.
+       If I want / shape (bottom-left to top-right), I need positive skew?
+       Or maybe the coordinate system origin matters.
+       
+       Let's assume the previous visual was correct with skewX(-15deg).
+       If it was \, then top is further right.
+       So we need more padding at the top?
+       
+       Actually, let's just give a safe padding that clears the slant at the widest point.
+       The panel width is 70%.
+       The slant starts at left: 0.
+       If it's \, the top-left corner is at x=0 (relative to container), but the visual edge is slanted.
+       
+       Let's just use a large left padding for now to be safe and simple.
+    */
+    padding-left: 220px; 
+    padding-right: 60px;
+    max-width: 1200px;
+}
+
+#detail-title {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+    border-bottom: 2px solid var(--secondary-color);
+    display: inline-block;
+    padding-right: 20px;
+}
+
+#detail-meta {
+    color: #aaa;
+    margin-bottom: 30px;
+    font-size: 1rem;
+}
+
+.download-section h3 {
+    margin-bottom: 20px;
+    font-size: 1.5rem;
+    color: var(--secondary-color);
+}
+
+.download-group {
+    margin-bottom: 30px;
+}
+
+.download-group h4 {
+    color: #aaa;
+    margin-bottom: 15px;
+    font-size: 1.1rem;
+    border-bottom: 1px solid rgba(255,255,255,0.1);
+    padding-bottom: 5px;
+    display: inline-block;
+}
+
+.download-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 15px;
+}
+
+.download-message {
+    margin-top: 20px;
+    color: #ff5555;
+    font-style: italic;
+}
+
+/* Phigros Style Buttons */
+.phigros-btn {
+    background: rgba(255, 255, 255, 0.1);
+    border: none;
+    color: white;
+    padding: 15px 20px;
+    font-family: var(--font-main);
+    font-weight: bold;
+    cursor: pointer;
+    transform: skewX(var(--skew-angle));
+    transition: all 0.2s;
+    border-left: 3px solid var(--secondary-color);
+    text-align: left;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.phigros-btn span {
+    display: block;
+    transform: skewX(15deg); /* Unskew text */
+}
+
+.phigros-btn .material-icons {
+    transform: skewX(15deg);
+    font-size: 1.2rem;
+}
+
+.phigros-btn:hover {
+    background: #00ff88; /* Green highlight */
+    color: black;
+    transform: skewX(var(--skew-angle)) translateX(5px);
+    box-shadow: 0 0 15px rgba(0, 255, 136, 0.4);
+    border-left-color: #00ff88;
+}
+
+/* rewrite normal btns to use phigros style
+   basically phigros button but no icon */
+
+
+.close-btn-mobile {
+    display: none;
+}
+
+.close-btn-desktop {
+    position: absolute;
+    top: 0;
+    right: 40px;
+    background: rgba(255, 255, 255, 0.1);
+    border: none;
+    color: white;
+    width: 60px;
+    height: 40px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: background 0.3s;
+    transform: skewX(var(--skew-angle));
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    z-index: 30;
+}
+
+.close-btn-desktop:hover {
+    background: #ff0055;
+}
+
+.close-btn-desktop span {
+    transform: skewX(15deg);
+}
+
+/* Responsive / Mobile */
+@media (max-width: 768px) {
+    .content-container {
+        flex-direction: column;
+    }
+    
+    .version-selector {
+        width: 100%;
+        flex-direction: row;
+        padding: 10px;
+        overflow-x: auto;
+        height: auto;
+        flex-shrink: 0;
+    }
+    
+    .major-version-btn {
+        padding: 10px 20px;
+        font-size: 1.2rem;
+        left: 0;
+    }
+    
+    .version-list-container {
+        width: 100% !important; /* Override shrink */
+        flex: 1;
+    }
+    
+    .top-right {
+        display: none;
+    }
+
+    .detail-panel {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        transform: translateY(100%); /* Slide up */
+        border-left: none;
+        padding-left: 0;
+        background: transparent; /* Reset */
+        z-index: 100;
+        pointer-events: auto;
+    }
+
+    .detail-panel::before {
+        /* Reset skew for mobile full screen */
+        transform: none;
+        left: 0;
+        right: 0;
+        width: 100%;
+        border-left: none;
+        background: rgba(0, 0, 0, 0.95);
+    }
+    
+    .content-container.panel-open .detail-panel {
+        transform: translateY(0);
+    }
+    
+    .detail-content-wrapper {
+        padding: 20px;
+        padding-top: 60px; /* Space for close button */
+        padding-left: 20px; /* Reset padding */
+    }
+    .detail-inner {
+        padding: 20px;
+        padding-left: 20px; /* Reset padding */
+    }
+
+    .detail-inner .close-btn-desktop {
+        display: none;
+    }
+
+    .slant-spacer {
+        display: none; /* No slant on mobile */
+    }
+    
+    .close-btn-mobile {
+        display: block;
+        position: absolute;
+        top: 20px;
+        right: 20px;
+        background: transparent;
+        border: none;
+        color: white;
+        font-size: 2rem;
+        cursor: pointer;
+    }
+}
+.bottom-bar {
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 40px;
+}
+
+.nav-btn {
+    background: var(--card-bg);
+    border: none;
+    color: white;
+    width: 60px;
+    height: 40px;
+    transform: skewX(var(--skew-angle));
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: background 0.3s;
+}
+
+.nav-btn:hover {
+    background: var(--secondary-color);
+    color: black;
+}
+
+.nav-btn span {
+    transform: skewX(15deg);
+}
+
+.current-path {
+    font-size: 1.2rem;
+    letter-spacing: 2px;
+    opacity: 0.7;
+}
+
+/* Animations */
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+@keyframes pulse {
+    0% { opacity: 0.5; }
+    50% { opacity: 1; }
+    100% { opacity: 0.5; }
+}
+
+@keyframes slideInRight {
+    from { transform: translateX(100px) skewX(var(--skew-angle)); opacity: 0; }
+    to { transform: translateX(0) skewX(var(--skew-angle)); opacity: 1; }
+}
+
+.version-card {
+    animation: slideInRight 0.5s ease-out forwards;
+    opacity: 0; /* Start hidden for animation */
+}
+
+/* Stagger animations */
+.version-card:nth-child(1) { animation-delay: 0.1s; }
+.version-card:nth-child(2) { animation-delay: 0.2s; }
+.version-card:nth-child(3) { animation-delay: 0.3s; }
+.version-card:nth-child(4) { animation-delay: 0.4s; }
+.version-card:nth-child(5) { animation-delay: 0.5s; }
+
+/* Modal/Details View (Optional, if we want to expand details) */
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.8);
+    z-index: 100;
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal.active {
+    display: flex;
+}
+
+.modal-content {
+    background: #1a1a1a;
+    width: 80%;
+    max-width: 800px;
+    max-height: 80vh;
+    overflow-y: auto;
+    padding: 40px;
+    border: 1px solid var(--secondary-color);
+    box-shadow: 0 0 20px rgba(0, 229, 255, 0.2);
+    position: relative;
+}
+
+.close-modal {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    cursor: pointer;
+    font-size: 2rem;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .content-container {
+        flex-direction: column;
+    }
+    .version-selector {
+        width: 100%;
+        flex-direction: row;
+        padding: 10px;
+        overflow-x: auto;
+        height: auto;
+    }
+    .major-version-btn {
+        padding: 10px 20px;
+        font-size: 1.2rem;
+        left: 0;
+    }
+    .major-version-btn.active {
+        font-size: 1.4rem;
+        padding-left: 20px;
+    }
+    .version-list-container {
+        padding: 10px;
+    }
+    .version-card {
+        margin: 5px 10px;
+        padding: 15px;
+    }
+}

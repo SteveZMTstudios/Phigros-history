@@ -1,0 +1,1036 @@
+{
+  "version": "v3",
+  "verified": true,
+  "details": [
+    {
+      "versionName": "v3.17.0.1",
+      "versionCode": 136,
+      "releaseDate": "2025/11/03",
+      "changelog": [
+        "1. 新增与Liminality的联动章节，包含以下曲目：",
+        "「Xep+ion」 by: Acotto",
+        "「Archidoxen」 by: Se_IRA",
+        "「百鬼֎夜行」 by: Salad Savior",
+        "2. 新增一首单曲：",
+        "「BANGING STRIKE」 by: Dew Pleiades",
+        "3. 修复歌曲游玩界面中「百鬼֎夜行」 的曲名无法正确显示的问题",
+        "4. 替换曲目「BANGING STRIKE」的曲绘"
+      ],
+      "downloads": {
+        "taptap": {
+          "123": "https://www.123865.com/s/OS4KVv-ByE8v?pwd=ulJs#",
+          "caiyun": "https://yun.139.com/sharewap/#/m/i?2jexCagSU4bd0",
+          "huang1111": "https://pan.huang1111.cn/s/byABOfY"
+        }
+      }
+    },
+    {
+      "versionName": "v3.17.0",
+      "versionCode": 135,
+      "releaseDate": "2025/10/31",
+      "changelog": [
+        "1. 新增与Liminality的联动章节，包含以下曲目：",
+        "「Xep+ion」 by: Acotto",
+        "「Archidoxen」 by: Se_IRA",
+        "「百鬼֎夜行」 by: Salad Savior",
+        "1. 新增一首单曲：",
+        "「BANGING STRIKE」 by: Dew Pleiades"
+      ],
+      "downloads": {
+        "taptap": {
+          "huang1111": "https://pan.huang1111.cn/s/4Ra4zTg"
+        }
+      }
+    },
+    {
+      "versionName": "v3.16.1",
+      "versionCode": 134,
+      "releaseDate": "2025/10/10",
+      "changelog": [
+        "1. 新增2首新曲：",
+        "「So laggy! (feat. Uzumaki)」 by: ShrimpCats. (はぁち×後藤涼輔)",
+        "「000 -Ain Soph Aur-」 by: Yumeji",
+        "2. 修改部分谱面"
+      ],
+      "downloads": {
+        "taptap": {
+          "123": "https://www.123865.com/s/OS4KVv-ayE8v",
+          "caiyun": "https://yun.139.com/sharewap/#/m/i?2jexCagSU4bd0",
+          "huang1111": "https://pan.huang1111.cn/s/5XvbZfl"
+        }
+      }
+    },
+    {
+      "versionName": "v3.16.0",
+      "versionCode": 133,
+      "releaseDate": "2025/09/19",
+      "changelog": [
+        "新增与 maimai 的联动章节，包含以下曲目：",
+        "「アンビバレンス」 by: すりぃ×相沢",
+        "「Komplexe」 by: 雄之助 feat. Sennzai",
+        "「sølips」 by: rintaro soma",
+        "「QZKago Requiem」 by: t+pazolite"
+      ],
+      "downloads": {
+        "taptap": {
+          "123": "https://www.123684.com/s/OS4KVv-0CE8v",
+          "caiyun": "https://yun.139.com/sharewap/#/m/i?2jexCagSU4bd0",
+          "huang1111": "https://pan.huang1111.cn/s/A6DlZhB",
+          "github": "https://github.com/SteveZMTstudios/Phigros-history/releases/tag/v3.16.0"
+        }
+      }
+    },
+    {
+      "versionName": "v3.15.1",
+      "versionCode": 132,
+      "releaseDate": "2025/08/31",
+      "changelog": [
+        "1.新增两首单曲：",
+        "「雪降り ~雪が降っている~」 by: AiSS w/ 夜輪 ft. 結月ゆかり",
+        "「Retribution ~ Cycle of Redemption ~ 」 by: Ardolf vs. Daily天利",
+        "2.以下曲目新增 AT 谱面：",
+        "「PANIC PARADISE」 by: DJ SHION.Y",
+        "「Der Richter」 by: Ωμεγα"
+      ],
+      "downloads": {
+        "taptap": {
+          "123": "https://www.123684.com/s/OS4KVv-8CE8v",
+          "caiyun": "https://yun.139.com/sharewap/#/m/i?2jexCagSU4bd0",
+          "huang1111": "https://pan.huang1111.cn/s/byaMRuY",
+          "github": "https://github.com/SteveZMTstudios/Phigros-history/releases/tag/v3.15.1"
+        }
+      }
+    },
+    {
+      "versionName": "v3.15.0",
+      "versionCode": 131,
+      "releaseDate": "2025/08/08",
+      "changelog": [
+        "KALPA联动章节新增三首单曲：",
+        "「Flutter Echo」 by: Cansol",
+        "「Re：birth」 by: ああああ",
+        "「Avataar ~Reincarnation of Kalpa~」 by: Scarlette a.k.a CrYmson"
+      ],
+      "downloads": {
+        "taptap": {
+          "123": "https://www.123684.com/s/OS4KVv-DCE8v",
+          "caiyun": "https://yun.139.com/sharewap/#/m/i?2jexCagSU4bd0",
+          "huang1111": "https://pan.huang1111.cn/s/4RAL4Cg",
+          "github": "https://github.com/SteveZMTstudios/Phigros-history/releases/tag/v3.15.0"
+        }
+      }
+    },
+    {
+      "versionName": "v3.14.2",
+      "versionCode": 130,
+      "releaseDate": "2025/07/04",
+      "changelog": [
+        "新增一首单曲：",
+        "「Helios」 by: NOA(Cortrix) & BotaNya"
+      ],
+      "downloads": {
+        "taptap": {
+          "123": "https://www.123684.com/s/OS4KVv-3HE8v",
+          "caiyun": "https://caiyun.139.com/m/i?2jexCagSU4bd0",
+          "huang1111": "https://pan.huang1111.cn/s/6ePDeuN",
+          "github": "https://github.com/SteveZMTstudios/Phigros-history/releases/tag/v3.14.2"
+        }
+      }
+    },
+    {
+      "versionName": "v3.14.1",
+      "versionCode": 129,
+      "releaseDate": "2025/06/27",
+      "changelog": [
+        "1. 新增一首单曲：",
+        "「Frozen Heart」 by: A-39 / 沙包P",
+        "2. 修改部分谱面",
+        "3. 修复了部分玩家无法使用TapTap登录的问题"
+      ],
+      "downloads": {
+        "taptap": {
+          "123": "https://www.123684.com/s/OS4KVv-dHE8v",
+          "caiyun": "https://caiyun.139.com/m/i?2jexCagSU4bd0",
+          "huang1111": "https://pan.huang1111.cn/s/DVQNkc4",
+          "github": "https://github.com/SteveZMTstudios/Phigros-history/releases/tag/v3.14.1"
+        }
+      }
+    },
+    {
+      "versionName": "v3.14.0",
+      "versionCode": 128,
+      "releaseDate": "2025/06/06",
+      "changelog": [
+        "新增与オンゲキ的联动章节，包含以下曲目：",
+        "「Radiance」 by: Nhato",
+        "「Diamond Dust」 by: Masahiro “Godspeed” Aoki",
+        "「Stardust:RAY」 by: kanone vs. BlackY"
+      ],
+      "downloads": {
+        "taptap": {
+          "123": "https://www.123684.com/s/OS4KVv-KRQ8v",
+          "caiyun": "https://caiyun.139.com/m/i?2jexCagSU4bd0",
+          "huang1111": "https://pan.huang1111.cn/s/vVNqKCE",
+          "github": "https://github.com/SteveZMTstudios/Phigros-history/releases/tag/v3.14.0"
+        }
+      }
+    },
+    {
+      "versionName": "v3.13.1",
+      "versionCode": 127,
+      "releaseDate": "2025/05/17",
+      "changelog": [
+        "1. 新增一首单曲：",
+        "「Alice in a xxxxxxxx」 by: Nagiha",
+        "2. 修复已解锁的「宇宙残骸少女(Cosmic Dusty Girl)」被错误锁定的bug",
+        "3. 修复使用重演游玩「重生」时，部分特效不显示的bug"
+      ],
+      "downloads": {
+        "taptap": {
+          "123": "https://www.123684.com/s/OS4KVv-zIQ8v",
+          "caiyun": "https://caiyun.139.com/m/i?2jexCagSU4bd0",
+          "huang1111": "https://pan.huang1111.cn/s/VLDlXcd",
+          "github": "https://github.com/SteveZMTstudios/Phigros-history/releases/tag/v3.13.1"
+        }
+      }
+    },
+    {
+      "versionName": "v3.13.0",
+      "versionCode": 126,
+      "releaseDate": "2025/04/18",
+      "changelog": [
+        "1.新增Immaculée Sekai精选集，包含以下歌曲：",
+        "「Aphrodite's Child (short ver.)」 by: RUQOA",
+        "「DevIAtiOn (short ver.)」 by: polysha",
+        "「NO x」 by: Juggernaut.",
+        "2.修复选择排序靠后的Another Me作为背景时，重新进入玩家页时会被排序靠前的Another Me覆盖的情况",
+        "3.修复使用重演游玩第八章OS模式时，所有已解锁曲封面都是Luminescence的问题",
+        "4.修复使用重演游玩Crave Wave时无法弹出结算画面的问题",
+        "5.修复未通关第5、6、7章时，章节封面丢失的问题",
+        "6.修复初次游玩Phigros时，个人面板背景的Introduction丢失的问题",
+        "7.修复重演按钮的UI文本显示不正常的问题"
+      ],
+      "downloads": {
+        "taptap": {
+          "123": "https://www.123684.com/s/OS4KVv-br98v",
+          "caiyun": "https://caiyun.139.com/m/i?2jexCagSU4bd0",
+          "huang1111": "https://pan.huang1111.cn/s/6e6PesN",
+          "github": "https://github.com/SteveZMTstudios/Phigros-history/releases/tag/v3.13.0"
+        }
+      }
+    },
+    {
+      "versionName": "v3.12.0",
+      "versionCode": 125,
+      "releaseDate": "2025/04/01",
+      "tag": ["april-fools"],
+      "changelog": [
+        "1. 新增与EGTS的联动章节，包含以下曲目：",
+        "「Resolver」 by: Gomadare",
+        "「Luminous Entities Lost Heart」 by: NormalM feat. Usagi Denki",
+        "「KIZUNA Resolution」 by: TAG",
+        "「AbsoluTe disoRdeR」 by: Acute Disarray",
+        "下列曲目将从「单曲」移至「EGTS 精选集」：",
+        "「Silence is Golden, Speech is Golden」 by: NIWASHI",
+        "「Fractured Angel」 by: DJ Raisei",
+        "2. 其他错误修复"
+      ],
+      "downloads": {
+        "taptap": {
+          "123": "https://www.123684.com/s/OS4KVv-hH98v",
+          "caiyun": "https://caiyun.139.com/m/i?2jexCagSU4bd0",
+          "huang1111": "https://pan.huang1111.cn/s/k2ooQcB"
+        }
+      }
+    },
+    {
+      "versionName": "v3.11.1",
+      "versionCode": 124,
+      "releaseDate": "2025/02/28",
+      "changelog": [
+        "新增两首单曲：",
+        "「Swing Skip Drop」 by: ミハイル",
+        "「宇宙残骸少女(Cosmic Dusty Girl)」 by: 辻原一郎"
+      ],
+      "downloads": {
+        "taptap": {
+          "123": "https://www.123684.com/s/OS4KVv-nwA8v",
+          "caiyun": "https://caiyun.139.com/m/i?2jexCagSU4bd0",
+          "huang1111": "https://pan.huang1111.cn/s/BGMjjC6",
+          "github": "https://github.com/SteveZMTstudios/Phigros-history/releases/tag/v3.11.1"
+        }
+      }
+    },
+    {
+      "versionName": "v3.11.0.1",
+      "versionCode": 123,
+      "releaseDate": "2025/02/18",
+      "changelog": [
+        "1. 错误修复",
+        "2. 修改部分文本"
+      ],
+      "downloads": {
+        "taptap": {
+          "huang1111": "https://pan.huang1111.cn/s/MNMlohx"
+        }
+      }
+    },
+    {
+      "versionName": "v3.11.0",
+      "versionCode": 122,
+      "releaseDate": "2025/02/13",
+      "changelog": [
+        "1. 新增三首单曲：",
+        "「インマイマインド」 by: レシオP",
+        "「ニライカナイ (NiraicA_nai Mix)」 by: roop from STR",
+        "「贝多芬祝福 (Beethoven Blessing)」 by: Nauts",
+        "2. 以下单曲新增AT谱面：",
+        "「Ποσειδών」 by: 1112 vs. Star＊",
+        "「Ark」 by: kanoryo",
+        "3. 其他错误修复"
+      ],
+      "downloads": {
+        "taptap": {
+          "123": "https://www.123684.com/s/OS4KVv-m8v8v",
+          "caiyun": "https://caiyun.139.com/m/i?2jexCagSU4bd0",
+          "huang1111": "https://pan.huang1111.cn/s/9Qax5Sd",
+          "github": "https://github.com/SteveZMTstudios/Phigros-history/releases/tag/v3.11.0"
+        }
+      }
+    },
+    {
+      "versionName": "v3.10.4",
+      "versionCode": 121,
+      "releaseDate": "2025/01/15",
+      "changelog": [
+        "1. 新增两首单曲：",
+        "「Shelter」 by: KAH vs. E0ri4",
+        "「蝎虎天体 -Lacertid-」 by: Cream vs. Daily天利",
+        "1. 修改部分谱面"
+      ],
+      "downloads": {
+        "taptap": {
+          "123": "https://www.123684.com/s/OS4KVv-09d8v",
+          "caiyun": "https://caiyun.139.com/m/i?2jexCagSU4bd0"
+        }
+      }
+    },
+    {
+      "versionName": "v3.10.3.1",
+      "versionCode": 120,
+      "releaseDate": "2025/01/09",
+      "changelog": [
+        "修改部分谱面"
+      ],
+      "downloads": {
+        "taptap": {
+          "123": "https://www.123684.com/s/OS4KVv-89d8v",
+          "caiyun": "https://caiyun.139.com/m/i?2jexCagSU4bd0"
+        }
+      }
+    },
+    {
+      "versionName": "v3.10.3",
+      "versionCode": 119,
+      "releaseDate": "2024/12/26",
+      "changelog": [
+        "新增3首新曲：",
+        "「白と黒のバケモノ」 by: テヅカ",
+        "「Devotion」 by: Connexio",
+        "「Kirakira Noel Story!!」 by: Reku Mochizuki"
+      ],
+      "downloads": {
+        "taptap": {
+          "123": "https://www.123865.com/s/OS4KVv-PZzrv",
+          "caiyun": "https://caiyun.139.com/m/i?2jexCagSU4bd0"
+        }
+      }
+    },
+    {
+      "versionName": "v3.10.2",
+      "versionCode": 118,
+      "releaseDate": "2024/11/28",
+      "changelog": [
+        "新增3首新曲：",
+        "「Fixations Toward the Stars」 by: Foodbot",
+        "「valor/starcross」 by: Lundy vs. Wyvren",
+        "「Comet」 by: CNHKSS feat. 符白牙",
+        "彩云网盘提取码:`e0se`"
+      ],
+      "downloads": {
+        "taptap": {
+          "123": "https://www.123865.com/s/OS4KVv-PPzrv",
+          "huang1111": "https://pan.huang1111.cn/s/aEgXGtG",
+          "caiyun": "https://caiyun.139.com/m/i?2jexBsdYwuRp2",
+          "github": "https://github.com/SteveZMTstudios/Phigros-history/releases/download/v3.10.2/Phigros_3.10.2.apk"
+        }
+      }
+    },
+    {
+      "versionName": "v3.10.1",
+      "versionCode": 116,
+      "releaseDate": "2024/11/06",
+      "changelog": [
+        "1. 新增两首单曲：",
+        "「Schadenfreude」 by: KAH vs. E0ri4",
+        "「Le temps perdu」 by: Daison",
+        "1. 修改部分谱面",
+        "彩云网盘提取码:`2j7p`"
+      ],
+      "downloads": {
+        "taptap": {
+          "123": "https://www.123865.com/s/OS4KVv-Ppzrv",
+          "huang1111": "https://pan.huang1111.cn/s/zM1xBtM",
+          "caiyun": "https://caiyun.139.com/m/i?2jexBSfLoPYx1"
+        }
+      }
+    },
+    {
+      "versionName": "v3.10.0",
+      "versionCode": 115,
+      "releaseDate": "2024/10/18",
+      "changelog": [
+        "新增与节奏大师的联动章节，包含以下曲目：",
+        "「黄金之城 (GOLD TOWN)」 by: MEMME",
+        "「双重间谍 (Double Agent)」 by: Wav.AV",
+        "「幻影鬼魅 (PLEASE)」 by: R300K",
+        "下列曲目将从「单曲」移至「节奏大师精选集」：",
+        "「君往何处 (Quo Vadis)」 by: M2U",
+        "「暗夜苏醒 (REANIMATE)」 by: Warak",
+        "彩云网盘提取码:`2j7p`"
+      ],
+      "downloads": {
+        "taptap": {
+          "123": "https://www.123865.com/s/OS4KVv-Fyirv",
+          "huang1111": "https://pan.huang1111.cn/s/3eaWAcm",
+          "caiyun": "https://caiyun.139.com/m/i?2jexBSfLoPYx1",
+          "github": "https://github.com/SteveZMTstudios/Phigros-history/releases/download/v3.10.0/Phigros_3.10.0.apk"
+        }
+      }
+    },
+    {
+      "versionName": "v3.9.1",
+      "versionCode": 113,
+      "releaseDate": "2024/09/19",
+      "changelog": [
+        "新增两首单曲：",
+        "「Thrash force」 by: KAH vs. E0ri4",
+        "「Originally」 by: SNKS & Mizku",
+        "彩云网盘提取码:`e0se`"
+      ],
+      "downloads": {
+        "taptap": {
+          "huang1111": "https://pan.huang1111.cn/s/DVnGwH4",
+          "caiyun": "https://caiyun.139.com/m/i?2jexBsdYwuRp2",
+          "taptap": "https://www.alipan.com/s/tnMn4wb5bU7"
+        }
+      }
+    },
+    {
+      "versionName": "v3.9.0.1",
+      "versionCode": 112,
+      "releaseDate": "2024/09/04",
+      "changelog": [
+        "1. 修改部分谱面",
+        "2. 修正部分错误的文本",
+        "3. 其他错误修复"
+      ],
+      "downloads": {
+        "taptap": {
+          "huang1111": "https://pan.huang1111.cn/s/1Q6Pzsv"
+        }
+      }
+    },
+    {
+      "versionName": "v3.9.0",
+      "versionCode": 111,
+      "releaseDate": "2024/08/29",
+      "changelog": [
+        "1.新增支线章节四《无相乡》，包含如下曲目：",
+        "「NightTheater」by わかどり",
+        "「Spotlight」by Ardolf",
+        "「ATHAZA」by LeaF",
+        "「心の記憶」by A-39/沙包P",
+        "「Ramification」by rareguy & Reina",
+        "「Der Richter」by Ωμεγα",
+        "2.新增一首单曲：",
+        "「Grimheart」 by Puru",
+        "3.「Phigros x CHUNITHM 精选集」中新增一首曲目：",
+        "「月詠に鳴る」 by Feryquitous feat. 藍月なくる",
+        "4.改动或重制了部分谱面，重制的谱面的成绩会被清空"
+      ],
+      "downloads": {
+        "taptap": {
+          "huang1111": "https://pan.huang1111.cn/s/RYzRPSB"
+        }
+      }
+    },
+    {
+      "versionName": "v3.8.1.1",
+      "versionCode": 110,
+      "releaseDate": "2024/08/20",
+      "changelog": [
+        "1. 新增与节奏大师的联动单曲：",
+        "「君往何处 (Quo Vadis)」 by M2U",
+        "「暗夜苏醒 (REANIMATE)」 by Warak",
+        "2. 修改部分谱面",
+        "3. 其他错误修复"
+      ],
+      "downloads": {
+        "taptap": {
+          "123": "https://www.123pan.com/s/OS4KVv-P4irv"
+        }
+      }
+    },
+    {
+      "versionName": "v3.8.1",
+      "versionCode": 109,
+      "releaseDate": "2024/08/15",
+      "changelog": [
+        "1. 新增与节奏大师的联动单曲：",
+        "「君往何处 (Quo Vadis)」 by M2U",
+        "「暗夜苏醒 (REANIMATE)」 by Warak",
+        "2. 修改部分谱面",
+        "3. 其他错误修复"
+      ],
+      "downloads": {
+        "taptap": {
+          "huang1111": "https://pan.huang1111.cn/s/zMwBNuM"
+        }
+      }
+    },
+    {
+      "versionName": "v3.8.0",
+      "versionCode": 108,
+      "releaseDate": "2024/07/25",
+      "changelog": [
+        "新增与TAKUMI³的联动章节，包含以下曲目：",
+        "「a truth seeker -Communication with Utopia will be lost-」by: kuro",
+        "「Cuvism³」by: Fl00t vs Halv",
+        "「iL-Artifact」by: Link''0"
+      ],
+      "downloads": {
+        "taptap": {
+          "123": "https://www.123pan.com/s/OS4KVv-X4irv",
+          "huang1111": "https://pan.huang1111.cn/s/G86KoSW"
+        },
+        "playstore": {
+          "huang1111": "https://pan.huang1111.cn/s/y5e3yc6"
+        }
+      }
+    },
+    {
+      "versionName": "v3.7.1",
+      "versionCode": 106,
+      "releaseDate": "2024/07/10",
+      "changelog": [
+        "1. 新增一首新曲：",
+        "「今天不是明天」 by PIKASONIC feat. 兰音Reine",
+        "2. 其他错误修复"
+      ],
+      "downloads": {
+        "taptap": {
+          "123": "https://www.123pan.com/s/OS4KVv-n4irv",
+          "huang1111": "https://pan.huang1111.cn/s/K9wYQTY"
+        },
+        "playstore": {
+          "huang1111": "https://pan.huang1111.cn/s/jRqvduy"
+        }
+      }
+    },
+    {
+      "versionName": "v3.7.0",
+      "versionCode": 105,
+      "releaseDate": "2024/06/27",
+      "changelog": [
+        "1. 新增与SHINOBI SLASH的联动章节，包含以下曲目：",
+        "「幽世桔梗」by: Capchii feat. まるもこ",
+        "「明鏡烈火」by: M-UE vs. Reku Mochizuki",
+        "「千紫万紅」by: r0y vs. WABI",
+        "2. 删除歌曲「テリトリーバトル」"
+      ],
+      "downloads": {
+        "taptap": {
+          "123": "https://www.123pan.com/s/OS4KVv-24irv",
+          "huang1111": "https://pan.huang1111.cn/s/oXVlDh8"
+        },
+        "playstore": {
+          "huang1111": "https://pan.huang1111.cn/s/dk1O8HV"
+        }
+      }
+    },
+    {
+      "versionName": "v3.6.3",
+      "versionCode": 104,
+      "releaseDate": "2024/05/30",
+      "changelog": [
+        "新增一首新曲：",
+        "「Shine After」 by ADean & JocularACE"
+      ],
+      "downloads": {
+        "taptap": {
+          "123": "https://www.123pan.com/s/OS4KVv-W4irv",
+          "huang1111": "https://pan.huang1111.cn/s/DV3lwc4"
+        },
+        "playstore": {
+          "huang1111": "https://pan.huang1111.cn/s/dk1O8HV"
+        }
+      }
+    },
+    {
+      "versionName": "v3.6.2",
+      "versionCode": 103,
+      "releaseDate": "2024/05/09",
+      "changelog": [
+        "新增一首新曲：",
+        "「Shine After」 by ADean & JocularACE"
+      ],
+      "downloads": {
+        "taptap": {
+          "123": "https://www.123pan.com/s/OS4KVv-C4irv",
+          "huang1111": "https://pan.huang1111.cn/s/6edZAUN"
+        },
+        "playstore": {
+          "huang1111": "https://pan.huang1111.cn/s/zMw56UM"
+        }
+      }
+    },
+    {
+      "versionName": "v3.6.1",
+      "versionCode": 102,
+      "releaseDate": "2024/04/24",
+      "changelog": [
+        "新增两首来自游戏Arcaea的单曲：",
+        "「Antithese」 by: Blacklolita",
+        "「PRAGMATISM -RESURRECTION-」 by: Laur"
+      ],
+      "downloads": {
+        "taptap": {
+          "huang1111": "https://pan.huang1111.cn/s/xbgRkHV"
+        },
+        "playstore": {
+          "huang1111": "https://pan.huang1111.cn/s/gg8Q6TQ",
+          "123": "https://www.123pan.com/s/OS4KVv-N4irv"
+        }
+      }
+    },
+    {
+      "versionName": "v3.6.0",
+      "versionCode": 101,
+      "releaseDate": "2024/04/04",
+      "changelog": [
+        "1. 新增与Paradigm: Reboot的联动章节，包含以下曲目：",
+        "「零號車輛」 by: seatrus",
+        "「Indelible Scar」 by: Noah",
+        "「Artificial Existence」by: Jun Kuroda",
+        "「Xenolith」 by: Tatsh",
+        "2. 优化了部分限时内容的进入方式，现在可以通过对重演按钮进行不同操作的方式游玩不同的限时内容。"
+      ],
+      "downloads": {
+        "taptap": {
+          "huang1111": "https://pan.huang1111.cn/s/1QNLzhv"
+        }
+      }
+    },
+    {
+      "versionName": "v3.5.2",
+      "versionCode": 100,
+      "releaseDate": "2024/03/29",
+      "tag": ["april-fools"],
+      "changelog": [
+        "1. 新增一首单曲：",
+        "「BRAIN HACKER」 by SOMON",
+        "2. 漂流瓶経由で募集されたデザイナーたちを追加",
+        "3. 甘美な歌声を追加",
+        "4. 背後にお気を付けください",
+        "5. 其他错误修复"
+      ],
+      "downloads": {
+        "taptap": {
+          "123": "https://www.123pan.com/s/OS4KVv-O4irv",
+          "huang1111": "https://pan.huang1111.cn/s/y5qyyI6",
+          "github": "https://github.com/SteveZMTstudios/Phigros-history/releases/tag/v3.5.2"
+        },
+        "playstore": {
+          "huang1111": "https://pan.huang1111.cn/s/jA5efy"
+        }
+      }
+    },
+    {
+      "versionName": "v3.5.1",
+      "versionCode": 99,
+      "releaseDate": "2024/03/13",
+      "changelog": [
+        "1. 新增一首单曲：",
+        "「Broken Sky」 by Jungo & MAX 3 feat. 刘佳宜Snow & 幻影刃shadow",
+        "2. 修改部分谱面",
+        "3. 其他错误修复"
+      ],
+      "downloads": {
+        "taptap": {
+          "huang1111": "https://pan.huang1111.cn/s/k2yOvuB"
+        }
+      }
+    },
+    {
+      "versionName": "v3.5.0.1",
+      "versionCode": 98,
+      "releaseDate": "2024/03/01",
+      "changelog": [
+        "1.新增支线章节第三章——「盗乐行」，包含以下五首曲目：",
+        "「Khalid」 by Dolphin",
+        "「Quantum Hyperspace」 by D_AAN",
+        "「Freaky Undulations ~Noble Knights of Tune~」 by Jehezukiel + KURORAK",
+        "「PANIC PARADISE」 by DJ SHION.Y",
+        "「Re：End of a Dream」 by uma vs. モリモリあつし",
+        "2.新增“重演”功能",
+        "玩家通关所有主线章节后，“重演”开关将出现在土星系统初始页内。",
+        "当重演开启后，玩家将可以重新体验主线章节流程。",
+        "应用关闭后重演将会自动关闭。",
+        "3.重制了曲目「Lyrith -迷宮リリス-」的IN难度谱面",
+        "4.重制了曲目「Get Back」的曲绘"
+      ],
+      "downloads": {
+        "taptap": {
+          "huang1111": "https://pan.huang1111.cn/s/PK5vIm"
+        },
+        "playstore": {
+          "123": "https://www.123pan.com/s/OS4KVv-bPerv.html"
+        }
+      }
+    },
+    {
+      "versionName": "v3.5.0",
+      "versionCode": 96,
+      "releaseDate": "2024/02/23",
+      "changelog": [
+        "1.新增支线章节第三章——「盗乐行」，包含以下五首曲目：",
+        "「Khalid」 by Dolphin",
+        "「Quantum Hyperspace」 by D_AAN",
+        "「Freaky Undulations ~Noble Knights of Tune~」 by Jehezukiel + KURORAK",
+        "「PANIC PARADISE」 by DJ SHION.Y",
+        "「Re：End of a Dream」 by uma vs. モリモリあつし",
+        "2.新增“重演”功能",
+        "玩家通关所有主线章节后，“重演”开关将出现在土星系统初始页内。",
+        "当重演开启后，玩家将可以重新体验主线章节流程。",
+        "应用关闭后重演将会自动关闭。",
+        "3.重制了曲目「Lyrith -迷宮リリス-」的IN难度谱面",
+        "4.重制了曲目「Get Back」的曲绘"
+      ],
+      "downloads": {
+        "taptap": {
+          "huang1111": "https://pan.huang1111.cn/s/BGnVYh6"
+        }
+      }
+    },
+    {
+      "versionName": "v3.4.3",
+      "versionCode": 95,
+      "releaseDate": "2024/02/01",
+      "changelog": [
+        "新增两首新曲",
+        "「G.V.N. (Glitter, Vomitus and Neon)」 by Salty Salt & Unfold33",
+        "「Crush BETA」 by shadow_bling"
+      ],
+      "downloads": {
+        "taptap": {
+          "huang1111": "https://pan.huang1111.cn/s/9QybBtd"
+        },
+        "playstore": {
+          "123": "https://www.123pan.com/s/OS4KVv-7Perv.html"
+        }
+      }
+    },
+    {
+      "versionName": "v3.4.2",
+      "versionCode": 94,
+      "releaseDate": "2024/01/18",
+      "changelog": [
+        "Rotaeno联动章节追加三首新曲：",
+        "「ストレイソウル・アラウンド」by みーに",
+        "「Manifold Hypothesis」by cybermiso feat. tigerlily",
+        "「K.Moe (VIP)」by ZxNX"
+      ],
+      "downloads": {
+        "taptap": {
+          "huang1111": "https://pan.huang1111.cn/s/QzkXLcm"
+        }
+      }
+    },
+    {
+      "versionName": "v3.4.1",
+      "versionCode": 93,
+      "releaseDate": "2023/12/28",
+      "changelog": [
+        "1. 1.新增两首单曲：",
+        "「bye」 by DingerBox",
+        "「聖夜讃歌」 by A-39/沙包P",
+        "2. 新增「你最喜欢的歌曲投票」活动链接",
+        "3. 新增「liveMania」宣传横幅"
+      ]
+    },
+    {
+      "versionName": "v3.4.0",
+      "versionCode": 92,
+      "releaseDate": "2023/12/12",
+      "changelog": [
+        "新增与 CHUNITHM 的联动章节，包含以下曲目：",
+        "「テリトリーバトル」by ツユ",
+        "「TECHNOPOLIS 2085」by PRASTIK DANCEFLOOR",
+        "「祈 -我ら神祖と共に歩む者なり-」by 光吉猛修 VS 穴山大輔 VS Kai VS 水野健治 VS 大国奏音"
+      ],
+      "downloads": {
+        "playstore": {
+          "123": "https://www.123pan.com/s/OS4KVv-84irv"
+        }
+      }
+    },
+    {
+      "versionName": "v3.3.0",
+      "versionCode": 91,
+      "releaseDate": "2023/11/15",
+      "changelog": [
+        "1. 新增与Rotaeno的联动章节，包含以下曲目：",
+        "「Journey with You」by Iris",
+        "「Secret Illumination」by Yooh",
+        "「Inverted World」by ARForest",
+        "2. 修改部分谱面"
+      ],
+      "downloads": {
+        "taptap": {
+          "123": "https://www.123pan.com/s/OS4KVv-r4irv",
+          "huang1111": "https://pan.huang1111.cn/s/wePYBCK",
+          "github": "https://github.com/SteveZMTstudios/Phigros-history/releases/download/v3.3.0/Phigros_3.3.0.apk"
+        }
+      }
+    },
+    {
+      "versionName": "v3.2.2",
+      "versionCode": 90,
+      "releaseDate": "2023/10/25",
+      "changelog": [
+        "新增两首新曲",
+        "「Silence is Golden, Speech is Golden」 by NIWASHI",
+        "「Fractured Angel」 by DJ Raisei"
+      ],
+      "downloads": {
+        "taptap": {
+          "123": "https://www.123pan.com/s/PzH0Vv-Fz6V3.html",
+          "huang1111": "https://pan.huang1111.cn/s/75ea6sg"
+        }
+      }
+    },
+    {
+      "versionName": "v3.2.1",
+      "versionCode": 89,
+      "releaseDate": "2023/09/26",
+      "changelog": [
+        "1. 新增两首单曲",
+        "「Diamond Eyes」 by SYNTHETIC",
+        "「Bitterblossom」 by imvi",
+        "2. 更改了部分收藏品的展示方式"
+      ],
+      "downloads": {
+        "taptap": {
+          "huang1111": "https://pan.huang1111.cn/s/E7xklTb"
+        }
+      }
+    },
+    {
+      "versionName": "v3.2.0",
+      "versionCode": 88,
+      "releaseDate": "2023/08/31",
+      "changelog": [
+        "1. 新增与かめりあ合作的外传章节《极星卫》，包含以下曲目：",
+        "「S.A.T.E.L.L.I.T.E.」by かめりあ",
+        "「Dance with Silence」by かめりあ",
+        "「Labyrinth in Kowloon: Walled World」by かめりあ",
+        "「Compute It With Some Devilish Alcoholic Steampunk Engines」by かめりあ",
+        "「+ERABY+E CONNEC+10N」by かめりあ",
+        "2. 新增「Credits」AT难度",
+        "3. 修改部分谱面"
+      ],
+      "downloads": {
+        "taptap": {
+          "123": "https://www.123pan.com/s/qCLA-sRJsv.html"
+        }
+      }
+    },
+    {
+      "versionName": "v3.2.0",
+      "versionCode": 87,
+      "releaseDate": "2023/08/30",
+      "changelog": [
+        "1. 新增与かめりあ合作的外传章节《极星卫》，包含以下曲目：",
+        "「S.A.T.E.L.L.I.T.E.」by かめりあ",
+        "「Dance with Silence」by かめりあ",
+        "「Labyrinth in Kowloon: Walled World」by かめりあ",
+        "「Compute It With Some Devilish Alcoholic Steampunk Engines」by かめりあ",
+        "「+ERABY+E CONNEC+10N」by かめりあ",
+        "2. 新增「Credits」AT难度",
+        "3. 修改部分谱面"
+      ],
+      "downloads": {
+        "taptap": {
+          "123": "https://www.123pan.com/s/qCLA-FWJsv.html",
+          "huang1111": "https://pan.huang1111.cn/s/8Qy4jhQ"
+        }
+      }
+    },
+    {
+      "versionName": "v3.1.3",
+      "versionCode": 86,
+      "releaseDate": "2023/08/14",
+      "changelog": [
+        "1.新增一首新曲",
+        "「Triumph & Regret」 by typeMARS",
+        "2.更新了“音波狂潮”相关合作内容，欢迎前往BiliBili音波狂潮官方账号了解详情"
+      ],
+      "downloads": {
+        "taptap": {
+          "123": "https://www.123pan.com/s/qCLA-cFJsv.html",
+          "huang1111": "https://pan.huang1111.cn/s/G8qkoFW"
+        }
+      }
+    },
+    {
+      "versionName": "v3.1.2",
+      "versionCode": 85,
+      "releaseDate": "2023/07/24",
+      "changelog": [
+        "1. 新增一首单曲：「ぱぴぷぴぷぴぱ」 by ころねぽち With 立秋",
+        "2. 修改部分谱面"
+      ],
+      "downloads": {
+        "taptap": {
+          "123": "https://www.123pan.com/s/OS4KVv-VaZrv.html",
+          "huang1111": "https://pan.huang1111.cn/s/LxXeWH6",
+          "github": "https://github.com/SteveZMTstudios/Phigros-history/releases/download/v3.1.2/Phigros_3.1.2.apk"
+        }
+      }
+    },
+    {
+      "versionName": "v3.1.1.1",
+      "versionCode": 84,
+      "releaseDate": "2023/07/08",
+      "changelog": [
+        "更新了两首新曲",
+        "「Rainy Heart」 by BelieverInYou(阿卡姆巫师)",
+        "「Realms」 by Hinkik & A Himitsu"
+      ],
+      "downloads": {
+        "taptap": {
+          "123": "https://www.123pan.com/s/qCLA-9hJsv.html",
+          "huang1111": "https://pan.huang1111.cn/s/K9kvQhY"
+        }
+      }
+    },
+    {
+      "versionName": "v3.1.1",
+      "versionCode": 83,
+      "releaseDate": "2023/07/04",
+      "changelog": [
+        "更新了两首新曲",
+        "「Rainy Heart」 by BelieverInYou(阿卡姆巫师)",
+        "「Realms」 by Hinkik & A Himitsu"
+      ]
+    },
+    {
+      "versionName": "v3.1.0",
+      "versionCode": 82,
+      "releaseDate": "2023/06/07",
+      "changelog": [
+        "1. 新增与OverRapid的联动章节，包含以下曲目：",
+        "「神話」by Pica & M2U",
+        "「El último baile」by Θ",
+        "「Trojan」by litmus*",
+        "「Temporal Shifting」by Lure Rabbit & V!C",
+        "「Ad astra per aspera」by Rabbit House",
+        "「A journey to the moonlight」by Yesod",
+        "2. 修改部分谱面"
+      ],
+      "downloads": {
+        "taptap": {
+          "123": "https://www.123pan.com/s/qCLA-aLBsv.html",
+          "huang1111": "https://pan.huang1111.cn/s/oX7eDT8"
+        }
+      }
+    },
+    {
+      "versionName": "v3.0.1.1",
+      "versionCode": 81,
+      "releaseDate": "2023/05/29",
+      "changelog": [
+        "更新了两首新曲",
+        "「Bougainvillea」 by Jade",
+        "「Now Is The Time, Do It」 by Roy Mikelate"
+      ],
+      "downloads": {
+        "taptap": {
+          "huang1111": "https://pan.huang1111.cn/s/6eKBAsN"
+        }
+      }
+    },
+    {
+      "versionName": "v3.0.1",
+      "versionCode": 80,
+      "releaseDate": "2023/05/17",
+      "changelog": [
+        "更新了两首新曲",
+        "「Bougainvillea」 by Jade",
+        "「Now Is The Time, Do It」 by Roy Mikelate"
+      ],
+      "downloads": {
+        "taptap": {
+          "huang1111": "https://pan.huang1111.cn/s/XqdaoHl",
+          "123": "https://www.123pan.com/s/qCLA-clBsv.html"
+        },
+        "playstore": {
+          "huang1111": "https://pan.huang1111.cn/s/qg1OxC3"
+        }
+      }
+    },
+    {
+      "versionName": "v3.0.0.1",
+      "versionCode": 79,
+      "releaseDate": "2023/04/26",
+      "changelog": [
+        "1. 新增主线章节八「凌日潮汐」，包含如下曲目：",
+        "「The Chariot ~REVIIVAL~」by Attoclef",
+        "「Luminescence」by 米虾Fomiki & 初云CLoudie",
+        "「Crave Wave」by LandRoot",
+        "「Retribution」by nm-y & Kry.exe",
+        "「???」by ???",
+        "2. 新增风屿AT难度",
+        "3. 部分UI更新迭代"
+      ],
+      "downloads": {
+        "taptap": {
+          "github": "https://github.com/SteveZMTstudios/Phigros-history/releases/v3.0.0.1/",
+          "123": "https://www.123pan.com/s/OS4KVv-u4irv",
+          "huang1111": "https://pan.huang1111.cn/s/VLkEaud"
+        }
+      }
+    },
+    {
+      "versionName": "v3.0.0",
+      "versionCode": 78,
+      "releaseDate": "2023/04/20",
+      "changelog": [
+        "1. 新增主线章节八「凌日潮汐」，包含如下曲目：",
+        "「The Chariot ~REVIIVAL~」by Attoclef",
+        "「Luminescence」by 米虾Fomiki & 初云CLoudie",
+        "「Crave Wave」by LandRoot",
+        "「Retribution」by nm-y & Kry.exe",
+        "「???」by ???",
+        "2. 新增风屿AT难度",
+        "3. 部分UI更新迭代"
+      ],
+      "downloads": {
+        "taptap": {
+          "huang1111": "https://pan.huang1111.cn/s/YLMqzTA"
+        }
+      }
+    }
+  ]
+}

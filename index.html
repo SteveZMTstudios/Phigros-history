@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Phigros History</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,400;0,700;1,400;1,700&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+</head>
+<body>
+    <noscript>
+      <style>
+        .no-js-wrap{position:fixed;inset:0;z-index:2147483647;min-height:40px;display:flex;align-items:center;justify-content:center;padding:24px;box-sizing:border-box;background:#ffffff;color:#111827;font-family: Roboto,Helvetica,Arial}
+        .no-js-card{max-width:720px;width:100%;border:1px solid #e5e7eb;border-radius:12px;padding:24px;background:#fff;box-shadow:0 1px 2px #0000000d}
+        @media (prefers-color-scheme: dark){
+          .no-js-wrap{background:#0f1115;color:#e5e7eb}
+          .no-js-card{background:#0f1115;border-color:#374151;box-shadow:0 1px 2px #00000066}
+        }
+      </style>
+      <div class="no-js-wrap">
+        <div class="no-js-card">
+          <svg xmlns="http://www.w3.org/2000/svg" height="40px" viewBox="0 -960 960 960" width="40px" fill="#DA954B"><path d="M34.18-116.57 480-886.86l445.82 770.29H34.18Zm448.6-121.99q14.39 0 24.32-10.05 9.94-10.05 9.94-24.43 0-14.39-10.05-24.2-10.05-9.82-24.44-9.82t-24.32 9.93q-9.93 9.93-9.93 24.32t10.05 24.32q10.05 9.93 24.43 9.93ZM449.33-352H516v-213.85h-66.67V-352Z"/></svg>
+          <svg xmlns="http://www.w3.org/2000/svg" height="40px" viewBox="0 -960 960 960" width="40px" fill="currentColor"><path d="M800.09-44.96 281.43-563.37l-84.13 84.13 183 183-63.89 63.89L68.52-480l148.26-148.02L44.96-800.09l59.39-59.39 755.13 755.13-59.39 59.39ZM746.8-335.57l-64.65-64.65 80.55-80.54-183-183 63.89-63.89L891.48-480 746.8-335.57Z"/></svg>
+          <p>网站应用程序必须启用 JavaScript 才能运作，但是此页面上的 JavaScript 已被拦截。<br />
+          请检查你的浏览器设置。
+          </p>
+          <a href=".">重新加载</a> <a href="https://stevezmt.top/Phigros-history/README_old" target="_blank" rel="noopener">访问旧版主页</a>
+        </div>
+      </div>
+    </noscript>
+    <div id="start-screen" class="screen active">
+        <div class="start-content">
+            <div class="logo">Phigros History</div>
+            <div class="tap-to-start">点击屏幕开始</div>
+        </div>
+        <div class="background-overlay"></div>
+    </div>
+
+    <div id="main-screen" class="screen">
+        <div class="background-overlay"></div>
+        <header class="top-bar">
+            <div class="user-info">
+                <div class="avatar">
+                    <img src="icon.png" alt="Avatar" style="width: 100%; height: 100%; border-radius: 50%; object-fit: cover;">
+                </div>
+                <div class="user-details">
+                    <span class="username">Geopelia</span>
+                    <span class="rks">RKS 12.00</span>
+                </div>
+            </div>
+            <div class="top-right">
+                <div class="currency">
+                    <span class="material-icons">data_usage</span>
+                    <span>2048MB</span>
+                </div>
+            </div>
+        </header>
+
+        <div class="content-container">
+            <nav class="version-selector">
+                <!-- Major versions will be injected here -->
+            </nav>
+
+            <main class="version-list-container">
+                <div id="version-list" class="version-list">
+                    <!-- Version details will be injected here -->
+                </div>
+            </main>
+
+            <aside id="version-detail-panel" class="detail-panel">
+                <div class="detail-content-wrapper">
+                    <div class="slant-spacer"></div>
+                    <div class="detail-inner">
+                        <button id="close-detail-desktop" class="close-btn-desktop">
+                            <span class="material-icons">close</span>
+                        </button>
+                        <h2 id="detail-title">版本详情</h2>
+                        <div id="detail-meta"></div>
+                        
+                        <div class="changelog-section">
+                            <h3>更新日志</h3>
+                            <div id="detail-changelog"></div>
+                        </div>
+
+                        <div class="download-section">
+                            <h3>下载</h3>
+                            <div id="download-list" class="download-grid">
+                                <!-- Buttons injected here -->
+                            </div>
+                            <div id="download-message" class="download-message"></div>
+                        </div>
+                    </div>
+                    <button id="close-detail-mobile" class="close-btn-mobile">
+                        <span class="material-icons">close</span>
+                    </button>
+                </div>
+            </aside>
+        </div>
+        
+        <footer class="bottom-bar">
+            <button id="back-btn" class="nav-btn">
+                <span class="material-icons">arrow_back</span>
+            </button>
+            <div class="current-path">Phigros History / <span id="current-version-display">选择版本</span></div>
+            <button id="info-btn" class="nav-btn">
+                <span class="material-icons">info</span>
+            </button>
+        </footer>
+    </div>
+
+    <script src="assets/js/main.js"></script>
+</body>
+</html>

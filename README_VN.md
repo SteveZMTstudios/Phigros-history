@@ -5,7 +5,7 @@ Bản dịch tiếng Việt bởi [**Huy Hoang Cao**](https://www.facebook.com/h
 ![新九鸟](icon.png "新图标")
 # BỘ SƯU TẬP APK PHIGROS
 
-**Tiếng Việt** | [简体中文](https://stevezmt.top/Phigros-history/) | [English(US)](https://stevezmt.top/Phigros-history/README_en-us)
+**Tiếng Việt** | [简体中文](https://stevezmt.top/Phigros-history/README_old) | [English(US)](https://stevezmt.top/Phigros-history/README_en-us)
 
 Phigros là một trò chơi âm nhạc "không có làn đường" với các đường phán đoán năng động và bốn loại nốt nhạc khác nhau, mang đến cho bạn trải nghiệm nhịp điệu mới mẻ chưa từng có!
 
