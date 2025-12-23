@@ -89,12 +89,13 @@ document.addEventListener('DOMContentLoaded', () => {
                 <div class="about-text">
                     <p>《Phigros》是由 Pigeon Games（鸽游）开发的节奏类游戏。Pigeon Games 是由初创通过 bilibili 视频网站发起的、由众多节奏类游戏爱好者组成的完全用爱发电的项目组。我们希望 Phigros 新颖的游戏模式和精心制作的插画与关卡可以让你感受到节奏类游戏的魅力。</p>
                     <p>本项目致力于收集并整理 Phigros 的历史版本及更新日志，方便玩家回顾与下载。</p>
+                    <p>特别感谢 <a href="https://www.facebook.com/huyhoangcao39393939/" target="_blank">Cao Huy Hoang</a> 提供的部分历史版本数据，没有他的帮助，该项目不可能发展得如此庞大。</p>
                     <p>此项目和 Pigeon Games（鸽游）、Apple Inc等公司及其关联方无任何关系，所有内容均来自公开渠道，仅供学习和研究使用。如有侵权，请联系我们删除相关内容。</p>
                 </div>
                 <h2>支持我们</h2>
                 <div class="about-text">
                     <p>这是一个完全由爱好者维护的非营利项目。由于所有的上游存储开始收取更加高昂的费用，项目存储的费用和花销超出了我们所能承受的范围。如果您想支持我们继续提供免费的服务，请考虑捐赠。感谢您的支持！</p>
-                    <a href="doc/why-donate" target="_blank" class="phigros-btn" style="width: 20em; margin-top: 1em;">
+                    <a href="doc/why-donate" target="_blank" class="phigros-btn">
                         <span class="material-icons">favorite</span>
                         <span>支持我们</span>
                     </a>
@@ -105,11 +106,11 @@ document.addEventListener('DOMContentLoaded', () => {
                     <p>您也可以访问我们的<a href="https://stevezmt.top/Phigros-history/README_old" target="_blank">旧版网页</a>，不过它将在未来被弃用。</p>
                     <p>如果您发现任何问题或有改进建议，请随时通过 GitHub 提交 issue 或 pull request。</p>
 
-                    <a href="https://github.com/stevezmtstudios/Phigros-history" target="_blank" class="phigros-btn" style="width: 30em; margin-right: 1em;">
+                    <a href="https://github.com/stevezmtstudios/Phigros-history" target="_blank" class="phigros-btn">
                         <span class="material-icons">code</span>
                         <span>访问 GitHub 仓库</span>
                     </a>
-                    <a href="https://github.com/stevezmtstudios/Phigros-history/issues" target="_blank" class="phigros-btn" style="width: 30em; margin-top: 1em;">
+                    <a href="https://github.com/stevezmtstudios/Phigros-history/issues" target="_blank" class="phigros-btn">
                         <span class="material-icons">bug_report</span>
                         <span>报告问题</span>
                     </a>

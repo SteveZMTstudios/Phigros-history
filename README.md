@@ -5,6 +5,7 @@
 ProTip: use XOR cryption.-->
 **简体中文** | [English(US)](https://stevezmt.top/Phigros-history/README_en-us) | [Tiếng Việt](https://stevezmt.top/Phigros-history/README_VN)
 
+> 新页面已可供使用！[点击这里前往新页面](https://stevezmt.top/Phigros-history/)
 
 《Phigros》是由Pigeon Games（鸽游）开发的节奏类游戏。
 Pigeon Games是由初创通过bilibili视频网站发起的、由众多节奏类游戏爱好者组成的完全用爱发电的项目组。我们希望Phigros新颖的游戏模式和精心制作的插画与关卡可以让你感受到节奏类游戏的魅力。
