@@ -7,6 +7,8 @@
   let fileHandle = null;
   // Dirty tracking: 当用户未保存修改时为 true
   let isDirty = false;
+  // 当正在执行保存到文件的原生文件对话框时，抑制 beforeunload 提示
+  let suppressBeforeUnload = false;
 
   // Elements
   const fileInput = document.getElementById('fileInput');
@@ -33,12 +35,35 @@
   const channelsDiv = document.getElementById('channels');
   const newChannel = document.getElementById('newChannel');
   const btnAddChannel = document.getElementById('btnAddChannel');
-  const btnPasteLink = document.getElementById('btnPasteLink');
+  const btnImportTaptap = document.getElementById('btnImportTaptap');
+  const btnImportPlaystore = document.getElementById('btnImportPlaystore');
 
   const btnSaveChanges = document.getElementById('btnSaveChanges');
   const btnDeleteVersion = document.getElementById('btnDeleteVersion');
 
   // Helpers
+  function detectKeyFromUrl(url) {
+    if (!url) return null;
+    if (url.includes('sharepoint.com') || url.includes('1drv.ms')) return 'onedrive';
+    if (/123\d{3}\.com/.test(url)) return '123';
+    if (url.includes('pan.huang1111.cn')) return 'huang1111';
+    if (url.includes('caiyun.139.com')) return 'caiyun';
+    if (url.includes('github.com')) return 'github';
+    return null;
+  }
+
+  function applyChangesToMemory(){
+    if(selectedIndex < 0) return;
+    const d = data.details[selectedIndex];
+    d.versionName = versionName.value.trim();
+    d.versionCode = Number(versionCode.value)||0;
+    d.releaseDate = releaseDate.value ? releaseDate.value.replace(/-/g,'/') : '';
+    d.tag = tags.value.split(',').map(s=>s.trim()).filter(Boolean);
+    d.changelog = changelog.value.split('\n').map(s=>s.trim()).filter(Boolean);
+    setDirty(true);
+    renderList();
+  }
+
   function updateTitleIndicator(){
     const span = document.getElementById('statusIndicator');
     if(!span) return;
@@ -51,11 +76,46 @@
   function renderList(){
     versionList.innerHTML = '';
     const q = search.value.trim().toLowerCase();
-    data.details.forEach((d,i)=>{
+
+    // 排序：按 versionCode 降序，若相同则按 versionName 降序
+    const items = data.details.map((d, i) => ({ d, i }));
+    items.sort((a, b) => {
+      const vA = Number(a.d.versionCode) || 0;
+      const vB = Number(b.d.versionCode) || 0;
+      if (vB !== vA) return vB - vA;
+      return (b.d.versionName || '').localeCompare(a.d.versionName || '', undefined, { numeric: true });
+    });
+
+    items.forEach(({d, i}) => {
       const text = (d.versionName||'').toLowerCase() + ' ' + (d.changelog||[]).join(' ').toLowerCase();
       if(q && text.indexOf(q) === -1) return;
       const li = document.createElement('li');
       li.textContent = d.versionName || `#${i}`;
+
+      // 计算链接相关信息
+      let linkCount = 0;
+      let hasPlay = false, hasTap = false, hasOther = false;
+      if(d.downloads){
+        Object.entries(d.downloads).forEach(([chan, obj]) => {
+          const urls = Object.values(obj || {}).filter(u => u && u.trim());
+          if(urls.length === 0) return;
+          linkCount += urls.length;
+          const name = (chan || '').toLowerCase();
+          if(name.includes('play')) hasPlay = true;
+          else if(name.includes('taptap')) hasTap = true;
+          else hasOther = true;
+        });
+      }
+      li.classList.toggle('no-links', linkCount === 0);
+      li.classList.toggle('one-link', linkCount === 1);
+
+      // 权限徽章（右侧小点）
+      const badges = document.createElement('span'); badges.className = 'badges';
+      if(hasPlay){ const b = document.createElement('span'); b.className='dot play'; b.title='Play 商店链接'; badges.appendChild(b); }
+      if(hasTap){ const b = document.createElement('span'); b.className='dot tap'; b.title='TapTap 链接'; badges.appendChild(b); }
+      if(hasOther){ const b = document.createElement('span'); b.className='dot other'; b.title='其他链接'; badges.appendChild(b); }
+      li.appendChild(badges);
+
       li.classList.toggle('active', i === selectedIndex);
       li.onclick = ()=>{ selectIndex(i); };
       versionList.appendChild(li);
@@ -77,12 +137,12 @@
     tags.value = (d.tag || []).join(',');
     changelog.value = (d.changelog || []).join('\n');
     renderChannels(d);
-    // attach listeners to mark dirty when fields change
-    versionName.oninput = ()=> setDirty(true);
-    versionCode.oninput = ()=> setDirty(true);
-    releaseDate.onchange = ()=> setDirty(true);
-    tags.oninput = ()=> setDirty(true);
-    changelog.oninput = ()=> setDirty(true);
+    // attach listeners to auto-apply changes to memory
+    versionName.oninput = applyChangesToMemory;
+    versionCode.oninput = applyChangesToMemory;
+    releaseDate.onchange = applyChangesToMemory;
+    tags.oninput = applyChangesToMemory;
+    changelog.oninput = applyChangesToMemory;
     renderList();
   }
 
@@ -113,15 +173,21 @@
     div.appendChild(links);
 
     btnAddLink.onclick = async ()=>{
-      const key = prompt('键名（如 123, huang1111, github 等）');
-      if(!key) return;
       const pasted = await navigator.clipboard.readText().catch(()=>null);
       const url = pasted && pasted.startsWith('http') ? pasted : prompt('链接');
       if(!url) return;
+      
+      let key = detectKeyFromUrl(url);
+      if(!key) {
+        key = prompt('无法自动识别键名，请输入（如 123, huang1111, github 等）');
+      }
+      if(!key) return;
+
       obj[key]=url;
       links.appendChild(createLinkRow(name,key,url));
       commitDownloadChange(name,obj);
       setDirty(true);
+      renderList();
     };
     btnDeleteChan.onclick = ()=>{
       if(!confirm('确认删除渠道 “'+name+'”？')) return;
@@ -129,6 +195,7 @@
       delete d.downloads[name];
       renderChannels(d);
       setDirty(true);
+      renderList();
     };
 
     return div;
@@ -136,7 +203,7 @@
 
   function createLinkRow(channel,key,value){
     const row = document.createElement('div'); row.className='link-row';
-    const keyInput = document.createElement('input'); keyInput.value = key; keyInput.disabled = true;
+    const keyInput = document.createElement('input'); keyInput.value = key;
     const urlInput = document.createElement('input'); urlInput.value = value || '';
     const btnOpen = document.createElement('button'); btnOpen.textContent='打开';
     const btnCheck = document.createElement('button'); btnCheck.textContent='小窗检查';
@@ -150,10 +217,27 @@
       if(d && d.downloads){
         if(d.downloads[channel] && d.downloads[channel][key]) delete d.downloads[channel][key];
         renderChannels(d);
+        renderList();
       }
     };
 
-    urlInput.onchange = ()=>{ commitUrlChange(channel,key,urlInput.value); setDirty(true); };
+    keyInput.onchange = ()=>{
+      const newKey = keyInput.value.trim();
+      if(!newKey || newKey === key) return;
+      const d = data.details[selectedIndex];
+      if(d.downloads[channel][newKey]) {
+          alert('键名已存在');
+          keyInput.value = key;
+          return;
+      }
+      d.downloads[channel][newKey] = d.downloads[channel][key];
+      delete d.downloads[channel][key];
+      key = newKey; // update local key
+      setDirty(true);
+      renderList();
+    };
+
+    urlInput.onchange = ()=>{ commitUrlChange(channel,key,urlInput.value); setDirty(true); renderList(); };
 
     row.appendChild(keyInput); row.appendChild(urlInput);
     row.appendChild(btnOpen); row.appendChild(btnCheck); row.appendChild(btnDel);
@@ -213,20 +297,29 @@
     setDirty(true);
   };
 
-  btnPasteLink.onclick = async ()=>{
+  async function importFromClipboard(channelName) {
     if(selectedIndex<0) return alert('请选择版本');
     const txt = await navigator.clipboard.readText().catch(()=>null);
     if(!txt) return alert('剪贴板没有文本或读取失败');
     const url = txt.trim(); if(!url.startsWith('http')) return alert('剪贴板内容不是有效的URL');
-    // prompt for channel and key
-    const channel = prompt('渠道名 (如 taptap)') || 'taptap';
-    const key = prompt('键名 (如 huang1111)') || 'pasted';
+    
+    let key = detectKeyFromUrl(url);
+    if(!key) {
+      key = prompt('无法自动识别键名，请输入（如 123, huang1111, github 等）');
+    }
+    if(!key) return;
+
     const d = data.details[selectedIndex]; d.downloads = d.downloads || {};
-    d.downloads[channel] = d.downloads[channel]||{}; d.downloads[channel][key]=url;
+    d.downloads[channelName] = d.downloads[channelName]||{}; 
+    d.downloads[channelName][key]=url;
     renderChannels(d);
     setDirty(true);
-    alert('已添加');
-  };
+    renderList();
+    alert(`已添加到 ${channelName}`);
+  }
+
+  btnImportTaptap.onclick = () => importFromClipboard('taptap');
+  btnImportPlaystore.onclick = () => importFromClipboard('playstore');
 
   // Import/export (支持 File System Access API 的文件流优先方案)
   btnLoadFile.onclick = async ()=>{
@@ -356,7 +449,10 @@
   // 保存到文件（使用 File System Access API，当不可用时回退到导出）
   const btnSaveToFile = document.getElementById('btnSaveToFile');
   async function saveToFile(){
+    const prevSuppress = suppressBeforeUnload;
     try{
+      // 防止在文件对话框期间触发 beforeunload 提示
+      suppressBeforeUnload = true;
       if(window.showSaveFilePicker){
         if(!fileHandle){
           fileHandle = await window.showSaveFilePicker({suggestedName:'versions.json',types:[{description:'JSON',accept:{'application/json':['.json']}}]});
@@ -374,7 +470,10 @@
         alert('您的浏览器不支持直接写文件，已使用导出作为回退。');
       }
     }catch(e){
+      // 取消或错误不会清除未保存标记，以免丢失变更
       alert('保存失败: '+e);
+    }finally{
+      suppressBeforeUnload = prevSuppress;
     }
   }
   btnSaveToFile.onclick = saveToFile;
@@ -384,7 +483,8 @@
 
   // beforeunload：如果有未保存修改，提示用户
   window.addEventListener('beforeunload', (e)=>{
-    if(isDirty){
+    // 在执行保存到文件时，原生文件对话框可能被视为导航，抑制该场景下的提示
+    if(isDirty && !suppressBeforeUnload){
       e.preventDefault();
       e.returnValue = '';
       return '';

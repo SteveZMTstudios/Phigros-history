@@ -2,9 +2,34 @@
   "version": "v1",
   "details": [
     {
+      "versionName": "v1.5.5.1 [?]",
+      "versionCode": 33,
+      "releaseDate": "2020-12-29",
+      "changelog": [
+        "（此版本未登记在TapTap版本列表中，我们也不确定其何时发布）"
+      ],
+      "downloads": {
+        "playstore": {
+          "onedrive": "https://stevezmtstudios-my.sharepoint.com/:u:/g/personal/hoangcaohuy2007_stevezmt_top/IQCCSMrXDDTvTYWYiRZussS6AaLpIG9MDn7DTJo13x5f_jE?e=vlaThF"
+        }
+      },
+      "tag": []
+    },
+    {
+      "versionName": "v1.0.6",
+      "versionCode": 1,
+      "releaseDate": "2019/09/07",
+      "changelog": [
+        "1、修复了某些低内存设备的闪退问题。",
+        "2、延时调整的范围从0ms～500ms变为-400ms ～ 600ms。",
+        "3、一些视觉上的调整。"
+      ],
+      "downloads": {}
+    },
+    {
       "versionName": "v1.6.11",
       "versionCode": 50,
-      "releaseDate": "2021/07/25",
+      "releaseDate": "2021-07-25",
       "changelog": [
         "1、一首全新单曲：",
         "energy trixxx"
@@ -12,9 +37,11 @@
       "downloads": {
         "taptap": {
           "huang1111": "https://pan.huang1111.cn/s/gg9wqUQ",
-          "repacked": "https://github.com/SteveZMTstudios/Phigros-history/releases/download/v1.6.11/Phigros_V1.6.11_clone.apk"
+          "repacked": "https://github.com/SteveZMTstudios/Phigros-history/releases/download/v1.6.11/Phigros_V1.6.11_clone.apk",
+          "onedrive": "https://stevezmtstudios-my.sharepoint.com/:u:/g/personal/hoangcaohuy2007_stevezmt_top/IQCV_Z-PHIawT4AZsFyzM8D3ATTnkoK62c7wG2sxd11e4rc?e=Ic4yux"
         }
-      }
+      },
+      "tag": []
     },
     {
       "versionName": "v1.6.10",
@@ -28,14 +55,15 @@
       ],
       "downloads": {
         "taptap": {
-          "huang1111": "https://pan.huang1111.cn/s/1Q9Bxfv"
+          "huang1111": "https://pan.huang1111.cn/s/1Q9Bxfv",
+          "onedrive": "https://stevezmtstudios-my.sharepoint.com/:u:/g/personal/hoangcaohuy2007_stevezmt_top/IQAsa__1mVQGT5-xwekZULapAfgr-9_o1VepL5sSV5OL6BY?e=qvV4KW"
         }
       }
     },
     {
       "versionName": "v1.6.9",
       "versionCode": 48,
-      "releaseDate": "2021/06/17",
+      "releaseDate": "2021-06-17",
       "changelog": [
         "1、两首全新单曲：",
         "Unorthodox Thoughts",
@@ -44,14 +72,19 @@
       ],
       "downloads": {
         "taptap": {
-          "huang1111": "https://pan.huang1111.cn/s/y5gAjt6"
+          "huang1111": "https://pan.huang1111.cn/s/y5gAjt6",
+          "onedrive": "https://stevezmtstudios-my.sharepoint.com/:u:/g/personal/hoangcaohuy2007_stevezmt_top/IQCqj3Dj2nAkQ61w2AI5SN_AAbcoDSn4N5OuwObxMHITpgk?e=dv7BKQ"
+        },
+        "playstore": {
+          "onedrive": "https://stevezmtstudios-my.sharepoint.com/:u:/g/personal/hoangcaohuy2007_stevezmt_top/IQAnwiHka56UToUCdhsN9M7RAfKuSoVyUxrmk3QCAvPvJIc?e=oATcJ8"
         }
-      }
+      },
+      "tag": []
     },
     {
       "versionName": "v1.6.8",
       "versionCode": 47,
-      "releaseDate": "2021/05/27",
+      "releaseDate": "2021-05-27",
       "changelog": [
         "1、新增Muse Dash精选集，共3首歌曲：",
         "XING",
@@ -61,28 +94,38 @@
       ],
       "downloads": {
         "taptap": {
-          "huang1111": "https://pan.huang1111.cn/s/jRD6zty"
+          "huang1111": "https://pan.huang1111.cn/s/jRD6zty",
+          "onedrive": "https://stevezmtstudios-my.sharepoint.com/:u:/g/personal/hoangcaohuy2007_stevezmt_top/IQAvByQel3HtTZOAtXOdXtevAblKUefZKvBge8YF466wVoY?e=ctWJ0N"
+        },
+        "playstore": {
+          "onedrive": "https://stevezmtstudios-my.sharepoint.com/:u:/g/personal/hoangcaohuy2007_stevezmt_top/IQCyRsgXzv3PRIMexxkfGa99AZ3_pPhuaXtp6ES8AxIqLno?e=rq32pL"
         }
-      }
+      },
+      "tag": []
     },
     {
       "versionName": "v1.6.7.1",
       "versionCode": 46,
-      "releaseDate": "2021/05/07",
+      "releaseDate": "2021-05-07",
       "changelog": [
         "1、修复了若干BUG",
         "2、优化触摸、判定系统。"
       ],
       "downloads": {
         "taptap": {
-          "huang1111": "https://pan.huang1111.cn/s/zM6nNuM"
+          "huang1111": "https://pan.huang1111.cn/s/zM6nNuM",
+          "onedrive": "https://stevezmtstudios-my.sharepoint.com/:u:/g/personal/hoangcaohuy2007_stevezmt_top/IQBJ-LHX2iARSoqyw8J5pPwvAXPTeyy0pXuqEbIZrIAtGzU?e=vlXOrs"
+        },
+        "playstore": {
+          "onedrive": "https://stevezmtstudios-my.sharepoint.com/:u:/g/personal/hoangcaohuy2007_stevezmt_top/IQC60Kp-jVQXQJDSDIizDlwSAd4KIyrk-cjmcHn6iRvc_pU?e=9K6HoS"
         }
-      }
+      },
+      "tag": []
     },
     {
       "versionName": "v1.6.7",
       "versionCode": 45,
-      "releaseDate": "2021/04/29",
+      "releaseDate": "2021-04-29",
       "changelog": [
         "1、新增WAVEAT精选集，包含4首歌曲：",
         "Initialize",
@@ -94,14 +137,19 @@
       ],
       "downloads": {
         "taptap": {
-          "huang1111": "https://pan.huang1111.cn/s/2vQENhN"
+          "huang1111": "https://pan.huang1111.cn/s/2vQENhN",
+          "onedrive": "https://stevezmtstudios-my.sharepoint.com/:u:/g/personal/hoangcaohuy2007_stevezmt_top/IQArHOXxEFY4TYGD7-TBlQVxAef4Y_wQT7ReD0_hENVkBu0?e=sLneYf"
+        },
+        "playstore": {
+          "onedrive": "https://stevezmtstudios-my.sharepoint.com/:u:/g/personal/hoangcaohuy2007_stevezmt_top/IQCXXk8s-jS8Sb43H7vDSte6AYPJ0ZBYtb2UurlNWkZ0D_4?e=Dztocd"
         }
-      }
+      },
+      "tag": []
     },
     {
       "versionName": "v1.6.6",
       "versionCode": 44,
-      "releaseDate": "2021/04/14",
+      "releaseDate": "2021-04-14",
       "changelog": [
         "1、两首全新单曲：",
         "Eltaw",
@@ -111,15 +159,22 @@
       ],
       "downloads": {
         "taptap": {
-          "huang1111": "https://pan.huang1111.cn/s/9QydETd"
+          "huang1111": "https://pan.huang1111.cn/s/9QydETd",
+          "onedrive": "https://stevezmtstudios-my.sharepoint.com/:u:/g/personal/hoangcaohuy2007_stevezmt_top/IQDFwJw59oAsTavbF2mvq2BiARD1E-6SadzbmymhfkWXyAU?e=tKy0kE"
+        },
+        "playstore": {
+          "onedrive": "https://stevezmtstudios-my.sharepoint.com/:u:/g/personal/hoangcaohuy2007_stevezmt_top/IQCWwboouaYuQ75NznY7XAHEAacCPcg03h8551QJoxJRiB0?e=Odg8Oo"
         }
-      }
+      },
+      "tag": []
     },
     {
       "versionName": "v1.6.5",
       "versionCode": 42,
-      "releaseDate": "2021/03/29",
-      "tag":["april-fools"],
+      "releaseDate": "2021-03-29",
+      "tag": [
+        "april-fools"
+      ],
       "changelog": [
         "1、一首全新单曲：",
         "Wavetapper",
@@ -129,17 +184,19 @@
       ],
       "downloads": {
         "taptap": {
-          "huang1111": "https://pan.huang1111.cn/s/Qzk1mUm"
+          "huang1111": "https://pan.huang1111.cn/s/Qzk1mUm",
+          "onedrive": "https://stevezmtstudios-my.sharepoint.com/:u:/g/personal/hoangcaohuy2007_stevezmt_top/IQAj8Tdf4bp3RaaYPj8CMj12ASQaBQMsKAH96QjcJBYg9zE?e=dbirGx"
         },
-        "playstore":{
-          "huang1111": "https://pan.huang1111.cn/s/NkvkGT1"
+        "playstore": {
+          "huang1111": "https://pan.huang1111.cn/s/NkvkGT1",
+          "onedrive": "https://stevezmtstudios-my.sharepoint.com/:u:/g/personal/hoangcaohuy2007_stevezmt_top/IQAKEJuKzTouRrsBMF47qgBuAXPyOVkArId_a--LAG6wzFM?e=Cl9DDa"
         }
       }
     },
     {
       "versionName": "v1.6.4",
       "versionCode": 41,
-      "releaseDate": "2021/03/03",
+      "releaseDate": "2021-03-03",
       "changelog": [
         "1、新增姜米條精选集，包含3首歌曲：",
         "Shadow",
@@ -152,14 +209,19 @@
       ],
       "downloads": {
         "taptap": {
-          "huang1111": "https://pan.huang1111.cn/s/k26aDcB"
+          "huang1111": "https://pan.huang1111.cn/s/k26aDcB",
+          "onedrive": "https://stevezmtstudios-my.sharepoint.com/:u:/g/personal/hoangcaohuy2007_stevezmt_top/IQC68aPKqrAvSaY6A8Sl5SRFAVU_ooZ-ryoZFp5SIz6wRDY?e=3gGPV0"
+        },
+        "playstore": {
+          "onedrive": "https://stevezmtstudios-my.sharepoint.com/:u:/g/personal/hoangcaohuy2007_stevezmt_top/IQC591wR2BWNSKAMhSYYyR33Ab-3hYr2iR6D07E2Ice886w?e=H04OqR"
         }
-      }
+      },
+      "tag": []
     },
     {
       "versionName": "v1.6.3",
       "versionCode": 39,
-      "releaseDate": "2021/01/13",
+      "releaseDate": "2021-01-13",
       "changelog": [
         "1、新增两首全新单曲：",
         "Cervelle Connexion",
@@ -168,14 +230,19 @@
       ],
       "downloads": {
         "taptap": {
-          "huang1111": "https://pan.huang1111.cn/s/MNenBhx"
+          "huang1111": "https://pan.huang1111.cn/s/MNenBhx",
+          "onedrive": "https://stevezmtstudios-my.sharepoint.com/:u:/g/personal/hoangcaohuy2007_stevezmt_top/IQBSN1Ot9v79RI2ccNZoLJ6KAUqRk15h1EJY8AtLhoLYEk4?e=QqPRFB"
+        },
+        "playstore": {
+          "onedrive": "https://stevezmtstudios-my.sharepoint.com/:u:/g/personal/hoangcaohuy2007_stevezmt_top/IQAT88KfyIrlR5IUOcy98KiDATqiS3XmsuszJbTOFLuTFTY?e=z9MJKc"
         }
-      }
+      },
+      "tag": []
     },
     {
       "versionName": "v1.6.2",
       "versionCode": 38,
-      "releaseDate": "2020/12/20",
+      "releaseDate": "2020-12-20",
       "changelog": [
         "圣诞节快乐！",
         "1、三首全新单曲：",
@@ -183,22 +250,34 @@
         "Träne",
         "雪降り、メリクリ",
         "2、全新的单曲选择页面。"
-      ]
+      ],
+      "downloads": {
+        "playstore": {
+          "onedrive": "https://stevezmtstudios-my.sharepoint.com/:f:/g/personal/me_stevezmt_top/IgDOdMrGTdlzSYBLoBpVF07zAQVMWikIP1eXwpDv-4rAcL4?e=uHneWq"
+        }
+      },
+      "tag": []
     },
     {
       "versionName": "v1.6.1",
       "versionCode": 37,
-      "releaseDate": "2020/12/10",
+      "releaseDate": "2020-12-10",
       "changelog": [
         "1、更新一首单曲",
         "Hardcore Kwaya",
         "2、Sein [IN] 谱面微调"
-      ]
+      ],
+      "downloads": {
+        "playstore": {
+          "onedrive": "https://stevezmtstudios-my.sharepoint.com/:u:/g/personal/me_stevezmt_top/IQAyRtiOeXhbR6MbvP0j9js7Af6TAUV7FkIdVw181pw7HUk?e=HcedkF"
+        }
+      },
+      "tag": []
     },
     {
       "versionName": "v1.6.0",
       "versionCode": 36,
-      "releaseDate": "2020/11/26",
+      "releaseDate": "2020-11-26",
       "changelog": [
         "1、新增支线章节一，包含5首歌曲：",
         "Ποσειδών",
@@ -212,14 +291,19 @@
       ],
       "downloads": {
         "taptap": {
-          "huang1111": "https://pan.huang1111.cn/s/qg2eku3"
+          "huang1111": "https://pan.huang1111.cn/s/jRB6zUy",
+          "onedrive": "https://stevezmtstudios-my.sharepoint.com/:u:/g/personal/hoangcaohuy2007_stevezmt_top/IQBAFuG7gJjrSoTMIfK4JVm5Afgt8sZfibXGrjah_nPhMOw?e=f32CsY"
+        },
+        "playstore": {
+          "onedrive": "https://stevezmtstudios-my.sharepoint.com/:u:/g/personal/hoangcaohuy2007_stevezmt_top/IQAAGaffHjhtQ55drJAdtI0KAVc634b06ZFRWgCr23KX8WY?e=40XN4j"
         }
-      }
+      },
+      "tag": []
     },
     {
       "versionName": "v1.5.7",
       "versionCode": 35,
-      "releaseDate": "2020/11/12",
+      "releaseDate": "2020-11-12",
       "changelog": [
         "1、新增两首全新单曲：",
         "SIGMA",
@@ -228,17 +312,28 @@
       ],
       "downloads": {
         "taptap": {
-          "huang1111": "https://pan.huang1111.cn/s/O8XqGfL"
+          "huang1111": "https://pan.huang1111.cn/s/y5WAjC6",
+          "onedrive": "https://stevezmtstudios-my.sharepoint.com/:u:/g/personal/hoangcaohuy2007_stevezmt_top/IQCHYZXhmNSpQaJT0CoO6SQBAWYlDBMwu3wjaa8ot_48Zsw?e=A4fwyi"
+        },
+        "playstore": {
+          "onedrive": "https://stevezmtstudios-my.sharepoint.com/:u:/g/personal/hoangcaohuy2007_stevezmt_top/IQAXLVdbSuRLRIVT_mXOf8xeAYZg0UKAYomnI8SUoV_ocnw?e=GzAVj9"
         }
-      }
+      },
+      "tag": []
     },
     {
       "versionName": "v1.5.6",
       "versionCode": 34,
-      "releaseDate": "2020/11/09",
+      "releaseDate": "2020-11-09",
       "changelog": [
         "一系列BUG修复。"
-      ]
+      ],
+      "downloads": {
+        "playstore": {
+          "onedrive": "https://stevezmtstudios-my.sharepoint.com/:f:/g/personal/me_stevezmt_top/IgAWZaqpcw4hRqscX7HiLso5AWq5jUl7smkFdqyCdAtMSjU?e=sr3QjQ"
+        }
+      },
+      "tag": []
     },
     {
       "versionName": "v1.5.5",
@@ -246,12 +341,13 @@
       "releaseDate": "2020/10/29",
       "changelog": [
         "一系列BUG修复。"
-      ]
+      ],
+      "downloads": {}
     },
     {
       "versionName": "v1.5.3",
       "versionCode": 31,
-      "releaseDate": "2020/10/21",
+      "releaseDate": "2020-10-21",
       "changelog": [
         "1、新增两首全新单曲：",
         "Starduster",
@@ -261,25 +357,27 @@
       ],
       "downloads": {
         "taptap": {
-          "huang1111": "https://pan.huang1111.cn/s/3eo8nHm"
+          "huang1111": "https://pan.huang1111.cn/s/1Q2BxSv",
+          "onedrive": "https://stevezmtstudios-my.sharepoint.com/:u:/g/personal/hoangcaohuy2007_stevezmt_top/IQDeYlEJN0LjT74VkWowIQZWAdz7XGJLca1-cxsJ3Y2lNlw?e=PE0j4r"
+        },
+        "playstore": {
+          "onedrive": "https://stevezmtstudios-my.sharepoint.com/:u:/g/personal/hoangcaohuy2007_stevezmt_top/IQBk-p2_k9ZvQq2nqDVpEXi2AUulwWd-oWnbE1Ed3XLyU0U?e=5y1cTn"
         }
-      }
+      },
+      "tag": []
     },
     {
       "versionName": "v1.5.3",
       "versionCode": 30,
-      "releaseDate": "2020/10/14",
+      "releaseDate": "2020-10-14",
       "changelog": [
         "1、新增两首全新单曲：",
         "Starduster",
         "Parallel Retrogression(Game Ver.)",
         "2、修改了音频系统"
       ],
-      "downloads": {
-        "taptap": {
-          "huang1111": "https://pan.huang1111.cn/s/eNvxmfg"
-        }
-      }
+      "downloads": {},
+      "tag": []
     },
     {
       "versionName": "v1.5.2",
@@ -291,7 +389,12 @@
         "End Me",
         "2、修复了一个可能导致玩家无法进入单曲集的BUG。",
         "3、部分修改关卡添加Legacy谱面。"
-      ]
+      ],
+      "downloads": {
+        "playstore": {
+          "onedrive": "https://stevezmtstudios-my.sharepoint.com/:f:/g/personal/me_stevezmt_top/IgAqQs5wDcfgQorcNSTANNhsAQOoaQn66yw3wNTZl38eXlM?e=go7Cxe"
+        }
+      }
     },
     {
       "versionName": "v1.5.1",
@@ -299,12 +402,17 @@
       "releaseDate": "2020/09/08",
       "changelog": [
         "Bug修复。"
-      ]
+      ],
+      "downloads": {
+        "playstore": {
+          "onedrive": "https://stevezmtstudios-my.sharepoint.com/:u:/g/personal/hoangcaohuy2007_stevezmt_top/IQDN8wo5z1mKS74bFZgkC6XGAUMlQRlxEYTcc3ZOaFG65Z8?e=RWFMJ3"
+        }
+      }
     },
     {
       "versionName": "v1.5.0",
       "versionCode": 27,
-      "releaseDate": "2020/08/28",
+      "releaseDate": "2020-08-28",
       "changelog": [
         "1、更新主线章节第六章，包含5首曲目：",
         "Colorful Days♪",
@@ -321,13 +429,17 @@
       "downloads": {
         "taptap": {
           "repacked": "https://github.com/SteveZMTstudios/Phigros-history/releases/download/v1.5.0/Phigros_V1.5.0_clone.apk"
+        },
+        "playstore": {
+          "onedrive": "https://stevezmtstudios-my.sharepoint.com/:u:/g/personal/hoangcaohuy2007_stevezmt_top/IQAtFkDt2DRwSKAI__ZHZSBaAQ98qVrzTsA0c4lFXxHgy7Y?e=5Ch7id"
         }
-      }
+      },
+      "tag": []
     },
     {
       "versionName": "v1.5.0",
       "versionCode": 26,
-      "releaseDate": "2020/08/28",
+      "releaseDate": "2020-08-28",
       "changelog": [
         "1、更新主线章节第六章，包含5首曲目：",
         "Colorful Days♪",
@@ -340,12 +452,18 @@
         "2、新增了第二章收集品，以及一些额外章节收集品。",
         "3、一大批较老的关卡进行了翻新，其中有一些谱面进行了完全的重置。",
         "4、游戏中的引导做了大量的优化，新手找不到路的时代终结了！"
-      ]
+      ],
+      "downloads": {
+        "playstore": {
+          "onedrive": "https://stevezmtstudios-my.sharepoint.com/:u:/g/personal/hoangcaohuy2007_stevezmt_top/IQDgDhTSg_eTQqQ-tXwgOPwTAantaMb2FxqJoMP7pEp9uv8?e=nJ2xCn"
+        }
+      },
+      "tag": []
     },
     {
       "versionName": "v1.4.7",
       "versionCode": 25,
-      "releaseDate": "2020/07/15",
+      "releaseDate": "2020-07-15",
       "changelog": [
         "1、新增了 GOOD系列 精选集，包含五首全新曲目：",
         "GOODTEK",
@@ -357,14 +475,19 @@
       ],
       "downloads": {
         "taptap": {
-          "huang1111": "https://pan.huang1111.cn/s/5XgLPUl"
+          "huang1111": "https://pan.huang1111.cn/s/5XgLPUl",
+          "onedrive": "https://stevezmtstudios-my.sharepoint.com/:u:/g/personal/hoangcaohuy2007_stevezmt_top/IQB6P7Pi_ewzSII7O_jNPOm8AZtbRYIT01WW8t4atb12kIw?e=B35sJy"
+        },
+        "playstore": {
+          "onedrive": "https://stevezmtstudios-my.sharepoint.com/:u:/g/personal/hoangcaohuy2007_stevezmt_top/IQDP3wU3-Jd2S5hIE1Zw0cJqAc1KVzdefc2bi7d8ovbkjOg?e=KMPtx5"
         }
-      }
+      },
+      "tag": []
     },
     {
       "versionName": "v1.4.6",
       "versionCode": 24,
-      "releaseDate": "2020/06/29",
+      "releaseDate": "2020-06-29",
       "changelog": [
         "1、主线章节五中新增一首全新歌曲：",
         "Leave All Behind",
@@ -373,33 +496,50 @@
       "downloads": {
         "taptap": {
           "huang1111": "https://pan.huang1111.cn/s/4R2B3Cg",
-          "repacked": "https://github.com/SteveZMTstudios/Phigros-history/releases/download/v1.4.6/phigros_V1.4.6_clone.apk"
+          "repacked": "https://github.com/SteveZMTstudios/Phigros-history/releases/download/v1.4.6/phigros_V1.4.6_clone.apk",
+          "onedrive": "https://stevezmtstudios-my.sharepoint.com/:u:/g/personal/hoangcaohuy2007_stevezmt_top/IQBA3FV9_cwCT7LJ5nvqouZvAfeWbL9HHA6QYSfYzPVSZDo?e=cZJhqp"
+        },
+        "playstore": {
+          "onedrive": "https://stevezmtstudios-my.sharepoint.com/:u:/g/personal/hoangcaohuy2007_stevezmt_top/IQBTw5h9MAlVT5-20ghP07VzAWsq3ORrDj-X392s4xLr1zI?e=Ei22Wz"
         }
-      }
+      },
+      "tag": []
     },
     {
       "versionName": "v1.4.5.1",
       "versionCode": 23,
-      "releaseDate": "2020/06/22",
+      "releaseDate": "2020-06-22",
       "changelog": [
         "一系列BUG修复。"
-      ]
+      ],
+      "downloads": {
+        "playstore": {
+          "onedrive": "https://stevezmtstudios-my.sharepoint.com/:f:/g/personal/me_stevezmt_top/IgBs8KFbHDDGQpafzydS2t8ZAQC9PKYXSk_iPKBI2sflBTI?e=jsFsd5"
+        }
+      },
+      "tag": []
     },
     {
       "versionName": "v1.4.5",
       "versionCode": 22,
-      "releaseDate": "2020/06/15",
+      "releaseDate": "2020-06-15",
       "changelog": [
         "1、新增一首全新单曲：",
         "Palescreen",
         "2、一系列BUG修复。",
         "3、优化了软件存储空间占用（因此需要存储空间权限，请勿慌张）。"
-      ]
+      ],
+      "downloads": {
+        "playstore": {
+          "onedrive": "https://stevezmtstudios-my.sharepoint.com/:f:/g/personal/me_stevezmt_top/IgCPQdlUV9T-SbBXd_vjQC52AaFLMhxyPKaEY_gJJBEoTLk?e=KkNwwI"
+        }
+      },
+      "tag": []
     },
     {
       "versionName": "v1.4.4",
       "versionCode": 21,
-      "releaseDate": "2020/05/29",
+      "releaseDate": "2020-05-29",
       "changelog": [
         "1、新增一首全新单曲：",
         "Get Back",
@@ -407,9 +547,14 @@
       ],
       "downloads": {
         "taptap": {
-          "huang1111": "https://pan.huang1111.cn/s/bywdaHY"
+          "huang1111": "https://pan.huang1111.cn/s/bywdaHY",
+          "onedrive": "https://stevezmtstudios-my.sharepoint.com/:u:/g/personal/hoangcaohuy2007_stevezmt_top/IQBnBe_svjkeRrZcI9Cx4obyAcIzNqvUl_XwWGPa3DML_6s?e=WJgb6H"
+        },
+        "playstore": {
+          "onedrive": "https://stevezmtstudios-my.sharepoint.com/:u:/g/personal/hoangcaohuy2007_stevezmt_top/IQBW53t20m7vS7QSa95wu08WAXyj7hQu2aPnHG98SCpKrZE?e=Ai0kab"
         }
-      }
+      },
+      "tag": []
     },
     {
       "versionName": "v1.4.3",
@@ -426,14 +571,18 @@
       ],
       "downloads": {
         "taptap": {
-          "huang1111": "https://pan.huang1111.cn/s/A63dvhB"
+          "huang1111": "https://pan.huang1111.cn/s/A63dvhB",
+          "onedrive": "https://stevezmtstudios-my.sharepoint.com/:u:/g/personal/hoangcaohuy2007_stevezmt_top/IQAUgvPIZMOBQLZnQjYgTotFAQIWwzpIx1mPGjPlTBwPecM?e=o6xlfO"
+        },
+        "playstore": {
+          "onedrive": "https://stevezmtstudios-my.sharepoint.com/:u:/g/personal/hoangcaohuy2007_stevezmt_top/IQCZZRBOYOfXSIvviP_4nTM2ATs25YCULjlEj4_rZfSuOp4?e=YNYgi5"
         }
       }
     },
     {
       "versionName": "v1.4.3",
       "versionCode": 19,
-      "releaseDate": "2020/05/18",
+      "releaseDate": "2020-05-18",
       "changelog": [
         "1、为庆祝TapTap平台突破50w下载量，全部单曲半价优惠！",
         "2、新增两首全新单曲",
@@ -442,7 +591,13 @@
         "3、全新的选曲页面UI，以及大量的视觉调整。",
         "4、现在新进入游戏的玩家可以在第一次通过教程关卡时获得32MB+基础奖励（最高32.125MB）的奖励（需分数超过880000）",
         "5、现在第一次查看新收集品时将获得512KB的奖励"
-      ]
+      ],
+      "downloads": {
+        "playstore": {
+          "onedrive": "https://stevezmtstudios-my.sharepoint.com/:f:/g/personal/me_stevezmt_top/IgA3bwmGQf2NS49eK1SzuDwsAcLer-uLIEyaveGy4cIOdCk?e=FfPRSH"
+        }
+      },
+      "tag": []
     },
     {
       "versionName": "v1.4.3",
@@ -456,12 +611,17 @@
         "3、全新的选曲页面UI，以及大量的视觉调整。",
         "4、现在新进入游戏的玩家可以在第一次通过教程关卡时获得32MB+基础奖励（最高32.125MB）的奖励（需分数超过880000）",
         "5、现在第一次查看新收集品时将获得512KB的奖励"
-      ]
+      ],
+      "downloads": {
+        "playstore": {
+          "onedrive": "https://stevezmtstudios-my.sharepoint.com/:f:/g/personal/me_stevezmt_top/IgA3bwmGQf2NS49eK1SzuDwsAcLer-uLIEyaveGy4cIOdCk?e=FfPRSH"
+        }
+      }
     },
     {
       "versionName": "v1.4.2",
       "versionCode": 18,
-      "releaseDate": "2020/04/24",
+      "releaseDate": "2020-04-24",
       "changelog": [
         "1、新增了 HyuN 精选集，包含三首全新曲目：",
         "Infinity Heaven",
@@ -470,15 +630,22 @@
       ],
       "downloads": {
         "taptap": {
-          "huang1111": "https://pan.huang1111.cn/s/mxqVBS1"
+          "huang1111": "https://pan.huang1111.cn/s/mxqVBS1",
+          "onedrive": "https://stevezmtstudios-my.sharepoint.com/:u:/g/personal/hoangcaohuy2007_stevezmt_top/IQAMAfltso4kQ6vXxzqg_hlJAfl-bizirh8fu8HCb5OlAmU?e=izYUBF"
+        },
+        "playstore": {
+          "onedrive": "https://stevezmtstudios-my.sharepoint.com/:u:/g/personal/hoangcaohuy2007_stevezmt_top/IQCQJ3tPUOMaTLv-8WW_FIFLAaTiYtx1JNnvDnsrgjxcDPU?e=UuFQDz"
         }
-      }
+      },
+      "tag": []
     },
     {
       "versionName": "v1.4.1",
       "versionCode": 17,
-      "releaseDate": "2020/03/30",
-      "tag": ["april-fools"],
+      "releaseDate": "2020-03-30",
+      "tag": [
+        "april-fools"
+      ],
       "changelog": [
         "1、新增一首全新单曲：",
         "Dead Soul",
@@ -487,11 +654,12 @@
       "downloads": {
         "taptap": {
           "huang1111": "https://pan.huang1111.cn/s/75ekDSg",
-          "repacked": "https://github.com/SteveZMTstudios/Phigros-history/releases/download/v1.4.1/Phigros_V1.4.1_clone.apk"
-
+          "repacked": "https://github.com/SteveZMTstudios/Phigros-history/releases/download/v1.4.1/Phigros_V1.4.1_clone.apk",
+          "onedrive": "https://stevezmtstudios-my.sharepoint.com/:u:/g/personal/hoangcaohuy2007_stevezmt_top/IQCiAD4kdn5nQbTIsB8EnpmUAT2FRL4zsegmjvfaP0Lbwu0?e=dAPbl9"
         },
         "playstore": {
-          "huang1111": "https://pan.huang1111.cn/s/LENXT6"
+          "huang1111": "https://pan.huang1111.cn/s/LENXT6",
+          "onedrive": "https://stevezmtstudios-my.sharepoint.com/:u:/g/personal/hoangcaohuy2007_stevezmt_top/IQCeb_T5XN6DS4Jjq-UWJxKNAValP1BjzMp7y79R2CFd03U?e=TPQo37"
         }
       }
     },
@@ -510,14 +678,15 @@
       ],
       "downloads": {
         "playstore": {
-          "huang1111": "https://pan.huang1111.cn/s/5X6lAul"
+          "huang1111": "https://pan.huang1111.cn/s/5X6lAul",
+          "onedrive": "https://stevezmtstudios-my.sharepoint.com/:u:/g/personal/hoangcaohuy2007_stevezmt_top/IQC0nY8NC2NFQqk7uv3M14a6AR8P5pq49c6Swat2qInWzK8?e=0RYhfb"
         }
       }
     },
     {
       "versionName": "v1.3.2",
       "versionCode": 15,
-      "releaseDate": "2020/03/04",
+      "releaseDate": "2020-03-04",
       "changelog": [
         "新增两首全新单曲",
         "Next Time",
@@ -525,14 +694,16 @@
       ],
       "downloads": {
         "playstore": {
-          "huang1111": "https://pan.huang1111.cn/s/4R67WSg"
+          "huang1111": "https://pan.huang1111.cn/s/4R67WSg",
+          "onedrive": "https://stevezmtstudios-my.sharepoint.com/:u:/g/personal/hoangcaohuy2007_stevezmt_top/IQCgZ4zhugFHQ4TlfITWHJo5AQq1--VJIC_us5ZF2eQz4Xo?e=C7mdV3"
         }
-      }
+      },
+      "tag": []
     },
     {
       "versionName": "v1.3.1",
       "versionCode": 14,
-      "releaseDate": "2020/02/29",
+      "releaseDate": "2020-02-29",
       "changelog": [
         "1、新增了Google Play排行榜。",
         "2、修复了章节选择界面可能无法正常显示的问题。",
@@ -543,14 +714,16 @@
       ],
       "downloads": {
         "playstore": {
-          "huang1111": "https://pan.huang1111.cn/s/A6zaRSB"
+          "huang1111": "https://pan.huang1111.cn/s/A6zaRSB",
+          "onedrive": "https://stevezmtstudios-my.sharepoint.com/:u:/g/personal/hoangcaohuy2007_stevezmt_top/IQA1-rYFB_0wS4bllWhzd9lKAYvYGH6FaRFh0xw866-sSOA?e=tPwxWH"
         }
-      }
+      },
+      "tag": []
     },
     {
       "versionName": "v1.3.0",
       "versionCode": 12,
-      "releaseDate": "2020/02/20",
+      "releaseDate": "2020-02-20",
       "changelog": [
         "1.3.0版本更新",
         "1、新增了主线第五章，包含五首曲目",
@@ -568,25 +741,29 @@
         "taptap": {
           "huang1111": "https://pan.huang1111.cn/s/E7x6LHb",
           "repacked": "https://github.com/SteveZMTstudios/Phigros-history/releases/download/v1.3.0/phigros_v1.3.0_clone.apk"
-
         },
         "playstore": {
-          "huang1111": "https://pan.huang1111.cn/s/mxwOvF1"
+          "huang1111": "https://pan.huang1111.cn/s/mxwOvF1",
+          "onedrive": "https://stevezmtstudios-my.sharepoint.com/:u:/g/personal/hoangcaohuy2007_stevezmt_top/IQABcQvnJ3raQIhWYy9CZDNaAWDXyyqQuEdlOVIgeY9V_A4?e=rAjBNF"
         }
-      }
+      },
+      "tag": []
     },
     {
-      "versionName": "[GHOST RELEASE]",
+      "versionName": "v1.3.0 [?]",
       "versionCode": 11,
-      "releaseDate": "[GHOST RELEASE]",
+      "releaseDate": "2020-02-20",
       "changelog": [
-        "（事实上，此版本不存在在版本历史中）"
+        "（事实上，此版本代码不存在在版本历史中）",
+        "（应用程序报告其版本名为1.3.0）"
       ],
       "downloads": {
         "playstore": {
-          "huang1111": "https://pan.huang1111.cn/s/75RE6Hg"
+          "huang1111": "https://pan.huang1111.cn/s/75RE6Hg",
+          "onedrive": "https://stevezmtstudios-my.sharepoint.com/:u:/g/personal/hoangcaohuy2007_stevezmt_top/IQAY8P5JPlqiS7OCRjO0BQLXAZq4EbN7uOP3gY5b3JS1lnY?e=spiN0w"
         }
-      }
+      },
+      "tag": []
     },
     {
       "versionName": "v1.2.5",
@@ -597,27 +774,13 @@
         "2、新增全新单曲：",
         "Aleph-0",
         "3、一些视觉上的调整"
-      ]
-    },
-    {
-      "versionName": "v1.2.4",
-      "versionCode": 9,
-      "releaseDate": "2019/12/20",
-      "changelog": [
-        "圣诞快乐！新增了两首全新单曲：",
-        "Snow Desert",
-        "Burn"
       ],
-      "downloads": {
-        "taptap": {
-          "huang1111": "https://pan.huang1111.cn/s/8Qyx8fQ"
-        }
-      }
+      "downloads": {}
     },
     {
       "versionName": "v1.2.4",
       "versionCode": 9,
-      "releaseDate": "2019/12/20",
+      "releaseDate": "2019-12-20",
       "changelog": [
         "1、圣诞节快乐！新增了全新单曲：",
         "Snow Desert",
@@ -625,9 +788,11 @@
       ],
       "downloads": {
         "taptap": {
-          "huang1111": "https://pan.huang1111.cn/s/8Qyx8fQ"
+          "onedrive": "https://stevezmtstudios-my.sharepoint.com/:u:/g/personal/hoangcaohuy2007_stevezmt_top/IQBmLyN9R_JRTqIyrwOMzXDnAeBuYP5AXhWNLGCGF6Kbolg?e=SkmRr9",
+          "huang1111": "https://pan.huang1111.cn/s/byBdaHY"
         }
-      }
+      },
+      "tag": []
     },
     {
       "versionName": "v1.2.3",
@@ -651,7 +816,8 @@
         "2、修复了部分玩家服务费数额显示错误的Bug。",
         "3、为新增的商店优化了引导。",
         "4、全新的打击动效。"
-      ]
+      ],
+      "downloads": {}
     },
     {
       "versionName": "v1.2.1",
@@ -663,7 +829,8 @@
         "2、修复了部分玩家服务费数额显示错误的Bug。",
         "3、为新增的商店优化了引导。",
         "4、全新的打击动效。"
-      ]
+      ],
+      "downloads": {}
     },
     {
       "versionName": "v1.2.1",
@@ -676,7 +843,8 @@
         "狂喜蘭舞",
         "2、新增了“单曲集”和“商店”。",
         "3、继续尝试尝试修复音频问题。如果您的设备依然存在音频问题，请在TapTap社区的“音频问题”专题帖下留言。"
-      ]
+      ],
+      "downloads": {}
     },
     {
       "versionName": "v1.2.0",
@@ -700,42 +868,22 @@
     {
       "versionName": "v1.1.1",
       "versionCode": 4,
-      "releaseDate": "2019/10/11",
+      "releaseDate": "2019-10-11",
       "changelog": [
         "1.1.1更新：",
         "大幅优化大部分设备音频延时，请更新后在设置中重新调整。若更新后存在音频问题，请在社区专题贴中留言"
       ],
       "downloads": {
         "taptap": {
-          "huang1111": "https://pan.huang1111.cn/s/G8qdxiW"
+          "onedrive": "https://stevezmtstudios-my.sharepoint.com/:u:/g/personal/hoangcaohuy2007_stevezmt_top/IQC4cg2-4Y68RrxegqvekmtZAQ7To5m-l9ipf8GeYLcaXCA?e=HeQDOR"
         }
-      }
+      },
+      "tag": []
     },
     {
       "versionName": "v1.1.0",
       "versionCode": 3,
-      "releaseDate": "2019/09/26",
-      "changelog": [
-        "1、新增了主线章节四。",
-        "五首全新曲目——",
-        "由Monst Death创作的Sultan Rage",
-        "由Antistar feat. Ctymax创作的Class Memories",
-        "由Itsuki创作的-SURREALISM-",
-        "由Megalo_PaleWhite创作的Bonus Time",
-        "由Tanchiky创作的Energy Synergy Matrix",
-        "2、增加了FC/AP指示器，您可以在设置中开启。",
-        "3、修复了一系列的BUG。"
-      ],
-      "downloads": {
-        "taptap": {
-          "huang1111": "https://pan.huang1111.cn/s/LxXkzU6"
-        }
-      }
-    },
-    {
-      "versionName": "v1.1.0",
-      "versionCode": 3,
-      "releaseDate": "2019/09/25",
+      "releaseDate": "2019-09-25",
       "changelog": [
         "1.1.0版本更新：",
         "1、新增了主线章节四。",
@@ -750,9 +898,11 @@
       ],
       "downloads": {
         "taptap": {
-          "huang1111": "https://pan.huang1111.cn/s/LxXkzU6"
+          "onedrive": "https://stevezmtstudios-my.sharepoint.com/:u:/g/personal/hoangcaohuy2007_stevezmt_top/IQCf0e654aTIRL-YrUG7qQ9LAVd1RemX_SvGxXp8j_Sa7AQ?e=L55B79",
+          "huang1111": "https://pan.huang1111.cn/s/5XbLPUl"
         }
-      }
+      },
+      "tag": []
     },
     {
       "versionName": "v1.0.1",
@@ -766,14 +916,16 @@
       ],
       "downloads": {
         "taptap": {
-          "huang1111": "https://pan.huang1111.cn/s/K9knZhY"
-        }
+          "onedrive": "https://stevezmtstudios-my.sharepoint.com/:u:/g/personal/hoangcaohuy2007_stevezmt_top/IQDsrCr-6K4ORZ4nlYAy25JEAZXwmZjf9cDRVDbGoLD8wRI?e=z0zy1t",
+          "huang1111": "https://pan.huang1111.cn/s/4R4B3Tg"
+        },
+        "playstore": {}
       }
     },
     {
       "versionName": "v1.0.0",
       "versionCode": 1,
-      "releaseDate": "2019/08/29",
+      "releaseDate": "2019-08-29",
       "changelog": [
         "一些软件优化"
       ],
@@ -781,21 +933,25 @@
         "taptap": {
           "repacked": "https://github.com/SteveZMTstudios/Phigros-history/releases/tag/v1.0.0"
         }
-      }
+      },
+      "tag": []
     },
     {
       "versionName": "v1.0.0",
       "versionCode": 1,
-      "releaseDate": "2019/08/28",
+      "releaseDate": "2019-08-28",
       "changelog": [
         "更改了游戏关卡画面的初始亮度",
         "提取码：`stevezmt`"
       ],
       "downloads": {
         "taptap": {
-          "huang1111": "https://pan.huang1111.cn/s/oX72lC8"
+          "huang1111": "https://pan.huang1111.cn/s/oX72lC8",
+          "github": "https://github.com/SteveZMTstudios/Phigros-history/releases/tag/v1.0.0",
+          "onedrive": "https://stevezmtstudios-my.sharepoint.com/:u:/g/personal/hoangcaohuy2007_stevezmt_top/IQAOfxnaT3dUT5r4vMX7K6VfARoxPLsOYS9OlAOHylqWBxo?e=exfBHN"
         }
-      }
+      },
+      "tag": []
     }
   ]
 }

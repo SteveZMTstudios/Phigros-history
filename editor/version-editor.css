@@ -6,8 +6,17 @@ body{margin:0;color:#222;background:#f6f7fb}
 .container{display:flex;min-height:calc(100vh - 100px)}
 .sidebar{width:320px;background:#fff;border-right:1px solid #eee;padding:12px}
 .version-list{list-style:none;padding:0;margin:12px 0;max-height:calc(100vh - 200px);overflow:auto}
-.version-list li{padding:8px;border:1px solid #eee;border-radius:6px;margin-bottom:8px;cursor:pointer;background:#fafafa}
+.version-list li{padding:8px;border:1px solid #eee;border-radius:6px;margin-bottom:8px;cursor:pointer;background:#fafafa;position:relative;padding-right:44px}
+.version-list li.no-links{background:#fee2e2;border-color:#fca5a5}
+.version-list li.one-link{background:#fef3c7;border-color:#fcd34d}
 .version-list li.active{border-color:#3b82f6;background:linear-gradient(#ffffff,#eef6ff)}
+.version-list li.active.no-links{background:linear-gradient(#fee2e2,#fecaca)}
+.version-list li.active.one-link{background:linear-gradient(#fef3c7,#fde68a)}
+.version-list li .badges{position:absolute;right:8px;top:50%;transform:translateY(-50%);display:flex;gap:6px;align-items:center}
+.version-list li .dot{width:10px;height:10px;border-radius:50%;display:inline-block;box-shadow:0 0 0 1px rgba(0,0,0,0.05)}
+.version-list li .dot.play{background:#34d399}
+.version-list li .dot.tap{background:#60a5fa}
+.version-list li .dot.other{background:#facc15}
 .editor{flex:1;padding:20px}
 .panel{background:#fff;padding:16px;border-radius:8px;border:1px solid #eee}
 .hidden{display:none}

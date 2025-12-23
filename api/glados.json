@@ -7,8 +7,8 @@
             "message": "欢迎访问 Phigros History！查看历史版本及其更新内容。"
         },
         {
-            "type": "error",
-            "message": "站点正在维护，部分旧版本安装包暂时不可达。"
+            "type": "warning",
+            "message": "站点正在维护，部分版本安装包暂时不可达。"
         }
     ]
 }

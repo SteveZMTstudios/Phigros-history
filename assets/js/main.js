@@ -9,6 +9,17 @@ document.addEventListener('DOMContentLoaded', () => {
     const rksDisplay = document.querySelector('.rks');
     const searchInput = document.getElementById('version-search');
     
+    // Date formatter
+    const formatDate = (dateStr) => {
+        if (!dateStr) return '未知日期';
+        const date = new Date(dateStr);
+        if (isNaN(date.getTime())) return dateStr;
+        const year = date.getFullYear();
+        const month = String(date.getMonth() + 1).padStart(2, '0');
+        const day = String(date.getDate()).padStart(2, '0');
+        return `${year}-${month}-${day}`;
+    };
+
     // Announcement elements
     const notificationContainer = document.getElementById('notification-container');
     const announcementModal = document.getElementById('announcement-modal');
@@ -231,6 +242,22 @@ document.addEventListener('DOMContentLoaded', () => {
             
             const data = await response.json();
             currentDetails = data.details || [];
+
+            // Sort details: versionCode desc, versionName desc, releaseDate desc
+            currentDetails.sort((a, b) => {
+                // 1. Version Code
+                const codeA = parseInt(a.versionCode) || 0;
+                const codeB = parseInt(b.versionCode) || 0;
+                if (codeB !== codeA) return codeB - codeA;
+
+                // 2. Version Name
+                const nameCompare = b.versionName.localeCompare(a.versionName, undefined, { numeric: true, sensitivity: 'base' });
+                if (nameCompare !== 0) return nameCompare;
+
+                // 3. Release Date
+                return new Date(b.releaseDate) - new Date(a.releaseDate);
+            });
+
             renderVersionList(currentDetails);
         } catch (error) {
             console.error(error);
@@ -302,7 +329,7 @@ document.addEventListener('DOMContentLoaded', () => {
                             ${ver.versionName}
                             ${iconsHtml}
                         </span>
-                        <span class="version-date">${ver.releaseDate}</span>
+                        <span class="version-date">${formatDate(ver.releaseDate)}</span>
                     </div>
                     <div class="changelog-preview">${changelogHtml}</div>
                 </div>
@@ -323,7 +350,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     function showVersionDetails(ver) {
         detailTitle.textContent = ver.versionName;
-        detailMeta.textContent = `发布日期: ${ver.releaseDate} | 版本号: ${ver.versionCode}`;
+        detailMeta.textContent = `发布日期: ${formatDate(ver.releaseDate)} | 版本号: ${ver.versionCode}`;
         
         // April Fools Warning
         let aprilFoolsHtml = '';

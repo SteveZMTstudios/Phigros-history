@@ -18,7 +18,7 @@
       <button id="btnNew">新建空列表</button>
       <button id="btnExport">导出为JSON</button>
       <button id="btnPrettyExport">美化导出</button>
-      <button id="btnSaveToFile">保存到文件…</button>
+      <button id="btnSaveToFile" type="button">保存到文件…</button>
       <span id="statusIndicator" title="编辑状态" style="margin-left:8px;color:#d00"></span>
       <input id="search" placeholder="搜索版本名 / 关键字" />
     </div>
@@ -56,7 +56,8 @@
           <div class="dl-controls">
             <input id="newChannel" placeholder="渠道名（如 taptap, playstore 或 自定义）" />
             <button id="btnAddChannel">添加渠道</button>
-            <button id="btnPasteLink">从剪贴板粘贴链接作为新条目</button>
+            <button id="btnImportTaptap">导入剪贴板项为 taptap</button>
+            <button id="btnImportPlaystore">导入剪贴板项为 playstore</button>
           </div>
           <div id="channels" class="channels"></div>
         </div>
