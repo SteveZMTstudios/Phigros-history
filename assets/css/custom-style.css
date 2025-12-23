@@ -973,15 +973,6 @@ a {
 .notification.fade-out {
     animation: fadeOut 0.5s forwards;
 }
-    z-index: 100;
-    display: none;
-    justify-content: center;
-    align-items: center;
-}
-
-.modal.active {
-    display: flex;
-}
 
 .modal-content {
     background: #1a1a1a;
