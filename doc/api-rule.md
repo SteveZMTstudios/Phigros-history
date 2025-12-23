@@ -30,15 +30,15 @@ GET /api/v1/versions/index
   "versions": [
     {
       "version": "1.x",
-      "url": "/api/v1/versions/1" // 指向v1.x.x大版本的细节版本列表
+      "url": "/api/v1/versions/1.json" // 指向v1.x.x大版本的细节版本列表
     },
     {
       "version": "2.x",
-      "url": "/api/v1/versions/2"
+      "url": "/api/v1/versions/2.json"
     },
     {
       "version": "3.x",
-      "url": "/api/v1/versions/3"
+      "url": "/api/v1/versions/3.json"
     }
   ]
 }
@@ -70,7 +70,7 @@ GET /api/v1/versions/1
         "tag":[],// 可选字段，发布时的标签，如"april-fools","big-update"
         "downloads":{
             "taptap":{ // 渠道服版本不一致，分为taptap和playstore两个子对象
-                "123pan":"https://www.123pan.com/s/xxxxxx", // 每个子对象有多个下载负载点
+                "123":"https://www.123pan.com/s/xxxxxx", // 每个子对象有多个下载负载点
                 "huang1111":"https://www.huang1111.com/xxxxxx",
                 "github":"https://github.com/stevezmtstudios/Phigros-history/releases/tag/v1.0.0",
                 "caiyun":"https://cloud.139.com/t/xxxxxx",
@@ -78,12 +78,12 @@ GET /api/v1/versions/1
                 // 可扩充其他下载渠道，解析时将键值对视为渠道名称和对应链接
             },
             "playstore":{
-                "123pan":"https://www.123pan.com/s/yyyyyy",
+                "123":"https://www.123pan.com/s/yyyyyy",
                 "huang1111":"https://www.huang1111.com/yyyyyy",
                 "github":"https://github.com/stevezmtstudios/Phigros-history/releases/tag/v1.0.0",
                 "caiyun":"https://cloud.139.com/t/yyyyyy",
                 "onedrive":"https://1drv.ms/u/yyyyyy",
-            }
+            }// 暂时不存在其他渠道
         },
     },
     {

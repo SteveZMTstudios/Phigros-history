@@ -128,8 +128,11 @@
         "4、除此之外没有任何新内容，请放心游玩。"
       ],
       "downloads": {
-        "playstore": {
+        "taptap": {
           "huang1111": "https://pan.huang1111.cn/s/Qzk1mUm"
+        },
+        "playstore":{
+          "huang1111": "https://pan.huang1111.cn/s/NkvkGT1"
         }
       }
     },
@@ -776,7 +779,7 @@
       ],
       "downloads": {
         "taptap": {
-          "repacked": "https://kkgithub.com/SteveZMTstudios/Phigros-history/releases/tag/v1.0.0"
+          "repacked": "https://github.com/SteveZMTstudios/Phigros-history/releases/tag/v1.0.0"
         }
       }
     },

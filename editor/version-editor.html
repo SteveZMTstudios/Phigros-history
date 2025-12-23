@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>版本编辑器 — Phigros Version Editor</title>
+  <link rel="stylesheet" href="version-editor.css" />
+</head>
+<body>
+  <header class="topbar">
+    <h1>版本编辑器 ✅</h1>
+    <div class="controls">
+      <input id="fileInput" type="file" accept="application/json" style="display:none" />
+      <button id="btnLoadFile">从文件载入</button>
+      <button id="btnFetchSample">载入仓库示例（/api/v1/versions/1.json）</button>
+      <button id="btnPaste">从剪贴板粘贴JSON</button>
+      <button id="btnPasteBatch">粘贴批量版本日志</button>
+      <button id="btnNew">新建空列表</button>
+      <button id="btnExport">导出为JSON</button>
+      <button id="btnPrettyExport">美化导出</button>
+      <button id="btnSaveToFile">保存到文件…</button>
+      <span id="statusIndicator" title="编辑状态" style="margin-left:8px;color:#d00"></span>
+      <input id="search" placeholder="搜索版本名 / 关键字" />
+    </div>
+  </header>
+
+  <main class="container">
+    <aside class="sidebar">
+      <div class="meta">
+        <button id="btnAddVersion">添加版本</button>
+        <div class="hint">选中一个版本以编辑其详情</div>
+      </div>
+      <ul id="versionList" class="version-list"></ul>
+    </aside>
+
+    <section class="editor">
+      <div id="emptyNote" class="empty">请选择或创建一个版本以开始编辑 ✍️</div>
+      <div id="editorPanel" class="panel hidden">
+        <div class="row">
+          <label>版本名 <input id="versionName" /></label>
+          <label>版本码 <input id="versionCode" type="number" /></label>
+          <label>发布日期 <input id="releaseDate" type="date" /></label>
+        </div>
+
+        <div class="row">
+          <label>标签（逗号分隔） <input id="tags" placeholder="april-fools,big-update" /></label>
+        </div>
+
+        <div>
+          <label>更新日志（每行一条）</label>
+          <textarea id="changelog" rows="6" placeholder="每行一项"></textarea>
+        </div>
+
+        <div class="downloads">
+          <h3>下载链接 🔗</h3>
+          <div class="dl-controls">
+            <input id="newChannel" placeholder="渠道名（如 taptap, playstore 或 自定义）" />
+            <button id="btnAddChannel">添加渠道</button>
+            <button id="btnPasteLink">从剪贴板粘贴链接作为新条目</button>
+          </div>
+          <div id="channels" class="channels"></div>
+        </div>
+
+        <div class="actions">
+          <button id="btnSaveChanges">保存修改</button>
+          <button id="btnDeleteVersion" class="danger">删除版本</button>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">提示：右侧下载项的“打开”会在小窗口中打开链接用于检查可用性。你也可直接粘贴网盘链接。</footer>
+
+  <script src="version-editor.js"></script>
+</body>
+</html>
