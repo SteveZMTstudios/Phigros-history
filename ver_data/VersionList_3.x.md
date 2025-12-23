@@ -3,7 +3,8 @@
 # 3.x 版本列表
 [![2.x -->](https://img.shields.io/badge/2.x-更旧版本-blue.svg?logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjgiIGhlaWdodD0iMTI4IiB2aWV3Qm94PSIwIDAgMjQgMjQiPjxwYXRoIGZpbGw9IiNmZmZmZmYiIGQ9Ik0yMiAxMmExMCAxMCAwIDAgMS0xMCAxMEExMCAxMCAwIDAgMSAyIDEyQTEwIDEwIDAgMCAxIDEyIDJhMTAgMTAgMCAwIDEgMTAgMTBNNiAxM2g4bC0zLjUgMy41bDEuNDIgMS40MkwxNy44NCAxMmwtNS45Mi01LjkyTDEwLjUgNy41TDE0IDExSDZ6Ii8+PC9zdmc+)](./VersionList_2.x)
 
-> 我们即将重新设计页面。
+> 此页面已重新设计，请访问 [新版页面](https://stevezmt.top/Phigros-history) 以获取更好的浏览体验和更多功能。
+> 此处的内容可能不再更新。
 
 <details>
 
