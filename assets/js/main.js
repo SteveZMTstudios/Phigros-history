@@ -176,7 +176,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     async function loadMajorVersions() {
         try {
-            const response = await fetch('api/v1/versions/index.json');
+            const response = await fetch('api/v1/versions/index.json?t=' + Date.now());
             if (!response.ok) throw new Error('无法加载版本索引');
             
             const data = await response.json();
@@ -237,7 +237,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 jsonPath = jsonPath.substring(1);
             }
             
-            const response = await fetch(jsonPath);
+            const response = await fetch(jsonPath + (jsonPath.includes('?') ? '&' : '?') + 't=' + Date.now());
             if (!response.ok) throw new Error(`无法加载 ${versionObj.version} 的详情`);
             
             const data = await response.json();
@@ -445,7 +445,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     async function fetchAnnouncements() {
         try {
-            const response = await fetch('api/glados.json');
+            const response = await fetch('api/glados.json?t=' + Date.now());
             if (!response.ok) return;
             
             const data = await response.json();

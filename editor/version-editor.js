@@ -351,7 +351,7 @@
   btnFetchSample.onclick = async ()=>{
     // try fetch with possible relative path
     try{
-      const res = await fetch('/api/v1/versions/1.json');
+      const res = await fetch('/api/v1/versions/1.json?t=' + Date.now());
       if(!res.ok) throw new Error('网络返回 '+res.status);
       data = await res.json(); selectedIndex=-1; selectIndex(-1); renderList(); alert('从仓库示例载入成功');
     }catch(e){
@@ -496,7 +496,7 @@
     // if repo has a local copy copy? leave empty by default
     data = {version:'v1', details:[]};
     // try to load the existing file (if served) silently
-    fetch('/api/v1/versions/1.json').then(r=>r.json()).then(j=>{ if(j && j.details) { data=j; renderList(); }}).catch(()=>{});
+    fetch('/api/v1/versions/1.json?t=' + Date.now()).then(r=>r.json()).then(j=>{ if(j && j.details) { data=j; renderList(); }}).catch(()=>{});
     renderList();
     setDirty(false);
   }
