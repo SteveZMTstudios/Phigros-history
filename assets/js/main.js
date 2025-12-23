@@ -7,10 +7,24 @@ document.addEventListener('DOMContentLoaded', () => {
     const backBtn = document.getElementById('back-btn');
     const infoBtn = document.getElementById('info-btn');
     const rksDisplay = document.querySelector('.rks');
+    const searchInput = document.getElementById('version-search');
+    
+    // Announcement elements
+    const notificationContainer = document.getElementById('notification-container');
+    const announcementModal = document.getElementById('announcement-modal');
+    const modalIcon = document.getElementById('modal-icon');
+    const modalTitle = document.getElementById('modal-title');
+    const modalBody = document.getElementById('modal-body');
+    const closeAnnouncementBtn = document.getElementById('close-announcement');
+
+    let currentDetails = []; // Store current major version's details for filtering
     
     // Randomize RKS
     const randomRKS = (Math.random() * (16.99 - 12.00) + 12.00).toFixed(2);
     rksDisplay.textContent = `RKS ${randomRKS}`;
+
+    // Initial fetch for announcements
+    fetchAnnouncements();
 
     // Panel elements
     const contentContainer = document.querySelector('.content-container');
@@ -76,6 +90,26 @@ document.addEventListener('DOMContentLoaded', () => {
         infoBtn.addEventListener('click', () => {
             playTapSound();
             showAbout();
+        });
+    }
+
+    // Search Logic
+    if (searchInput) {
+        searchInput.addEventListener('input', (e) => {
+            const query = e.target.value.toLowerCase().trim();
+            if (!query) {
+                renderVersionList(currentDetails);
+                return;
+            }
+
+            const filtered = currentDetails.filter(ver => {
+                const nameMatch = ver.versionName.toLowerCase().includes(query);
+                const codeMatch = ver.versionCode.toString().toLowerCase().includes(query);
+                const changelogMatch = ver.changelog && ver.changelog.some(line => line.toLowerCase().includes(query));
+                return nameMatch || codeMatch || changelogMatch;
+            });
+
+            renderVersionList(filtered, true); // Pass true to skip animation delay for search results
         });
     }
 
@@ -170,6 +204,9 @@ document.addEventListener('DOMContentLoaded', () => {
     async function selectMajorVersion(versionObj) {
         closePanel(); // Close panel when switching major versions
         
+        // Clear search when switching major versions
+        if (searchInput) searchInput.value = '';
+
         document.querySelectorAll('.major-version-btn').forEach(b => b.classList.remove('active'));
         if (versionObj.element) versionObj.element.classList.add('active');
         
@@ -193,7 +230,8 @@ document.addEventListener('DOMContentLoaded', () => {
             if (!response.ok) throw new Error(`无法加载 ${versionObj.version} 的详情`);
             
             const data = await response.json();
-            renderVersionList(data.details);
+            currentDetails = data.details || [];
+            renderVersionList(currentDetails);
         } catch (error) {
             console.error(error);
             versionList.innerHTML = `
@@ -206,11 +244,16 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     }
 
-    function renderVersionList(details) {
+    function renderVersionList(details, isSearch = false) {
         versionList.innerHTML = '';
         
         if (!details || details.length === 0) {
-            versionList.innerHTML = '<div class="empty">未找到版本。</div>';
+            versionList.innerHTML = `
+                <div class="error-container" style="color: #666;">
+                    <span class="material-icons">search_off</span>
+                    <div class="error-text">在此版本分支中未找到匹配项</div>
+                </div>
+            `;
             return;
         }
 
@@ -243,7 +286,12 @@ document.addEventListener('DOMContentLoaded', () => {
                 iconsHtml += `<span class="material-icons version-tag-icon recent-tag" title="近期更新">new_releases</span>`;
             }
 
-            card.style.animationDelay = `${index * 0.05}s`;
+            if (isSearch) {
+                card.style.animation = 'none';
+                card.style.opacity = '1';
+            } else {
+                card.style.animationDelay = `${index * 0.05}s`;
+            }
             
             const changelogHtml = ver.changelog ? ver.changelog.join('<br>') : '暂无更新日志。';
 
@@ -280,7 +328,7 @@ document.addEventListener('DOMContentLoaded', () => {
         // April Fools Warning
         let aprilFoolsHtml = '';
         if (ver.tag && ver.tag.includes('april-fools')) {
-            aprilFoolsHtml = '<div class="april-fools-warning">此版本为特别的愚人节版本！</div>';
+            aprilFoolsHtml = '<div class="april-fools-warning"><i class="material-icons">new_releases</i>此版本为特别的愚人节版本，包含仅在4月1日有效的内容！</div>';
         }
 
         // Full Changelog
@@ -366,5 +414,71 @@ document.addEventListener('DOMContentLoaded', () => {
 
         // Open panel
         contentContainer.classList.add('panel-open');
+    }
+
+    async function fetchAnnouncements() {
+        try {
+            const response = await fetch('api/glados.json');
+            if (!response.ok) return;
+            
+            const data = await response.json();
+            if (data.announce && Array.isArray(data.announce)) {
+                data.announce.forEach(ann => {
+                    const type = ann.type || 'info';
+                    const content = ann.content || ann.message; // Support both content and message keys
+
+                    if (type === 'error' || type === 'error_persist') {
+                        showAnnouncementModal(type, content);
+                    } else {
+                        showNotification(type, content);
+                    }
+                });
+            }
+        } catch (error) {
+            console.error('Failed to fetch announcements:', error);
+        }
+    }
+
+    function showNotification(type, message) {
+        const notification = document.createElement('div');
+        notification.className = `notification ${type}`;
+        notification.innerHTML = `
+            <div class="notification-content">
+                <span class="material-icons">${type === 'warning' ? 'warning' : 'info'}</span>
+                <span>${message}</span>
+            </div>
+        `;
+        
+        notificationContainer.appendChild(notification);
+
+        // Auto remove after 5 seconds
+        setTimeout(() => {
+            notification.classList.add('fade-out');
+            setTimeout(() => notification.remove(), 500);
+        }, 5000);
+    }
+
+    function showAnnouncementModal(type, message) {
+        modalBody.textContent = message;
+        
+        if (type === 'error_persist') {
+            modalIcon.textContent = 'report';
+            modalIcon.style.color = '#ff0055';
+            modalTitle.textContent = '严重错误';
+            closeAnnouncementBtn.style.display = 'none';
+        } else {
+            modalIcon.textContent = 'error';
+            modalIcon.style.color = '#ffcc00';
+            modalTitle.textContent = '系统提示';
+            closeAnnouncementBtn.style.display = 'flex';
+        }
+
+        announcementModal.classList.add('active');
+    }
+
+    if (closeAnnouncementBtn) {
+        closeAnnouncementBtn.addEventListener('click', () => {
+            announcementModal.classList.remove('active');
+        });
     }
 });

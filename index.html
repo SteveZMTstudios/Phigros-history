@@ -32,13 +32,33 @@
     <div id="start-screen" class="screen active">
         <div class="start-content">
             <div class="logo">Phigros History</div>
-            <div class="tap-to-start">点击屏幕开始</div>
+            <div class="tap-to-start">点 击 屏 幕 开 始</div>
         </div>
         <div class="background-overlay"></div>
     </div>
 
     <div id="main-screen" class="screen">
         <div class="background-overlay"></div>
+        
+        <!-- Notification Container -->
+        <div id="notification-container" class="notification-container"></div>
+
+        <!-- Announcement Modal -->
+        <div id="announcement-modal" class="modal">
+            <div class="modal-content announcement-modal-content">
+                <div class="modal-header">
+                    <span class="material-icons" id="modal-icon">info</span>
+                    <h2 id="modal-title">系统公告</h2>
+                </div>
+                <div id="modal-body" class="modal-body"></div>
+                <div class="modal-footer">
+                    <button id="close-announcement" class="phigros-btn">
+                        <span>确定</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+
         <header class="top-bar">
             <div class="user-info">
                 <div class="avatar">
@@ -47,6 +67,12 @@
                 <div class="user-details">
                     <span class="username">Geopelia</span>
                     <span class="rks">RKS 12.00</span>
+                </div>
+            </div>
+            <div class="search-container">
+                <div class="search-box">
+                    <span class="material-icons">search</span>
+                    <input type="text" id="version-search" placeholder="搜索版本...">
                 </div>
             </div>
             <div class="top-right">

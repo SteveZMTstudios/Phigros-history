@@ -11,7 +11,17 @@ GET /api/v1/glados
 ```json
 {
   "status": "ok",
-  "message": "still alive"
+  "message": "still alive",
+  "announce":[
+    {
+      "type":"info", // 可选值 info/warning/error/error_persist
+      "content":"欢迎使用Phigros History！" // 公告内容
+    },
+    {
+      "type":"warning",
+      "content":"注意：愚人节版本仅在4月1日有效，过期后请更新至最新版本以继续使用全部功能。"
+    }// ...更多公告...
+  ]
 }
 ```
 

@@ -122,57 +122,6 @@ a {
     position: relative;
 }
 
-/* Search Box */
-.search-container {
-    flex: 0 1 300px; /* Start smaller */
-    max-width: 400px;
-    margin: 0 20px;
-    transform: skewX(var(--skew-angle));
-    background: var(--card-bg);
-    border-bottom: 2px solid transparent;
-    transition: all 0.4s cubic-bezier(0.2, 0.8, 0.2, 1);
-}
-
-.search-container:focus-within {
-    flex: 0 1 500px; /* Expand on focus */
-    max-width: 600px;
-    background: var(--card-hover);
-    border-bottom-color: var(--secondary-color);
-    box-shadow: 0 0 20px rgba(0, 229, 255, 0.3);
-}
-
-.search-box {
-    display: flex;
-    align-items: center;
-    padding: 8px 15px;
-    transform: skewX(15deg);
-}
-
-.search-box .material-icons {
-    color: var(--secondary-color);
-    margin-right: 10px;
-    font-size: 1.2rem;
-}
-
-.search-box input {
-    background: transparent;
-    border: none;
-    color: white;
-    font-family: var(--font-main);
-    font-size: 1rem;
-    width: 100%;
-    outline: none;
-}
-
-.search-box input::placeholder {
-    color: rgba(255, 255, 255, 0.3);
-    transition: opacity 0.3s ease;
-}
-
-.search-box input:focus::placeholder {
-    opacity: 0.1;
-}
-
 /* User Info - Parallelogram style */
 .user-info {
     display: flex;
@@ -378,12 +327,6 @@ a {
     background: rgba(255, 204, 0, 0.1);
 }
 
-.april-fools-warning .material-icons {
-    vertical-align:bottom;
-    font-size: 1.5em;
-    margin-right: 8px;
-}
-
 .about-container {
     padding: 20px;
     animation: fadeIn 0.5s ease-out;
@@ -540,10 +483,31 @@ a {
 .detail-inner {
     padding: 40px;
     /* Calculate padding to clear the slant. 
-       The slant width is height * tan(15deg). tan(15deg) is approx 0.268.
-       We use vh to ensure it scales with the panel height.
+       At top (y=0), slant is at x=0.
+       At bottom (y=100%), slant is further left (negative x) because of skewX(-15deg).
+       Wait, skewX(-15deg) tilts top to the right relative to bottom?
+       No, standard CSS skewX(angle): x' = x + y * tan(angle).
+       If angle is -15deg, tan(-15) is negative.
+       As y increases (going down), x decreases (goes left).
+       So top is right, bottom is left. This is \ shape.
+       
+       Wait, earlier I said / shape.
+       Let's check the visual.
+       If I want / shape (bottom-left to top-right), I need positive skew?
+       Or maybe the coordinate system origin matters.
+       
+       Let's assume the previous visual was correct with skewX(-15deg).
+       If it was \, then top is further right.
+       So we need more padding at the top?
+       
+       Actually, let's just give a safe padding that clears the slant at the widest point.
+       The panel width is 70%.
+       The slant starts at left: 0.
+       If it's \, the top-left corner is at x=0 (relative to container), but the visual edge is slanted.
+       
+       Let's just use a large left padding for now to be safe and simple.
     */
-    padding-left: calc(26.8vh); 
+    padding-left: 220px; 
     padding-right: 60px;
     max-width: 1200px;
 }
@@ -560,11 +524,6 @@ a {
     color: #aaa;
     margin-bottom: 30px;
     font-size: 1rem;
-}
-.detail-changelog ul li {
-    list-style: none;
-    margin-bottom: 10px;
-    line-height: 1.6;
 }
 
 .download-section h3 {
@@ -673,40 +632,6 @@ a {
 
 /* Responsive / Mobile */
 @media (max-width: 768px) {
-    .top-bar {
-        padding: 0 15px;
-        gap: 10px;
-    }
-
-    .user-info {
-        padding: 5px 15px;
-        flex-shrink: 1;
-        min-width: 0;
-    }
-
-    .username {
-        font-size: 1rem;
-        white-space: nowrap;
-        overflow: hidden;
-        text-overflow: ellipsis;
-    }
-
-    .search-container {
-        margin: 0;
-        flex: 1;
-        max-width: 150px; /* Small by default on mobile */
-        transition: all 0.4s cubic-bezier(0.2, 0.8, 0.2, 1);
-    }
-
-    .top-bar:focus-within .user-info {
-        display: none;
-    }
-
-    .top-bar:focus-within .search-container {
-        max-width: none;
-        flex: 1;
-    }
-
     .content-container {
         flex-direction: column;
     }
@@ -868,111 +793,6 @@ a {
     width: 100%;
     height: 100%;
     background: rgba(0,0,0,0.8);
-    z-index: 2000;
-    display: none;
-    justify-content: center;
-    align-items: center;
-    backdrop-filter: blur(5px);
-}
-
-.modal.active {
-    display: flex;
-    animation: fadeIn 0.3s ease-out;
-}
-
-.announcement-modal-content {
-    background: #1a1a1a;
-    width: 90%;
-    max-width: 500px;
-    padding: 30px;
-    border: 1px solid var(--secondary-color);
-    box-shadow: 0 0 30px rgba(0, 229, 255, 0.2);
-    position: relative;
-    transform: skewX(var(--skew-angle));
-}
-
-.announcement-modal-content > * {
-    transform: skewX(15deg);
-}
-
-.modal-header {
-    display: flex;
-    align-items: center;
-    gap: 15px;
-    margin-bottom: 20px;
-    border-bottom: 1px solid rgba(255,255,255,0.1);
-    padding-bottom: 10px;
-}
-
-.modal-header .material-icons {
-    font-size: 2rem;
-    color: var(--secondary-color);
-}
-
-.modal-header h2 {
-    font-size: 1.5rem;
-    margin: 0;
-}
-
-.modal-body {
-    font-size: 1.1rem;
-    line-height: 1.6;
-    margin-bottom: 30px;
-    color: #eee;
-}
-
-.modal-footer {
-    display: flex;
-    justify-content: flex-end;
-}
-
-/* Notification Container */
-.notification-container {
-    position: fixed;
-    top: 100px;
-    right: 20px;
-    z-index: 1500;
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-    pointer-events: none;
-}
-
-.notification {
-    background: rgba(20, 20, 20, 0.9);
-    color: white;
-    padding: 15px 25px;
-    transform: skewX(var(--skew-angle));
-    border-left: 4px solid var(--secondary-color);
-    box-shadow: -5px 5px 15px rgba(0,0,0,0.3);
-    pointer-events: auto;
-    animation: slideInRight 0.4s cubic-bezier(0.2, 0.8, 0.2, 1);
-    min-width: 250px;
-    max-width: 400px;
-}
-
-.notification-content {
-    transform: skewX(15deg);
-    display: flex;
-    align-items: center;
-    gap: 12px;
-}
-
-.notification.warning {
-    border-left-color: #ffcc00;
-}
-
-.notification.warning .material-icons {
-    color: #ffcc00;
-}
-
-.notification.info .material-icons {
-    color: var(--secondary-color);
-}
-
-.notification.fade-out {
-    animation: fadeOut 0.5s forwards;
-}
     z-index: 100;
     display: none;
     justify-content: center;
@@ -1048,8 +868,7 @@ a {
 }
 
 .content-container.panel-open::before {
-    /* background: rgba(0, 0, 0, 0.6);     */
-    background: rgba(13, 13, 13, 0.81);
+    background: rgba(0, 0, 0, 0.6);
     pointer-events: auto;
 }
 

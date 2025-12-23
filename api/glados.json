@@ -1,0 +1,14 @@
+{
+    "status": "ok",
+    "response": "still alive",
+    "announce":[
+        {
+            "type": "info",
+            "message": "欢迎访问 Phigros History！查看历史版本及其更新内容。"
+        },
+        {
+            "type": "error",
+            "message": "站点正在维护，部分旧版本安装包暂时不可达。"
+        }
+    ]
+}
