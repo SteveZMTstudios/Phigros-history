@@ -3,6 +3,37 @@
   "verified": true,
   "details": [
     {
+      "versionName": "v3.18.0",
+      "versionCode": 137,
+      "releaseDate": "2025/11/21",
+      "changelog": [
+        "新增与CYTUS Ⅱ的联动章节，包含以下曲目：",
+        "「The Whole Rest」 by: KIVΛ",
+        "「Cristalisia」 by: onoken",
+        "「Hydra」 by: James Landino X Akira Complex",
+        "替换曲目「Aphrodite's Child (short ver.)」的曲绘",
+        "修改部分谱面",
+        "升级 Unity 版本为 2022",
+        "其他错误修复与改善"
+      ],
+      "downloads": {}
+    },
+    {
+      "versionName": "v3.18.1",
+      "versionCode": 138,
+      "releaseDate": "2025/12/19",
+      "changelog": [
+        "新增两首单曲：",
+        "「最高傑作」 by: PYKAMIA",
+        "「Locomotive」 by: ♠K",
+        "修改部分谱面",
+        "修复视频播放问题",
+        "关闭了 vSync 以解决部分设备帧率减半的问题",
+        "修复部分设备音符显示过大的问题",
+        "其他错误修复与改善"
+      ]
+    },
+    {
       "versionName": "v3.17.0.1",
       "versionCode": 136,
       "releaseDate": "2025/11/03",
@@ -223,7 +254,9 @@
       "versionName": "v3.12.0",
       "versionCode": 125,
       "releaseDate": "2025/04/01",
-      "tag": ["april-fools"],
+      "tag": [
+        "april-fools"
+      ],
       "changelog": [
         "1. 新增与EGTS的联动章节，包含以下曲目：",
         "「Resolver」 by: Gomadare",
@@ -478,7 +511,8 @@
       ],
       "downloads": {
         "taptap": {
-          "123": "https://www.123pan.com/s/OS4KVv-P4irv"
+          "123": "https://www.123pan.com/s/OS4KVv-P4irv",
+          "huang1111": "https://pan.huang1111.cn/s/1Q2NGfv"
         }
       }
     },
@@ -494,9 +528,7 @@
         "3. 其他错误修复"
       ],
       "downloads": {
-        "taptap": {
-          "huang1111": "https://pan.huang1111.cn/s/zMwBNuM"
-        }
+        "taptap": {}
       }
     },
     {
@@ -551,8 +583,7 @@
       ],
       "downloads": {
         "taptap": {
-          "123": "https://www.123pan.com/s/OS4KVv-24irv",
-          "huang1111": "https://pan.huang1111.cn/s/oXVlDh8"
+          "123": "https://www.123pan.com/s/OS4KVv-24irv"
         },
         "playstore": {
           "huang1111": "https://pan.huang1111.cn/s/dk1O8HV"
@@ -569,8 +600,7 @@
       ],
       "downloads": {
         "taptap": {
-          "123": "https://www.123pan.com/s/OS4KVv-W4irv",
-          "huang1111": "https://pan.huang1111.cn/s/DV3lwc4"
+          "123": "https://www.123pan.com/s/OS4KVv-W4irv"
         },
         "playstore": {
           "huang1111": "https://pan.huang1111.cn/s/dk1O8HV"
@@ -605,12 +635,10 @@
         "「PRAGMATISM -RESURRECTION-」 by: Laur"
       ],
       "downloads": {
-        "taptap": {
-          "huang1111": "https://pan.huang1111.cn/s/xbgRkHV"
-        },
+        "taptap": {},
         "playstore": {
-          "huang1111": "https://pan.huang1111.cn/s/gg8Q6TQ",
-          "123": "https://www.123pan.com/s/OS4KVv-N4irv"
+          "123": "https://www.123pan.com/s/OS4KVv-N4irv",
+          "huang1111": "https://pan.huang1111.cn/s/gg8Q6TQ"
         }
       }
     },
@@ -635,8 +663,10 @@
     {
       "versionName": "v3.5.2",
       "versionCode": 100,
-      "releaseDate": "2024/03/29",
-      "tag": ["april-fools"],
+      "releaseDate": "2024-03-29",
+      "tag": [
+        "april-fools"
+      ],
       "changelog": [
         "1. 新增一首单曲：",
         "「BRAIN HACKER」 by SOMON",
@@ -648,7 +678,6 @@
       "downloads": {
         "taptap": {
           "123": "https://www.123pan.com/s/OS4KVv-O4irv",
-          "huang1111": "https://pan.huang1111.cn/s/y5qyyI6",
           "github": "https://github.com/SteveZMTstudios/Phigros-history/releases/tag/v3.5.2"
         },
         "playstore": {
@@ -659,7 +688,7 @@
     {
       "versionName": "v3.5.1",
       "versionCode": 99,
-      "releaseDate": "2024/03/13",
+      "releaseDate": "2024-03-13",
       "changelog": [
         "1. 新增一首单曲：",
         "「Broken Sky」 by Jungo & MAX 3 feat. 刘佳宜Snow & 幻影刃shadow",
@@ -667,10 +696,11 @@
         "3. 其他错误修复"
       ],
       "downloads": {
-        "taptap": {
+        "playstore": {
           "huang1111": "https://pan.huang1111.cn/s/k2yOvuB"
         }
-      }
+      },
+      "tag": []
     },
     {
       "versionName": "v3.5.0.1",
@@ -718,7 +748,7 @@
         "4.重制了曲目「Get Back」的曲绘"
       ],
       "downloads": {
-        "taptap": {
+        "playstore": {
           "huang1111": "https://pan.huang1111.cn/s/BGnVYh6"
         }
       }
@@ -733,9 +763,7 @@
         "「Crush BETA」 by shadow_bling"
       ],
       "downloads": {
-        "taptap": {
-          "huang1111": "https://pan.huang1111.cn/s/9QybBtd"
-        },
+        "taptap": {},
         "playstore": {
           "123": "https://www.123pan.com/s/OS4KVv-7Perv.html"
         }
@@ -744,7 +772,7 @@
     {
       "versionName": "v3.4.2",
       "versionCode": 94,
-      "releaseDate": "2024/01/18",
+      "releaseDate": "2024-01-18",
       "changelog": [
         "Rotaeno联动章节追加三首新曲：",
         "「ストレイソウル・アラウンド」by みーに",
@@ -753,26 +781,33 @@
       ],
       "downloads": {
         "taptap": {
-          "huang1111": "https://pan.huang1111.cn/s/QzkXLcm"
+          "huang1111": "https://pan.huang1111.cn/s/YLBo3hA"
         }
-      }
+      },
+      "tag": []
     },
     {
       "versionName": "v3.4.1",
       "versionCode": 93,
-      "releaseDate": "2023/12/28",
+      "releaseDate": "2023-12-28",
       "changelog": [
         "1. 1.新增两首单曲：",
         "「bye」 by DingerBox",
         "「聖夜讃歌」 by A-39/沙包P",
         "2. 新增「你最喜欢的歌曲投票」活动链接",
         "3. 新增「liveMania」宣传横幅"
-      ]
+      ],
+      "downloads": {
+        "playstore": {
+          "onedrive": "https://stevezmtstudios-my.sharepoint.com/:u:/g/personal/me_stevezmt_top/IQB-OwTvI3snTqBLnNWyJ4L6ATecdBk-Yli37i4VN4NJGTg?e=Wmw79K"
+        }
+      },
+      "tag": []
     },
     {
       "versionName": "v3.4.0",
       "versionCode": 92,
-      "releaseDate": "2023/12/12",
+      "releaseDate": "2023-12-12",
       "changelog": [
         "新增与 CHUNITHM 的联动章节，包含以下曲目：",
         "「テリトリーバトル」by ツユ",
@@ -782,13 +817,17 @@
       "downloads": {
         "playstore": {
           "123": "https://www.123pan.com/s/OS4KVv-84irv"
+        },
+        "taptap": {
+          "huang1111": "https://pan.huang1111.cn/s/75W2kig"
         }
-      }
+      },
+      "tag": []
     },
     {
       "versionName": "v3.3.0",
       "versionCode": 91,
-      "releaseDate": "2023/11/15",
+      "releaseDate": "2023-11-15",
       "changelog": [
         "1. 新增与Rotaeno的联动章节，包含以下曲目：",
         "「Journey with You」by Iris",
@@ -799,15 +838,16 @@
       "downloads": {
         "taptap": {
           "123": "https://www.123pan.com/s/OS4KVv-r4irv",
-          "huang1111": "https://pan.huang1111.cn/s/wePYBCK",
+          "huang1111": "https://pan.huang1111.cn/s/VLB16Id",
           "github": "https://github.com/SteveZMTstudios/Phigros-history/releases/download/v3.3.0/Phigros_3.3.0.apk"
         }
-      }
+      },
+      "tag": []
     },
     {
       "versionName": "v3.2.2",
       "versionCode": 90,
-      "releaseDate": "2023/10/25",
+      "releaseDate": "2023-10-25",
       "changelog": [
         "新增两首新曲",
         "「Silence is Golden, Speech is Golden」 by NIWASHI",
@@ -815,15 +855,16 @@
       ],
       "downloads": {
         "taptap": {
-          "123": "https://www.123pan.com/s/PzH0Vv-Fz6V3.html",
-          "huang1111": "https://pan.huang1111.cn/s/75ea6sg"
+          "123": "https://www.123865.com/s/OS4KVv-Dfk8v",
+          "huang1111": "https://pan.huang1111.cn/s/aEeNjsG"
         }
-      }
+      },
+      "tag": []
     },
     {
       "versionName": "v3.2.1",
       "versionCode": 89,
-      "releaseDate": "2023/09/26",
+      "releaseDate": "2023-09-26",
       "changelog": [
         "1. 新增两首单曲",
         "「Diamond Eyes」 by SYNTHETIC",
@@ -832,14 +873,15 @@
       ],
       "downloads": {
         "taptap": {
-          "huang1111": "https://pan.huang1111.cn/s/E7xklTb"
+          "huang1111": "https://pan.huang1111.cn/s/Nkvo9c1"
         }
-      }
+      },
+      "tag": []
     },
     {
       "versionName": "v3.2.0",
       "versionCode": 88,
-      "releaseDate": "2023/08/31",
+      "releaseDate": "2023-08-31",
       "changelog": [
         "1. 新增与かめりあ合作的外传章节《极星卫》，包含以下曲目：",
         "「S.A.T.E.L.L.I.T.E.」by かめりあ",
@@ -852,14 +894,16 @@
       ],
       "downloads": {
         "taptap": {
-          "123": "https://www.123pan.com/s/qCLA-sRJsv.html"
+          "123": "https://www.123pan.com/s/qCLA-sRJsv.html",
+          "huang1111": "https://pan.huang1111.cn/s/6eAdEtN"
         }
-      }
+      },
+      "tag": []
     },
     {
       "versionName": "v3.2.0",
       "versionCode": 87,
-      "releaseDate": "2023/08/30",
+      "releaseDate": "2023-08-30",
       "changelog": [
         "1. 新增与かめりあ合作的外传章节《极星卫》，包含以下曲目：",
         "「S.A.T.E.L.L.I.T.E.」by かめりあ",
@@ -873,14 +917,15 @@
       "downloads": {
         "taptap": {
           "123": "https://www.123pan.com/s/qCLA-FWJsv.html",
-          "huang1111": "https://pan.huang1111.cn/s/8Qy4jhQ"
+          "huang1111": "https://pan.huang1111.cn/s/DV63eH4"
         }
-      }
+      },
+      "tag": []
     },
     {
       "versionName": "v3.1.3",
       "versionCode": 86,
-      "releaseDate": "2023/08/14",
+      "releaseDate": "2023-08-14",
       "changelog": [
         "1.新增一首新曲",
         "「Triumph & Regret」 by typeMARS",
@@ -889,14 +934,15 @@
       "downloads": {
         "taptap": {
           "123": "https://www.123pan.com/s/qCLA-cFJsv.html",
-          "huang1111": "https://pan.huang1111.cn/s/G8qkoFW"
+          "huang1111": "https://pan.huang1111.cn/s/nqBRZtm"
         }
-      }
+      },
+      "tag": []
     },
     {
       "versionName": "v3.1.2",
       "versionCode": 85,
-      "releaseDate": "2023/07/24",
+      "releaseDate": "2023-07-24",
       "changelog": [
         "1. 新增一首单曲：「ぱぴぷぴぷぴぱ」 by ころねぽち With 立秋",
         "2. 修改部分谱面"
@@ -904,15 +950,16 @@
       "downloads": {
         "taptap": {
           "123": "https://www.123pan.com/s/OS4KVv-VaZrv.html",
-          "huang1111": "https://pan.huang1111.cn/s/LxXeWH6",
+          "huang1111": "https://pan.huang1111.cn/s/K9xwduY",
           "github": "https://github.com/SteveZMTstudios/Phigros-history/releases/download/v3.1.2/Phigros_3.1.2.apk"
         }
-      }
+      },
+      "tag": []
     },
     {
       "versionName": "v3.1.1.1",
       "versionCode": 84,
-      "releaseDate": "2023/07/08",
+      "releaseDate": "2023-07-08",
       "changelog": [
         "更新了两首新曲",
         "「Rainy Heart」 by BelieverInYou(阿卡姆巫师)",
@@ -921,24 +968,31 @@
       "downloads": {
         "taptap": {
           "123": "https://www.123pan.com/s/qCLA-9hJsv.html",
-          "huang1111": "https://pan.huang1111.cn/s/K9kvQhY"
+          "huang1111": "https://pan.huang1111.cn/s/LxROlf6"
         }
-      }
+      },
+      "tag": []
     },
     {
       "versionName": "v3.1.1",
       "versionCode": 83,
-      "releaseDate": "2023/07/04",
+      "releaseDate": "2023-07-04",
       "changelog": [
         "更新了两首新曲",
         "「Rainy Heart」 by BelieverInYou(阿卡姆巫师)",
         "「Realms」 by Hinkik & A Himitsu"
-      ]
+      ],
+      "downloads": {
+        "playstore": {
+          "onedrive": "https://stevezmtstudios-my.sharepoint.com/:u:/g/personal/me_stevezmt_top/IQBXOTI07zVIQpJkdH1JrEhIATqWbknRoKvUR90aavMLU6U?e=Q8cP7r"
+        }
+      },
+      "tag": []
     },
     {
       "versionName": "v3.1.0",
       "versionCode": 82,
-      "releaseDate": "2023/06/07",
+      "releaseDate": "2023-06-07",
       "changelog": [
         "1. 新增与OverRapid的联动章节，包含以下曲目：",
         "「神話」by Pica & M2U",
@@ -952,14 +1006,15 @@
       "downloads": {
         "taptap": {
           "123": "https://www.123pan.com/s/qCLA-aLBsv.html",
-          "huang1111": "https://pan.huang1111.cn/s/oX7eDT8"
+          "huang1111": "https://pan.huang1111.cn/s/G8V6esW"
         }
-      }
+      },
+      "tag": []
     },
     {
       "versionName": "v3.0.1.1",
       "versionCode": 81,
-      "releaseDate": "2023/05/29",
+      "releaseDate": "2023-05-29",
       "changelog": [
         "更新了两首新曲",
         "「Bougainvillea」 by Jade",
@@ -967,14 +1022,15 @@
       ],
       "downloads": {
         "taptap": {
-          "huang1111": "https://pan.huang1111.cn/s/6eKBAsN"
+          "huang1111": "https://pan.huang1111.cn/s/8QmMBcQ"
         }
-      }
+      },
+      "tag": []
     },
     {
       "versionName": "v3.0.1",
       "versionCode": 80,
-      "releaseDate": "2023/05/17",
+      "releaseDate": "2023-05-17",
       "changelog": [
         "更新了两首新曲",
         "「Bougainvillea」 by Jade",
@@ -982,18 +1038,16 @@
       ],
       "downloads": {
         "taptap": {
-          "huang1111": "https://pan.huang1111.cn/s/XqdaoHl",
-          "123": "https://www.123pan.com/s/qCLA-clBsv.html"
-        },
-        "playstore": {
-          "huang1111": "https://pan.huang1111.cn/s/qg1OxC3"
+          "123": "https://www.123pan.com/s/qCLA-clBsv.html",
+          "huang1111": "https://pan.huang1111.cn/s/E7XyqSb"
         }
-      }
+      },
+      "tag": []
     },
     {
       "versionName": "v3.0.0.1",
       "versionCode": 79,
-      "releaseDate": "2023/04/26",
+      "releaseDate": "2023-04-26",
       "changelog": [
         "1. 新增主线章节八「凌日潮汐」，包含如下曲目：",
         "「The Chariot ~REVIIVAL~」by Attoclef",
@@ -1006,16 +1060,17 @@
       ],
       "downloads": {
         "taptap": {
-          "github": "https://github.com/SteveZMTstudios/Phigros-history/releases/v3.0.0.1/",
           "123": "https://www.123pan.com/s/OS4KVv-u4irv",
-          "huang1111": "https://pan.huang1111.cn/s/VLkEaud"
+          "github": "https://github.com/SteveZMTstudios/Phigros-history/releases/v3.0.0.1/",
+          "huang1111": "https://pan.huang1111.cn/s/mxBWxT1"
         }
-      }
+      },
+      "tag": []
     },
     {
       "versionName": "v3.0.0",
       "versionCode": 78,
-      "releaseDate": "2023/04/20",
+      "releaseDate": "2023-04-20",
       "changelog": [
         "1. 新增主线章节八「凌日潮汐」，包含如下曲目：",
         "「The Chariot ~REVIIVAL~」by Attoclef",
@@ -1028,9 +1083,11 @@
       ],
       "downloads": {
         "taptap": {
-          "huang1111": "https://pan.huang1111.cn/s/YLMqzTA"
+          "huang1111": "https://pan.huang1111.cn/s/WzBePc3",
+          "onedrive": "https://stevezmtstudios-my.sharepoint.com/:u:/g/personal/hoangcaohuy2007_stevezmt_top/IQAhB9tHoA5ERKwUhIYGkpdfAbi3f_opU0BfFaaFt1hQJwI?e=WMrSTp"
         }
-      }
+      },
+      "tag": []
     }
   ]
 }
