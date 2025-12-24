@@ -34,6 +34,11 @@
             <div class="logo">Phigros History</div>
             <div class="tap-to-start">点 击 屏 幕 开 始</div>
         </div>
+        <div class="start-footer">
+            <button id="start-language-btn" class="nav-btn">
+                <span class="material-icons">language</span>
+            </button>
+        </div>
         <div class="background-overlay"></div>
     </div>
 
@@ -135,12 +140,23 @@
                     <div class="saturn-text-2">Powered by PhigrOS</div>
                 </div>
             </div>
-            <button id="info-btn" class="nav-btn">
-                <span class="material-icons">info</span>
-            </button>
+            <div class="bottom-right-btns">
+                <button id="language-btn" class="nav-btn">
+                    <span class="material-icons">language</span>
+                </button>
+                <button id="info-btn" class="nav-btn">
+                    <span class="material-icons">info</span>
+                </button>
+            </div>
         </footer>
     </div>
 
+    <script src="https://cdn.staticfile.net/translate.js/3.12.0/translate.js"></script>
+    <script>
+        if (typeof translate === 'undefined') {
+            document.write('<script src="https://sharepoint.cf.stevezmt.top/js/3rd-party/translate.min.js"><\/script>');
+        }
+    </script>
     <script src="assets/js/main.js"></script>
 </body>
 </html>

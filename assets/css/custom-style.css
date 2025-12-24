@@ -844,6 +844,11 @@ a {
     padding: 0 40px;
 }
 
+.bottom-right-btns {
+    display: flex;
+    gap: 10px;
+}
+
 .nav-btn {
     background: var(--card-bg);
     border: none;
@@ -861,6 +866,29 @@ a {
 .nav-btn:hover {
     background: var(--secondary-color);
     color: black;
+}
+
+.nav-btn.loading span {
+    display: none;
+}
+
+.nav-btn.loading::after {
+    content: "";
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background-color: currentColor;
+    box-shadow: 12px 0 0 0 currentColor, 24px 0 0 0 currentColor;
+    animation: dots-fade 1.5s infinite linear;
+    transform: skewX(15deg) translateX(-12px);
+    display: block;
+}
+
+@keyframes dots-fade {
+    0% { background-color: currentColor; box-shadow: 12px 0 0 0 rgba(255,255,255,0.2), 24px 0 0 0 rgba(255,255,255,0.2); }
+    33% { background-color: rgba(255,255,255,0.2); box-shadow: 12px 0 0 0 currentColor, 24px 0 0 0 rgba(255,255,255,0.2); }
+    66% { background-color: rgba(255,255,255,0.2); box-shadow: 12px 0 0 0 rgba(255,255,255,0.2), 24px 0 0 0 currentColor; }
+    100% { background-color: currentColor; box-shadow: 12px 0 0 0 rgba(255,255,255,0.2), 24px 0 0 0 rgba(255,255,255,0.2); }
 }
 
 .nav-btn span {
@@ -1135,4 +1163,173 @@ a {
 @keyframes fadeOut {
     from { opacity: 1; }
     to { opacity: 0; visibility: hidden; }
+}
+
+/* Start Screen Footer */
+.start-footer {
+    position: absolute;
+    bottom: 40px;
+    right: 40px;
+    z-index: 10;
+}
+
+/* Language Selection View */
+.language-container {
+    padding: 20px;
+    animation: fadeIn 0.5s ease-out;
+}
+
+.language-container h2 {
+    font-size: 2.5rem;
+    margin-top: 1rem;
+    margin-bottom: 20px;
+    border-bottom: 2px solid var(--secondary-color);
+    display: inline-block;
+}
+
+.language-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.lang-select-btn {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    justify-content: flex-start;
+    padding: 10px 15px;
+    text-align: left;
+}
+
+.lang-flag {
+    width: 24px;
+    height: auto;
+    border-radius: 2px;
+    flex-shrink: 0;
+    box-shadow: 0 0 2px rgba(0,0,0,0.2);
+    transform: skewX(15deg); /* 抵消按钮的倾斜，让国旗看起来是正的 */
+}
+
+[dir="rtl"] .lang-select-btn {
+    text-align: right;
+    flex-direction: row-reverse;
+}
+
+[dir="rtl"] .lang-flag {
+    transform: skewX(-15deg);
+}
+
+/* RTL Support */
+[dir="rtl"] {
+    text-align: right;
+}
+
+[dir="rtl"] .top-bar,
+[dir="rtl"] .bottom-bar,
+[dir="rtl"] .version-header {
+    flex-direction: row-reverse;
+}
+
+[dir="rtl"] .user-info {
+    border-left: none;
+    border-right: 4px solid var(--secondary-color);
+    transform: skewX(15deg);
+}
+
+[dir="rtl"] .user-info > * {
+    transform: skewX(-15deg);
+}
+
+[dir="rtl"] .top-right {
+    border-right: none;
+    border-left: 4px solid var(--accent-color);
+    transform: skewX(15deg);
+}
+
+[dir="rtl"] .top-right > * {
+    transform: skewX(-15deg);
+}
+
+[dir="rtl"] .major-version-btn {
+    border-left: none;
+    border-right: 5px solid transparent;
+    text-align: right;
+    left: auto;
+    right: -20px;
+    transform: skewX(15deg);
+}
+
+[dir="rtl"] .major-version-btn span {
+    transform: skewX(-15deg);
+}
+
+[dir="rtl"] .major-version-btn:hover, 
+[dir="rtl"] .major-version-btn.active {
+    border-right-color: var(--secondary-color);
+    padding-left: 40px;
+    padding-right: 60px;
+}
+
+[dir="rtl"] .version-card {
+    transform: skewX(15deg);
+    border-right: none;
+    border-left: 4px solid transparent;
+}
+
+[dir="rtl"] .version-card:hover, 
+[dir="rtl"] .version-card.active {
+    transform: skewX(15deg) translateX(-10px);
+    border-left-color: var(--secondary-color);
+}
+
+[dir="rtl"] .version-content {
+    transform: skewX(-15deg);
+}
+
+[dir="rtl"] .phigros-btn {
+    transform: skewX(15deg);
+    border-left: none;
+    border-right: 3px solid var(--secondary-color);
+    text-align: right;
+}
+
+[dir="rtl"] .phigros-btn span,
+[dir="rtl"] .phigros-btn .material-icons {
+    transform: skewX(-15deg);
+}
+
+[dir="rtl"] .detail-panel {
+    right: auto;
+    left: 0;
+    transform: translateX(-100%);
+}
+
+[dir="rtl"] .content-container.panel-open .detail-panel {
+    transform: translateX(0);
+}
+
+[dir="rtl"] .detail-panel::before {
+    left: auto;
+    right: 0;
+    left: -100%;
+    transform: skewX(15deg);
+    border-left: none;
+    border-right: 2px solid var(--secondary-color);
+}
+
+[dir="rtl"] .detail-inner {
+    padding-left: 60px;
+    padding-right: calc(26.8vh);
+}
+
+[dir="rtl"] .close-btn-desktop {
+    right: auto;
+    left: 40px;
+    transform: skewX(15deg);
+}
+
+[dir="rtl"] .close-btn-desktop span {
+    transform: skewX(-15deg);
 }

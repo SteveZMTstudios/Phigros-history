@@ -6,9 +6,147 @@ document.addEventListener('DOMContentLoaded', () => {
     const currentVersionDisplay = document.getElementById('current-version-display');
     const backBtn = document.getElementById('back-btn');
     const infoBtn = document.getElementById('info-btn');
+    const languageBtn = document.getElementById('language-btn');
+    const startLanguageBtn = document.getElementById('start-language-btn');
     const rksDisplay = document.querySelector('.rks');
     const searchInput = document.getElementById('version-search');
     
+    // Translate.js Initialization
+    if (typeof translate !== 'undefined') {
+        console.log('[Translate] Initializing v3...');
+        translate.service.use('client.edge');
+        translate.language.setLocal('chinese_simplified'); 
+        
+        // 修复：使用 getLanguage() 获取字符串，因为 currentLanguage 在某些版本是函数
+        const getCurrentLang = () => {
+            if (typeof translate.getLanguage === 'function') return translate.getLanguage();
+            if (typeof translate.currentLanguage === 'function') return translate.currentLanguage();
+            return translate.currentLanguage || 'unknown';
+        };
+
+        console.log('[Translate] Current Language:', getCurrentLang());
+        console.log('[Translate] Local Language:', translate.localLanguage);
+        console.log('[Translate] Listener Hooks:', Object.keys(translate.listener || {}));
+
+        translate.ignore.tag.push('i');
+        translate.ignore.class.push('material-icons');
+        translate.ignore.class.push('ignore');
+        
+        const activeTaskSet = new Set();
+        let stopTimer = null;
+
+        const updateLoadingState = () => {
+            const isPending = activeTaskSet.size > 0;
+            // 减少日志噪音，仅在状态变化或有任务时记录
+            if (isPending || (stopTimer === null)) {
+                console.log(`[Translate] Loading State: ${isPending ? 'PENDING' : 'IDLE'} (Tasks: ${activeTaskSet.size})`);
+            }
+            
+            if (isPending) {
+                if (stopTimer) {
+                    clearTimeout(stopTimer);
+                    stopTimer = null;
+                }
+                if (languageBtn) languageBtn.classList.add('loading');
+                if (startLanguageBtn) startLanguageBtn.classList.add('loading');
+            } else {
+                if (!stopTimer) {
+                    stopTimer = setTimeout(() => {
+                        if (activeTaskSet.size <= 0) {
+                            if (languageBtn) languageBtn.classList.remove('loading');
+                            if (startLanguageBtn) startLanguageBtn.classList.remove('loading');
+                        }
+                        stopTimer = null;
+                    }, 500);
+                }
+            }
+        };
+
+        const startTask = (taskId) => {
+            if (!taskId) taskId = `task-${Math.random().toString(36).substr(2, 9)}`;
+            activeTaskSet.add(taskId);
+            console.log(`[Translate] Task Started: ${taskId} (Total: ${activeTaskSet.size})`);
+            updateLoadingState();
+            
+            setTimeout(() => {
+                if (activeTaskSet.has(taskId)) {
+                    console.warn(`[Translate] Task Timeout: ${taskId}`);
+                    activeTaskSet.delete(taskId);
+                    updateLoadingState();
+                }
+            }, 15000);
+        };
+
+        const finishTask = (task) => {
+            const taskId = (task && task.id) ? task.id : null;
+            if (taskId && activeTaskSet.has(taskId)) {
+                console.log(`[Translate] Task Finished: ${taskId} (Remaining: ${activeTaskSet.size - 1})`);
+                activeTaskSet.delete(taskId);
+            } else {
+                const firstTask = activeTaskSet.values().next().value;
+                if (firstTask) {
+                    console.log(`[Translate] Task Finished (Fallback): ${firstTask}`);
+                    activeTaskSet.delete(firstTask);
+                }
+            }
+            updateLoadingState();
+        };
+
+        // 解决 renderTaskStart 不触发的问题：
+        // 1. 尝试使用 addListener (如果支持)
+        if (typeof translate.listener.addListener === 'function') {
+            translate.listener.addListener('renderTaskStart', function(task) {
+                console.log('[Translate] Hook Triggered: addListener.renderTaskStart');
+                startTask(task ? task.id : null);
+            });
+        }
+
+        // 2. 显式定义所有可能的开始钩子
+        const startHooks = ['renderTaskStart', 'onTaskStart', 'taskStart', 'beforeRenderTask'];
+        startHooks.forEach(hook => {
+            translate.listener[hook] = function(task) {
+                console.log(`[Translate] Hook Triggered: ${hook}`);
+                startTask(task ? task.id : null);
+            };
+        });
+
+        // 3. 拦截 translate.execute 以确保并行开始时能立即捕获状态
+        const originalExecute = translate.execute;
+        translate.execute = function() {
+            console.log('[Translate] Manual execute() triggered');
+            // 触发一个临时任务，防止在钩子还没回来前加载动画没跳出来
+            const tempId = `exec-${Date.now()}`;
+            startTask(tempId);
+            
+            // 执行原始方法
+            originalExecute.apply(this, arguments);
+            
+            // 稍微延迟一点结束这个临时任务，给真正的 renderTaskStart 留出时间
+            setTimeout(() => finishTask({id: tempId}), 100);
+        };
+
+        const finishHooks = ['renderTaskFinish', 'onTaskFinish', 'taskFinish'];
+        finishHooks.forEach(hook => {
+            translate.listener[hook] = function(task) {
+                console.log(`[Translate] Hook Triggered: ${hook}`);
+                finishTask(task);
+
+                if (getCurrentLang() === 'arabic') {
+                    document.documentElement.setAttribute('dir', 'rtl');
+                } else {
+                    document.documentElement.setAttribute('dir', 'ltr');
+                }
+            };
+        });
+
+        // Execute translation
+        console.log('[Translate] Triggering initial execute()');
+        translate.execute();
+        
+        // Monitor dynamic content
+        translate.listener.start();
+    }
+
     // Date formatter
     const formatDate = (dateStr) => {
         if (!dateStr) return '未知日期';
@@ -116,6 +254,27 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     }
 
+    // Language Button
+    if (languageBtn) {
+        languageBtn.addEventListener('click', (e) => {
+            e.stopPropagation();
+            playTapSound();
+            showLanguageSelector();
+        });
+    }
+
+    if (startLanguageBtn) {
+        startLanguageBtn.addEventListener('click', (e) => {
+            e.stopPropagation();
+            playTapSound();
+            startScreen.classList.remove('active');
+            mainScreen.classList.add('active');
+            loadMajorVersions().then(() => {
+                showLanguageSelector();
+            });
+        });
+    }
+
     // Search Logic
     if (searchInput) {
         searchInput.addEventListener('input', (e) => {
@@ -158,7 +317,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         <span class="material-icons">store</span>
                         <span>访问 TapTap 商店页面</span>
                         </a>
-                        <a href="https://play.google.com/store/apps/details?id=net.pigeongames.phigros" target="_blank" class="phigros-btn" title="您所在的地区可能无法打开此链接。">
+                        <a href="https://play.google.com/store/apps/details?id=com.PigeonGames.Phigros" target="_blank" class="phigros-btn" title="您所在的地区可能无法打开此链接。">
                         <span class="material-icons">shop</span>
                         <span>访问 Google Play 页面</span>
                         </a><a href="https://apps.apple.com/cn/app/phigros/id1454809109" target="_blank" class="phigros-btn">
@@ -206,7 +365,71 @@ document.addEventListener('DOMContentLoaded', () => {
             </div>
         `;
         
+        if (typeof translate !== 'undefined') translate.execute();
+
         // Unselect any active major version buttons
+        document.querySelectorAll('.major-version-btn').forEach(b => b.classList.remove('active'));
+    }
+
+    function showLanguageSelector() {
+        closePanel();
+        currentVersionDisplay.textContent = '选择语言';
+        
+        if (versionList.parentElement) {
+            versionList.parentElement.scrollTop = 0;
+        }
+
+        const languages = [
+            { code: 'chinese_simplified', name: '简体中文', country: 'cn' },
+            { code: 'chinese_traditional', name: '繁體中文', country: 'hk' },
+            { code: 'english', name: 'English', country: 'us' },
+            { code: 'japanese', name: '日本語', country: 'jp' },
+            { code: 'korean', name: '한국어', country: 'kr' },
+            { code: 'russian', name: 'Русский', country: 'ru' },
+            { code: 'french', name: 'Français', country: 'fr' },
+            { code: 'deutsch', name: 'Deutsch', country: 'de' },
+            { code: 'spanish', name: 'Español', country: 'es' },
+            { code: 'portuguese', name: 'Português', country: 'br' },
+            { code: 'italian', name: 'Italiano', country: 'it' },
+            { code: 'vietnamese', name: 'Tiếng Việt', country: 'vn' },
+            { code: 'thai', name: 'ไทย', country: 'th' },
+            { code: 'indonesian', name: 'Bahasa Indonesia', country: 'id' },
+            { code: 'arabic', name: 'العربية', country: 'sa' },
+            { code: 'hindi', name: 'हिन्दी', country: 'in' },
+            { code: 'bengali', name: 'বাংলা', country: 'bd' },
+            { code: 'turkish', name: 'Türkçe', country: 'tr' },
+            { code: 'polish', name: 'Polski', country: 'pl' },
+            { code: 'ukrainian', name: 'Українська', country: 'ua' },
+            { code: 'dutch', name: 'Nederlands', country: 'nl' },
+            { code: 'malay', name: 'Bahasa Melayu', country: 'my' },
+            { code: 'filipino', name: 'Pilipino', country: 'ph' }
+        ];
+
+        versionList.innerHTML = `
+            <div class="language-container">
+                <h2>选择语言<span class="ignore"> / Select Language</span></h2>
+                <div class="language-grid">
+                    ${languages.map(lang => `
+                        <button class="phigros-btn lang-select-btn ignore" data-code="${lang.code}">
+                            <img src="https://flagcdn.com/w40/${lang.country}.png" class="lang-flag" alt="">
+                            <span>${lang.name}</span>
+                        </button>
+                    `).join('')}
+                </div>
+            </div>
+        `;
+
+        document.querySelectorAll('.lang-select-btn').forEach(btn => {
+            btn.addEventListener('click', () => {
+                const code = btn.getAttribute('data-code');
+                if (typeof translate !== 'undefined') {
+                    translate.changeLanguage(code);
+                }
+            });
+        });
+
+        if (typeof translate !== 'undefined') translate.execute();
+
         document.querySelectorAll('.major-version-btn').forEach(b => b.classList.remove('active'));
     }
 
@@ -281,6 +504,7 @@ document.addEventListener('DOMContentLoaded', () => {
             v.element = btn;
             versionSelector.appendChild(btn);
         });
+        if (typeof translate !== 'undefined') translate.execute();
     }
 
     async function selectMajorVersion(versionObj, autoSelectVersion = null) {
@@ -437,6 +661,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
             versionList.appendChild(card);
         });
+        if (typeof translate !== 'undefined') translate.execute();
     }
 
     function showVersionDetails(ver) {
@@ -572,6 +797,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
         // Open panel
         contentContainer.classList.add('panel-open');
+        if (typeof translate !== 'undefined') translate.execute();
     }
 
     async function fetchAnnouncements() {
