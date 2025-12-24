@@ -3,7 +3,7 @@
 
 ------
 
-## 1.0.1(11)
+## 1.0.0(1)
 这是PigeonGames在2019年8月向公众发布的首个Release.
 
 ### 更新日志
@@ -15,15 +15,15 @@ Version 1.0.0 (1) 2019/08/28
 更改了游戏关卡画面的初始亮度
 ```
 
-### 下载
-[![从 Github 下载](https://img.shields.io/badge/Github-下载_共存APK-lightgreen?logo=Github)](https://kkgithub.com/SteveZMTstudios/Phigros-history/releases/tag/v1.0.0)<br>
-[![huang1111](https://img.shields.io/badge/huang1111.cn-下载_APK+OBB-green)](https://pan.huang1111.cn/s/GWA6fW)
+### [下载](https://stevezmt.top/Phigros-history/?vercode=1)
+<!-- [![从 Github 下载](https://img.shields.io/badge/Github-下载_共存APK-lightgreen?logo=Github)](https://kkgithub.com/SteveZMTstudios/Phigros-history/releases/tag/v1.0.0)<br>
+[![huang1111](https://img.shields.io/badge/huang1111.cn-下载_APK+OBB-green)](https://pan.huang1111.cn/s/GWA6fW) -->
 
 
 
-真1版本？来自互联网
+<!-- 真1版本？来自互联网
 
-[![ TapTap 版本(huang1111)](https://img.shields.io/badge/bilibili-备选下载-lightblue.svg?logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjgiIGhlaWdodD0iMTI4IiB2aWV3Qm94PSIwIDAgMjQgMjQiPjxwYXRoIGZpbGw9IiNmZmZmZmYiIGQ9Ik01IDIwaDE0di0ySDVtMTQtOWgtNFYzSDl2Nkg1bDcgN3oiLz48L3N2Zz4=)](https://pan.huang1111.cn/s/oX72lC8) 提取码：`stevezmt`
+[![ TapTap 版本(huang1111)](https://img.shields.io/badge/bilibili-备选下载-lightblue.svg?logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjgiIGhlaWdodD0iMTI4IiB2aWV3Qm94PSIwIDAgMjQgMjQiPjxwYXRoIGZpbGw9IiNmZmZmZmYiIGQ9Ik01IDIwaDE0di0ySDVtMTQtOWgtNFYzSDl2Nkg1bDcgN3oiLz48L3N2Zz4=)](https://pan.huang1111.cn/s/oX72lC8) 提取码：`stevezmt` -->
 
 -----------
 ## 1.4.1(17)
@@ -60,10 +60,10 @@ Dead Soul
 --来自[Phigros Fandom](https://phigros.fandom.com/zh/wiki/愚人节谱)
 
 
-### 下载
-[![huang1111](https://img.shields.io/badge/huang1111.cn-下载_APK+OBB-green)](https://pan.huang1111.cn/s/LENXT6)
+### [下载](https://stevezmt.top/Phigros-history/?vercode=17)
+<!-- [![huang1111](https://img.shields.io/badge/huang1111.cn-下载_APK+OBB-green)](https://pan.huang1111.cn/s/LENXT6)
 [![ TapTap 版本(huang1111)](https://img.shields.io/badge/TapTap-备选下载-lightblue.svg?logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjgiIGhlaWdodD0iMTI4IiB2aWV3Qm94PSIwIDAgMjQgMjQiPjxwYXRoIGZpbGw9IiNmZmZmZmYiIGQ9Ik01IDIwaDE0di0ySDVtMTQtOWgtNFYzSDl2Nkg1bDcgN3oiLz48L3N2Zz4=)](https://pan.huang1111.cn/s/75ekDSg)
-[![ TapTap 版本(Github)](https://img.shields.io/badge/共存版-全局下载-blue.svg?logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjgiIGhlaWdodD0iMTI4IiB2aWV3Qm94PSIwIDAgMjQgMjQiPjxwYXRoIGZpbGw9IiNmZmZmZmYiIGQ9Ik01IDIwaDE0di0ySDVtMTQtOWgtNFYzSDl2Nkg1bDcgN3oiLz48L3N2Zz4=)](https://github.com/SteveZMTstudios/Phigros-history/releases/download/v1.4.1/Phigros_V1.4.1_clone.apk)
+[![ TapTap 版本(Github)](https://img.shields.io/badge/共存版-全局下载-blue.svg?logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjgiIGhlaWdodD0iMTI4IiB2aWV3Qm94PSIwIDAgMjQgMjQiPjxwYXRoIGZpbGw9IiNmZmZmZmYiIGQ9Ik01IDIwaDE0di0ySDVtMTQtOWgtNFYzSDl2Nkg1bDcgN3oiLz48L3N2Zz4=)](https://github.com/SteveZMTstudios/Phigros-history/releases/download/v1.4.1/Phigros_V1.4.1_clone.apk) -->
 
 ------
 ## 1.6.5(42)
@@ -85,9 +85,9 @@ Spasmodic (Haocore Mix)：多次点击《光》曲绘白色部分
 
 Wave Tapper：随音乐节奏点击中间立方体两面(一说乱点)
 
-### 下载
-[![huang1111](https://img.shields.io/badge/huang1111.cn-下载_APK+OBB-green)](https://pan.huang1111.cn/s/KNlgiY)
-[![ TapTap 版本(huang1111)](https://img.shields.io/badge/TapTap-备选下载-lightblue.svg?logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjgiIGhlaWdodD0iMTI4IiB2aWV3Qm94PSIwIDAgMjQgMjQiPjxwYXRoIGZpbGw9IiNmZmZmZmYiIGQ9Ik01IDIwaDE0di0ySDVtMTQtOWgtNFYzSDl2Nkg1bDcgN3oiLz48L3N2Zz4=)](https://pan.huang1111.cn/s/Qzk1mUm)
+### [下载](https://stevezmt.top/Phigros-history/?vercode=42)
+<!-- [![huang1111](https://img.shields.io/badge/huang1111.cn-下载_APK+OBB-green)](https://pan.huang1111.cn/s/KNlgiY)
+[![ TapTap 版本(huang1111)](https://img.shields.io/badge/TapTap-备选下载-lightblue.svg?logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjgiIGhlaWdodD0iMTI4IiB2aWV3Qm94PSIwIDAgMjQgMjQiPjxwYXRoIGZpbGw9IiNmZmZmZmYiIGQ9Ik01IDIwaDE0di0ySDVtMTQtOWgtNFYzSDl2Nkg1bDcgN3oiLz48L3N2Zz4=)](https://pan.huang1111.cn/s/Qzk1mUm) -->
 
 
 --------
@@ -111,9 +111,9 @@ Version 2.1.4 (57) 2022/03/28
 
 ---来自[TapTap TT-684593](https://www.taptap.cn/moment/258770435015969399)
 
-### 下载
-[![huang1111](https://img.shields.io/badge/huang1111.cn-下载_APK+OBB-green)](https://pan.huang1111.cn/s/nlX9Im)
-[![ TapTap 版本(huang1111)](https://img.shields.io/badge/TapTap-备选下载-lightblue.svg?logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjgiIGhlaWdodD0iMTI4IiB2aWV3Qm94PSIwIDAgMjQgMjQiPjxwYXRoIGZpbGw9IiNmZmZmZmYiIGQ9Ik01IDIwaDE0di0ySDVtMTQtOWgtNFYzSDl2Nkg1bDcgN3oiLz48L3N2Zz4=)](https://pan.huang1111.cn/s/G8q8xFW)
+### [下载](https://stevezmt.top/Phigros-history/?vercode=57)
+<!-- [![huang1111](https://img.shields.io/badge/huang1111.cn-下载_APK+OBB-green)](https://pan.huang1111.cn/s/nlX9Im)
+[![ TapTap 版本(huang1111)](https://img.shields.io/badge/TapTap-备选下载-lightblue.svg?logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjgiIGhlaWdodD0iMTI4IiB2aWV3Qm94PSIwIDAgMjQgMjQiPjxwYXRoIGZpbGw9IiNmZmZmZmYiIGQ9Ik01IDIwaDE0di0ySDVtMTQtOWgtNFYzSDl2Nkg1bDcgN3oiLz48L3N2Zz4=)](https://pan.huang1111.cn/s/G8q8xFW) -->
 
 ------
 ## 2.5.1(77)
@@ -136,9 +136,9 @@ Version 2.5.1 (77) 2023/03/29
 
 ------转自[bilibili CatGames-猫游](https://www.bilibili.com/read/mobile?id=22777506)
 
-### 下载
-[![从 Github 下载](https://img.shields.io/badge/Github-下载_APK-lightgreen?logo=Github)](https://github.com/SteveZMTstudios/Phigros-history/releases/tag/v2.5.1)
-<br>[![123云盘](https://img.shields.io/badge/123云盘-下载_APK-lightgreen?logo=Github)](https://www.123pan.com/s/OS4KVv-uZbrv.html)
+### [下载](https://stevezmt.top/Phigros-history/?vercode=77)
+<!-- [![从 Github 下载](https://img.shields.io/badge/Github-下载_APK-lightgreen?logo=Github)](https://github.com/SteveZMTstudios/Phigros-history/releases/tag/v2.5.1)
+<br>[![123云盘](https://img.shields.io/badge/123云盘-下载_APK-lightgreen?logo=Github)](https://www.123pan.com/s/OS4KVv-uZbrv.html) -->
 
 -------
 ## 3.5.2(100)
@@ -165,10 +165,10 @@ Version 3.5.2 (100) 2024/03/29
 
 或者在“Retribution”歌曲页面中将屏幕翻转过来。
 
-### 下载
-[![从 Github 下载](https://img.shields.io/badge/Github-获取-lightgreen?logo=Github)](https://github.com/SteveZMTstudios/Phigros-history/releases/tag/v3.5.2)
+### [下载](https://stevezmt.top/Phigros-history/?vercode=100)
+<!-- [![从 Github 下载](https://img.shields.io/badge/Github-获取-lightgreen?logo=Github)](https://github.com/SteveZMTstudios/Phigros-history/releases/tag/v3.5.2)
 <br>[![123云盘](https://img.shields.io/badge/123云盘-下载_APK-green)](https://www.123pan.com/s/OS4KVv-nPerv.html)
-<br>[![huang1111](https://img.shields.io/badge/huang1111.cn-下载_APK+OBB-green)](https://pan.huang1111.cn/s/jA5efy)
+<br>[![huang1111](https://img.shields.io/badge/huang1111.cn-下载_APK+OBB-green)](https://pan.huang1111.cn/s/jA5efy) -->
 
 ---------
 ## 3.12.0(124)
@@ -200,10 +200,10 @@ Version 3.5.2 (100) 2024/03/29
 <iframe src="//player.bilibili.com/player.html?isOutside=true&aid=114258293556953&bvid=BV1CWZWYoExM&cid=29172827327&p=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe>
 
 
-### 下载
-[![ Taptap 版本(123pan)](https://img.shields.io/badge/TapTap_(123云盘)-下载-brightgreen.svg?logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjgiIGhlaWdodD0iMTI4IiB2aWV3Qm94PSIwIDAgMjQgMjQiPjxwYXRoIGZpbGw9IiNmZmZmZmYiIGQ9Ik01IDIwaDE0di0ySDVtMTQtOWgtNFYzSDl2Nkg1bDcgN3oiLz48L3N2Zz4=)](https://www.123684.com/s/OS4KVv-hH98v "通过123云盘下载TapTap版本，可能需要付费")
+### [下载](https://stevezmt.top/Phigros-history/?vercode=124)
+<!-- [![ Taptap 版本(123pan)](https://img.shields.io/badge/TapTap_(123云盘)-下载-brightgreen.svg?logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjgiIGhlaWdodD0iMTI4IiB2aWV3Qm94PSIwIDAgMjQgMjQiPjxwYXRoIGZpbGw9IiNmZmZmZmYiIGQ9Ik01IDIwaDE0di0ySDVtMTQtOWgtNFYzSDl2Nkg1bDcgN3oiLz48L3N2Zz4=)](https://www.123684.com/s/OS4KVv-hH98v "通过123云盘下载TapTap版本，可能需要付费")
 [![ Taptap 版本(中国移动云盘)](https://img.shields.io/badge/TapTap_(彩云网盘)-下载-green.svg?logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjgiIGhlaWdodD0iMTI4IiB2aWV3Qm94PSIwIDAgMjQgMjQiPjxwYXRoIGZpbGw9IiNmZmZmZmYiIGQ9Ik01IDIwaDE0di0ySDVtMTQtOWgtNFYzSDl2Nkg1bDcgN3oiLz48L3N2Zz4=)](https://caiyun.139.com/m/i?2jexCagSU4bd0 "通过中国移动云盘下载TapTap版本，需要登录和客户端，对中国移动用户免流量")
-[![ TapTap 版本(huang1111)](https://img.shields.io/badge/TapTap_(huang1111)-备选下载-lightblue.svg?logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjgiIGhlaWdodD0iMTI4IiB2aWV3Qm94PSIwIDAgMjQgMjQiPjxwYXRoIGZpbGw9IiNmZmZmZmYiIGQ9Ik01IDIwaDE0di0ySDVtMTQtOWgtNFYzSDl2Nkg1bDcgN3oiLz48L3N2Zz4=)](https://pan.huang1111.cn/s/k2ooQcB)
+[![ TapTap 版本(huang1111)](https://img.shields.io/badge/TapTap_(huang1111)-备选下载-lightblue.svg?logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjgiIGhlaWdodD0iMTI4IiB2aWV3Qm94PSIwIDAgMjQgMjQiPjxwYXRoIGZpbGw9IiNmZmZmZmYiIGQ9Ik01IDIwaDE0di0ySDVtMTQtOWgtNFYzSDl2Nkg1bDcgN3oiLz48L3N2Zz4=)](https://pan.huang1111.cn/s/k2ooQcB) -->
 
 ---------
 

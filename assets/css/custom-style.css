@@ -16,6 +16,15 @@
     margin: 0;
     padding: 0;
     user-select: none;
+    --webkit-user-select: none;
+}
+
+/* Reset & Base */
+* { 
+    box-sizing: border-box; 
+    margin: 0; 
+    padding: 0; 
+    -webkit-tap-highlight-color: transparent;
 }
 
 body {
@@ -116,9 +125,9 @@ a {
 .top-bar {
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    height: 80px;
-    padding: 0 40px;
+    align-items: flex-end;
+    height: 70px;
+    padding: 0 40px 15px 40px;
     position: relative;
 }
 
@@ -127,6 +136,7 @@ a {
     flex: 0 1 300px; /* Start smaller */
     max-width: 400px;
     margin: 0 20px;
+    height: 44px;
     transform: skewX(var(--skew-angle));
     background: var(--card-bg);
     border-bottom: 2px solid transparent;
@@ -144,7 +154,8 @@ a {
 .search-box {
     display: flex;
     align-items: center;
-    padding: 8px 15px;
+    padding: 0 15px;
+    height: 100%;
     transform: skewX(15deg);
 }
 
@@ -216,7 +227,10 @@ a {
 .top-right {
     transform: skewX(var(--skew-angle));
     background: var(--card-bg);
-    padding: 10px 30px;
+    padding: 0 30px;
+    height: 44px;
+    display: flex;
+    align-items: center;
     border-right: 4px solid var(--accent-color);
 }
 
@@ -391,6 +405,7 @@ a {
 
 .about-container h2 {
     font-size: 2.5rem;
+    margin-top: 1rem;
     margin-bottom: 20px;
     border-bottom: 2px solid var(--secondary-color);
     display: inline-block;
@@ -577,10 +592,19 @@ a {
     margin-bottom: 30px;
 }
 
+.source-note {
+    font-size: 0.85rem;
+    color: #888;
+    margin-top: -10px;
+    margin-bottom: 15px;
+    /* font-style: italic; */
+}
+
 .download-group h4 {
     color: #aaa;
     margin-bottom: 15px;
     font-size: 1.1rem;
+    line-height: 1.2;
     border-bottom: 1px solid rgba(255,255,255,0.1);
     padding-bottom: 5px;
     display: inline-block;
@@ -606,6 +630,7 @@ a {
     padding: 15px 20px;
     font-family: var(--font-main);
     font-weight: bold;
+    line-height: 1.2;
     cursor: pointer;
     transform: skewX(var(--skew-angle));
     transition: all 0.2s;
@@ -615,6 +640,12 @@ a {
     display: flex;
     align-items: center;
     gap: 10px;
+}
+
+.phigros-btn.btn-help {
+    /* border: 1px solid #ffcc00; */
+    border-left: 3px solid #ffcc00;
+    color: #ffcc00;
 }
 
 .phigros-btn span {
@@ -674,8 +705,20 @@ a {
 /* Responsive / Mobile */
 @media (max-width: 768px) {
     .top-bar {
-        padding: 0 15px;
+        padding: 0 15px 10px 15px;
         gap: 10px;
+    }
+
+    .notification-container {
+        right: 10px;
+        left: 10px;
+        top: 80px;
+    }
+
+    .notification {
+        min-width: 0;
+        max-width: none;
+        width: auto;
     }
 
     .user-info {
@@ -794,7 +837,7 @@ a {
     }
 }
 .bottom-bar {
-    height: 80px;
+    height: 50px;
     display: flex;
     justify-content: space-between;
     align-items: center;

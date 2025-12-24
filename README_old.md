@@ -48,12 +48,12 @@ Phigros iOS 版本：[**前往此处**](https://github.com/YimingOvO/Phigros-His
 特别感谢[**Huy Hoang Cao @WiBuMan**](https://www.facebook.com/huyhoangcao39393939/)
 提供的数百个来自TapTap的安装包，没有他的帮助，该项目不可能发展地如此庞大。
 
-我们同步并跟进了数十个版本记录，但是仍有少数版本散佚。虽然找回它们较为困难，但我们会尽力尝试。
+我们同步并跟进了数百个版本记录，但是仍有少数版本散佚。虽然找回它们较为困难，但我们会尽力尝试。
 <br>由于该项目为我个人纯手工维护，消耗了我个人大量的时间和精力。如果您想要支持此项目，请考虑[🎉通过爱发电捐赠🎉](https://afdian.com/a/stevezmtstudios)或[**在bilibili关注我们**](https://space.bilibili.com/474130186)
 
-如果[此页面](./ver_data/VersionList_3.x)上的内容并不是现有的最新版本，请通过点击上面的检查更新按钮与我联系🥳感谢！
 
-出于版权问题，未来共存版`clone`可能不会再更新。此处将仅提供官方（来自Play Store或TapTap）的发行包。
+
+出于版权考虑，未来共存版`clone`可能不会再更新。此处将仅提供官方（来自Play Store或TapTap）的发行包。
 
 如果您想帮助此项目，或者您已有新版云盘版本，请将分享链接传送到issue分区，非常感谢您的帮助！
 
@@ -85,4 +85,4 @@ Phigros iOS 版本：[**前往此处**](https://github.com/YimingOvO/Phigros-His
 ---
 
 > 相关资料和可发行文件版权归属于&copy;南京鸽游网络有限公司。[公司主页](https://pigeon-games.com/?utm_source=Phigros-history&utm_medium=OfficialWebsite&utm_campaign=Android) [隐私政策](https://pigeon-games.com/news/2)
-<!--彩蛋:  `Y11eXktbRWheXw==` -->
+

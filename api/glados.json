@@ -4,11 +4,7 @@
     "announce":[
         {
             "type": "info",
-            "message": "欢迎访问 Phigros History！查看历史版本及其更新内容。"
-        },
-        {
-            "type": "warning",
-            "message": "站点正在维护，部分版本安装包暂时不可达。"
+            "message": "欢迎访问 Phigros History！上次更新于2025年12月24日。"
         }
     ]
 }

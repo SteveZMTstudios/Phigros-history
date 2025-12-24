@@ -37,6 +37,17 @@ document.addEventListener('DOMContentLoaded', () => {
     // Initial fetch for announcements
     fetchAnnouncements();
 
+    // Check for URL params and potentially skip start screen
+    const urlParams = new URLSearchParams(window.location.search);
+    const targetVer = urlParams.get('ver');
+    const targetVerCode = urlParams.get('vercode');
+
+    if (targetVer || targetVerCode) {
+        startScreen.classList.remove('active');
+        mainScreen.classList.add('active');
+        loadMajorVersions(targetVer, targetVerCode);
+    }
+
     // Panel elements
     const contentContainer = document.querySelector('.content-container');
     const detailPanel = document.getElementById('version-detail-panel');
@@ -55,6 +66,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // Start Screen Interaction
     startScreen.addEventListener('click', () => {
+        if (!startScreen.classList.contains('active')) return;
         playTapSound();
         startScreen.classList.remove('active');
         mainScreen.classList.add('active');
@@ -128,22 +140,48 @@ document.addEventListener('DOMContentLoaded', () => {
         closePanel();
         currentVersionDisplay.textContent = '关于项目';
         
+        // Scroll to top
+        if (versionList.parentElement) {
+            versionList.parentElement.scrollTop = 0;
+        }
+        
         versionList.innerHTML = `
             <div class="about-container">
+                <h2>关于 Phigros</h2>
+                <div class="about-text">
+                    <p><blockquote site="https://www.taptap.cn/app/165287">
+                    《Phigros》是由 Pigeon Games（鸽游）开发的节奏类游戏。Pigeon Games 是由初创通过 bilibili 视频网站发起的、由众多节奏类游戏爱好者组成的完全用爱发电的项目组。我们希望 Phigros 新颖的游戏模式和精心制作的插画与关卡可以让你感受到节奏类游戏的魅力。
+                    </blockquote></p>
+                    <p> —— 来自 <a href="https://www.taptap.cn/app/165287" target="_blank">TapTap 上的官方介绍</a></p>
+                    <div style="margin-top: 1em; display: flex; flex-wrap: wrap; gap: 10px;">
+                        <a href="https://www.taptap.cn/app/165287" target="_blank" class="phigros-btn">
+                        <span class="material-icons">store</span>
+                        <span>访问 TapTap 商店页面</span>
+                        </a>
+                        <a href="https://play.google.com/store/apps/details?id=net.pigeongames.phigros" target="_blank" class="phigros-btn" title="您所在的地区可能无法打开此链接。">
+                        <span class="material-icons">shop</span>
+                        <span>访问 Google Play 页面</span>
+                        </a><a href="https://apps.apple.com/cn/app/phigros/id1454809109" target="_blank" class="phigros-btn">
+                        <span class="material-icons">apple</span>
+                        <span>访问 App Store 页面</span>
+                        </a>
+                        </div>
+                </div>
                 <h2>关于 Phigros History</h2>
                 <div class="about-text">
-                    <p>《Phigros》是由 Pigeon Games（鸽游）开发的节奏类游戏。Pigeon Games 是由初创通过 bilibili 视频网站发起的、由众多节奏类游戏爱好者组成的完全用爱发电的项目组。我们希望 Phigros 新颖的游戏模式和精心制作的插画与关卡可以让你感受到节奏类游戏的魅力。</p>
+                    <p>Phigros History 是一个非官方的、由爱好者维护的项目，收集和整理 Phigros 的历史版本及其更新日志。</p>
                     <p>本项目致力于收集并整理 Phigros 的历史版本及更新日志，方便玩家回顾与下载。</p>
                     <p>特别感谢 <a href="https://www.facebook.com/huyhoangcao39393939/" target="_blank">Cao Huy Hoang</a> 提供的部分历史版本数据，没有他的帮助，该项目不可能发展得如此庞大。</p>
                     <p>此项目和 Pigeon Games（鸽游）、Apple Inc等公司及其关联方无任何关系，所有内容均来自公开渠道，仅供学习和研究使用。如有侵权，请联系我们删除相关内容。</p>
                 </div>
+
                 <h2>支持我们</h2>
                 <div class="about-text">
-                    <p>这是一个完全由爱好者维护的非营利项目。由于所有的上游存储开始收取更加高昂的费用，项目存储的费用和花销超出了我们所能承受的范围。如果您想支持我们继续提供免费的服务，请考虑捐赠。感谢您的支持！</p>
-                    <a href="doc/why-donate" target="_blank" class="phigros-btn">
+                    <p>这是一个完全由爱好者维护的非营利项目。我们希望得到您的认可。如果您想支持我们继续提供免费的服务，请考虑捐赠。感谢您的支持！</p>
+                    <p><a href="doc/why-donate" target="_blank" class="phigros-btn">
                         <span class="material-icons">favorite</span>
                         <span>支持我们</span>
-                    </a>
+                    </a></p>
                 </div>
                 <h2>关于此页面</h2>
                 <div class="about-text">
@@ -151,14 +189,18 @@ document.addEventListener('DOMContentLoaded', () => {
                     <p>您也可以访问我们的<a href="https://stevezmt.top/Phigros-history/README_old" target="_blank">旧版网页</a>，不过它将在未来被弃用。</p>
                     <p>如果您发现任何问题或有改进建议，请随时通过 GitHub 提交 issue 或 pull request。</p>
 
-                    <a href="https://github.com/stevezmtstudios/Phigros-history" target="_blank" class="phigros-btn">
+                    <p><a href="https://github.com/stevezmtstudios/Phigros-history" target="_blank" class="phigros-btn">
                         <span class="material-icons">code</span>
                         <span>访问 GitHub 仓库</span>
-                    </a>
-                    <a href="https://github.com/stevezmtstudios/Phigros-history/issues" target="_blank" class="phigros-btn">
+                    </a></p>
+                    <p><a href="https://github.com/stevezmtstudios/Phigros-history/issues" target="_blank" class="phigros-btn btn-help">
                         <span class="material-icons">bug_report</span>
                         <span>报告问题</span>
-                    </a>
+                    </a></p>
+                </div>
+                <div class='about-text'>
+                <p>相关资料和可发行文件版权归属于 <a href="https://pigeongames.net/" target="_blank">&copy; 南京鸽游网络有限公司</a></p>
+                <p>页面由 <a href="https://stevezmt.top/" target="_blank">SteveZMT</a> 用❤️制作。</p>
                 </div>
                 <a href="https://beian.miit.gov.cn/" target="_blank" style="display: inline-block; color: #ccc; margin-top: 1em;">浙ICP备2025213066号-1</a>
             </div>
@@ -174,7 +216,7 @@ document.addEventListener('DOMContentLoaded', () => {
         document.querySelectorAll('.version-card').forEach(c => c.classList.remove('active'));
     }
 
-    async function loadMajorVersions() {
+    async function loadMajorVersions(targetVer, targetVerCode) {
         try {
             const response = await fetch('api/v1/versions/index.json?t=' + Date.now());
             if (!response.ok) throw new Error('无法加载版本索引');
@@ -182,7 +224,36 @@ document.addEventListener('DOMContentLoaded', () => {
             const data = await response.json();
             renderMajorVersions(data.versions);
             
-            if (data.versions.length > 0) {
+            if (targetVer || targetVerCode) {
+                let found = false;
+                // Search all major versions
+                for (const v of data.versions) {
+                    let jsonPath = v.url;
+                    if (jsonPath.startsWith('/')) jsonPath = jsonPath.substring(1);
+                    const res = await fetch(jsonPath + (jsonPath.includes('?') ? '&' : '?') + 't=' + Date.now());
+                    if (!res.ok) continue;
+                    const majorData = await res.json();
+                    const match = majorData.details.find(d => {
+                        if (targetVerCode) return d.versionCode.toString() === targetVerCode;
+                        if (targetVer) {
+                            const v1 = d.versionName.toLowerCase().replace(/^v/, '');
+                            const v2 = targetVer.toLowerCase().replace(/^v/, '');
+                            return v1 === v2;
+                        }
+                        return false;
+                    });
+
+                    if (match) {
+                        await selectMajorVersion(v, match);
+                        found = true;
+                        break;
+                    }
+                }
+                if (!found && data.versions.length > 0) {
+                    const latest = data.versions[data.versions.length - 1];
+                    selectMajorVersion(latest);
+                }
+            } else if (data.versions.length > 0) {
                 const latest = data.versions[data.versions.length - 1];
                 selectMajorVersion(latest);
             }
@@ -212,9 +283,14 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     }
 
-    async function selectMajorVersion(versionObj) {
+    async function selectMajorVersion(versionObj, autoSelectVersion = null) {
         closePanel(); // Close panel when switching major versions
         
+        // Scroll to top
+        if (versionList.parentElement) {
+            versionList.parentElement.scrollTop = 0;
+        }
+
         // Clear search when switching major versions
         if (searchInput) searchInput.value = '';
 
@@ -259,6 +335,21 @@ document.addEventListener('DOMContentLoaded', () => {
             });
 
             renderVersionList(currentDetails);
+
+            if (autoSelectVersion) {
+                showVersionDetails(autoSelectVersion);
+                // Highlight the card and scroll to it
+                setTimeout(() => {
+                    const cards = document.querySelectorAll('.version-card');
+                    for (const card of cards) {
+                        if (card.querySelector('.version-number').textContent.includes(autoSelectVersion.versionName)) {
+                            card.classList.add('active');
+                            card.scrollIntoView({ behavior: 'smooth', block: 'center' });
+                            break;
+                        }
+                    }
+                }, 100);
+            }
         } catch (error) {
             console.error(error);
             versionList.innerHTML = `
@@ -355,7 +446,7 @@ document.addEventListener('DOMContentLoaded', () => {
         // April Fools Warning
         let aprilFoolsHtml = '';
         if (ver.tag && ver.tag.includes('april-fools')) {
-            aprilFoolsHtml = '<div class="april-fools-warning"><i class="material-icons">new_releases</i>此版本为特别的愚人节版本，包含仅在4月1日有效的内容！</div>';
+            aprilFoolsHtml = '<div class="april-fools-warning"><i class="material-icons">new_releases</i>此版本为<a href="doc/special">特别的</a>愚人节版本！</div>';
         }
 
         // Full Changelog
@@ -378,7 +469,18 @@ document.addEventListener('DOMContentLoaded', () => {
                 "lanzou": "蓝奏云",
                 "onedrive": "OneDrive",
                 "google": "Google Drive",
+                "repacked": "共存版",
                 "mega": "MEGA"
+            };
+
+            const sourceMap = {
+                "taptap": "TapTap",
+                "playstore": "Play 商店"
+            };
+
+            const sourceNoteMap = {
+                "taptap": "在 TapTap 中国区发布的版本",
+                "playstore": "面向全球发布的版本"
             };
 
             // Iterate over sources (e.g., taptap, googleplay)
@@ -387,9 +489,15 @@ document.addEventListener('DOMContentLoaded', () => {
                 groupDiv.className = 'download-group';
                 
                 const sourceTitle = document.createElement('h4');
-                // Capitalize first letter
-                sourceTitle.textContent = source.charAt(0).toUpperCase() + source.slice(1);
+                sourceTitle.textContent = sourceMap[source] || (source.charAt(0).toUpperCase() + source.slice(1));
                 groupDiv.appendChild(sourceTitle);
+
+                if (sourceNoteMap[source]) {
+                    const note = document.createElement('div');
+                    note.className = 'source-note';
+                    note.textContent = sourceNoteMap[source];
+                    groupDiv.appendChild(note);
+                }
 
                 const gridDiv = document.createElement('div');
                 gridDiv.className = 'download-grid';
@@ -430,6 +538,29 @@ document.addEventListener('DOMContentLoaded', () => {
                     downloadGrid.appendChild(groupDiv);
                 }
             }
+
+            // Add Help Section
+            const helpGroup = document.createElement('div');
+            helpGroup.className = 'download-group';
+            helpGroup.innerHTML = `
+                <h4>安装说明</h4>
+                <div class="source-note">如果您不确定如何安装它们</div>
+                <div class="download-grid">
+                    <a href="doc/install-apk-obb" target="_blank" class="phigros-btn">
+                        <span class="material-icons">help</span>
+                        <span>安装奇怪的 APK</span>
+                    </a>
+                    <a href="doc/unzip-parsed-file" target="_blank" class="phigros-btn">
+                        <span class="material-icons">unarchive</span>
+                        <span>处理分卷压缩包</span>
+                    </a>
+                    <a href="https://github.com/stevezmtstudios/Phigros-history/issues/new/choose" target="_blank" class="phigros-btn btn-help">
+                        <span class="material-icons">contact_support</span>
+                        <span>需要帮助？</span>
+                    </a>
+                </div>
+            `;
+            downloadGrid.appendChild(helpGroup);
         } else {
             downloadMessage.innerHTML = `
                 <div class="april-fools-warning" style="text-align: center; padding: 20px; border-style: solid;">
