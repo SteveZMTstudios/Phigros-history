@@ -16,12 +16,14 @@ document.addEventListener('DOMContentLoaded', () => {
         console.log('[Translate] Initializing v3...');
         translate.service.use('client.edge');
         translate.language.setLocal('chinese_simplified'); 
+        translate.setAutoDiscriminateLocalLanguage(); // 自动识别用户本地语言并切换
         
-        // 修复：使用 getLanguage() 获取字符串，因为 currentLanguage 在某些版本是函数
+        // 修复：使用官方推荐的 translate.language.getCurrent() 获取当前语言
         const getCurrentLang = () => {
-            if (typeof translate.getLanguage === 'function') return translate.getLanguage();
-            if (typeof translate.currentLanguage === 'function') return translate.currentLanguage();
-            return translate.currentLanguage || 'unknown';
+            if (translate.language && typeof translate.language.getCurrent === 'function') {
+                return translate.language.getCurrent();
+            }
+            return 'chinese_simplified';
         };
 
         console.log('[Translate] Current Language:', getCurrentLang());
@@ -183,7 +185,11 @@ document.addEventListener('DOMContentLoaded', () => {
     if (targetVer || targetVerCode) {
         startScreen.classList.remove('active');
         mainScreen.classList.add('active');
-        loadMajorVersions(targetVer, targetVerCode);
+        loadMajorVersions(targetVer, targetVerCode).then(() => {
+            // Clean URL parameters after loading
+            const newUrl = window.location.pathname;
+            window.history.replaceState({}, document.title, newUrl);
+        });
     }
 
     // Panel elements
@@ -269,7 +275,7 @@ document.addEventListener('DOMContentLoaded', () => {
             playTapSound();
             startScreen.classList.remove('active');
             mainScreen.classList.add('active');
-            loadMajorVersions().then(() => {
+            loadMajorVersions(null, null, true).then(() => {
                 showLanguageSelector();
             });
         });
@@ -380,41 +386,47 @@ document.addEventListener('DOMContentLoaded', () => {
         }
 
         const languages = [
-            { code: 'chinese_simplified', name: '简体中文', country: 'cn' },
-            { code: 'chinese_traditional', name: '繁體中文', country: 'hk' },
-            { code: 'english', name: 'English', country: 'us' },
-            { code: 'japanese', name: '日本語', country: 'jp' },
-            { code: 'korean', name: '한국어', country: 'kr' },
-            { code: 'russian', name: 'Русский', country: 'ru' },
-            { code: 'french', name: 'Français', country: 'fr' },
-            { code: 'deutsch', name: 'Deutsch', country: 'de' },
-            { code: 'spanish', name: 'Español', country: 'es' },
-            { code: 'portuguese', name: 'Português', country: 'br' },
-            { code: 'italian', name: 'Italiano', country: 'it' },
-            { code: 'vietnamese', name: 'Tiếng Việt', country: 'vn' },
-            { code: 'thai', name: 'ไทย', country: 'th' },
-            { code: 'indonesian', name: 'Bahasa Indonesia', country: 'id' },
-            { code: 'arabic', name: 'العربية', country: 'sa' },
-            { code: 'hindi', name: 'हिन्दी', country: 'in' },
-            { code: 'bengali', name: 'বাংলা', country: 'bd' },
-            { code: 'turkish', name: 'Türkçe', country: 'tr' },
-            { code: 'polish', name: 'Polski', country: 'pl' },
-            { code: 'ukrainian', name: 'Українська', country: 'ua' },
-            { code: 'dutch', name: 'Nederlands', country: 'nl' },
-            { code: 'malay', name: 'Bahasa Melayu', country: 'my' },
-            { code: 'filipino', name: 'Pilipino', country: 'ph' }
+            { code: 'chinese_simplified', name: '简体中文' },
+            { code: 'chinese_traditional', name: '繁體中文' },
+            { code: 'english', name: 'English' },
+            { code: 'japanese', name: '日本語' },
+            { code: 'korean', name: '한국어' },
+            { code: 'russian', name: 'Русский' },
+            { code: 'french', name: 'Français' },
+            { code: 'deutsch', name: 'Deutsch' },
+            { code: 'spanish', name: 'Español' },
+            { code: 'portuguese', name: 'Português' },
+            { code: 'italian', name: 'Italiano' },
+            { code: 'vietnamese', name: 'Tiếng Việt' },
+            { code: 'thai', name: 'ไทย' },
+            { code: 'indonesian', name: 'Bahasa Indonesia' },
+            { code: 'arabic', name: 'العربية' },
+            { code: 'hindi', name: 'हिन्दी' },
+            { code: 'bengali', name: 'বাংলা' },
+            { code: 'turkish', name: 'Türkçe' },
+            { code: 'polish', name: 'Polski' },
+            { code: 'ukrainian', name: 'Українська' },
+            { code: 'dutch', name: 'Nederlands' },
+            { code: 'malay', name: 'Bahasa Melayu' },
+            { code: 'filipino', name: 'Pilipino' }
         ];
+
+        const currentLang = (typeof translate !== 'undefined' && translate.language) ? 
+            translate.language.getCurrent() : 'chinese_simplified';
 
         versionList.innerHTML = `
             <div class="language-container">
                 <h2>选择语言<span class="ignore"> / Select Language</span></h2>
                 <div class="language-grid">
-                    ${languages.map(lang => `
-                        <button class="phigros-btn lang-select-btn ignore" data-code="${lang.code}">
-                            <img src="https://flagcdn.com/w40/${lang.country}.png" class="lang-flag" alt="">
-                            <span>${lang.name}</span>
-                        </button>
-                    `).join('')}
+                    ${languages.map(lang => {
+                        const isActive = lang.code === currentLang;
+                        return `
+                            <button class="phigros-btn lang-select-btn ignore ${isActive ? 'active' : ''}" data-code="${lang.code}">
+                                <span class="material-icons lang-icon">${isActive ? 'check_circle' : 'language'}</span>
+                                <span>${lang.name}</span>
+                            </button>
+                        `;
+                    }).join('')}
                 </div>
             </div>
         `;
@@ -423,7 +435,10 @@ document.addEventListener('DOMContentLoaded', () => {
             btn.addEventListener('click', () => {
                 const code = btn.getAttribute('data-code');
                 if (typeof translate !== 'undefined') {
+                    
                     translate.changeLanguage(code);
+                    // 立即刷新界面以显示选中状态
+                    showLanguageSelector();
                 }
             });
         });
@@ -439,7 +454,7 @@ document.addEventListener('DOMContentLoaded', () => {
         document.querySelectorAll('.version-card').forEach(c => c.classList.remove('active'));
     }
 
-    async function loadMajorVersions(targetVer, targetVerCode) {
+    async function loadMajorVersions(targetVer, targetVerCode, skipDefaultSelection = false) {
         try {
             const response = await fetch('api/v1/versions/index.json?t=' + Date.now());
             if (!response.ok) throw new Error('无法加载版本索引');
@@ -472,11 +487,11 @@ document.addEventListener('DOMContentLoaded', () => {
                         break;
                     }
                 }
-                if (!found && data.versions.length > 0) {
+                if (!found && data.versions.length > 0 && !skipDefaultSelection) {
                     const latest = data.versions[data.versions.length - 1];
                     selectMajorVersion(latest);
                 }
-            } else if (data.versions.length > 0) {
+            } else if (data.versions.length > 0 && !skipDefaultSelection) {
                 const latest = data.versions[data.versions.length - 1];
                 selectMajorVersion(latest);
             }
@@ -528,6 +543,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 <div class="loading-text">加载中...</div>
             </div>
         `;
+        if (typeof translate !== 'undefined') translate.execute();
 
         try {
             // Use the URL directly from the version object as requested
@@ -834,6 +850,7 @@ document.addEventListener('DOMContentLoaded', () => {
         `;
         
         notificationContainer.appendChild(notification);
+        if (typeof translate !== 'undefined') translate.execute();
 
         // Auto remove after 5 seconds
         setTimeout(() => {
@@ -858,6 +875,7 @@ document.addEventListener('DOMContentLoaded', () => {
         }
 
         announcementModal.classList.add('active');
+        if (typeof translate !== 'undefined') translate.execute();
     }
 
     if (closeAnnouncementBtn) {

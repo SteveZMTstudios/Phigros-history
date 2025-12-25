@@ -835,6 +835,35 @@ a {
         font-size: 2rem;
         cursor: pointer;
     }
+
+    .bottom-bar {
+        padding: 0 2px !important;
+        gap: 2px;
+    }
+
+    .current-path {
+        font-size: 0.7rem;
+        letter-spacing: 0;
+        flex: 1;
+        margin: 0;
+        min-width: 0;
+        white-space: nowrap;
+        overflow: visible;
+    }
+
+    .nav-btn {
+        width: 40px;
+        flex-shrink: 0;
+    }
+
+    .bottom-right-btns {
+        gap: 2px;
+        flex-shrink: 0;
+    }
+
+    .nav-btn {
+        width: 45px;
+    }
 }
 .bottom-bar {
     height: 50px;
@@ -842,11 +871,12 @@ a {
     justify-content: space-between;
     align-items: center;
     padding: 0 40px;
+    margin-bottom: -19px;
 }
 
 .bottom-right-btns {
     display: flex;
-    gap: 10px;
+    gap: 3px;
 }
 
 .nav-btn {
@@ -1140,6 +1170,20 @@ a {
     animation: saturnStep2 5.5s forwards;
 }
 
+.saturn-os:hover .saturn-text-1 {
+    animation: none;
+    opacity: 1;
+    visibility: visible;
+    transition: opacity 0.3s ease;
+}
+
+.saturn-os:hover .saturn-text-2 {
+    animation: none;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s ease;
+}
+
 .saturn-os span {
     background: #999;
     padding: 1px 6px;
@@ -1201,15 +1245,26 @@ a {
     justify-content: flex-start;
     padding: 10px 15px;
     text-align: left;
+    position: relative;
+    transition: all 0.3s ease;
 }
 
-.lang-flag {
-    width: 24px;
-    height: auto;
-    border-radius: 2px;
+.lang-icon {
+    font-size: 20px;
     flex-shrink: 0;
-    box-shadow: 0 0 2px rgba(0,0,0,0.2);
-    transform: skewX(15deg); /* 抵消按钮的倾斜，让国旗看起来是正的 */
+    color: #aaa;
+}
+
+.lang-select-btn.active {
+    border-left: 4px solid #00ff88 !important; /* 绿色斜边 */
+    background: rgb(0, 77, 41);
+}
+.lang-select-btn:hover {
+    background: #00ff88;
+
+
+.lang-select-btn.active .lang-icon {
+    color: #00ff88;
 }
 
 [dir="rtl"] .lang-select-btn {
@@ -1217,8 +1272,9 @@ a {
     flex-direction: row-reverse;
 }
 
-[dir="rtl"] .lang-flag {
-    transform: skewX(-15deg);
+[dir="rtl"] .lang-select-btn.active {
+    border-left: none !important;
+    border-right: 4px solid #00ff88 !important;
 }
 
 /* RTL Support */
