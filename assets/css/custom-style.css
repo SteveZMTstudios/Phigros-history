@@ -1,12 +1,12 @@
 :root {
     --primary-color: #ffffff;
-    --secondary-color: #00e5ff; /* Cyan-ish */
+    --secondary-color: #0daeff; /* Cyan-ish */
     --bg-color: #000000;
     --bg-overlay: rgba(0, 0, 0, 0.7);
     --card-bg: rgba(255, 255, 255, 0.1);
     --card-hover: rgba(255, 255, 255, 0.2);
     --text-color: #ffffff;
-    --accent-color: #ff0055; /* Red-ish for accents */
+    --accent-color: #fffd25; /* Red-ish for accents */
     --skew-angle: -15deg;
     --font-main: 'Exo 2', sans-serif;
 }
@@ -176,13 +176,13 @@ a {
 }
 
 .search-box input::placeholder {
-    color: rgba(255, 255, 255, 0.3);
+    /* color: rgba(255, 255, 255, 0.3); */
     transition: opacity 0.3s ease;
 }
 
-.search-box input:focus::placeholder {
-    opacity: 0.1;
-}
+/* .search-box input:focus::placeholder {
+    /* opacity: 0.1; 
+} */
 
 /* User Info - Parallelogram style */
 .user-info {
@@ -313,10 +313,10 @@ a {
     display: none; 
 }
 
-/* When panel is open, shrink list on desktop */
+/* When panel is open, shrink list on desktop
 .content-container.panel-open .version-list-container {
-    /* Removed shrinking logic as requested */
-}
+    /* Removed shrinking 
+} */
 
 .version-card {
     background: var(--card-bg);
@@ -619,7 +619,7 @@ a {
 .download-message {
     margin-top: 20px;
     color: #ff5555;
-    font-style: italic;
+    /* font-style: italic; */
 }
 
 /* Phigros Style Buttons */
@@ -646,6 +646,14 @@ a {
     /* border: 1px solid #ffcc00; */
     border-left: 3px solid #ffcc00;
     color: #ffcc00;
+    background-color: rgba(255, 204, 0, 0.1);
+}
+.phigros-btn.btn-help:hover {
+    /* background: #ffcc00; */
+    background: #ffcc00 !important;
+    color: black;
+    border-left-color: #ffcc00;
+    box-shadow: 0 0 20px rgba(255, 204, 0, 0.4);
 }
 
 .phigros-btn span {
@@ -653,17 +661,30 @@ a {
     transform: skewX(15deg); /* Unskew text */
 }
 
-.phigros-btn .material-icons {
+.phigros-btn .material-icons,
+.phigros-btn .icon-wrapper {
     transform: skewX(15deg);
     font-size: 1.2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.phigros-btn .icon {
+    width: 1.2rem;
+    height: 1.2rem;
+    fill: currentColor;
 }
 
 .phigros-btn:hover {
-    background: #00ff88; /* Green highlight */
+    /* background: #00ff88; /* Green highlight */
+    background: #fff;
     color: black;
     transform: skewX(var(--skew-angle)) translateX(5px);
-    box-shadow: 0 0 15px rgba(0, 255, 136, 0.4);
-    border-left-color: #00ff88;
+    /* box-shadow: 0 0 15px rgba(0, 255, 136, 0.4); */
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.4);
+    /* border-left-color: #00ff88;*/
+    border-left-color: #fff;
 }
 
 /* rewrite normal btns to use phigros style
@@ -896,6 +917,18 @@ a {
 .nav-btn:hover {
     background: var(--secondary-color);
     color: black;
+}
+
+#back-btn {
+    border-left: 4px solid var(--accent-color);
+}
+
+#back-btn:hover {
+    background: var(--accent-color) !important;
+}
+
+#info-btn {
+    border-right: 4px solid var(--secondary-color);
 }
 
 .nav-btn.loading span {
@@ -1148,7 +1181,7 @@ a {
 .saturn-os {
     color: #999;
     font-size: 0.8rem;
-    margin-top: 4px;
+    margin-top: 0px;
     position: relative;
     height: 1.2rem;
     display: flex;
@@ -1191,6 +1224,7 @@ a {
     color: #000;
     font-weight: bold;
     font-size: 0.7rem;
+    letter-spacing: 0px;
 }
 
 @keyframes saturnStep1 {
@@ -1252,19 +1286,20 @@ a {
 .lang-icon {
     font-size: 20px;
     flex-shrink: 0;
-    color: #aaa;
+    /* color: #aaa; */
 }
 
 .lang-select-btn.active {
     border-left: 4px solid #00ff88 !important; /* 绿色斜边 */
-    background: rgb(0, 77, 41);
+    background: rgba(0, 77, 41, 0.4);
 }
-.lang-select-btn:hover {
-    background: #00ff88;
-
+.lang-select-btn.active:hover {
+    background: #00ff88 !important;
+    color: black;
+}
 
 .lang-select-btn.active .lang-icon {
-    color: #00ff88;
+    color: var(--accent-color)
 }
 
 [dir="rtl"] .lang-select-btn {

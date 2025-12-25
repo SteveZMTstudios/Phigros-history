@@ -331,13 +331,37 @@ document.addEventListener('DOMContentLoaded', () => {
                         <span>访问 App Store 页面</span>
                         </a>
                         </div>
+                    <div style="margin-top: 1em; display: flex; flex-wrap: wrap; gap: 10px;">
+                        <a href="https://pigeongames.net/" target="_blank" class="phigros-btn">
+                        <span class="material-icons">public</span>
+                        <span>访问 Pigeon Games 官网</span>
+                        </a>
+                        <a href="https://twitter.com/Phigros_PGS" target="_blank" class="phigros-btn">
+                        <span class="icon-wrapper">
+                        <svg t="1766646411854" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="5863" width="19" height="19"><path d="M1024 194.56a420.352 420.352 0 0 1-120.832 33.28 210.432 210.432 0 0 0 92.16-116.224 422.4 422.4 0 0 1-133.632 51.2A209.92 209.92 0 0 0 499.2 307.2a211.968 211.968 0 0 0 5.632 47.616 596.48 596.48 0 0 1-433.152-220.16 208.896 208.896 0 0 0-28.672 105.472A204.8 204.8 0 0 0 132.096 414.72C97.28 413.696 32.256 404.48 32.256 388.608v2.56a214.528 214.528 0 0 0 173.056 204.8 193.024 193.024 0 0 1-51.2 7.168 199.68 199.68 0 0 1-38.4-3.584 210.944 210.944 0 0 0 196.608 145.92A420.864 420.864 0 0 1 51.2 836.608a438.784 438.784 0 0 1-51.2-3.072 594.944 594.944 0 0 0 322.048 94.208A593.408 593.408 0 0 0 921.6 330.24v-27.136a427.008 427.008 0 0 0 102.4-108.544z m0 0" fill="currentColor" p-id="5864"></path></svg>
+                        </span>
+                        <span>访问 Phigros Twitter</span>
+                        </a>
+                        <a href="https://space.bilibili.com/414149787" target="_blank" class="phigros-btn">
+                        <span class="icon-wrapper">
+                        <svg t="1766648342791" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="11134" width="24" height="24"><path d="M777.514667 131.669333a53.333333 53.333333 0 0 1 0 75.434667L728.746667 255.829333h49.92A160 160 0 0 1 938.666667 415.872v320a160 160 0 0 1-160 160H245.333333A160 160 0 0 1 85.333333 735.872v-320a160 160 0 0 1 160-160h49.749334L246.4 207.146667a53.333333 53.333333 0 0 1 75.392-75.434667l113.152 113.152c3.370667 3.370667 6.186667 7.04 8.448 10.965333h137.088c2.261333-3.925333 5.12-7.68 8.490667-11.008l113.109333-113.152a53.333333 53.333333 0 0 1 75.434667 0z m1.152 231.253334H245.333333a53.333333 53.333333 0 0 0-53.205333 49.365333l-0.128 4.010667v320c0 28.117333 21.76 51.114667 49.365333 53.162666l3.968 0.170667h533.333334a53.333333 53.333333 0 0 0 53.205333-49.365333l0.128-3.968v-320c0-29.44-23.893333-53.333333-53.333333-53.333334z m-426.666667 106.666666c29.44 0 53.333333 23.893333 53.333333 53.333334v53.333333a53.333333 53.333333 0 1 1-106.666666 0v-53.333333c0-29.44 23.893333-53.333333 53.333333-53.333334z m320 0c29.44 0 53.333333 23.893333 53.333333 53.333334v53.333333a53.333333 53.333333 0 1 1-106.666666 0v-53.333333c0-29.44 23.893333-53.333333 53.333333-53.333334z" fill="currentColor" p-id="11135"></path></svg>
+                        </span>
+                        <span>访问 Phigros 哔哩哔哩账号</span>
+                        </a>
+                        <a href="https://pd.qq.com/s/433r43ehu" target="_blank" class="phigros-btn">
+                        <span class="icon-wrapper">
+                        <svg t="1766648433823" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="12255" width="20" height="20"><path d="M824.8 613.2c-16-51.4-34.4-94.6-62.7-165.3C766.5 262.2 689.3 112 511.5 112 331.7 112 256.2 265.2 261 447.9c-28.4 70.8-46.7 113.7-62.7 165.3-34 109.5-23 154.8-14.6 155.8 18 2.2 70.1-82.4 70.1-82.4 0 49 25.2 112.9 79.8 159-26.4 8.1-85.7 29.9-71.6 53.8 11.4 19.3 196.2 12.3 249.5 6.3 53.3 6 238.1 13 249.5-6.3 14.1-23.8-45.3-45.7-71.6-53.8 54.6-46.2 79.8-110.1 79.8-159 0 0 52.1 84.6 70.1 82.4 8.5-1.1 19.5-46.4-14.5-155.8z" fill="currentColor" p-id="12256"></path></svg>
+                        </span>
+                        <span>访问 Phigros 官方QQ频道</span>
+                        </a>
+                    </div>
                 </div>
                 <h2>关于 Phigros History</h2>
                 <div class="about-text">
                     <p>Phigros History 是一个非官方的、由爱好者维护的项目，收集和整理 Phigros 的历史版本及其更新日志。</p>
                     <p>本项目致力于收集并整理 Phigros 的历史版本及更新日志，方便玩家回顾与下载。</p>
                     <p>特别感谢 <a href="https://www.facebook.com/huyhoangcao39393939/" target="_blank">Cao Huy Hoang</a> 提供的部分历史版本数据，没有他的帮助，该项目不可能发展得如此庞大。</p>
-                    <p>此项目和 Pigeon Games（鸽游）、Apple Inc等公司及其关联方无任何关系，所有内容均来自公开渠道，仅供学习和研究使用。如有侵权，请联系我们删除相关内容。</p>
+                    <p>此项目和 Pigeon Games（鸽游）、Apple Inc等公司及其关联方无任何关系，所有内容均来自公开渠道，仅供学习和研究使用，请在24小时内删除相关内容。如有侵权，请联系我们删除相关内容。</p>
                 </div>
 
                 <h2>支持我们</h2>
@@ -351,7 +375,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 <h2>关于此页面</h2>
                 <div class="about-text">
                     <p>此页面是最近开发的实验性框架，用于浏览 Phigros 的历史版本。尚未广泛测试，可能存在一些问题。</p>
-                    <p>此页面设计元素和Phigros，Pigeon Games（鸽游）无任何关系。关于版权和商标信息，请参阅<a href="NOTICE" target="_blank">NOTICE.md</a>文件。</p>
+                    <p>此页面不是 Phigros 的发布页面，设计样式和Phigros，Pigeon Games（鸽游）无任何关系。关于版权和商标信息，请参阅<a href="NOTICE" target="_blank">NOTICE.md</a>文件。</p>
                     <p>您也可以访问我们的<a href="https://stevezmt.top/Phigros-history/README_old" target="_blank">旧版网页</a>，不过它将在未来被弃用。</p>
                     <p>如果您发现任何问题或有改进建议，请随时通过 GitHub 提交 issue 或 pull request。</p>
 
@@ -365,7 +389,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     </a></p>
                 </div>
                 <div class='about-text'>
-                <p>相关资料，Geopelia 头像（Phigros 应用程序徽标）和可发行文件版权归属于 <a href="https://pigeongames.net/" target="_blank">&copy; 南京鸽游网络有限公司</a></p>
+                <p>相关描述，Geopelia 头像（Phigros 应用程序徽标）和可执行文件版权归属于 <a href="https://pigeongames.net/" target="_blank">&copy; 南京鸽游网络有限公司</a></p>
                 <p>页面由 <a href="https://stevezmt.top/" target="_blank">SteveZMT</a> 用❤️制作。</p>
                 </div>
                 <a href="https://beian.miit.gov.cn/" target="_blank" style="display: inline-block; color: #ccc; margin-top: 1em;">浙ICP备2025213066号-1</a>
@@ -797,7 +821,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         <span>处理分卷压缩包</span>
                     </a>
                     <a href="https://github.com/stevezmtstudios/Phigros-history/issues/new/choose" target="_blank" class="phigros-btn btn-help">
-                        <span class="material-icons">contact_support</span>
+                        <span class="material-icons">feedback</span>
                         <span>需要帮助？</span>
                     </a>
                 </div>

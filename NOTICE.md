@@ -1,24 +1,4 @@
-## Important Notice
 
-This project contains two completely different types of content:
-
-### 1. Original Works (MPL 2.0 License Applicable)
-
-- The code, web interface design (excluding images), architecture design, management tools, and documentation in this repository.
-
-- This original content is licensed under the **Mozilla Public License Version 2.0**.
-
-- Please refer to the [LICENSE](./LICENSE) file for the complete license text.
-
-### 2. Collected Third-Party Resource Links (Not MPL 2.0 Applicable)
-
-- Some files in this repository (including but not limited to `/api/v1/versions/*`) contain links to **historical game version files** created and copyrighted by others or organizations.
-
-- This project is merely a collector and organizer of these links and **does not claim any rights to the linked binary files**, images, or other resources.
-
-- All rights related to these game files and resources, including copyright and trademark rights, remain with their original copyright holders.
-
-- For specific licensing requests regarding these game files, please contact their copyright holders directly.
 
 
 ## 重要提示
@@ -43,7 +23,16 @@ This project contains two completely different types of content:
 
 - 如需获得这些游戏文件的具体授权许可，请直接联系其版权所有者。
 
+### 3. 联系方式
 
+若版权所有者认为其权利因此项目受到侵犯，或有任何疑问，请优先通过以下方式与我们联系：
+
+- 电子邮件：[me@stevezmt.top](mailto:me@stevezmt.top)
+- 备用电子邮件：[stevezmt@foxmail.com](mailto:stevezmt@foxmail.com)
+- Issue 提交：[GitHub Issues](https://github.com/SteveZMT/Phigros-history/issues/new/choose)
+  
+  
+我们将保留与侵权主张相关的记录，并在14个工作日内完成下架或更正措施。
 
 ### 关系树
 ```
