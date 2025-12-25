@@ -45,3 +45,7 @@ build/
 # Environment variables
 .env
 .env.*
+
+# python virtual environment
+venv/
+__pycache__/

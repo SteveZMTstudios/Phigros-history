@@ -350,7 +350,8 @@ document.addEventListener('DOMContentLoaded', () => {
                 </div>
                 <h2>关于此页面</h2>
                 <div class="about-text">
-                    <p>此页面是最近开发的实验性浏览器，用于浏览 Phigros 的历史版本。尚未广泛测试，可能存在一些问题。</p>
+                    <p>此页面是最近开发的实验性框架，用于浏览 Phigros 的历史版本。尚未广泛测试，可能存在一些问题。</p>
+                    <p>此页面设计元素和Phigros，Pigeon Games（鸽游）无任何关系。关于版权和商标信息，请参阅<a href="NOTICE" target="_blank">NOTICE.md</a>文件。</p>
                     <p>您也可以访问我们的<a href="https://stevezmt.top/Phigros-history/README_old" target="_blank">旧版网页</a>，不过它将在未来被弃用。</p>
                     <p>如果您发现任何问题或有改进建议，请随时通过 GitHub 提交 issue 或 pull request。</p>
 
@@ -364,7 +365,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     </a></p>
                 </div>
                 <div class='about-text'>
-                <p>相关资料和可发行文件版权归属于 <a href="https://pigeongames.net/" target="_blank">&copy; 南京鸽游网络有限公司</a></p>
+                <p>相关资料，Geopelia 头像（Phigros 应用程序徽标）和可发行文件版权归属于 <a href="https://pigeongames.net/" target="_blank">&copy; 南京鸽游网络有限公司</a></p>
                 <p>页面由 <a href="https://stevezmt.top/" target="_blank">SteveZMT</a> 用❤️制作。</p>
                 </div>
                 <a href="https://beian.miit.gov.cn/" target="_blank" style="display: inline-block; color: #ccc; margin-top: 1em;">浙ICP备2025213066号-1</a>
