@@ -39,10 +39,14 @@
           <span class="site-footer-owner"><a href="{{ site.github.repository_url }}">{{ site.github.repository_name }}</a> is maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a>.</span>
         {% endif %}
         {% if site.beian %}
-        <a href="https://beian.miit.gov.cn/" target="_blank" rel="noopener noreferrer" style="color: rgba(255, 255, 255, 0.4); text-decoration: none;">
+        <span class="site-footer-credits">
+        <a href="https://beian.miit.gov.cn/" target="_blank" rel="noopener noreferrer" >
             {{ site.beian }}
           </a>
+        </span>
         {% endif %}
+        
+
       </footer>
     </main>
   </body>
