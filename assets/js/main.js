@@ -359,7 +359,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 <h2>关于 Phigros History</h2>
                 <div class="about-text">
                     <p>Phigros History 是一个非官方的、由爱好者维护的项目，收集和整理 Phigros 的历史版本及其更新日志。</p>
-                    <p>本项目致力于收集并整理 Phigros 的历史版本及更新日志，方便玩家回顾与下载。</p>
+                    <p>本项目仅为学习和研究网页设计研究和开发之用，所有数据均来自公开渠道，如有侵权请联系我们删除相关内容。</p>
                     <p>特别感谢 <a href="https://www.facebook.com/huyhoangcao39393939/" target="_blank">Cao Huy Hoang</a> 提供的部分历史版本数据，没有他的帮助，该项目不可能发展得如此庞大。</p>
                     <p>此项目和 Pigeon Games（鸽游）、Apple Inc等公司及其关联方无任何关系，所有内容均来自公开渠道，仅供学习和研究使用，请在24小时内删除相关内容。如有侵权，请联系我们删除相关内容。</p>
                 </div>
@@ -370,6 +370,10 @@ document.addEventListener('DOMContentLoaded', () => {
                     <p><a href="doc/why-donate" target="_blank" class="phigros-btn">
                         <span class="material-icons">favorite</span>
                         <span>支持我们</span>
+                    </a></p>
+                    <p><a href="CONTRIBUTE" target="_blank" class="phigros-btn">
+                        <span class="material-icons">volunteer_activism</span>
+                        <span>贡献指南</span>
                     </a></p>
                 </div>
                 <h2>关于此页面</h2>

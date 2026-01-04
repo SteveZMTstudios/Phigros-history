@@ -3,6 +3,30 @@
   "verified": true,
   "details": [
     {
+      "versionName": "v3.18.1.1",
+      "versionCode": 139,
+      "releaseDate": "2025-12-30",
+      "changelog": [
+        "修复视频播放问题",
+        "修复掉帧问题",
+        "修复重演时《DESTRUCTION 3,2,1》和《Distorted Fate》不能暂停的问题",
+        "其他错误修复与改善"
+      ],
+      "downloads": {
+        "taptap": {
+          "123": "https://www.123865.com/s/OS4KVv-MMk8v",
+          "huang1111": "https://pan.huang1111.cn/s/XqB6Gil",
+          "github": "https://github.com/SteveZMTstudios/Phigros-history/releases/tag/v3.18.1.1",
+          "caiyun": "https://yun.139.com/sharewap/#/m/i?2jexCagSU4bd0",
+          "onedrive": "https://stevezmtstudios-my.sharepoint.com/:u:/g/personal/me_stevezmt_top/IQDlcZOtQlf1S5_n_x1CZJSvAc5uD6_8zX1H6pC6OG0wkv4?e=gc9aWt"
+        },
+        "playstore": {
+          "onedrive": "https://stevezmtstudios-my.sharepoint.com/:u:/g/personal/me_stevezmt_top/IQDd1DS0VpnGQJwjKDMRtrvxAV2fasDqjJV_LZ3i4CYbV6M?e=uO9NmV"
+        }
+      },
+      "tag": []
+    },
+    {
       "versionName": "v3.18.0",
       "versionCode": 137,
       "releaseDate": "2025-11-21",

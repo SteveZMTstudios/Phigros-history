@@ -31,6 +31,9 @@ Phigros 特别版本合集：[**前往此处**](https://stevezmt.top/Phigros-his
 
 Phigros iOS 版本：[**前往此处**](https://github.com/YimingOvO/Phigros-History-iOS) (Maintained by [@YimingOvO](https://github.com/YimingOvO))<br>
 
+## 想要提交新版本或帮助我们完善版本记录？请参见[贡献指南](CO
+
+
 ### 公告
 **2025-11-11 更新**：我们即将重新设计现有的页面结构，以便更好地支持未来的版本发布和存储需求，并带来更好的访问体验。<br>
 
