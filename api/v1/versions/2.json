@@ -70,6 +70,9 @@
         "playstore": {
           "huang1111": "https://pan.huang1111.cn/s/3egm7fm",
           "onedrive": "https://stevezmtstudios-my.sharepoint.com/:u:/g/personal/hoangcaohuy2007_stevezmt_top/IQAwHdjGJdPdSZOD2iLI3urcAR45IVKOFwGKqObfNXx3YuY?e=9zNten"
+        },
+        "taptap": {
+          "onedrive": "https://stevezmtstudios-my.sharepoint.com/:f:/g/personal/me_stevezmt_top/IgBiR8pTc0wdR4deItnOfOV_Af6zQY5hSdOdxC0-03EUmxk?e=6ZaE2B"
         }
       },
       "tag": []
@@ -85,6 +88,9 @@
       "downloads": {
         "playstore": {
           "onedrive": "https://stevezmtstudios-my.sharepoint.com/:u:/g/personal/hoangcaohuy2007_stevezmt_top/IQB_SXsvEFMJR49o7HWlexNHAf-3vFbwFaSTTFTnzDUAtEU?e=crqY5M"
+        },
+        "taptap": {
+          "onedrive": "https://stevezmtstudios-my.sharepoint.com/:f:/g/personal/me_stevezmt_top/IgASJtLB_tbhRZclf2hulZYxAdHzjypPvFt5KPCjtxrhWWw?e=8WXu2e"
         }
       },
       "tag": []
@@ -92,17 +98,22 @@
     {
       "versionName": "v2.4.5",
       "versionCode": 70,
-      "releaseDate": "2022/12/21",
+      "releaseDate": "2022-12-21",
       "changelog": [
         "更新了两首新曲",
         "「Believe Light (feat. 果丸哒呦)」 by Scaler & Mestie & 果丸哒呦",
-        "「Pont des souvenirs」 by VeetaCrush vs. [itsu(feat.itsu)]"
+        "「Pont des souvenirs」 by VeetaCrush vs. [itsu(feat.itsu)]",
+        "* 感谢 <a href=\"https://github.com/stevezmtstudios/Phigros-history/issues/36\" target=\"_blank\">RainView-ovo</a>"
       ],
       "downloads": {
         "playstore": {
           "huang1111": "https://pan.huang1111.cn/s/vV1O9TE"
+        },
+        "taptap": {
+          "onedrive": "https://stevezmtstudios-my.sharepoint.com/:f:/g/personal/me_stevezmt_top/IgBSaTAGKA7USYNKjjmXDMW8AdDRbqxLR6hsoGm7jujcRqA?e=5FYb3N"
         }
-      }
+      },
+      "tag": []
     },
     {
       "versionName": "v2.4.4",
@@ -131,13 +142,18 @@
       "changelog": [
         "更新了两首新曲",
         "「Eternal Snow」 by Abyss Idols",
-        "「Rainy Season」 by Abyss Idols"
+        "「Rainy Season」 by Abyss Idols",
+        "* 感谢 <a href=\"https://github.com/stevezmtstudios/Phigros-history/issues/36\" target=\"_blank\">RainView-ovo</a>"
       ],
       "downloads": {
         "playstore": {
           "onedrive": "https://stevezmtstudios-my.sharepoint.com/:u:/g/personal/hoangcaohuy2007_stevezmt_top/IQBLP_yNnH_5QrIW-VT1fi4IAVrzKo0uzQ5Z6fN5BRIDEjA?e=h8ZL9X"
+        },
+        "taptap": {
+          "onedrive": "https://stevezmtstudios-my.sharepoint.com/:f:/g/personal/me_stevezmt_top/IgBuVUz2mBKCQbYHzKatoKHlAYZ03nneQjGiU-wf60Y97Os?e=PYJzlX"
         }
-      }
+      },
+      "tag": []
     },
     {
       "versionName": "v2.4.2",
@@ -146,21 +162,34 @@
       "changelog": [
         "更新了两首新曲",
         "「盏茗」 by 茶鸣拾贰律",
-        "「青芽」 by 茶鸣拾贰律"
-      ]
+        "「青芽」 by 茶鸣拾贰律",
+        "* 感谢 <a href=\"https://github.com/stevezmtstudios/Phigros-history/issues/36\" target=\"_blank\">RainView-ovo</a>"
+      ],
+      "downloads": {
+        "taptap": {
+          "onedrive": "https://stevezmtstudios-my.sharepoint.com/:f:/g/personal/me_stevezmt_top/IgBGjJYVv1USQJIVhEIiPjQvAQ0SyaCGNDJikuC7D3V_fyE?e=4hAiiw"
+        }
+      },
+      "tag": []
     },
     {
       "versionName": "v2.4.1",
       "versionCode": 65,
-      "releaseDate": "2022/09/16",
+      "releaseDate": "2022-09-16",
       "changelog": [
         "1.两首单曲",
         "「c.s.q.n.」 by Aoi",
         "「Brave Notes」 by Turquoise(DRIVE.+Nota)",
         "2.移除了legacy谱面",
-        "3.修改了部分谱面"
+        "3.修改了部分谱面",
+        "* 感谢 <a href=\"https://github.com/stevezmtstudios/Phigros-history/issues/36\" target=\"_blank\">RainView-ovo</a>"
       ],
-      "downloads": {}
+      "downloads": {
+        "taptap": {
+          "onedrive": "https://stevezmtstudios-my.sharepoint.com/:f:/g/personal/me_stevezmt_top/IgCYJiz7tHHuQZFd8P2-3hFGATg8eqLyae0E_RgZiqIgXTQ?e=JwMraz"
+        }
+      },
+      "tag": []
     },
     {
       "versionName": "v2.4.0",

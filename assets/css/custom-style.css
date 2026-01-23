@@ -1255,6 +1255,27 @@ a {
     z-index: 10;
 }
 
+.loading-status {
+    position: fixed;
+    bottom: 15px;
+    left: 20px;
+    color: rgba(255, 255, 255, 0.4);
+    font-size: 0.8rem;
+    z-index: 11;
+    pointer-events: none;
+    transition: opacity 0.5s ease;
+    opacity: 0;
+    max-width: 80vw;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-family: 'Exo 2', sans-serif;
+}
+
+.loading-status.visible {
+    opacity: 1;
+}
+
 /* Language Selection View */
 .language-container {
     padding: 20px;
