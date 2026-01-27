@@ -3,10 +3,42 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Phigros History</title>
+    <title>Phigros History 历史版本收集</title>
+    <meta name="description" content="可能是最全的 Phigros 旧版本收集 - Phigros History。收录了自 1.0.0 版本以来的绝大多数 Phigros 版本。">
+    <meta name="keywords" content="Phigros, Phigros History, Phigros 旧版本, Phigros 下载, PhigrOS, 音乐游戏, 音游">
+    <meta name="author" content="SteveZMT">
+    <link rel="canonical" href="https://stevezmt.top/Phigros-history/">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://stevezmt.top/Phigros-history/">
+    <meta property="og:title" content="Phigros History - 历史版本收集">
+    <meta property="og:description" content="可能是最全的 Phigros 旧版本收集 - Phigros History">
+    <meta property="og:image" content="https://stevezmt.top/Phigros-history/icon.png">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://stevezmt.top/Phigros-history/">
+    <meta property="twitter:title" content="Phigros History - 历史版本收集">
+    <meta property="twitter:description" content="可能是最全的 Phigros 旧版本收集 - Phigros History">
+    <meta property="twitter:image" content="https://stevezmt.top/Phigros-history/icon.png">
+
+    <!-- JSON-LD for Bing -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "Phigros History",
+      "url": "https://stevezmt.top/Phigros-history/",
+      "description": "可能是最全的 Phigros 旧版本收集 - Phigros History",
+      "genre": "Music Game"
+    }
+    </script>
+
     <link rel="stylesheet" href="assets/css/custom-style.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,400;0,700;1,400;1,700&display=swap">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="assets/css/loading-fix.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,400;0,700;1,400;1,700&display=swap" onerror="this.onerror=null;this.href='https://fonts.loli.net/css2?family=Exo+2:ital,wght@0,400;0,700;1,400;1,700&display=swap'">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" onerror="this.onerror=null;this.href='https://fonts.loli.net/icon?family=Material+Icons'">
     <link rel="icon" type="image/png" href="icon.png">
 </head>
 <body>
@@ -37,6 +69,10 @@
         </div>
         <div class="start-footer">
             <div id="loading-status" class="loading-status"></div>
+            <span id="sound-tip" class="sound-tip">提示：此网页有声音</span>
+            <button class="nav-btn sound-toggle-btn">
+                <span class="material-icons">volume_up</span>
+            </button>
             <button id="start-language-btn" class="nav-btn">
                 <span class="material-icons">language</span>
             </button>
@@ -69,7 +105,7 @@
         <header class="top-bar">
             <div class="user-info">
                 <div class="avatar">
-                    <img src="icon.png" alt="Avatar" style="width: 100%; height: 100%; border-radius: 50%; object-fit: cover;">
+                    <img src="icon.png" alt="Phigros History Logo" style="width: 100%; height: 100%; border-radius: 50%; object-fit: cover;">
                 </div>
                 <div class="user-details">
                     <span class="username">Geopelia</span>
@@ -143,6 +179,9 @@
                 </div>
             </div>
             <div class="bottom-right-btns">
+                <button class="nav-btn sound-toggle-btn">
+                    <span class="material-icons">volume_up</span>
+                </button>
                 <button id="language-btn" class="nav-btn">
                     <span class="material-icons">language</span>
                 </button>
@@ -153,12 +192,9 @@
         </footer>
     </div>
 
-    <script src="https://cdn.staticfile.net/translate.js/3.12.0/translate.js"></script>
-    <script>
-        if (typeof translate === 'undefined') {
-            document.write('<script src="https://sharepoint.cf.stevezmt.top/js/3rd-party/translate.min.js"><\/script>');
-        }
-    </script>
+    <script src="https://sharepoint.cf.stevezmt.top/js/3rd-party/translate.min.js" onerror="var s=document.createElement('script');s.src='https://cdn.staticfile.net/translate.js/3.12.0/translate.js';document.body.appendChild(s);"></script>
+
     <script src="assets/js/main.js"></script>
+    <script src="assets/js/ui-sound.js"></script>
 </body>
 </html>

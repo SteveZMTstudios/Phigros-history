@@ -39,6 +39,35 @@ body {
 a {
     color: var(--secondary-color);
     text-decoration: none;
+    position: relative;
+    transition: color 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* 非线性动画：从左到右伸展，向右隐去 */
+a::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 1.3px;
+    bottom: -1px;
+    left: 0;
+    background-color: var(--secondary-color);
+    transform: scaleX(0);
+    transform-origin: right;
+    transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    pointer-events: none;
+}
+
+a:hover::after {
+    transform: scaleX(1);
+    transform-origin: left;
+}
+
+/* 排除已设置特殊悬浮样式的超链接（如按钮） */
+.phigros-btn::after,
+.nav-btn::after,
+.major-version-btn::after {
+    content: none !important;
 }
 
 .screen {
@@ -95,20 +124,21 @@ a {
 }
 
 .logo {
+    font: 4rem 'Exo 2', sans-serif;
     font-size: 4rem;
-    font-weight: 700;
+    font-weight: 200;
     margin-bottom: 2rem;
-    text-shadow: 2px 2px 0px #00ccff, -2px -2px 0px #00e5ff;
-    letter-spacing: 5px;
+    text-shadow: 0 0 10px #00ccff, 0 0 20px rgba(0, 204, 255, 0.6);
+    letter-spacing: -2px;
     animation: glitch 1s infinite alternate;
 }
 
 @keyframes glitch {
-    0% { text-shadow: 2px 2px 0px #00ccff, -2px -2px 0px #00e5ff; transform: skewX(0deg); }
-    20% { text-shadow: 2px 2px 0px #00ccff, -2px -2px 0px #00e5ff; transform: skewX(0deg); }
-    21% { text-shadow: -2px 2px 0px #00ccff, 2px -2px 0px #00e5ff; transform: skewX(-10deg); }
-    22% { text-shadow: 2px 2px 0px #00ccff, -2px -2px 0px #00e5ff; transform: skewX(0deg); }
-    100% { text-shadow: 2px 2px 0px #00ccff, -2px -2px 0px #00e5ff; transform: skewX(0deg); }
+    0% { text-shadow: 0 0 10px #00ccff, 0 0 20px rgba(0, 204, 255, 0.6); transform: skewX(0deg); }
+    20% { text-shadow: 0 0 10px #00ccff, 0 0 20px rgba(0, 204, 255, 0.6); transform: skewX(0deg); }
+    21% { text-shadow: 0 0 15px #00e5ff, 0 0 30px rgba(0, 229, 255, 0.8); transform: skewX(-10deg); }
+    22% { text-shadow: 0 0 10px #00ccff, 0 0 20px rgba(0, 204, 255, 0.6); transform: skewX(0deg); }
+    100% { text-shadow: 0 0 10px #00ccff, 0 0 20px rgba(0, 204, 255, 0.6); transform: skewX(0deg); }
 }
 
 .tap-to-start {
@@ -474,6 +504,31 @@ a {
 .version-date {
     font-size: 0.9rem;
     color: #ccc;
+    min-width: 85px;
+    text-align: right;
+    font-variant-numeric: tabular-nums;
+    flex-shrink: 0;
+}
+
+.version-meta {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    flex-shrink: 0;
+}
+
+.channel-icon {
+    width: 1.2rem;
+    height: 1.2rem;
+    opacity: 0.5;
+    transition: opacity 0.2s;
+    vertical-align: middle;
+    flex-shrink: 0;
+}
+
+.version-card:hover .channel-icon,
+.version-card.active .channel-icon {
+    opacity: 1;
 }
 
 .changelog-preview {
@@ -882,8 +937,11 @@ a {
     }
 
     .bottom-right-btns {
-        gap: 2px;
+        gap: 1px;
         flex-shrink: 0;
+    }
+    .bottom-right-btns .nav-btn {
+        width: 50px !important;
     }
 
     .nav-btn {
@@ -1253,6 +1311,8 @@ a {
     bottom: 40px;
     right: 40px;
     z-index: 10;
+    display: flex;
+    gap: 5px;
 }
 
 .loading-status {
@@ -1274,6 +1334,19 @@ a {
 
 .loading-status.visible {
     opacity: 1;
+}
+
+.sound-tip {
+    color: rgba(255, 255, 255, 0.4);
+    font-size: 0.8rem;
+    font-style: italic;
+    margin-right: 10px;
+    align-self: center;
+    opacity: 0;
+    transition: opacity 0.5s ease;
+    pointer-events: none;
+    font-family: 'Exo 2', sans-serif;
+    transform: skewX(15deg);
 }
 
 /* Language Selection View */
