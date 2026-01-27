@@ -65,7 +65,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
         translate.ignore.tag.push('i');
         translate.ignore.class.push('material-icons');
-        translate.ignore.class.push('ignore');
+        translate.ignore.class.push('ignore-translate');
         
         const activeTaskSet = new Set();
         let stopTimer = null;
@@ -478,12 +478,12 @@ document.addEventListener('DOMContentLoaded', () => {
 
         versionList.innerHTML = `
             <div class="language-container">
-                <h2>选择语言<span class="ignore"> / Select Language</span></h2>
+                <h2>选择语言<span class="ignore-translate"> / Select Language</span></h2>
                 <div class="language-grid">
                     ${languages.map(lang => {
                         const isActive = lang.code === currentLang;
                         return `
-                            <button class="phigros-btn lang-select-btn ignore ${isActive ? 'active' : ''}" data-code="${lang.code}">
+                            <button class="phigros-btn lang-select-btn ignore-translate ${isActive ? 'active' : ''}" data-code="${lang.code}">
                                 <span class="material-icons lang-icon">${isActive ? 'check_circle' : 'language'}</span>
                                 <span>${lang.name}</span>
                             </button>
@@ -729,7 +729,7 @@ document.addEventListener('DOMContentLoaded', () => {
             card.innerHTML = `
                 <div class="version-content">
                     <div class="version-header">
-                        <span class="version-number">
+                        <span class="version-number ignore-translate">
                             ${ver.versionName}
                             ${iconsHtml}
                         </span>

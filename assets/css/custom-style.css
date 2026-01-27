@@ -947,6 +947,22 @@ a:hover::after {
     .nav-btn {
         width: 45px;
     }
+
+
+    .version-number {
+        gap: 1px;
+    }
+    .version-number .version-tag-icon {
+        font-size: 1.5rem;
+    }
+
+    .version-meta {
+    gap: 1px;
+    }
+    .version-meta .version-date {
+        min-width: 65px;
+        font-size: 0.8rem;
+    }
 }
 .bottom-bar {
     height: 50px;
