@@ -3,6 +3,29 @@
   "verified": true,
   "details": [
     {
+      "versionName": "v3.18.3",
+      "versionCode": 141,
+      "releaseDate": "2026-02-08",
+      "changelog": [
+        "新增两首单曲：",
+        "「ABYSS MOTION 192.333」 by: ariiol & TSAR & 奏Sou",
+        "「彼方へ、名もなき海辺より」 by: 打打だいず&月乃"
+      ],
+      "downloads": {
+        "taptap": {
+          "123": "https://www.123865.com/s/OS4KVv-IUk8v",
+          "github": "https://github.com/SteveZMTstudios/Phigros-history/releases/tag/v3.18.3",
+          "onedrive": "https://stevezmtstudios-my.sharepoint.com/:u:/g/personal/me_stevezmt_top/IQAzsa3W1felTbqaAy7Blb-8Adj8f9zKSYftol24O-WUrsc?e=HsTvrS",
+          "huang1111": "https://pan.huang1111.cn/s/ladV4SL",
+          "caiyun": "https://yun.139.com/sharewap/#/m/i?2jexCagSU4bd0"
+        },
+        "playstore": {
+          "onedrive": "https://stevezmtstudios-my.sharepoint.com/:u:/g/personal/me_stevezmt_top/IQBFEfTO_HWKQqUbptGAIw7nAUL_M5x-5VymU6-b2KSUugU?e=ReYA45"
+        }
+      },
+      "tag": []
+    },
+    {
       "versionName": "v3.18.2",
       "versionCode": 140,
       "releaseDate": "2026-01-16",
@@ -19,6 +42,9 @@
           "huang1111": "https://pan.huang1111.cn/s/dkygXiV",
           "github": "https://github.com/SteveZMTstudios/Phigros-history/releases/tag/v3.18.2",
           "onedrive": "https://stevezmtstudios-my.sharepoint.com/:u:/g/personal/me_stevezmt_top/IQDUnkQ2gtwDQ4zbq_CmeUe2AefylDI--aOcZz7T3SuPc9k?e=20bo4U"
+        },
+        "playstore": {
+          "onedrive": "https://stevezmtstudios-my.sharepoint.com/:u:/g/personal/me_stevezmt_top/IQAfIMxH5jOASpP_pWnNOMjcAcwIQZEu38m1q7yNY-lEItA?e=NjC8jC"
         }
       },
       "tag": []

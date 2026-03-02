@@ -1,0 +1,72 @@
+name: Monitor TapTap Update
+
+on:
+  schedule:
+    - cron: '0 1 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  issues: write
+
+jobs:
+  monitor:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+
+      - name: Install dependencies
+        run: python -m pip install --upgrade pip requests beautifulsoup4
+
+      - name: Check latest TapTap version
+        id: check
+        run: python scripts/check_taptap_update.py
+
+      - name: Check duplicate issue
+        id: dedupe
+        if: steps.check.outputs.should_create == 'true'
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const versionCode = `${{ steps.check.outputs.version_code }}`;
+            const title = `更新版本 ${versionCode} 已经可用。`;
+
+            const issues = await github.paginate(github.rest.issues.listForRepo, {
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              state: 'all',
+              per_page: 100
+            });
+
+            const exists = issues.some(issue => !issue.pull_request && issue.title === title);
+            core.setOutput('exists', exists ? 'true' : 'false');
+
+      - name: Create issue for new version
+        if: steps.check.outputs.should_create == 'true' && steps.dedupe.outputs.exists != 'true'
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const versionCode = `${{ steps.check.outputs.version_code }}`;
+            const title = `更新版本 ${versionCode} 已经可用。`;
+            const body = [
+              'Phigros新版本已经发布。',
+              `最新版本: ${versionCode}`,
+              '',
+              '请尽快处理，以防版本丢失。',
+              '',
+              '@SteveZMTstudios'
+            ].join('\n');
+
+            await github.rest.issues.create({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              title,
+              body
+            });
