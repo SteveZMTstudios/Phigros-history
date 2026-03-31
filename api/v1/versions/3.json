@@ -3,6 +3,49 @@
   "verified": true,
   "details": [
     {
+      "versionName": "v3.18.4",
+      "versionCode": 142,
+      "releaseDate": "2026-03-06",
+      "changelog": [
+        "新增两首单曲：",
+        "「Xenophobia」 by: XinG",
+        "「Verrückt」 by: Raimukun",
+        "修正错误的歌曲等级"
+      ],
+      "downloads": {
+        "taptap": {
+          "123": "https://www.123684.com/s/OS4KVv-9Vk8v",
+          "huang1111": "https://pan.huang1111.cn/s/8QKqDhQ",
+          "onedrive": "https://stevezmtstudios-my.sharepoint.com/:f:/g/personal/me_stevezmt_top/IgB9644MQ4wwTLTivxThKVtFAf_U1JyZd8WSbEU4L0YPLTU?e=qvUw6j",
+          "caiyun": "https://yun.139.com/shareweb/#/w/i/2jexCagSU4bd0",
+          "github": "https://github.com/SteveZMTstudios/Phigros-history/releases/tag/v3.18.4"
+        }
+      },
+      "tag": []
+    },
+    {
+      "versionName": "v3.19.0",
+      "versionCode": 143,
+      "releaseDate": "2026-04-01",
+      "changelog": [
+        "新增两首单曲：",
+        "「After ZABANIYA (MUG Edit)」 by: Daily天利",
+        "修复「ABYSS MOTION 192.333」 的预览图无法正确显示的问题"
+      ],
+      "downloads": {
+        "taptap": {
+          "123": "https://www.123684.com/s/OS4KVv-QVk8v?pwd=SYMz#",
+          "huang1111": "https://pan.huang1111.cn/s/G8jLBsW",
+          "onedrive": "https://stevezmtstudios-my.sharepoint.com/:f:/g/personal/me_stevezmt_top/IgB6Yzwma-qWQ6vZyJxw5TOZAREdge5fKMkAuikYuzhY2uY?e=9zkBys",
+          "caiyun": "https://yun.139.com/shareweb/#/w/i/2jexCagSU4bd0",
+          "github": "https://github.com/SteveZMTstudios/Phigros-history/releases/tag/v3.19.0"
+        }
+      },
+      "tag": [
+        "april-fools"
+      ]
+    },
+    {
       "versionName": "v3.18.3",
       "versionCode": 141,
       "releaseDate": "2026-02-08",

@@ -10,6 +10,24 @@ document.addEventListener('DOMContentLoaded', () => {
     const startLanguageBtn = document.getElementById('start-language-btn');
     const rksDisplay = document.querySelector('.rks');
     const searchInput = document.getElementById('version-search');
+    const logo = document.querySelector('.logo');
+    const pathPrefix = document.querySelector('.path-prefix');
+
+    const is2026AprilFools = (date = new Date()) => {
+        return date.getFullYear() === 2026 && date.getMonth() === 3 && date.getDate() === 1;
+    };
+
+    if (is2026AprilFools()) {
+        document.body.classList.add('april-fools-2026');
+
+        if (logo) {
+            logo.textContent = 'Phi9rOS History';
+        }
+
+        if (pathPrefix) {
+            pathPrefix.textContent = 'Phi9rOS History / ';
+        }
+    }
 
     // Loading Status Monitoring
     const loadingStatus = document.getElementById('loading-status');

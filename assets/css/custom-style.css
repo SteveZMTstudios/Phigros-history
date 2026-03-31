@@ -141,6 +141,50 @@ a:hover::after {
     100% { text-shadow: 0 0 10px #00ccff, 0 0 20px rgba(0, 204, 255, 0.6); transform: skewX(0deg); }
 }
 
+body.april-fools-2026 .logo,
+body.april-fools-2026 .path-prefix {
+    color: #ff8c1a;
+    background-image: linear-gradient(
+        90deg,
+        rgb(255, 48, 48) 0%,
+        rgb(255, 96, 182) 14%,
+        rgb(166, 74, 255) 28%,
+        rgb(68, 232, 255) 42%,
+        rgb(67, 119, 255) 56%,
+        rgb(56, 255, 138) 70%,
+        rgb(255, 231, 77) 84%,
+        rgb(255, 152, 32) 100%
+    );
+    background-size: 100% 100%;
+}
+
+body.april-fools-2026 .logo {
+    display: inline-block;
+}
+
+@supports ((-webkit-background-clip: text) or (background-clip: text)) {
+    body.april-fools-2026 .logo,
+    body.april-fools-2026 .path-prefix {
+        -webkit-background-clip: text;
+        background-clip: text;
+        color: transparent;
+        -webkit-text-fill-color: transparent;
+    }
+}
+
+body.april-fools-2026 .logo {
+    text-shadow: 0 0 12px rgba(255, 255, 255, 0.28), 0 0 28px rgba(255, 143, 31, 0.3);
+    animation: april-fools-glitch 1s infinite alternate;
+}
+
+@keyframes april-fools-glitch {
+    0% { text-shadow: 0 0 12px rgba(255, 255, 255, 0.28), 0 0 28px rgba(255, 143, 31, 0.3); transform: skewX(0deg); }
+    20% { text-shadow: 0 0 12px rgba(255, 255, 255, 0.28), 0 0 28px rgba(255, 143, 31, 0.3); transform: skewX(0deg); }
+    21% { text-shadow: -3px 0 16px rgba(255, 91, 182, 0.4), 3px 0 18px rgba(68, 232, 255, 0.45), 0 0 30px rgba(255, 255, 255, 0.2); transform: skewX(-10deg); }
+    22% { text-shadow: 0 0 12px rgba(255, 255, 255, 0.28), 0 0 28px rgba(255, 143, 31, 0.3); transform: skewX(0deg); }
+    100% { text-shadow: 0 0 12px rgba(255, 255, 255, 0.28), 0 0 28px rgba(255, 143, 31, 0.3); transform: skewX(0deg); }
+}
+
 .tap-to-start {
     font-size: 1.5rem;
     opacity: 0.8;
