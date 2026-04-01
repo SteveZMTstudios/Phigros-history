@@ -6,7 +6,7 @@
     --card-bg: rgba(255, 255, 255, 0.1);
     --card-hover: rgba(255, 255, 255, 0.2);
     --text-color: #ffffff;
-    --accent-color: #fffd25; /* Red-ish for accents */
+    --accent-color: #fffd25; /* phi for accents */
     --skew-angle: -15deg;
     --font-main: 'Exo 2', sans-serif;
 }
@@ -414,6 +414,18 @@ body.april-fools-2026 .logo {
 .version-card.active {
     background: rgba(0, 229, 255, 0.15);
     border-right-color: var(--secondary-color);
+}
+
+.version-card.april-fools {
+    box-shadow: inset 0 0 15px rgba(255, 253, 37, 0.4);
+}
+
+.version-card.april-fools:hover, .version-card.april-fools.active {
+    border-right-color: var(--accent-color);
+}
+
+.version-card.april-fools.active {
+    background: rgba(255, 253, 37, 0.15);
 }
 
 .version-card.disabled {

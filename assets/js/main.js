@@ -703,6 +703,11 @@ document.addEventListener('DOMContentLoaded', () => {
             const card = document.createElement('div');
             card.className = 'version-card';
             
+            // Check for april fools tag
+            if (ver.tag && ver.tag.includes('april-fools')) {
+                card.classList.add('april-fools');
+            }
+
             // Check if downloads exist and are not empty
             const hasDownloads = ver.downloads && Object.keys(ver.downloads).length > 0;
             
