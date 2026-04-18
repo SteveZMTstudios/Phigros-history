@@ -8,4 +8,5 @@ show_downloads: false
 google_analytics: G-STRYCQ7E8X
 beian: 浙ICP备2025213066号-1
 url: "https://stevezmt.top"
-baseurl: "Phigros-History/" # 用户主页仓库留空；项目仓库填 "/<repo>"
+baseurl: "Phigros-history/" # 用户主页仓库留空；项目仓库填 "/<repo>"
+
