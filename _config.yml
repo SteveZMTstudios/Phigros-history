@@ -10,7 +10,7 @@ beian: 浙ICP备2025213066号-1
 url: "https://stevezmt.top"
 baseurl: "Phigros-history/" # 用户主页仓库留空；项目仓库填 "/<repo>"
 
-
+icon_path: "/icon.png"
 
 links:
   - name: "返回版本列表"
