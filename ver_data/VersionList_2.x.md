@@ -1,3 +1,9 @@
+---
+title: 2.x 版本列表
+description: Phigros 2.x 版本的详细列表
+---
+
+
 <span id="top"></span>
 # 2.x 版本列表
 [![<-- v3.x](https://img.shields.io/badge/3.x-更新版本-green.svg?logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjgiIGhlaWdodD0iMTI4IiB2aWV3Qm94PSIwIDAgMjQgMjQiPjxwYXRoIGZpbGw9IiNmZmZmZmYiIGQ9Ik0yIDEyQTEwIDEwIDAgMCAxIDEyIDJhMTAgMTAgMCAwIDEgMTAgMTBhMTAgMTAgMCAwIDEtMTAgMTBBMTAgMTAgMCAwIDEgMiAxMm0xNi0xaC04bDMuNS0zLjVsLTEuNDItMS40Mkw2LjE2IDEybDUuOTIgNS45MmwxLjQyLTEuNDJMMTAgMTNoOHoiLz48L3N2Zz4=)](./VersionList_3.x)

@@ -1,3 +1,9 @@
+---
+title: Phigros APK+OBB 和 XAPK 安装指南
+description: 介绍如何安装Phigros的APK+OBB和XAPK格式的安装包。
+---
+
+
 # xapk 和 apk+obb 安装指南
 
 您拿到的包长什么样呢？

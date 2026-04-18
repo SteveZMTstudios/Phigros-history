@@ -1,4 +1,10 @@
-<script>
+---
+title: 关于捐赠
+description: 捐赠此项目可以使我们继续维护和更新。
+---
+
+
+<!--<script>
 // Function to copy text to clipboard
 function copyToClipboard(text) {
     navigator.clipboard.writeText(text)
@@ -60,6 +66,7 @@ document.addEventListener("DOMContentLoaded", function() {
 });
 
 </script>
+-->
 
 ## 关于捐赠
 
