@@ -1,0 +1,47 @@
+
+/* Fix for loading animation visibility */
+.nav-btn.loading {
+    position: relative;
+    pointer-events: none; /* Prevent clicks while loading */
+}
+
+.nav-btn.loading span {
+    display: none !important;
+}
+
+.nav-btn.loading::after {
+    content: "" !important;
+    display: block !important;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 5px;
+    height: 5px;
+    margin-left: -15px; /* (5+5)*1.5 dots width / 2 */
+    margin-top: -2.5px;
+    border-radius: 50%;
+    /* Use white if currentColor fails, but currentColor is better */
+    background-color: currentColor;
+    box-shadow: 10px 0 0 0 currentColor, 20px 0 0 0 currentColor;
+    animation: dots-fade 1.5s infinite linear;
+    transform: skewX(15deg);
+}
+
+@keyframes dots-fade {
+    0% { 
+        background-color: currentColor; 
+        box-shadow: 10px 0 0 0 rgba(255,255,255,0.2), 20px 0 0 0 rgba(255,255,255,0.2); 
+    }
+    33% { 
+        background-color: rgba(255,255,255,0.2); 
+        box-shadow: 10px 0 0 0 currentColor, 20px 0 0 0 rgba(255,255,255,0.2); 
+    }
+    66% { 
+        background-color: rgba(255,255,255,0.2); 
+        box-shadow: 10px 0 0 0 rgba(255,255,255,0.2), 20px 0 0 0 currentColor; 
+    }
+    100% { 
+        background-color: currentColor; 
+        box-shadow: 10px 0 0 0 rgba(255,255,255,0.2), 20px 0 0 0 rgba(255,255,255,0.2); 
+    }
+}

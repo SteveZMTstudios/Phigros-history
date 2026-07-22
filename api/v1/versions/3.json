@@ -3,6 +3,126 @@
   "verified": true,
   "details": [
     {
+      "versionName": "v3.19.2",
+      "versionCode": 148,
+      "releaseDate": "2026-05-22",
+      "changelog": [
+        "新增两首单曲：",
+        "「Snow Dance」 by 悠叶いのり",
+        "「亂★舞」 by Nekock·LK"
+      ],
+      "downloads": {
+        "taptap": {
+          "123": "https://1812779410.share.123pan.cn/123pan/OS4KVv-ft6Kv",
+          "huang1111": "https://pan.huang1111.cn/s/4RmoRTg",
+          "onedrive": "https://stevezmtstudios-my.sharepoint.com/:u:/g/personal/me_stevezmt_top/IQA2bBY15h_6RZfRqIAxqWwTAY-Ahvvf1szYd5kzURk1gyE?e=nBfUFa",
+          "caiyun": "https://yun.139.com/shareweb/#/w/i/2jexCagSU4bd0"
+        }
+      },
+      "tag": []
+    },
+    {
+      "versionName": "v3.19.1",
+      "versionCode": 145,
+      "releaseDate": "2026/04/24",
+      "changelog": [
+        "新增一首单曲：",
+        "「下一秒」 by: Bob Hou & Sherlock卓智媛 feat. 兰音Reine",
+        "CHUNITHM 精选集追加一首曲目",
+        "「玩具狂奏曲 -終焉-」 by: きくお"
+      ],
+      "downloads": {},
+      "tag": [
+        "leak"
+      ]
+    },
+    {
+      "versionName": "v3.19.1.1",
+      "versionCode": 146,
+      "releaseDate": "2026/04/24",
+      "changelog": [
+        "新增一首单曲：",
+        "「下一秒」 by: Bob Hou & Sherlock卓智媛 feat. 兰音Reine",
+        "CHUNITHM 精选集追加一首曲目",
+        "「玩具狂奏曲 -終焉-」 by: きくお"
+      ],
+      "downloads": {
+        "taptap": {
+          "123pan": "https://1812779410.share.123pan.cn/123pan/OS4KVv-zdeKv",
+          "huang1111": "https://pan.huang1111.cn/s/5X7DBul",
+          "caiyun": "https://yun.139.com/shareweb/#/w/i/2jexCagSU4bd0",
+          "onedrive": "https://stevezmtstudios-my.sharepoint.com/:f:/g/personal/me_stevezmt_top/IgC0cXAUUbLtQrihm4hMAjx4AVi97LLqzLiOnAjguxpAkNE?e=fmNrqe",
+          "github": "https://github.com/SteveZMTstudios/Phigros-history/releases/tag/3.19.1.1"
+        }
+      }
+    },
+    {
+      "versionName": "v3.19.2",
+      "versionCode": 149,
+      "releaseDate": "2026-05-23",
+      "changelog": [
+        "新增两首单曲：",
+        "「Snow Dance」 by 悠叶いのり",
+        "「亂★舞」 by Nekock·LK"
+      ],
+      "downloads": {
+        "playstore": {
+          "onedrive": "https://stevezmtstudios-my.sharepoint.com/:u:/g/personal/hoangcaohuy2007_stevezmt_top/IQAEUqgT9V76Qqa73L9r54WkAZTJCB2QehekAtaqMbvLSOw?e=AG0W5g"
+        },
+        "taptap": {
+          "123": "https://1812779410.share.123pan.cn/123pan/OS4KVv-q1hKv",
+          "github": "https://github.com/SteveZMTstudios/Phigros-history/releases/tag/3.19.2(149)",
+          "huang1111": "https://pan.huang1111.cn/s/A6XAbSB",
+          "caiyun": "https://yun.139.com/shareweb/#/w/i/2jexCagSU4bd0",
+          "onedrive": "https://stevezmtstudios-my.sharepoint.com/:u:/g/personal/me_stevezmt_top/IQCH4mxlYpmtT5h10o51dXJoAbiz9UzG3YnaeFgZdzH5YlQ?e=Unlb5u"
+        }
+      },
+      "tag": []
+    },
+    {
+      "versionName": "v3.19.3",
+      "versionCode": 151,
+      "releaseDate": "2026-06-12",
+      "changelog": [
+        "新增两首单曲：",
+        "「Cleyera」 by: Riya",
+        "「70 Minutes Fighters」 by: かたぎり",
+        "修改部分谱面"
+      ],
+      "downloads": {
+        "taptap": {
+          "123": "https://1812779410.share.123pan.cn/123pan/OS4KVv-61hKv",
+          "caiyun": "https://yun.139.com/shareweb/#/w/i/2jexCagSU4bd0",
+          "github": "https://github.com/SteveZMTstudios/Phigros-history/releases/tag/3.19.3",
+          "huang1111": "https://pan.huang1111.cn/s/mxgZeh1",
+          "onedrive": "https://stevezmtstudios-my.sharepoint.com/:f:/g/personal/me_stevezmt_top/IgChGxjfijeJRokTnDPd2y1gAXeHrgvlYZ2zto4AH8WnCSo?e=VqrA13"
+        }
+      },
+      "tag": []
+    },
+    {
+      "versionName": "v3.19.4",
+      "versionCode": 152,
+      "releaseDate": "2026-07-03",
+      "changelog": [
+        "新增3首单曲：",
+        "「Gungnir Fracture」 by: Kry.exe",
+        "「夢の降る日に」 by: seatrus",
+        "「Der Schneid」 by: Ωμεγα",
+        "修改部分谱面"
+      ],
+      "downloads": {
+        "taptap": {
+          "123": "https://1812779410.share.123pan.cn/123pan/OS4KVv-GeBKv",
+          "caiyun": "https://yun.139.com/shareweb/#/w/i/2jexCagSU4bd0",
+          "huang1111": "https://pan.huang1111.cn/s/laZYVtL",
+          "onedrive": "https://stevezmtstudios-my.sharepoint.com/:f:/g/personal/me_stevezmt_top/IgDWdBKHD1dSRKwrftNIXJQeASylJAz076SnJ2kScqiFvvU?e=Ov4puJ",
+          "github": "https://github.com/SteveZMTstudios/Phigros-history/releases/tag/v3.19.4"
+        }
+      },
+      "tag": []
+    },
+    {
       "versionName": "v3.19.0.1",
       "versionCode": 144,
       "releaseDate": "2026-04-01",

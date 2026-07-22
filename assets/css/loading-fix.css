@@ -22,26 +22,59 @@
     border-radius: 50%;
     /* Use white if currentColor fails, but currentColor is better */
     background-color: currentColor;
-    box-shadow: 10px 0 0 0 currentColor, 20px 0 0 0 currentColor;
-    animation: dots-fade 1.5s infinite linear;
-    transform: skewX(15deg);
+    -webkit-box-shadow: 10px 0 0 0 currentColor, 20px 0 0 0 currentColor;
+            box-shadow: 10px 0 0 0 currentColor, 20px 0 0 0 currentColor;
+    -webkit-animation: dots-fade 1.5s infinite linear;
+            animation: dots-fade 1.5s infinite linear;
+    -webkit-transform: skewX(15deg);
+        -ms-transform: skewX(15deg);
+            transform: skewX(15deg);
+}
+
+@-webkit-keyframes dots-fade {
+    0% { 
+        background-color: currentColor; 
+        -webkit-box-shadow: 10px 0 0 0 rgba(255,255,255,0.2), 20px 0 0 0 rgba(255,255,255,0.2); 
+                box-shadow: 10px 0 0 0 rgba(255,255,255,0.2), 20px 0 0 0 rgba(255,255,255,0.2); 
+    }
+    33% { 
+        background-color: rgba(255,255,255,0.2); 
+        -webkit-box-shadow: 10px 0 0 0 currentColor, 20px 0 0 0 rgba(255,255,255,0.2); 
+                box-shadow: 10px 0 0 0 currentColor, 20px 0 0 0 rgba(255,255,255,0.2); 
+    }
+    66% { 
+        background-color: rgba(255,255,255,0.2); 
+        -webkit-box-shadow: 10px 0 0 0 rgba(255,255,255,0.2), 20px 0 0 0 currentColor; 
+                box-shadow: 10px 0 0 0 rgba(255,255,255,0.2), 20px 0 0 0 currentColor; 
+    }
+    100% { 
+        background-color: currentColor; 
+        -webkit-box-shadow: 10px 0 0 0 rgba(255,255,255,0.2), 20px 0 0 0 rgba(255,255,255,0.2); 
+                box-shadow: 10px 0 0 0 rgba(255,255,255,0.2), 20px 0 0 0 rgba(255,255,255,0.2); 
+    }
 }
 
 @keyframes dots-fade {
     0% { 
         background-color: currentColor; 
-        box-shadow: 10px 0 0 0 rgba(255,255,255,0.2), 20px 0 0 0 rgba(255,255,255,0.2); 
+        -webkit-box-shadow: 10px 0 0 0 rgba(255,255,255,0.2), 20px 0 0 0 rgba(255,255,255,0.2); 
+                box-shadow: 10px 0 0 0 rgba(255,255,255,0.2), 20px 0 0 0 rgba(255,255,255,0.2); 
     }
     33% { 
         background-color: rgba(255,255,255,0.2); 
-        box-shadow: 10px 0 0 0 currentColor, 20px 0 0 0 rgba(255,255,255,0.2); 
+        -webkit-box-shadow: 10px 0 0 0 currentColor, 20px 0 0 0 rgba(255,255,255,0.2); 
+                box-shadow: 10px 0 0 0 currentColor, 20px 0 0 0 rgba(255,255,255,0.2); 
     }
     66% { 
         background-color: rgba(255,255,255,0.2); 
-        box-shadow: 10px 0 0 0 rgba(255,255,255,0.2), 20px 0 0 0 currentColor; 
+        -webkit-box-shadow: 10px 0 0 0 rgba(255,255,255,0.2), 20px 0 0 0 currentColor; 
+                box-shadow: 10px 0 0 0 rgba(255,255,255,0.2), 20px 0 0 0 currentColor; 
     }
     100% { 
         background-color: currentColor; 
-        box-shadow: 10px 0 0 0 rgba(255,255,255,0.2), 20px 0 0 0 rgba(255,255,255,0.2); 
+        -webkit-box-shadow: 10px 0 0 0 rgba(255,255,255,0.2), 20px 0 0 0 rgba(255,255,255,0.2); 
+                box-shadow: 10px 0 0 0 rgba(255,255,255,0.2), 20px 0 0 0 rgba(255,255,255,0.2); 
     }
 }
+
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImxvYWRpbmctZml4LnNyYy5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IjtBQUNBLHlDQUF5QztBQUN6QztJQUNJLGtCQUFrQjtJQUNsQixvQkFBb0IsRUFBRSxpQ0FBaUM7QUFDM0Q7O0FBRUE7SUFDSSx3QkFBd0I7QUFDNUI7O0FBRUE7SUFDSSxzQkFBc0I7SUFDdEIseUJBQXlCO0lBQ3pCLGtCQUFrQjtJQUNsQixTQUFTO0lBQ1QsUUFBUTtJQUNSLFVBQVU7SUFDVixXQUFXO0lBQ1gsa0JBQWtCLEVBQUUsNkJBQTZCO0lBQ2pELGtCQUFrQjtJQUNsQixrQkFBa0I7SUFDbEIsZ0VBQWdFO0lBQ2hFLDhCQUE4QjtJQUM5QixvRUFBNEQ7WUFBNUQsNERBQTREO0lBQzVELGlEQUF5QztZQUF6Qyx5Q0FBeUM7SUFDekMsK0JBQXVCO1FBQXZCLDJCQUF1QjtZQUF2Qix1QkFBdUI7QUFDM0I7O0FBRUE7SUFDSTtRQUNJLDhCQUE4QjtRQUM5QixzRkFBOEU7Z0JBQTlFLDhFQUE4RTtJQUNsRjtJQUNBO1FBQ0ksdUNBQXVDO1FBQ3ZDLDZFQUFxRTtnQkFBckUscUVBQXFFO0lBQ3pFO0lBQ0E7UUFDSSx1Q0FBdUM7UUFDdkMsNkVBQXFFO2dCQUFyRSxxRUFBcUU7SUFDekU7SUFDQTtRQUNJLDhCQUE4QjtRQUM5QixzRkFBOEU7Z0JBQTlFLDhFQUE4RTtJQUNsRjtBQUNKOztBQWpCQTtJQUNJO1FBQ0ksOEJBQThCO1FBQzlCLHNGQUE4RTtnQkFBOUUsOEVBQThFO0lBQ2xGO0lBQ0E7UUFDSSx1Q0FBdUM7UUFDdkMsNkVBQXFFO2dCQUFyRSxxRUFBcUU7SUFDekU7SUFDQTtRQUNJLHVDQUF1QztRQUN2Qyw2RUFBcUU7Z0JBQXJFLHFFQUFxRTtJQUN6RTtJQUNBO1FBQ0ksOEJBQThCO1FBQzlCLHNGQUE4RTtnQkFBOUUsOEVBQThFO0lBQ2xGO0FBQ0oiLCJmaWxlIjoibG9hZGluZy1maXguY3NzIiwic291cmNlc0NvbnRlbnQiOlsiXG4vKiBGaXggZm9yIGxvYWRpbmcgYW5pbWF0aW9uIHZpc2liaWxpdHkgKi9cbi5uYXYtYnRuLmxvYWRpbmcge1xuICAgIHBvc2l0aW9uOiByZWxhdGl2ZTtcbiAgICBwb2ludGVyLWV2ZW50czogbm9uZTsgLyogUHJldmVudCBjbGlja3Mgd2hpbGUgbG9hZGluZyAqL1xufVxuXG4ubmF2LWJ0bi5sb2FkaW5nIHNwYW4ge1xuICAgIGRpc3BsYXk6IG5vbmUgIWltcG9ydGFudDtcbn1cblxuLm5hdi1idG4ubG9hZGluZzo6YWZ0ZXIge1xuICAgIGNvbnRlbnQ6IFwiXCIgIWltcG9ydGFudDtcbiAgICBkaXNwbGF5OiBibG9jayAhaW1wb3J0YW50O1xuICAgIHBvc2l0aW9uOiBhYnNvbHV0ZTtcbiAgICBsZWZ0OiA1MCU7XG4gICAgdG9wOiA1MCU7XG4gICAgd2lkdGg6IDVweDtcbiAgICBoZWlnaHQ6IDVweDtcbiAgICBtYXJnaW4tbGVmdDogLTE1cHg7IC8qICg1KzUpKjEuNSBkb3RzIHdpZHRoIC8gMiAqL1xuICAgIG1hcmdpbi10b3A6IC0yLjVweDtcbiAgICBib3JkZXItcmFkaXVzOiA1MCU7XG4gICAgLyogVXNlIHdoaXRlIGlmIGN1cnJlbnRDb2xvciBmYWlscywgYnV0IGN1cnJlbnRDb2xvciBpcyBiZXR0ZXIgKi9cbiAgICBiYWNrZ3JvdW5kLWNvbG9yOiBjdXJyZW50Q29sb3I7XG4gICAgYm94LXNoYWRvdzogMTBweCAwIDAgMCBjdXJyZW50Q29sb3IsIDIwcHggMCAwIDAgY3VycmVudENvbG9yO1xuICAgIGFuaW1hdGlvbjogZG90cy1mYWRlIDEuNXMgaW5maW5pdGUgbGluZWFyO1xuICAgIHRyYW5zZm9ybTogc2tld1goMTVkZWcpO1xufVxuXG5Aa2V5ZnJhbWVzIGRvdHMtZmFkZSB7XG4gICAgMCUgeyBcbiAgICAgICAgYmFja2dyb3VuZC1jb2xvcjogY3VycmVudENvbG9yOyBcbiAgICAgICAgYm94LXNoYWRvdzogMTBweCAwIDAgMCByZ2JhKDI1NSwyNTUsMjU1LDAuMiksIDIwcHggMCAwIDAgcmdiYSgyNTUsMjU1LDI1NSwwLjIpOyBcbiAgICB9XG4gICAgMzMlIHsgXG4gICAgICAgIGJhY2tncm91bmQtY29sb3I6IHJnYmEoMjU1LDI1NSwyNTUsMC4yKTsgXG4gICAgICAgIGJveC1zaGFkb3c6IDEwcHggMCAwIDAgY3VycmVudENvbG9yLCAyMHB4IDAgMCAwIHJnYmEoMjU1LDI1NSwyNTUsMC4yKTsgXG4gICAgfVxuICAgIDY2JSB7IFxuICAgICAgICBiYWNrZ3JvdW5kLWNvbG9yOiByZ2JhKDI1NSwyNTUsMjU1LDAuMik7IFxuICAgICAgICBib3gtc2hhZG93OiAxMHB4IDAgMCAwIHJnYmEoMjU1LDI1NSwyNTUsMC4yKSwgMjBweCAwIDAgMCBjdXJyZW50Q29sb3I7IFxuICAgIH1cbiAgICAxMDAlIHsgXG4gICAgICAgIGJhY2tncm91bmQtY29sb3I6IGN1cnJlbnRDb2xvcjsgXG4gICAgICAgIGJveC1zaGFkb3c6IDEwcHggMCAwIDAgcmdiYSgyNTUsMjU1LDI1NSwwLjIpLCAyMHB4IDAgMCAwIHJnYmEoMjU1LDI1NSwyNTUsMC4yKTsgXG4gICAgfVxufVxuIl19 */

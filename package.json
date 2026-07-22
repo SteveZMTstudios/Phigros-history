@@ -1,0 +1,20 @@
+{
+  "name": "phigros-history",
+  "version": "1.0.0",
+  "description": "Phigros History - Legacy Browser Compatible Edition",
+  "scripts": {
+    "build:css": "node script/build-css.js",
+    "build:js": "node script/build-js.js",
+    "build": "npm run build:css && npm run build:js"
+  },
+  "browserslist": [
+    "ie >= 9",
+    "iOS >= 7",
+    "Android >= 4.0",
+    "Safari >= 7",
+    "Firefox >= 30",
+    "Chrome >= 30",
+    "> 0.2%",
+    "last 10 versions"
+  ]
+}
