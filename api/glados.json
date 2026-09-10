@@ -5,6 +5,10 @@
         {
             "type": "info",
             "message": "欢迎访问 Phigros History！上次更新于2026年7月22日。"
+        },
+        {
+            "type": "error",
+            "message": "Onedrive For Business正在限制服务，并（在最坏情况下）可能在9月15日完全终止工作。此时此下载线路将会不再可用。我们正在研究解决方案。"
         }
     ]
 }
