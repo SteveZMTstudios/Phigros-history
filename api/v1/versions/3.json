@@ -3,6 +3,50 @@
   "verified": true,
   "details": [
     {
+      "versionName": "v3.19.5",
+      "versionCode": 153,
+      "releaseDate": "2026-07-30",
+      "changelog": [
+        "新增一首“南京云锦博物馆”联动单曲：",
+        "「星拂云锦 feat. koi」 by: S9ryne",
+        "修改部分谱面",
+        "其他错误修复"
+      ],
+      "downloads": {
+        "taptap": {
+          "123": "https://1812779410.share.123pan.cn/123pan/OS4KVv-xR4bv",
+          "caiyun": "https://yun.139.com/shareweb/#/w/i/2jexCagSU4bd0",
+          "huang1111": "https://pan.huang1111.cn/s/k27NWuB",
+          "telechannel": "https://t.me/phigros_history/5",
+          "github": "https://github.com/SteveZMTstudios/Phigros-history/releases/tag/v3.19.5"
+        }
+      },
+      "tag": []
+    },
+    {
+      "versionName": "v3.20.0",
+      "versionCode": 154,
+      "releaseDate": "2026/09/05",
+      "changelog": [
+        "Paradigm: Reboot精选集追加1首新曲：",
+        "「[NWAD]」 by: Knighthood",
+        "Liminality精选集追加1首新曲：",
+        "「Devastating History」 by: NAMV",
+        "以下曲目新增AT谱面：",
+        "Archidoxen",
+        "修改部分谱面"
+      ],
+      "downloads": {
+        "taptap": {
+          "123": "https://1812779410.share.123pan.cn/123pan/OS4KVv-RCVlv",
+          "huang1111": "https://pan.huang1111.cn/s/MNXLVSx",
+          "github": "https://github.com/SteveZMTstudios/Phigros-history/releases/tag/v3.20.0",
+          "telechannel": "https://t.me/phigros_history/17",
+          "caiyun": "https://yun.139.com/shareweb/#/w/i/2jexCagSU4bd0"
+        }
+      }
+    },
+    {
       "versionName": "v3.19.2",
       "versionCode": 148,
       "releaseDate": "2026-05-22",
@@ -24,14 +68,22 @@
     {
       "versionName": "v3.19.1",
       "versionCode": 145,
-      "releaseDate": "2026/04/24",
+      "releaseDate": "2026-04-24",
       "changelog": [
         "新增一首单曲：",
         "「下一秒」 by: Bob Hou & Sherlock卓智媛 feat. 兰音Reine",
         "CHUNITHM 精选集追加一首曲目",
         "「玩具狂奏曲 -終焉-」 by: きくお"
       ],
-      "downloads": {},
+      "downloads": {
+        "taptap": {
+          "123": "https://1812779410.share.123pan.cn/123pan/OS4KVv-v1nbv",
+          "telechannel": "https://t.me/phigros_history/14",
+          "huang1111": "https://pan.huang1111.cn/s/weX27FK",
+          "caiyun": "https://yun.139.com/shareweb/#/w/i/2jexCagSU4bd0",
+          "github": "https://github.com/SteveZMTstudios/Phigros-history/releases/tag/v3.19.1"
+        }
+      },
       "tag": [
         "leak"
       ]
@@ -52,7 +104,8 @@
           "huang1111": "https://pan.huang1111.cn/s/5X7DBul",
           "caiyun": "https://yun.139.com/shareweb/#/w/i/2jexCagSU4bd0",
           "onedrive": "https://stevezmtstudios-my.sharepoint.com/:f:/g/personal/me_stevezmt_top/IgC0cXAUUbLtQrihm4hMAjx4AVi97LLqzLiOnAjguxpAkNE?e=fmNrqe",
-          "github": "https://github.com/SteveZMTstudios/Phigros-history/releases/tag/3.19.1.1"
+          "github": "https://github.com/SteveZMTstudios/Phigros-history/releases/tag/3.19.1.1",
+          "telechannel": "https://t.me/phigros_history/12"
         }
       }
     },
@@ -74,7 +127,8 @@
           "github": "https://github.com/SteveZMTstudios/Phigros-history/releases/tag/3.19.2(149)",
           "huang1111": "https://pan.huang1111.cn/s/A6XAbSB",
           "caiyun": "https://yun.139.com/shareweb/#/w/i/2jexCagSU4bd0",
-          "onedrive": "https://stevezmtstudios-my.sharepoint.com/:u:/g/personal/me_stevezmt_top/IQCH4mxlYpmtT5h10o51dXJoAbiz9UzG3YnaeFgZdzH5YlQ?e=Unlb5u"
+          "onedrive": "https://stevezmtstudios-my.sharepoint.com/:u:/g/personal/me_stevezmt_top/IQCH4mxlYpmtT5h10o51dXJoAbiz9UzG3YnaeFgZdzH5YlQ?e=Unlb5u",
+          "telechannel": "https://t.me/phigros_history/10"
         }
       },
       "tag": []
@@ -95,7 +149,8 @@
           "caiyun": "https://yun.139.com/shareweb/#/w/i/2jexCagSU4bd0",
           "github": "https://github.com/SteveZMTstudios/Phigros-history/releases/tag/3.19.3",
           "huang1111": "https://pan.huang1111.cn/s/mxgZeh1",
-          "onedrive": "https://stevezmtstudios-my.sharepoint.com/:f:/g/personal/me_stevezmt_top/IgChGxjfijeJRokTnDPd2y1gAXeHrgvlYZ2zto4AH8WnCSo?e=VqrA13"
+          "onedrive": "https://stevezmtstudios-my.sharepoint.com/:f:/g/personal/me_stevezmt_top/IgChGxjfijeJRokTnDPd2y1gAXeHrgvlYZ2zto4AH8WnCSo?e=VqrA13",
+          "telechannel": "https://t.me/phigros_history/9"
         }
       },
       "tag": []
@@ -117,7 +172,8 @@
           "caiyun": "https://yun.139.com/shareweb/#/w/i/2jexCagSU4bd0",
           "huang1111": "https://pan.huang1111.cn/s/laZYVtL",
           "onedrive": "https://stevezmtstudios-my.sharepoint.com/:f:/g/personal/me_stevezmt_top/IgDWdBKHD1dSRKwrftNIXJQeASylJAz076SnJ2kScqiFvvU?e=Ov4puJ",
-          "github": "https://github.com/SteveZMTstudios/Phigros-history/releases/tag/v3.19.4"
+          "github": "https://github.com/SteveZMTstudios/Phigros-history/releases/tag/v3.19.4",
+          "telechannel": "https://t.me/phigros_history/7"
         }
       },
       "tag": []
@@ -1058,8 +1114,9 @@
       ],
       "downloads": {
         "taptap": {
-          "123": "https://www.123pan.com/s/OS4KVv-O4irv",
-          "github": "https://github.com/SteveZMTstudios/Phigros-history/releases/tag/v3.5.2"
+          "123": "https://1812779410.share.123pan.cn/123pan/OS4KVv-d1nbv",
+          "github": "https://github.com/SteveZMTstudios/Phigros-history/releases/tag/v3.5.2",
+          "telechannel": "https://t.me/phigros_history/18"
         },
         "playstore": {
           "huang1111": "https://pan.huang1111.cn/s/jA5efy",

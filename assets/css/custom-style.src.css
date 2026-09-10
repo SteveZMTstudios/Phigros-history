@@ -372,11 +372,21 @@ body.april-fools-2026 .logo {
     width: 250px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    overflow: hidden;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
     padding-left: 40px;
+    padding-top: calc(50vh - 100px);
+    padding-bottom: calc(50vh - 100px);
     gap: 20px;
     z-index: 10;
     flex-shrink: 0;
+    scroll-behavior: smooth;
+    overscroll-behavior: none;
+}
+
+.version-selector::-webkit-scrollbar {
+    display: none;
 }
 
 .major-version-btn {
@@ -386,13 +396,14 @@ body.april-fools-2026 .logo {
     font-size: 2rem;
     font-weight: bold;
     cursor: pointer;
-    transition: all 0.3s ease;
+    transition: all 0.3s cubic-bezier(0.25, 1, 0.5, 1);
     transform: skewX(var(--skew-angle));
     border-left: 5px solid transparent;
     text-align: left;
     position: relative;
     left: -20px;
     /* Pull slightly left */
+    flex-shrink: 0;
 }
 
 .major-version-btn span {
@@ -417,10 +428,13 @@ body.april-fools-2026 .logo {
 .version-list-container {
     flex: 1;
     overflow-y: auto;
-    padding: 40px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: calc(20px + (100vh - 140px) * 0.267949 / 2);
+    padding-right: calc(40px + (100vh - 140px) * 0.267949 / 2);
     display: flex;
     flex-direction: column;
-    gap: 15px;
+    gap: 12px;
     /* Match the timing of the panel slide for sync movement */
     transition: flex-basis 0.5s cubic-bezier(0.2, 0.8, 0.2, 1);
     /* Hide scrollbar */
@@ -444,20 +458,18 @@ body.april-fools-2026 .logo {
     background: var(--card-bg);
     padding: 20px 40px;
     transform: skewX(var(--skew-angle));
-    transition: all 0.3s ease;
+    transition: all 0.3s cubic-bezier(0.25, 1, 0.5, 1);
     cursor: pointer;
     position: relative;
     overflow: hidden;
     border-right: 4px solid transparent;
-    margin-left: 20px;
-    /* Offset for skew */
-    margin-right: 20px;
+    width: 100%;
 }
 
 .version-card:hover,
 .version-card.active {
     background: var(--card-hover);
-    transform: skewX(var(--skew-angle)) translateX(10px);
+    transform: skewX(var(--skew-angle)) translateX(15px);
     border-right-color: var(--secondary-color);
 }
 
@@ -467,11 +479,12 @@ body.april-fools-2026 .logo {
 }
 
 .version-card.april-fools {
-    box-shadow: inset 0 0 15px rgba(255, 253, 37, 0.4);
+    /* Glowing effect appears on hover/active instead of always */
 }
 
 .version-card.april-fools:hover,
 .version-card.april-fools.active {
+    box-shadow: inset 0 0 15px rgba(255, 253, 37, 0.4);
     border-right-color: var(--accent-color);
 }
 
@@ -1403,7 +1416,7 @@ body.april-fools-2026 .logo {
         width: 100%;
         flex-direction: row;
         padding: 10px;
-        overflow-x: auto;
+        overflow: hidden;
         height: auto;
     }
 
@@ -1702,6 +1715,11 @@ body.april-fools-2026 .logo {
     padding-right: 60px;
 }
 
+[dir="rtl"] .version-list-container {
+    padding-left: calc(40px + (100vh - 140px) * 0.267949 / 2);
+    padding-right: calc(20px + (100vh - 140px) * 0.267949 / 2);
+}
+
 [dir="rtl"] .version-card {
     transform: skewX(15deg);
     border-right: none;
@@ -1710,7 +1728,7 @@ body.april-fools-2026 .logo {
 
 [dir="rtl"] .version-card:hover,
 [dir="rtl"] .version-card.active {
-    transform: skewX(15deg) translateX(-10px);
+    transform: skewX(15deg) translateX(-15px);
     border-left-color: var(--secondary-color);
 }
 
@@ -1762,4 +1780,41 @@ body.april-fools-2026 .logo {
 
 [dir="rtl"] .close-btn-desktop span {
     transform: skewX(-15deg);
+}
+
+/* Region warning tooltip for GitHub / Telegram links */
+.region-warn-tooltip {
+    position: fixed;
+    z-index: 99999;
+    pointer-events: none;
+    background: rgba(15, 18, 26, 0.95);
+    border: 1px solid rgba(255, 204, 0, 0.6);
+    border-left: 3px solid #ffcc00;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.6), 0 0 15px rgba(255, 204, 0, 0.2);
+    color: #ffffff;
+    font-family: var(--font-main);
+    font-size: 0.82rem;
+    padding: 7px 12px;
+    transform: skewX(var(--skew-angle));
+    opacity: 0;
+    transition: opacity 0.2s cubic-bezier(0.4, 0, 0.2, 1), transform 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+    white-space: nowrap;
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+}
+
+.region-warn-tooltip.visible {
+    opacity: 1;
+}
+
+.region-warn-tooltip .tooltip-text {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    transform: skewX(15deg);
+}
+
+.region-warn-tooltip .tooltip-icon {
+    font-size: 1rem;
+    color: #ffcc00;
 }

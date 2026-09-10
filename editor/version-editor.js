@@ -54,11 +54,13 @@ function _arrayWithHoles(r) { if (Array.isArray(r)) return r; }
   // Helpers
   function detectKeyFromUrl(url) {
     if (!url) return null;
-    if (url.includes('sharepoint.com') || url.includes('1drv.ms')) return 'onedrive';
-    if (/123\d{3}\.com/.test(url)) return '123';
-    if (url.includes('pan.huang1111.cn')) return 'huang1111';
-    if (url.includes('caiyun.139.com')) return 'caiyun';
-    if (url.includes('github.com')) return 'github';
+    var lower = url.toLowerCase();
+    if (lower.includes('sharepoint.com') || lower.includes('1drv.ms') || lower.includes('onedrive')) return 'onedrive';
+    if (/123\d{3}\.com/.test(lower) || lower.includes('123pan') || lower.includes('123-pan')) return '123';
+    if (lower.includes('pan.huang1111.cn') || lower.includes('huang1111')) return 'huang1111';
+    if (lower.includes('caiyun.139.com') || lower.includes('yun.139.com') || lower.includes('cloud.139') || lower.includes('caiyun')) return 'caiyun';
+    if (lower.includes('t.me') || lower.includes('telegram.me') || lower.includes('telegram.org')) return 'telechannel';
+    if (lower.includes('github.com')) return 'github';
     return null;
   }
   function applyChangesToMemory() {
@@ -240,7 +242,7 @@ function _arrayWithHoles(r) { if (Array.isArray(r)) return r; }
           case 2:
             key = detectKeyFromUrl(url);
             if (!key) {
-              key = prompt('无法自动识别键名，请输入（如 123, huang1111, github 等）');
+              key = prompt('无法自动识别键名，请输入（如 123, caiyun, telechannel, huang1111, github 等）');
             }
             if (key) {
               _context.n = 3;
@@ -344,6 +346,20 @@ function _arrayWithHoles(r) { if (Array.isArray(r)) return r; }
   }
 
   // Actions
+  if (btnNew) {
+    btnNew.onclick = function () {
+      if (isDirty && !confirm('当前有未保存的修改，是否放弃更改并新建空列表？')) return;
+      data = {
+        version: 'v1',
+        details: []
+      };
+      fileHandle = null;
+      selectedIndex = -1;
+      selectIndex(-1);
+      renderList();
+      setDirty(false);
+    };
+  }
   btnAddVersion.onclick = function () {
     var v = {
       versionName: 'vNew',
@@ -429,7 +445,7 @@ function _arrayWithHoles(r) { if (Array.isArray(r)) return r; }
           case 4:
             key = detectKeyFromUrl(url);
             if (!key) {
-              key = prompt('无法自动识别键名，请输入（如 123, huang1111, github 等）');
+              key = prompt('无法自动识别键名，请输入（如 123, caiyun, telechannel, huang1111, github 等）');
             }
             if (key) {
               _context6.n = 5;
@@ -529,39 +545,55 @@ function _arrayWithHoles(r) { if (Array.isArray(r)) return r; }
     reader.readAsText(f);
   };
   btnFetchSample.onclick = /*#__PURE__*/_asyncToGenerator(/*#__PURE__*/_regenerator().m(function _callee3() {
-    var res, _t2;
+    var sampleUrls, _i, _sampleUrls, url, res, _t2;
     return _regenerator().w(function (_context3) {
       while (1) switch (_context3.p = _context3.n) {
         case 0:
-          _context3.p = 0;
-          _context3.n = 1;
-          return fetch('/api/v1/versions/1.json?t=' + Date.now());
+          // try fetch with relative or absolute path
+          sampleUrls = location.protocol === 'file:' ? ['../api/v1/versions/1.json', '/api/v1/versions/1.json'] : ['/api/v1/versions/1.json', '../api/v1/versions/1.json'];
+          _i = 0, _sampleUrls = sampleUrls;
         case 1:
-          res = _context3.v;
-          if (res.ok) {
-            _context3.n = 2;
+          if (!(_i < _sampleUrls.length)) {
+            _context3.n = 8;
             break;
           }
-          throw new Error('网络返回 ' + res.status);
-        case 2:
+          url = _sampleUrls[_i];
+          _context3.p = 2;
           _context3.n = 3;
-          return res.json();
+          return fetch(url + (url.includes('?') ? '&' : '?') + 't=' + Date.now());
         case 3:
+          res = _context3.v;
+          if (!res.ok) {
+            _context3.n = 5;
+            break;
+          }
+          _context3.n = 4;
+          return res.json();
+        case 4:
           data = _context3.v;
+          fileHandle = null;
           selectedIndex = -1;
           selectIndex(-1);
           renderList();
+          setDirty(false);
           alert('从仓库示例载入成功');
-          _context3.n = 5;
-          break;
-        case 4:
-          _context3.p = 4;
-          _t2 = _context3.v;
-          alert('无法通过网络加载示例（可能被CORS阻止）。你可以手动使用“从文件载入”或“粘贴JSON”。');
+          return _context3.a(2);
         case 5:
+          _context3.n = 7;
+          break;
+        case 6:
+          _context3.p = 6;
+          _t2 = _context3.v;
+        case 7:
+          _i++;
+          _context3.n = 1;
+          break;
+        case 8:
+          alert('无法通过网络加载示例（本地直接双击打开受浏览器安全策略限制，或文件不存在）。您可以直接使用“从文件载入”、“从剪贴板粘贴JSON”或“新建空列表”。');
+        case 9:
           return _context3.a(2);
       }
-    }, _callee3, null, [[0, 4]]);
+    }, _callee3, null, [[2, 6]]);
   }));
   btnPaste.onclick = /*#__PURE__*/_asyncToGenerator(/*#__PURE__*/_regenerator().m(function _callee4() {
     var txt;
@@ -819,20 +851,31 @@ function _arrayWithHoles(r) { if (Array.isArray(r)) return r; }
 
   // Init
   function initSample() {
-    // if repo has a local copy copy? leave empty by default
     data = {
       version: 'v1',
       details: []
     };
-    // try to load the existing file (if served) silently
-    fetch('/api/v1/versions/1.json?t=' + Date.now()).then(function (r) {
-      return r.json();
-    }).then(function (j) {
-      if (j && j.details) {
-        data = j;
+    var sampleUrls = location.protocol === 'file:' ? ['../api/v1/versions/1.json', '/api/v1/versions/1.json'] : ['/api/v1/versions/1.json', '../api/v1/versions/1.json'];
+    var _tryLoad = function tryLoad(urls) {
+      if (!urls.length) {
         renderList();
+        setDirty(false);
+        return;
       }
-    }).catch(function () {});
+      var u = urls[0];
+      fetch(u + (u.includes('?') ? '&' : '?') + 't=' + Date.now()).then(function (r) {
+        if (!r.ok) throw new Error('Not ok');
+        return r.json();
+      }).then(function (j) {
+        if (j && j.details) {
+          data = j;
+          renderList();
+        }
+      }).catch(function () {
+        _tryLoad(urls.slice(1));
+      });
+    };
+    _tryLoad(sampleUrls);
     renderList();
     setDirty(false);
   }

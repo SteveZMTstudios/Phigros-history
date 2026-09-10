@@ -360,7 +360,7 @@ document.addEventListener('DOMContentLoaded', function () {
     if (versionList.parentElement) {
       versionList.parentElement.scrollTop = 0;
     }
-    versionList.innerHTML = "\n            <div class=\"about-container\">\n                <h2>关于 Phigros</h2>\n                <div class=\"about-text\">\n                    <p><blockquote site=\"https://www.taptap.cn/app/165287\">\n                    《Phigros》是由 Pigeon Games（鸽游）开发的节奏类游戏。Pigeon Games 是由初创通过 bilibili 视频网站发起的、由众多节奏类游戏爱好者组成的完全用爱发电的项目组。我们希望 Phigros 新颖的游戏模式和精心制作的插画与关卡可以让你感受到节奏类游戏的魅力。\n                    </blockquote></p>\n                    <p> —— 来自 <a href=\"https://www.taptap.cn/app/165287\" target=\"_blank\">TapTap 上的官方介绍</a></p>\n                    <div style=\"margin-top: 1em; display: flex; flex-wrap: wrap; gap: 10px;\">\n                        <a href=\"https://www.taptap.cn/app/165287\" target=\"_blank\" class=\"phigros-btn\">\n                        <span class=\"material-icons\">store</span>\n                        <span>访问 TapTap 商店页面</span>\n                        </a>\n                        <a href=\"https://play.google.com/store/apps/details?id=com.PigeonGames.Phigros\" target=\"_blank\" class=\"phigros-btn\" title=\"您所在的地区可能无法打开此链接。\">\n                        <span class=\"material-icons\">shop</span>\n                        <span>访问 Google Play 页面</span>\n                        </a><a href=\"https://apps.apple.com/cn/app/phigros/id1454809109\" target=\"_blank\" class=\"phigros-btn\">\n                        <span class=\"material-icons\">apple</span>\n                        <span>访问 App Store 页面</span>\n                        </a>\n                        </div>\n                    <div style=\"margin-top: 1em; display: flex; flex-wrap: wrap; gap: 10px;\">\n                        <a href=\"https://pigeongames.net/\" target=\"_blank\" class=\"phigros-btn\">\n                        <span class=\"material-icons\">public</span>\n                        <span>访问 Pigeon Games 官网</span>\n                        </a>\n                        <a href=\"https://twitter.com/Phigros_PGS\" target=\"_blank\" class=\"phigros-btn\">\n                        <span class=\"icon-wrapper\">\n                        <svg t=\"1766646411854\" class=\"icon\" viewBox=\"0 0 1024 1024\" version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" p-id=\"5863\" width=\"19\" height=\"19\"><path d=\"M1024 194.56a420.352 420.352 0 0 1-120.832 33.28 210.432 210.432 0 0 0 92.16-116.224 422.4 422.4 0 0 1-133.632 51.2A209.92 209.92 0 0 0 499.2 307.2a211.968 211.968 0 0 0 5.632 47.616 596.48 596.48 0 0 1-433.152-220.16 208.896 208.896 0 0 0-28.672 105.472A204.8 204.8 0 0 0 132.096 414.72C97.28 413.696 32.256 404.48 32.256 388.608v2.56a214.528 214.528 0 0 0 173.056 204.8 193.024 193.024 0 0 1-51.2 7.168 199.68 199.68 0 0 1-38.4-3.584 210.944 210.944 0 0 0 196.608 145.92A420.864 420.864 0 0 1 51.2 836.608a438.784 438.784 0 0 1-51.2-3.072 594.944 594.944 0 0 0 322.048 94.208A593.408 593.408 0 0 0 921.6 330.24v-27.136a427.008 427.008 0 0 0 102.4-108.544z m0 0\" fill=\"currentColor\" p-id=\"5864\"></path></svg>\n                        </span>\n                        <span>访问 Phigros Twitter</span>\n                        </a>\n                        <a href=\"https://space.bilibili.com/414149787\" target=\"_blank\" class=\"phigros-btn\">\n                        <span class=\"icon-wrapper\">\n                        <svg t=\"1766648342791\" class=\"icon\" viewBox=\"0 0 1024 1024\" version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" p-id=\"11134\" width=\"24\" height=\"24\"><path d=\"M777.514667 131.669333a53.333333 53.333333 0 0 1 0 75.434667L728.746667 255.829333h49.92A160 160 0 0 1 938.666667 415.872v320a160 160 0 0 1-160 160H245.333333A160 160 0 0 1 85.333333 735.872v-320a160 160 0 0 1 160-160h49.749334L246.4 207.146667a53.333333 53.333333 0 0 1 75.392-75.434667l113.152 113.152c3.370667 3.370667 6.186667 7.04 8.448 10.965333h137.088c2.261333-3.925333 5.12-7.68 8.490667-11.008l113.109333-113.152a53.333333 53.333333 0 0 1 75.434667 0z m1.152 231.253334H245.333333a53.333333 53.333333 0 0 0-53.205333 49.365333l-0.128 4.010667v320c0 28.117333 21.76 51.114667 49.365333 53.162666l3.968 0.170667h533.333334a53.333333 53.333333 0 0 0 53.205333-49.365333l0.128-3.968v-320c0-29.44-23.893333-53.333333-53.333333-53.333334z m-426.666667 106.666666c29.44 0 53.333333 23.893333 53.333333 53.333334v53.333333a53.333333 53.333333 0 1 1-106.666666 0v-53.333333c0-29.44 23.893333-53.333333 53.333333-53.333334z m320 0c29.44 0 53.333333 23.893333 53.333333 53.333334v53.333333a53.333333 53.333333 0 1 1-106.666666 0v-53.333333c0-29.44 23.893333-53.333333 53.333333-53.333334z\" fill=\"currentColor\" p-id=\"11135\"></path></svg>\n                        </span>\n                        <span>访问 Phigros 哔哩哔哩账号</span>\n                        </a>\n                        <a href=\"https://pd.qq.com/s/433r43ehu\" target=\"_blank\" class=\"phigros-btn\">\n                        <span class=\"icon-wrapper\">\n                        <svg t=\"1766648433823\" class=\"icon\" viewBox=\"0 0 1024 1024\" version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" p-id=\"12255\" width=\"20\" height=\"20\"><path d=\"M824.8 613.2c-16-51.4-34.4-94.6-62.7-165.3C766.5 262.2 689.3 112 511.5 112 331.7 112 256.2 265.2 261 447.9c-28.4 70.8-46.7 113.7-62.7 165.3-34 109.5-23 154.8-14.6 155.8 18 2.2 70.1-82.4 70.1-82.4 0 49 25.2 112.9 79.8 159-26.4 8.1-85.7 29.9-71.6 53.8 11.4 19.3 196.2 12.3 249.5 6.3 53.3 6 238.1 13 249.5-6.3 14.1-23.8-45.3-45.7-71.6-53.8 54.6-46.2 79.8-110.1 79.8-159 0 0 52.1 84.6 70.1 82.4 8.5-1.1 19.5-46.4-14.5-155.8z\" fill=\"currentColor\" p-id=\"12256\"></path></svg>\n                        </span>\n                        <span>访问 Phigros 官方QQ频道</span>\n                        </a>\n                    </div>\n                </div>\n                <h2>关于 Phigros History</h2>\n                <div class=\"about-text\">\n                    <p>Phigros History 是一个非官方的维护的项目，收集和整理 Phigros 的历史版本及其更新日志。</p>\n                    <p>本项目仅为学习和研究网页设计和开发之用，如有侵权请联系我们删除相关内容。</p>\n                    <p>特别感谢 <a href=\"https://www.facebook.com/huyhoangcao39393939/\" target=\"_blank\">Cao Huy Hoang</a> 提供的部分历史版本数据，没有他的帮助，该项目不可能发展得如此庞大。</p>\n                    <p>以及<a href=\"https://space.bilibili.com/3546762126035268\" target=\"_blank\">D1ct10nary</a> 和 <a href=\"https://github.com/RainView-ovo\" target=\"_blank\">RainView-ovo</a> 提供的剩余缺失版本。</p>\n                    <p>此项目和 Pigeon Games（鸽游）、Apple Inc等公司及其关联方无任何关系，所有内容均来自公开渠道，仅供学习和研究使用，请在24小时内删除相关内容。如有侵权，请联系我们删除相关内容。</p>\n                </div>\n\n                <h2>支持我们</h2>\n                <div class=\"about-text\">\n                    <p>这是一个完全由爱好者维护的非营利项目。我们希望得到您的认可。如果您想支持我们继续提供免费的服务，请考虑捐赠。感谢您的支持！</p>\n                    <p><a href=\"doc/why-donate\" target=\"_blank\" class=\"phigros-btn\">\n                        <span class=\"material-icons\">favorite</span>\n                        <span>支持我们</span>\n                    </a></p>\n                    <p><a href=\"CONTRIBUTE\" target=\"_blank\" class=\"phigros-btn\">\n                        <span class=\"material-icons\">volunteer_activism</span>\n                        <span>贡献指南</span>\n                    </a></p>\n                </div>\n                <h2>关于此页面</h2>\n                <div class=\"about-text\">\n                    <p>此页面是最近开发的实验性框架，用于浏览 Phigros 的历史版本。尚未广泛测试，可能存在一些问题。</p>\n                    <p>此页面不是 Phigros 的发布页面，设计样式和Phigros，Pigeon Games（鸽游）无任何关系。关于版权和商标信息，请参阅<a href=\"NOTICE\" target=\"_blank\">NOTICE.md</a>文件。</p>\n                    <p>您也可以访问我们的<a href=\"https://stevezmt.top/Phigros-history/README_old\" target=\"_blank\">旧版网页</a>，不过它将在未来被弃用。</p>\n                    <p>如果您发现任何问题或有改进建议，请随时通过 GitHub 提交 issue 或 pull request。</p>\n\n                    <p><a href=\"https://github.com/stevezmtstudios/Phigros-history\" target=\"_blank\" class=\"phigros-btn\">\n                        <span class=\"material-icons\">code</span>\n                        <span>访问 GitHub 仓库</span>\n                    </a></p>\n                    <p><a href=\"https://github.com/stevezmtstudios/Phigros-history/issues\" target=\"_blank\" class=\"phigros-btn btn-help\">\n                        <span class=\"material-icons\">bug_report</span>\n                        <span>报告问题</span>\n                    </a></p>\n                </div>\n                <div class='about-text'>\n                <p>相关描述，Geopelia 头像（Phigros 应用程序徽标），界面音效和可执行文件版权归属于 <a href=\"https://pigeongames.net/\" target=\"_blank\">&copy; 南京鸽游网络有限公司</a></p>\n                <p>Play Store 徽标和 Google Play 是 Google LLC 的商标。其余引用的徽标和标识均归其各自所有者所有。</p>\n                <p>页面由 <a href=\"https://stevezmt.top/\" target=\"_blank\">SteveZMT</a> 用❤️制作。</p>\n                </div>\n                <a href=\"https://beian.miit.gov.cn/\" target=\"_blank\" style=\"display: inline-block; color: #ccc; margin-top: 1em;\">浙ICP备2025213066号-1</a>\n            </div>\n        ";
+    versionList.innerHTML = "\n            <div class=\"about-container\">\n                <h2>关于 Phigros</h2>\n                <div class=\"about-text\">\n                    <p><blockquote site=\"https://www.taptap.cn/app/165287\">\n                    《Phigros》是由 Pigeon Games（鸽游）开发的节奏类游戏。Pigeon Games 是由初创通过 bilibili 视频网站发起的、由众多节奏类游戏爱好者组成的完全用爱发电的项目组。我们希望 Phigros 新颖的游戏模式和精心制作的插画与关卡可以让你感受到节奏类游戏的魅力。\n                    </blockquote></p>\n                    <p> —— 来自 <a href=\"https://www.taptap.cn/app/165287\" target=\"_blank\">TapTap 上的官方介绍</a></p>\n                    <div style=\"margin-top: 1em; display: flex; flex-wrap: wrap; gap: 10px;\">\n                        <a href=\"https://www.taptap.cn/app/165287\" target=\"_blank\" class=\"phigros-btn\">\n                        <span class=\"material-icons\">store</span>\n                        <span>访问 TapTap 商店页面</span>\n                        </a>\n                        <a href=\"https://play.google.com/store/apps/details?id=com.PigeonGames.Phigros\" target=\"_blank\" class=\"phigros-btn\">\n                        <span class=\"material-icons\">shop</span>\n                        <span>访问 Google Play 页面</span>\n                        </a><a href=\"https://apps.apple.com/cn/app/phigros/id1454809109\" target=\"_blank\" class=\"phigros-btn\">\n                        <span class=\"material-icons\">apple</span>\n                        <span>访问 App Store 页面</span>\n                        </a>\n                        </div>\n                    <div style=\"margin-top: 1em; display: flex; flex-wrap: wrap; gap: 10px;\">\n                        <a href=\"https://pigeongames.net/\" target=\"_blank\" class=\"phigros-btn\">\n                        <span class=\"material-icons\">public</span>\n                        <span>访问 Pigeon Games 官网</span>\n                        </a>\n                        <a href=\"https://twitter.com/Phigros_PGS\" target=\"_blank\" class=\"phigros-btn\">\n                        <span class=\"icon-wrapper\">\n                        <svg t=\"1766646411854\" class=\"icon\" viewBox=\"0 0 1024 1024\" version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" p-id=\"5863\" width=\"19\" height=\"19\"><path d=\"M1024 194.56a420.352 420.352 0 0 1-120.832 33.28 210.432 210.432 0 0 0 92.16-116.224 422.4 422.4 0 0 1-133.632 51.2A209.92 209.92 0 0 0 499.2 307.2a211.968 211.968 0 0 0 5.632 47.616 596.48 596.48 0 0 1-433.152-220.16 208.896 208.896 0 0 0-28.672 105.472A204.8 204.8 0 0 0 132.096 414.72C97.28 413.696 32.256 404.48 32.256 388.608v2.56a214.528 214.528 0 0 0 173.056 204.8 193.024 193.024 0 0 1-51.2 7.168 199.68 199.68 0 0 1-38.4-3.584 210.944 210.944 0 0 0 196.608 145.92A420.864 420.864 0 0 1 51.2 836.608a438.784 438.784 0 0 1-51.2-3.072 594.944 594.944 0 0 0 322.048 94.208A593.408 593.408 0 0 0 921.6 330.24v-27.136a427.008 427.008 0 0 0 102.4-108.544z m0 0\" fill=\"currentColor\" p-id=\"5864\"></path></svg>\n                        </span>\n                        <span>访问 Phigros Twitter</span>\n                        </a>\n                        <a href=\"https://space.bilibili.com/414149787\" target=\"_blank\" class=\"phigros-btn\">\n                        <span class=\"icon-wrapper\">\n                        <svg t=\"1766648342791\" class=\"icon\" viewBox=\"0 0 1024 1024\" version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" p-id=\"11134\" width=\"24\" height=\"24\"><path d=\"M777.514667 131.669333a53.333333 53.333333 0 0 1 0 75.434667L728.746667 255.829333h49.92A160 160 0 0 1 938.666667 415.872v320a160 160 0 0 1-160 160H245.333333A160 160 0 0 1 85.333333 735.872v-320a160 160 0 0 1 160-160h49.749334L246.4 207.146667a53.333333 53.333333 0 0 1 75.392-75.434667l113.152 113.152c3.370667 3.370667 6.186667 7.04 8.448 10.965333h137.088c2.261333-3.925333 5.12-7.68 8.490667-11.008l113.109333-113.152a53.333333 53.333333 0 0 1 75.434667 0z m1.152 231.253334H245.333333a53.333333 53.333333 0 0 0-53.205333 49.365333l-0.128 4.010667v320c0 28.117333 21.76 51.114667 49.365333 53.162666l3.968 0.170667h533.333334a53.333333 53.333333 0 0 0 53.205333-49.365333l0.128-3.968v-320c0-29.44-23.893333-53.333333-53.333333-53.333334z m-426.666667 106.666666c29.44 0 53.333333 23.893333 53.333333 53.333334v53.333333a53.333333 53.333333 0 1 1-106.666666 0v-53.333333c0-29.44 23.893333-53.333333 53.333333-53.333334z m320 0c29.44 0 53.333333 23.893333 53.333333 53.333334v53.333333a53.333333 53.333333 0 1 1-106.666666 0v-53.333333c0-29.44 23.893333-53.333333 53.333333-53.333334z\" fill=\"currentColor\" p-id=\"11135\"></path></svg>\n                        </span>\n                        <span>访问 Phigros 哔哩哔哩账号</span>\n                        </a>\n                        <a href=\"https://pd.qq.com/s/433r43ehu\" target=\"_blank\" class=\"phigros-btn\">\n                        <span class=\"icon-wrapper\">\n                        <svg t=\"1766648433823\" class=\"icon\" viewBox=\"0 0 1024 1024\" version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" p-id=\"12255\" width=\"20\" height=\"20\"><path d=\"M824.8 613.2c-16-51.4-34.4-94.6-62.7-165.3C766.5 262.2 689.3 112 511.5 112 331.7 112 256.2 265.2 261 447.9c-28.4 70.8-46.7 113.7-62.7 165.3-34 109.5-23 154.8-14.6 155.8 18 2.2 70.1-82.4 70.1-82.4 0 49 25.2 112.9 79.8 159-26.4 8.1-85.7 29.9-71.6 53.8 11.4 19.3 196.2 12.3 249.5 6.3 53.3 6 238.1 13 249.5-6.3 14.1-23.8-45.3-45.7-71.6-53.8 54.6-46.2 79.8-110.1 79.8-159 0 0 52.1 84.6 70.1 82.4 8.5-1.1 19.5-46.4-14.5-155.8z\" fill=\"currentColor\" p-id=\"12256\"></path></svg>\n                        </span>\n                        <span>访问 Phigros 官方QQ频道</span>\n                        </a>\n                    </div>\n                </div>\n                <h2>关于 Phigros History</h2>\n                <div class=\"about-text\">\n                    <p>Phigros History 是一个非官方的维护的项目，收集和整理 Phigros 的历史版本及其更新日志。</p>\n                    <p>本项目仅为学习和研究网页设计和开发之用，如有侵权请联系我们删除相关内容。</p>\n                    <p>特别感谢 <a href=\"https://www.facebook.com/huyhoangcao39393939/\" target=\"_blank\">Cao Huy Hoang</a> 提供的部分历史版本数据，没有他的帮助，该项目不可能发展得如此庞大。</p>\n                    <p>以及<a href=\"https://space.bilibili.com/3546762126035268\" target=\"_blank\">D1ct10nary</a> 和 <a href=\"https://github.com/RainView-ovo\" target=\"_blank\">RainView-ovo</a> 提供的剩余缺失版本。</p>\n                    <p>此项目和 Pigeon Games（鸽游）、Apple Inc等公司及其关联方无任何关系，所有内容均来自公开渠道，仅供学习和研究使用，请在24小时内删除相关内容。如有侵权，请联系我们删除相关内容。</p>\n                </div>\n\n                <h2>支持我们</h2>\n                <div class=\"about-text\">\n                    <p>这是一个完全由爱好者维护的非营利项目。我们希望得到您的认可。如果您想支持我们继续提供免费的服务，请考虑捐赠。感谢您的支持！</p>\n                    <p><a href=\"doc/why-donate\" target=\"_blank\" class=\"phigros-btn\">\n                        <span class=\"material-icons\">favorite</span>\n                        <span>支持我们</span>\n                    </a></p>\n                    <p><a href=\"CONTRIBUTE\" target=\"_blank\" class=\"phigros-btn\">\n                        <span class=\"material-icons\">volunteer_activism</span>\n                        <span>贡献指南</span>\n                    </a></p>\n                </div>\n                <h2>关于此页面</h2>\n                <div class=\"about-text\">\n                    <p>此页面是最近开发的实验性框架，用于浏览 Phigros 的历史版本。尚未广泛测试，可能存在一些问题。</p>\n                    <p>此页面不是 Phigros 的发布页面，设计样式和Phigros，Pigeon Games（鸽游）无任何关系。关于版权和商标信息，请参阅<a href=\"NOTICE\" target=\"_blank\">NOTICE.md</a>文件。</p>\n                    <p>您也可以访问我们的<a href=\"https://stevezmt.top/Phigros-history/README_old\" target=\"_blank\">旧版网页</a>，不过它将在未来被弃用。</p>\n                    <p>如果您发现任何问题或有改进建议，请随时通过 GitHub 提交 issue 或 pull request。</p>\n\n                    <p><a href=\"https://github.com/stevezmtstudios/Phigros-history\" target=\"_blank\" class=\"phigros-btn\">\n                        <span class=\"material-icons\">code</span>\n                        <span>访问 GitHub 仓库</span>\n                    </a></p>\n                    <p><a href=\"https://github.com/stevezmtstudios/Phigros-history/issues\" target=\"_blank\" class=\"phigros-btn btn-help\">\n                        <span class=\"material-icons\">bug_report</span>\n                        <span>报告问题</span>\n                    </a></p>\n                </div>\n                <div class='about-text'>\n                <p>相关描述，Geopelia 头像（Phigros 应用程序徽标），界面音效和可执行文件版权归属于 <a href=\"https://pigeongames.net/\" target=\"_blank\">&copy; 南京鸽游网络有限公司</a></p>\n                <p>Play Store 徽标和 Google Play 是 Google LLC 的商标。其余引用的徽标和标识均归其各自所有者所有。</p>\n                <p>页面由 <a href=\"https://stevezmt.top/\" target=\"_blank\">SteveZMT</a> 用❤️制作。</p>\n                </div>\n                <a href=\"https://beian.miit.gov.cn/\" target=\"_blank\" style=\"display: inline-block; color: #ccc; margin-top: 1em;\">浙ICP备2025213066号-1</a>\n            </div>\n        ";
     if (typeof translate !== 'undefined') translate.execute();
 
     // Unselect any active major version buttons
@@ -616,6 +616,29 @@ document.addEventListener('DOMContentLoaded', function () {
     });
     if (typeof translate !== 'undefined') translate.execute();
   }
+  function centerMajorVersion(btn) {
+    if (!btn || !versionSelector) return;
+
+    // Check if landscape / desktop (not narrow mobile screen)
+    var isLandscape = window.innerWidth > 768;
+    if (isLandscape) {
+      var containerRect = versionSelector.getBoundingClientRect();
+      var btnRect = btn.getBoundingClientRect();
+      var currentScrollTop = versionSelector.scrollTop;
+      // Target scrollTop so button center aligns with versionSelector center
+      var targetScrollTop = currentScrollTop + (btnRect.top + btnRect.height / 2) - (containerRect.top + containerRect.height / 2);
+      versionSelector.scrollTo({
+        top: targetScrollTop,
+        behavior: 'smooth'
+      });
+    } else {
+      btn.scrollIntoView({
+        behavior: 'smooth',
+        inline: 'center',
+        block: 'nearest'
+      });
+    }
+  }
   function selectMajorVersion(_x3) {
     return _selectMajorVersion.apply(this, arguments);
   }
@@ -643,7 +666,10 @@ document.addEventListener('DOMContentLoaded', function () {
             document.querySelectorAll('.major-version-btn').forEach(function (b) {
               return b.classList.remove('active');
             });
-            if (versionObj.element) versionObj.element.classList.add('active');
+            if (versionObj.element) {
+              versionObj.element.classList.add('active');
+              centerMajorVersion(versionObj.element);
+            }
             currentVersionDisplay.textContent = versionObj.version;
             versionList.innerHTML = "\n            <div class=\"loading-container\">\n                <div class=\"phigros-spinner\"></div>\n                <div class=\"loading-text\">加载中...</div>\n            </div>\n        ";
             if (typeof translate !== 'undefined') translate.execute();
@@ -732,7 +758,7 @@ document.addEventListener('DOMContentLoaded', function () {
     var isSearch = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : false;
     versionList.innerHTML = '';
     if (!details || details.length === 0) {
-      versionList.innerHTML = "\n                <div class=\"error-container\" style=\"color: #666;\">\n                    <span class=\"material-icons\">search_off</span>\n                    <div class=\"error-text\">在此版本分支中未找到匹配项</div>\n                </div>\n            ";
+      versionList.innerHTML = "\n                <div class=\"error-container\" style=\"color: #666;\">\n                    <span class=\"material-icons\">search_off</span>\n                    <div class=\"error-text\">未找到匹配的版本</div>\n                </div>\n            ";
       return;
     }
     var now = new Date();
@@ -821,14 +847,18 @@ document.addEventListener('DOMContentLoaded', function () {
     var hasDownloads = ver.downloads && Object.keys(ver.downloads).length > 0;
     if (hasDownloads) {
       var mirrorMap = {
-        "123": "123网盘",
+        "123": "123 云盘",
+        "123pan": "123 云盘",
         "caiyun": "彩云网盘",
+        "telegroup": "Telegram 群组",
+        "telechannel": "Telegram 频道",
         "huang1111": "huang1111 网盘",
         "lanzou": "蓝奏云",
         "onedrive": "OneDrive",
         "google": "Google Drive",
         "repacked": "共存版",
-        "mega": "MEGA"
+        "mega": "MEGA",
+        "github": "GitHub.com"
       };
       var sourceMap = {
         "taptap": "TapTap",
@@ -994,5 +1024,115 @@ document.addEventListener('DOMContentLoaded', function () {
     tapToStartText.textContent = '点 击 屏 幕 开 始';
     isAppReady = true;
     if (loadingStatus) loadingStatus.classList.remove('visible');
+  }
+
+  // Region Detection and GitHub / Telegram warning tooltip
+  function isUserInChina() {
+    try {
+      var tz = Intl && Intl.DateTimeFormat ? Intl.DateTimeFormat().resolvedOptions().timeZone || '' : '';
+      var chinaTimezones = ['Asia/Shanghai', 'Asia/Chongqing', 'Asia/Harbin', 'Asia/Urumqi', 'Asia/Kashgar', 'PRC'];
+      if (chinaTimezones.includes(tz)) return true;
+      var offset = new Date().getTimezoneOffset();
+      var lang = (navigator.language || navigator.userLanguage || '').toLowerCase();
+      var languages = (navigator.languages || []).map(function (l) {
+        return (l || '').toLowerCase();
+      });
+      var hasZhCn = lang === 'zh-cn' || languages.includes('zh-cn');
+
+      // UTC+8 offset is -480 minutes
+      if (offset === -480) {
+        if (hasZhCn || lang.startsWith('zh') || tz.includes('China') || tz.includes('Shanghai')) {
+          return true;
+        }
+      }
+      if (hasZhCn) return true;
+    } catch (e) {}
+    return false;
+  }
+  if (isUserInChina()) {
+    var isRestrictedUrl = function isRestrictedUrl(url) {
+      if (!url) return false;
+      try {
+        var parsed = new URL(url, window.location.href);
+        var host = parsed.hostname.toLowerCase();
+        // Exclude dl.google.com
+        if (host === 'dl.google.com' || host.endsWith('.dl.google.com')) return false;
+        // Restricted: google domains (google.com, play.google.com, drive.google.com, etc.)
+        if (host === 'google.com' || host.endsWith('.google.com')) return true;
+        // Restricted: telegram domains (t.me, telegram.me, telegram.org)
+        if (host === 't.me' || host.endsWith('.t.me') || host === 'telegram.me' || host.endsWith('.telegram.me') || host === 'telegram.org' || host.endsWith('.telegram.org')) return true;
+        // Restricted: Twitter domains or X
+        if (host === 'twitter.com' || host.endsWith('.twitter.com') || host === 'x.com' || host.endsWith('.x.com')) return true;
+      } catch (e) {
+        var lower = url.toLowerCase();
+        if (lower.includes('dl.google.com')) return false;
+        if (lower.includes('google.com') || lower.includes('t.me') || lower.includes('telegram.me') || lower.includes('telegram.org') || lower.includes('twitter.com') || lower.includes('x.com')) return true;
+      }
+      return false;
+    };
+    var updateTooltipPosition = function updateTooltipPosition() {
+      if (!activeTarget || !targetSnapshot) return;
+      var currentRect = activeTarget.getBoundingClientRect();
+      var tipRect = tooltip.getBoundingClientRect();
+
+      // Use snapshotted horizontal center to ignore hover translateX animation
+      var anchorCenterX = targetSnapshot.left + targetSnapshot.width / 2;
+      var left = anchorCenterX - tipRect.width / 2;
+
+      // Follow current vertical position (accounting for any page/container scrolling)
+      var top = currentRect.top - tipRect.height - 8;
+
+      // If clipped at top of viewport, place below anchor
+      if (top < 10) {
+        top = currentRect.bottom + 8;
+      }
+
+      // Clamp within horizontal viewport
+      if (left < 10) left = 10;
+      if (left + tipRect.width > window.innerWidth - 10) {
+        left = window.innerWidth - tipRect.width - 10;
+      }
+      tooltip.style.top = "".concat(top, "px");
+      tooltip.style.left = "".concat(left, "px");
+    };
+    var tooltip = document.createElement('div');
+    tooltip.className = 'region-warn-tooltip';
+    tooltip.innerHTML = "\n            <span class=\"tooltip-text\">\n                <span class=\"material-icons tooltip-icon\">warning_amber</span>\n                <span>您所在的地区可能无法访问此链接。</span>\n            </span>\n        ";
+    document.body.appendChild(tooltip);
+    var activeTarget = null;
+    var targetSnapshot = null;
+    document.addEventListener('mouseover', function (e) {
+      var anchor = e.target.closest('a');
+      if (anchor && isRestrictedUrl(anchor.href || anchor.getAttribute('href'))) {
+        if (activeTarget !== anchor) {
+          activeTarget = anchor;
+          // Take snapshot of anchor geometry at the instant of mouseover
+          var r = anchor.getBoundingClientRect();
+          targetSnapshot = {
+            left: r.left,
+            top: r.top,
+            width: r.width,
+            height: r.height
+          };
+          tooltip.classList.add('visible');
+          updateTooltipPosition();
+        }
+      }
+    });
+    document.addEventListener('mouseout', function (e) {
+      var anchor = e.target.closest('a');
+      if (anchor && anchor === activeTarget) {
+        // If moving into another element inside the same anchor, ignore
+        if (e.relatedTarget && anchor.contains(e.relatedTarget)) return;
+        activeTarget = null;
+        targetSnapshot = null;
+        tooltip.classList.remove('visible');
+      }
+    });
+    window.addEventListener('scroll', function () {
+      if (activeTarget) {
+        updateTooltipPosition();
+      }
+    }, true);
   }
 });

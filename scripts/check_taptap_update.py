@@ -7,8 +7,16 @@ from bs4 import BeautifulSoup
 
 
 URL = "https://www.taptap.cn/app/165287/all-info?platform=android"
-DATE_SELECTOR = "#__nuxt > div > main > div > div.app__intro > div.app__intro__version > div > div:nth-child(1) > div.app__intro__version__header.font-bold > span.app__intro__version__time.gray-04"
-VERSION_SELECTOR = "#__nuxt > div > main > div > div.app__intro > div.app__intro__version > div > div:nth-child(1) > div.app__intro__version__header.font-bold > span.app__intro__version__name.caption-m12-w12.primary-tap-blue"
+VERSION_SELECTORS = [
+    ".app__intro__version__item .app__intro__version__name",
+    ".app__intro__version__name",
+    "[class*='app__intro__version__name']",
+]
+DATE_SELECTORS = [
+    ".app__intro__version__item .app__intro__version__time",
+    ".app__intro__version__time",
+    "[class*='app__intro__version__time']",
+]
 
 
 def set_output(key: str, value: str) -> None:
@@ -27,15 +35,42 @@ def main() -> int:
     response.raise_for_status()
 
     soup = BeautifulSoup(response.text, "html.parser")
-    date_node = soup.select_one(DATE_SELECTOR)
-    version_node = soup.select_one(VERSION_SELECTOR)
 
-    if not date_node or not version_node:
-        raise RuntimeError("未能从页面中提取版本号或发布时间。")
+    version_node = None
+    for selector in VERSION_SELECTORS:
+        version_node = soup.select_one(selector)
+        if version_node:
+            break
 
-    release_date_text = date_node.get_text(strip=True)
-    version_code = version_node.get_text(strip=True)
+    date_node = None
+    for selector in DATE_SELECTORS:
+        date_node = soup.select_one(selector)
+        if date_node:
+            break
 
+    if version_node and date_node:
+        version_code = version_node.get_text(strip=True)
+        release_date_text = date_node.get_text(strip=True)
+    else:
+        meta_desc = (
+            soup.find("meta", attrs={"name": "description"})
+            or soup.find("meta", attrs={"property": "og:description"})
+            or soup.find("meta", attrs={"name": "twitter:description"})
+        )
+        if meta_desc and meta_desc.get("content"):
+            match = re.search(
+                r"Phigros\s*([\d\.]+(?:\s*\(\d+\))?)\D*?(\d{4}[/-]\d{2}[/-]\d{2})",
+                meta_desc["content"],
+            )
+            if match:
+                version_code = match.group(1).strip()
+                release_date_text = match.group(2).strip()
+            else:
+                raise RuntimeError("未能从页面或元数据中提取版本号或发布时间。")
+        else:
+            raise RuntimeError("未能从页面中提取版本号或发布时间。")
+
+    release_date_text = release_date_text.replace("-", "/")
     if not re.fullmatch(r"\d{4}/\d{2}/\d{2}", release_date_text):
         raise ValueError(f"日期格式不符合预期: {release_date_text}")
 

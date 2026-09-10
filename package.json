@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "description": "Phigros History - Legacy Browser Compatible Edition",
   "scripts": {
-    "build:css": "node script/build-css.js",
-    "build:js": "node script/build-js.js",
+    "build:css": "node scripts/build-css.js",
+    "build:js": "node scripts/build-js.js",
     "build": "npm run build:css && npm run build:js"
   },
   "browserslist": [

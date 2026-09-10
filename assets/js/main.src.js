@@ -372,7 +372,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         <span class="material-icons">store</span>
                         <span>访问 TapTap 商店页面</span>
                         </a>
-                        <a href="https://play.google.com/store/apps/details?id=com.PigeonGames.Phigros" target="_blank" class="phigros-btn" title="您所在的地区可能无法打开此链接。">
+                        <a href="https://play.google.com/store/apps/details?id=com.PigeonGames.Phigros" target="_blank" class="phigros-btn">
                         <span class="material-icons">shop</span>
                         <span>访问 Google Play 页面</span>
                         </a><a href="https://apps.apple.com/cn/app/phigros/id1454809109" target="_blank" class="phigros-btn">
@@ -602,6 +602,26 @@ document.addEventListener('DOMContentLoaded', () => {
         if (typeof translate !== 'undefined') translate.execute();
     }
 
+    function centerMajorVersion(btn) {
+        if (!btn || !versionSelector) return;
+
+        // Check if landscape / desktop (not narrow mobile screen)
+        const isLandscape = window.innerWidth > 768;
+        if (isLandscape) {
+            const containerRect = versionSelector.getBoundingClientRect();
+            const btnRect = btn.getBoundingClientRect();
+            const currentScrollTop = versionSelector.scrollTop;
+            // Target scrollTop so button center aligns with versionSelector center
+            const targetScrollTop = currentScrollTop + (btnRect.top + btnRect.height / 2) - (containerRect.top + containerRect.height / 2);
+            versionSelector.scrollTo({
+                top: targetScrollTop,
+                behavior: 'smooth'
+            });
+        } else {
+            btn.scrollIntoView({ behavior: 'smooth', inline: 'center', block: 'nearest' });
+        }
+    }
+
     async function selectMajorVersion(versionObj, autoSelectVersion = null) {
         closePanel(); // Close panel when switching major versions
 
@@ -614,7 +634,10 @@ document.addEventListener('DOMContentLoaded', () => {
         if (searchInput) searchInput.value = '';
 
         document.querySelectorAll('.major-version-btn').forEach(b => b.classList.remove('active'));
-        if (versionObj.element) versionObj.element.classList.add('active');
+        if (versionObj.element) {
+            versionObj.element.classList.add('active');
+            centerMajorVersion(versionObj.element);
+        }
 
         currentVersionDisplay.textContent = versionObj.version;
         versionList.innerHTML = `
@@ -689,7 +712,7 @@ document.addEventListener('DOMContentLoaded', () => {
             versionList.innerHTML = `
                 <div class="error-container" style="color: #666;">
                     <span class="material-icons">search_off</span>
-                    <div class="error-text">在此版本分支中未找到匹配项</div>
+                    <div class="error-text">未找到匹配的版本</div>
                 </div>
             `;
             return;
@@ -804,7 +827,10 @@ document.addEventListener('DOMContentLoaded', () => {
         if (hasDownloads) {
             const mirrorMap = {
                 "123": "123 云盘",
+                "123pan": "123 云盘",
                 "caiyun": "彩云网盘",
+                "telegroup": "Telegram 群组",
+                "telechannel": "Telegram 频道",
                 "huang1111": "huang1111 网盘",
                 "lanzou": "蓝奏云",
                 "onedrive": "OneDrive",
@@ -990,5 +1016,127 @@ document.addEventListener('DOMContentLoaded', () => {
         tapToStartText.textContent = '点 击 屏 幕 开 始';
         isAppReady = true;
         if (loadingStatus) loadingStatus.classList.remove('visible');
+    }
+
+    // Region Detection and GitHub / Telegram warning tooltip
+    function isUserInChina() {
+        try {
+            const tz = (Intl && Intl.DateTimeFormat) ? (Intl.DateTimeFormat().resolvedOptions().timeZone || '') : '';
+            const chinaTimezones = ['Asia/Shanghai', 'Asia/Chongqing', 'Asia/Harbin', 'Asia/Urumqi', 'Asia/Kashgar', 'PRC'];
+            if (chinaTimezones.includes(tz)) return true;
+
+            const offset = new Date().getTimezoneOffset();
+            const lang = (navigator.language || navigator.userLanguage || '').toLowerCase();
+            const languages = (navigator.languages || []).map(l => (l || '').toLowerCase());
+            const hasZhCn = lang === 'zh-cn' || languages.includes('zh-cn');
+
+            // UTC+8 offset is -480 minutes
+            if (offset === -480) {
+                if (hasZhCn || lang.startsWith('zh') || tz.includes('China') || tz.includes('Shanghai')) {
+                    return true;
+                }
+            }
+            if (hasZhCn) return true;
+        } catch (e) {}
+        return false;
+    }
+
+    if (isUserInChina()) {
+        const tooltip = document.createElement('div');
+        tooltip.className = 'region-warn-tooltip';
+        tooltip.innerHTML = `
+            <span class="tooltip-text">
+                <span class="material-icons tooltip-icon">warning_amber</span>
+                <span>您所在的地区可能无法访问此链接。</span>
+            </span>
+        `;
+        document.body.appendChild(tooltip);
+
+        let activeTarget = null;
+        let targetSnapshot = null;
+
+        function isRestrictedUrl(url) {
+            if (!url) return false;
+            try {
+                const parsed = new URL(url, window.location.href);
+                const host = parsed.hostname.toLowerCase();
+                // Exclude dl.google.com
+                if (host === 'dl.google.com' || host.endsWith('.dl.google.com')) return false;
+                // Restricted: google domains (google.com, play.google.com, drive.google.com, etc.)
+                if (host === 'google.com' || host.endsWith('.google.com')) return true;
+                // Restricted: telegram domains (t.me, telegram.me, telegram.org)
+                if (host === 't.me' || host.endsWith('.t.me') || host === 'telegram.me' || host.endsWith('.telegram.me') || host === 'telegram.org' || host.endsWith('.telegram.org')) return true;
+                // Restricted: Twitter domains or X
+                if (host === 'twitter.com' || host.endsWith('.twitter.com') || host === 'x.com' || host.endsWith('.x.com')) return true;
+            } catch (e) {
+                const lower = url.toLowerCase();
+                if (lower.includes('dl.google.com')) return false;
+                if (lower.includes('google.com') || lower.includes('t.me') || lower.includes('telegram.me') || lower.includes('telegram.org') || lower.includes('twitter.com') || lower.includes('x.com')) return true;
+            }
+            return false;
+        }
+
+        function updateTooltipPosition() {
+            if (!activeTarget || !targetSnapshot) return;
+            const currentRect = activeTarget.getBoundingClientRect();
+            const tipRect = tooltip.getBoundingClientRect();
+
+            // Use snapshotted horizontal center to ignore hover translateX animation
+            const anchorCenterX = targetSnapshot.left + targetSnapshot.width / 2;
+            let left = anchorCenterX - tipRect.width / 2;
+
+            // Follow current vertical position (accounting for any page/container scrolling)
+            let top = currentRect.top - tipRect.height - 8;
+
+            // If clipped at top of viewport, place below anchor
+            if (top < 10) {
+                top = currentRect.bottom + 8;
+            }
+
+            // Clamp within horizontal viewport
+            if (left < 10) left = 10;
+            if (left + tipRect.width > window.innerWidth - 10) {
+                left = window.innerWidth - tipRect.width - 10;
+            }
+
+            tooltip.style.top = `${top}px`;
+            tooltip.style.left = `${left}px`;
+        }
+
+        document.addEventListener('mouseover', (e) => {
+            const anchor = e.target.closest('a');
+            if (anchor && isRestrictedUrl(anchor.href || anchor.getAttribute('href'))) {
+                if (activeTarget !== anchor) {
+                    activeTarget = anchor;
+                    // Take snapshot of anchor geometry at the instant of mouseover
+                    const r = anchor.getBoundingClientRect();
+                    targetSnapshot = {
+                        left: r.left,
+                        top: r.top,
+                        width: r.width,
+                        height: r.height
+                    };
+                    tooltip.classList.add('visible');
+                    updateTooltipPosition();
+                }
+            }
+        });
+
+        document.addEventListener('mouseout', (e) => {
+            const anchor = e.target.closest('a');
+            if (anchor && anchor === activeTarget) {
+                // If moving into another element inside the same anchor, ignore
+                if (e.relatedTarget && anchor.contains(e.relatedTarget)) return;
+                activeTarget = null;
+                targetSnapshot = null;
+                tooltip.classList.remove('visible');
+            }
+        });
+
+        window.addEventListener('scroll', () => {
+            if (activeTarget) {
+                updateTooltipPosition();
+            }
+        }, true);
     }
 });

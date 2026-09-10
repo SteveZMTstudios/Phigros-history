@@ -71,6 +71,8 @@ def guess_mirror_key_from_url(url: str) -> str:
             return 'caiyun'
         if '1drv' in host or 'onedrive' in host:
             return 'onedrive'
+        if 't.me' in host or 'telegram.me' in host or 'telegram.org' in host:
+            return 'telechannel'
         # else take the first part of hostname
         return host.split('.')[0]
     except Exception:

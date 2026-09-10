@@ -44,11 +44,13 @@
   // Helpers
   function detectKeyFromUrl(url) {
     if (!url) return null;
-    if (url.includes('sharepoint.com') || url.includes('1drv.ms')) return 'onedrive';
-    if (/123\d{3}\.com/.test(url) || url.includes('123pan')) return '123';
-    if (url.includes('pan.huang1111.cn')) return 'huang1111';
-    if (url.includes('caiyun.139.com') || url.includes('yun.139.com')) return 'caiyun';
-    if (url.includes('github.com')) return 'github';
+    const lower = url.toLowerCase();
+    if (lower.includes('sharepoint.com') || lower.includes('1drv.ms') || lower.includes('onedrive')) return 'onedrive';
+    if (/123\d{3}\.com/.test(lower) || lower.includes('123pan') || lower.includes('123-pan')) return '123';
+    if (lower.includes('pan.huang1111.cn') || lower.includes('huang1111')) return 'huang1111';
+    if (lower.includes('caiyun.139.com') || lower.includes('yun.139.com') || lower.includes('cloud.139') || lower.includes('caiyun')) return 'caiyun';
+    if (lower.includes('t.me') || lower.includes('telegram.me') || lower.includes('telegram.org')) return 'telechannel';
+    if (lower.includes('github.com')) return 'github';
     return null;
   }
 
@@ -179,7 +181,7 @@
 
       let key = detectKeyFromUrl(url);
       if (!key) {
-        key = prompt('无法自动识别键名，请输入（如 123, huang1111, github 等）');
+        key = prompt('无法自动识别键名，请输入（如 123, caiyun, telechannel, huang1111, github 等）');
       }
       if (!key) return;
 
@@ -262,6 +264,18 @@
   }
 
   // Actions
+  if (btnNew) {
+    btnNew.onclick = () => {
+      if (isDirty && !confirm('当前有未保存的修改，是否放弃更改并新建空列表？')) return;
+      data = { version: 'v1', details: [] };
+      fileHandle = null;
+      selectedIndex = -1;
+      selectIndex(-1);
+      renderList();
+      setDirty(false);
+    };
+  }
+
   btnAddVersion.onclick = () => {
     const v = { versionName: 'vNew', versionCode: 0, releaseDate: '', changelog: [], downloads: {} }
     data.details.unshift(v); selectIndex(0); renderList();
@@ -305,7 +319,7 @@
 
     let key = detectKeyFromUrl(url);
     if (!key) {
-      key = prompt('无法自动识别键名，请输入（如 123, huang1111, github 等）');
+      key = prompt('无法自动识别键名，请输入（如 123, caiyun, telechannel, huang1111, github 等）');
     }
     if (!key) return;
 
@@ -349,14 +363,26 @@
   };
 
   btnFetchSample.onclick = async () => {
-    // try fetch with possible relative path
-    try {
-      const res = await fetch('/api/v1/versions/1.json?t=' + Date.now());
-      if (!res.ok) throw new Error('网络返回 ' + res.status);
-      data = await res.json(); selectedIndex = -1; selectIndex(-1); renderList(); alert('从仓库示例载入成功');
-    } catch (e) {
-      alert('无法通过网络加载示例（可能被CORS阻止）。你可以手动使用“从文件载入”或“粘贴JSON”。');
+    // try fetch with relative or absolute path
+    const sampleUrls = location.protocol === 'file:' 
+      ? ['../api/v1/versions/1.json', '/api/v1/versions/1.json']
+      : ['/api/v1/versions/1.json', '../api/v1/versions/1.json'];
+    for (const url of sampleUrls) {
+      try {
+        const res = await fetch(url + (url.includes('?') ? '&' : '?') + 't=' + Date.now());
+        if (res.ok) {
+          data = await res.json();
+          fileHandle = null;
+          selectedIndex = -1;
+          selectIndex(-1);
+          renderList();
+          setDirty(false);
+          alert('从仓库示例载入成功');
+          return;
+        }
+      } catch (e) {}
     }
+    alert('无法通过网络加载示例（本地直接双击打开受浏览器安全策略限制，或文件不存在）。您可以直接使用“从文件载入”、“从剪贴板粘贴JSON”或“新建空列表”。');
   };
 
   btnPaste.onclick = async () => {
@@ -493,10 +519,35 @@
 
   // Init
   function initSample() {
-    // if repo has a local copy copy? leave empty by default
     data = { version: 'v1', details: [] };
-    // try to load the existing file (if served) silently
-    fetch('/api/v1/versions/1.json?t=' + Date.now()).then(r => r.json()).then(j => { if (j && j.details) { data = j; renderList(); } }).catch(() => { });
+    const sampleUrls = location.protocol === 'file:' 
+      ? ['../api/v1/versions/1.json', '/api/v1/versions/1.json']
+      : ['/api/v1/versions/1.json', '../api/v1/versions/1.json'];
+    
+    const tryLoad = (urls) => {
+      if (!urls.length) {
+        renderList();
+        setDirty(false);
+        return;
+      }
+      const u = urls[0];
+      fetch(u + (u.includes('?') ? '&' : '?') + 't=' + Date.now())
+        .then(r => {
+          if (!r.ok) throw new Error('Not ok');
+          return r.json();
+        })
+        .then(j => {
+          if (j && j.details) {
+            data = j;
+            renderList();
+          }
+        })
+        .catch(() => {
+          tryLoad(urls.slice(1));
+        });
+    };
+
+    tryLoad(sampleUrls);
     renderList();
     setDirty(false);
   }
